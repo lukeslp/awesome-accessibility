@@ -117,26 +117,6 @@ Tools for facilitating communication:
 - [DPI](https://dpi.wi.gov/sped/educators/consultation/assistive-technology/resources) - Department of Public Instruction's resources on assistive technology.
 - [ASHA](https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/) - American Speech-Language-Hearing Association's resources on AAC.
 
-## Education & Training
-
-Learn more about accessibility:
-
-- [Teach Access](https://teachaccess.github.io/tutorial/) - Community tutorials on accessible technology.
-- [Web Accessibility Course](https://webaccessibility.withgoogle.com/) - Grow accessibility skills with Google.
-- [Deque University](https://dequeuniversity.com/) - Self-paced and live accessibility training.
-- [WebAIM Training](https://webaim.org/training/) - In-depth web accessibility training.
-- [Microsoft Accessibility Training](https://www.microsoft.com/en-us/accessibility/training) - Accessibility training resources from Microsoft.
-- [LinkedIn Learning Accessibility Training](https://www.linkedin.com/learning/topics/accessibility) - Online courses on accessibility.
-- [Coursera Web Accessibility Course](https://www.coursera.org/learn/web-accessibility) - Online course on web accessibility.
-- [Udacity Web Accessibility Course](https://www.udacity.com/course/web-accessibility--ud891) - Online course on web accessibility.
-- [edX Web Accessibility Course](https://www.edx.org/professional-certificate/web-accessibility) - Professional certificate program on web accessibility.
-- [FutureLearn Digital Accessibility Course](https://www.futurelearn.com/courses/digital-accessibility) - Online course on digital accessibility.
-- [Pluralsight Accessibility Courses](https://www.pluralsight.com/courses/web-accessibility-getting-started) - Online courses on web accessibility.
-- [Skillshare Accessibility Classes](https://www.skillshare.com/browse/accessibility) - Online classes on accessibility.
-- [GAAD](https://globalaccessibilityawarenessday.org/) - Global Accessibility Awareness Day, promoting digital accessibility and inclusion.
-- [A11y Camp](https://a11ycamp.org/) - Australia's largest conference on accessibility and inclusive design.
-- [AccessU](https://knowbility.org/programs/accessu/) - Hands-on instructional conference on digital accessibility.
-
 ## Community & Organizations
 
 Connect with the accessibility community:
@@ -161,12 +141,6 @@ Connect with the accessibility community:
 - [Vision Australia](https://www.visionaustralia.org/) - Leading national provider of blindness and low vision services in Australia[1].
 - [Sightsavers](https://www.sightsavers.org/) - International organization working with partners in developing countries to eliminate avoidable blindness[1].
 - [World Blind Union](http://www.worldblindunion.org/) - Internationally recognized organization representing the 285 million people worldwide who are blind or partially sighted[1].
-
-## Accessibility Optimization Frameworks  
-
-Systematic approaches for continually improving accessibility:
-  
-Here is the reformatted and enriched section for "Accessibility Optimization Frameworks" in bullet point format:
 
 ## Accessibility Optimization Frameworks
 Discover systematic approaches for continually improving accessibility:
@@ -251,11 +225,16 @@ Latest academic papers and findings related to accessibility:
 
 ## Events & Conferences  
 
-Connect with the accessibility community at these events:
-
-- [CSUN Assistive Technology Conference](https://www.csun.edu/cod/conference) - Premiere technology & disability conference.  
-- [Accessing Higher Ground Accessibility Conference](http://accessinghigherground.org/) - Practical advice and best practices discussed.
-- [International Day of People with Disabilities](https://www.un.org/en/observances/day-of-persons-with-disabilities) - Global observance day celebrating accessibility.
+- [CSUN Assistive Technology Conference](https://www.csun.edu/cod/conference) - An annual event presenting unique, new and innovative technology and practices in the field of assistive technology.
+- [M-Enabling Summit](https://www.m-enabling.com/) - A conference dedicated to promoting accessible and assistive technology for senior citizens and users of all abilities.
+- [Accessing Higher Ground](https://accessinghigherground.org/) - A conference focused on the implementation and benefits of accessible media, universal design and assistive technology in university and college settings.
+- [Web for All Conference](http://www.w4a.info/) - An annual conference on web accessibility.
+- [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/) - An event aimed at getting everyone talking, thinking and learning about digital access and inclusion.
+- [European e-Accessibility Forum](https://inova.snv.jussieu.fr/evenements/colloques/colloques/) - An event dedicated to digital accessibility.
+- [International Technology and Persons with Disabilities Conference](https://www.csun.edu/cod/conference) - An event that brings together thousands of people from around the world to network and share the latest technology related to disabilities.
+- [Inclusive Design 24](https://inclusivedesign24.org/) - A 24-hour online event for the global community that celebrates inclusive design and shares knowledge and ideas.
+- [AHEAD Conference](https://www.ahead.org/events-programming/conferences/future-past-conferences) - An annual conference by the Association on Higher Education And Disability.
+- [ATIA Conference](https://www.atia.org/atia-2023/) - The Assistive Technology Industry Association's annual conference, showcasing the latest AT studies, practices, and solutions[1].
 
 ## Contributing  
 
