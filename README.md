@@ -6,7 +6,7 @@ Accessibility is about inclusive design and ensuring technology can be used by a
 
 Accessibility is essential for upholding diversity and human rights in our digital world. By designing solutions usable by all, we can build a society that values each person's unique contributions.
 
-**"Accessibility is not a feature, it's a social trend."**
+**"For some people technology makes things easier, for others it makes things possible."**
 
 ## Our Mission
 
