@@ -1,5 +1,4 @@
-# Awesome Accessibility 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+# Awesome Accessibility  •  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/coolhand)
 
