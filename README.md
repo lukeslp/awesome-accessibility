@@ -1,4 +1,5 @@
-# Awesome Accessibility [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Accessibility 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) • [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/coolhand)
 
 Accessibility is about inclusive design and ensuring technology can be used by anyone, regardless of ability or disability. This repo collects high-quality open source resources, tools, and knowledge to help make technology accessible and empower users.
 
