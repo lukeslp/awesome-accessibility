@@ -118,6 +118,7 @@ Tools for facilitating communication:
 - [DisabilityInfo.org](https://disabilityinfo.org/fact-sheet-library/assistive-technology/augmentative-and-alternative-communication-aac-resources/) - A fact sheet library on augmentative and alternative communication.
 - [DPI](https://dpi.wi.gov/sped/educators/consultation/assistive-technology/resources) - Department of Public Instruction's resources on assistive technology.
 - [ASHA](https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/) - American Speech-Language-Hearing Association's resources on AAC.
+- [Zip Captions](https://zipcaptions.app) - An Open Source browser based live captioning tool 
 
 ## Community & Organizations
 
