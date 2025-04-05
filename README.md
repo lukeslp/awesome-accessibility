@@ -419,7 +419,7 @@ Resources for deaf and hard of hearing users:
 
 Resources for users with cognitive disabilities, learning disabilities, and attention deficits:
 
-- [Easy Read Guidelines](https://www.changepeople.org/getmedia/923a6399-c13f-418c-bb29-051413f7e3a3/How-to-make-info-accessible-guide-2016-Final) - Guidelines for creating Easy Read documents.
+- [Easy Read Guidelines](https://www.changepeople.org/images/001-how-to-make-information-accessible.pdf) - Guidelines for creating Easy Read documents.
 - [Hemingway Editor](https://hemingwayapp.com/) - Tool to make your writing clear and readable.
 - [Readability Guidelines](https://readabilityguidelines.co.uk/) - Content design patterns for readability.
 - [Dyslexia Style Guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide) - Guide for making content dyslexia-friendly.
