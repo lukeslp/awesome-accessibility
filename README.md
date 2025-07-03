@@ -1,11 +1,7 @@
-README.md
+# Awesome Accessibility
 
+> **"For some people technology makes things easier, for others it makes things possible."**
 
-
-**"For some people technology makes things easier, for others it makes things possible."**
-
-
-## My Mission
 
 I invite developers, designers, educators, and all accessibility advocates to contribute to this repository. Please share your suggestions, corrections, and especially broken links!
 
