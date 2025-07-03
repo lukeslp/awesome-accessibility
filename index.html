@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Accessibility Resources - Luke Steuber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Awesome Accessibility Resources - Luke Steuber">
+    <meta property="og:description" content="A comprehensive resource for web accessibility best practices and tools">
+    <meta property="og:image" content="https://actuallyusefulai.com/accessibility/assets/cartoon_cover.png">
+    <meta property="og:url" content="https://actuallyusefulai.com/accessibility/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Awesome Accessibility">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Accessibility Resources - Luke Steuber">
+    <meta name="twitter:description" content="A comprehensive resource for web accessibility best practices and tools">
+    <meta name="twitter:image" content="https://actuallyusefulai.com/accessibility/assets/cartoon_cover.png">
+    <meta name="twitter:creator" content="@lukeslp">
+    <meta name="description" content="A comprehensive resource for web accessibility best practices, tools, and research compiled by Luke Steuber">
+    <link rel="icon" href="https://actuallyusefulai.com/accessibility/assets/overwhelmed.png">
+    <!-- Hidden image for social media crawlers -->
+    <link rel="image_src" href="https://actuallyusefulai.com/accessibility/assets/cartoon_cover.png">
+    <style>
+        :root {
+            /* Light theme (default) */
+            --primary-color: #0366d6;
+            --secondary-color: #24292e;
+            --text-color: #24292e;
+            --background-color: #ffffff;
+            --link-color: #0366d6;
+            --link-hover-color: #044289;
+            --border-color: #e1e4e8;
+            --code-background: #f6f8fa;
+            --note-background: #f8f9fa;
+            --note-border: #0366d6;
+            --focus-outline-color: #1a73e8;
+            --quote-background: #f8f9fa;
+            --quote-text: #6a737d;
+            --footer-text: #6a737d;
+            --skip-link-background: #0366d6;
+            --skip-link-text: #ffffff;
+            /* Tip Jar Styles */
+            --tip-gradient: linear-gradient(90deg, #ffe259 0%, #ffa751 100%);
+            --tip-border-radius: 8px;
+            --tip-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            --tip-shadow-hover: 0 4px 16px rgba(0,0,0,0.12);
+            --tip-font-size: 1rem;
+            --tip-font-weight: 600;
+            --tip-transition: 0.2s cubic-bezier(.4,0,.2,1);
+            --tip-border-color: #e1a100; /* Gold for light theme */
+        }
+
+        /* Dark theme */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #58a6ff;
+                --secondary-color: #c9d1d9;
+                --text-color: #c9d1d9;
+                --background-color: #0d1117;
+                --link-color: #58a6ff;
+                --link-hover-color: #79c0ff;
+                --border-color: #30363d;
+                --code-background: #161b22;
+                --note-background: #161b22;
+                --note-border: #58a6ff;
+                --focus-outline-color: #79c0ff;
+                --quote-background: #161b22;
+                --quote-text: #8b949e;
+                --footer-text: #8b949e;
+                --skip-link-background: #58a6ff;
+                --skip-link-text: #0d1117;
+                --tip-border-color: #ffd966; /* Lighter gold for dark theme */
+            }
+        }
+
+        /* Skip Link styles */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--skip-link-background);
+            color: var(--skip-link-text);
+            padding: 8px 16px;
+            z-index: 100;
+            transition: top 0.3s;
+            text-decoration: none;
+        }
+        .skip-link:focus {
+            top: 0;
+            outline: 3px solid var(--focus-outline-color);
+            outline-offset: 2px;
+        }
+
+        /* Global focus styles */
+        a:focus, button:focus, input:focus, select:focus, textarea:focus {
+            outline: 3px solid var(--focus-outline-color);
+            outline-offset: 2px;
+        }
+        
+        /* Focus visible - only show focus styles when using keyboard */
+        a:focus:not(:focus-visible), 
+        button:focus:not(:focus-visible), 
+        input:focus:not(:focus-visible), 
+        select:focus:not(:focus-visible), 
+        textarea:focus:not(:focus-visible) {
+            outline: none;
+        }
+        
+        a:focus-visible, 
+        button:focus-visible, 
+        input:focus-visible, 
+        select:focus-visible, 
+        textarea:focus-visible {
+            outline: 3px solid var(--focus-outline-color);
+            outline-offset: 2px;
+        }
+
+        /* Support for reduced motion preference */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+            .badge-link:hover {
+                transform: none;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        a:hover, a:focus {
+            color: var(--link-hover-color);
+            text-decoration: underline;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.3rem;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.3rem;
+        }
+
+        ul {
+            padding-left: 2rem;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        blockquote {
+            padding: 0 1rem;
+            color: var(--quote-text);
+            border-left: 0.25rem solid var(--border-color);
+            margin: 1rem 0;
+            background-color: var(--quote-background);
+            border-radius: 4px;
+        }
+
+        code {
+            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            background-color: var(--code-background);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 85%;
+        }
+
+        .header-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .github-link {
+            margin-top: 1rem;
+            display: inline-block;
+        }
+
+        .awesome-badge {
+            vertical-align: middle;
+        }
+
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--footer-text);
+        }
+
+        .note {
+            background-color: var(--note-background);
+            border-left: 4px solid var(--note-border);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        /* Social Badges Component styles */
+        .badges-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            padding: .5rem;
+            margin-top: .5rem;
+            flex-wrap: wrap;
+        }
+
+        .badge-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        .badge-link:hover {
+            transform: translateY(-2px);
+            opacity: 1;
+        }
+
+        .badge-link img {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+        }
+
+        /* Figure & figcaption styles */
+        figure.inspirational-quote {
+            margin: 2rem 0;
+            background-color: var(--quote-background);
+            padding: 1rem;
+            border-radius: 4px;
+        }
+
+        figure.inspirational-quote blockquote {
+            border-left: none;
+            padding: 0;
+            margin: 0;
+            font-style: italic;
+        }
+
+        figure.inspirational-quote figcaption {
+            text-align: right;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            color: var(--quote-text);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .badges-row {
+                gap: 0.75rem;
+                padding: 1rem;
+            }
+            
+            .badge-link img {
+                width: 36px;
+                height: 36px;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+
+    .tip-jar-container {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    
+    .lemonsqueezy-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 240px;
+      padding: 0.5rem 1rem;
+      background: linear-gradient(var(--color-surface), var(--color-surface)) padding-box, var(--gradient-border) border-box;
+      border: 2px solid transparent;
+      border-radius: var(--border-radius-md);
+      color: var(--color-text-primary);
+      font-size: var(--font-size-small);
+      font-weight: var(--font-weight-medium);
+      text-decoration: none;
+      transition: all var(--transition-standard);
+      background-size: 200% 200%;
+      animation: gradientRotate 4s linear infinite;
+      box-shadow: var(--shadow-sm);
+      margin: 0 auto;
+      border: 2px solid var(--tip-border-color);
+      border-radius: 10px;
+    }
+    
+    .lemonsqueezy-button:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      background: var(--color-surface-hover);
+      border-color: var(--color-primary);
+    }
+    
+    .animated-gradient {
+      background: linear-gradient(var(--color-surface), var(--color-surface)) padding-box, var(--gradient-border) border-box;
+      border: 2px solid transparent;
+      background-size: 200% 200%;
+      animation: gradientRotate 4s linear infinite;
+      border-radius: var(--border-radius-md);
+      transition: transform var(--transition-standard), box-shadow var(--transition-standard);
+    }
+    
+    .animated-gradient:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .lemonsqueezy-button:focus,
+    .lemonsqueezy-button:focus-visible {
+      outline: 3px solid var(--focus-outline-color, #1a73e8);
+      outline-offset: 2px;
+      border-color: var(--focus-outline-color, #1a73e8);
+    }
+
+    .lemonsqueezy-button:hover,
+    .lemonsqueezy-button:active {
+      /* ...existing styles... */
+      border-color: var(--tip-border-color);
+    }
+
+    </style>
+    <script>
+        // Original analytics script
+        (function (c, s, q, u, a, r, e) {
+            c.hj = c.hj || function() { (c.hj.q = c.hj.q || []).push(arguments) };
+            c._hjSettings = { hjid: a };
+            r = s.getElementsByTagName('head')[0];
+            e = s.createElement('script');
+            e.async = true;
+            e.src = q + c._hjSettings.hjid + u;
+            r.appendChild(e);
+        })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 5357064);
+
+        // Wait for DOM to be loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the user prefers reduced motion
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            
+            // Smooth scrolling for anchor links with respect for reduced motion preference
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        
+                        if (!prefersReducedMotion) {
+                            // Smooth scroll if reduced motion is not preferred
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        } else {
+                            // Instant scroll if reduced motion is preferred
+                            targetElement.scrollIntoView({
+                                block: 'start'
+                            });
+                        }
+                        
+                        // Set focus to the target element
+                        targetElement.setAttribute('tabindex', '-1');
+                        targetElement.focus({preventScroll: true});
+                        
+                        // Update URL hash
+                        history.pushState(null, null, targetId);
+                    }
+                });
+            });
+            
+            // Add keyboard navigation for sections
+            const sections = document.querySelectorAll('section');
+            sections.forEach((section, index) => {
+                section.setAttribute('tabindex', '0');
+                
+                // Add keyboard navigation between sections
+                section.addEventListener('keydown', function(e) {
+                    // Navigate to previous section with up arrow or k
+                    if ((e.key === 'ArrowUp' || e.key === 'k') && index > 0) {
+                        e.preventDefault();
+                        sections[index - 1].focus();
+                    }
+                    // Navigate to next section with down arrow or j
+                    else if ((e.key === 'ArrowDown' || e.key === 'j') && index < sections.length - 1) {
+                        e.preventDefault();
+                        sections[index + 1].focus();
+                    }
+                    // Go to top with Home key
+                    else if (e.key === 'Home') {
+                        e.preventDefault();
+                        document.querySelector('#top').scrollIntoView();
+                        document.querySelector('#top').focus();
+                    }
+                    // Go to bottom with End key
+                    else if (e.key === 'End') {
+                        e.preventDefault();
+                        document.querySelector('footer').scrollIntoView();
+                        document.querySelector('footer').focus();
+                    }
+                });
+            });
+            
+            // Handle initial URL hash for direct linking
+            if (window.location.hash) {
+                const targetElement = document.querySelector(window.location.hash);
+                if (targetElement) {
+                    setTimeout(() => {
+                        targetElement.scrollIntoView({
+                            block: 'start'
+                        });
+                        targetElement.setAttribute('tabindex', '-1');
+                        targetElement.focus({preventScroll: true});
+                    }, 100);
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+    <a href="#maincontent" class="skip-link">Skip to main content</a>
+    <div id="top"></div>
+    <!-- Hidden preview image for social media crawlers -->
+    <div style="display:none;" aria-hidden="true">
+        <img src="https://actuallyusefulai.com/accessibility/assets/cartoon_cover.png" alt="Awesome Accessibility Preview">
+    </div>
+    
+    <!-- Social Badges Component -->
+    <div class="badges-row" aria-label="Social media links">
+      <a href="https://patreon.com/lukeslp" target="_blank" rel="noopener noreferrer" class="badge-link" aria-label="Support on Patreon">
+        <img src="https://actuallyusefulai.com/alt/dev/assets/patreon.png" alt="Patreon logo" width="48" height="48">
+      </a>
+      <a href="https://lukesteuber.substack.com" target="_blank" rel="noopener noreferrer" class="badge-link" aria-label="Read Luke's Substack">
+        <img src="https://actuallyusefulai.com/alt/dev/assets/substack.png" alt="Substack logo" width="48" height="48">
+      </a>
+      <a href="https://assisted.site/bluesky" target="_blank" rel="noopener noreferrer" class="badge-link" aria-label="Visit Luke Steuber's website">
+        <img src="https://actuallyusefulai.com/alt/dev/assets/frantic.png" alt="Luke Steuber website logo" width="48" height="48">
+      </a>
+    </div>
+
+    <!-- Tip Jar Button (placed directly below badges) -->
+    <div class="tip-jar-container" role="region" aria-label="Tip Jar">
+      <a
+        href="https://usefulai.lemonsqueezy.com/buy/bf6ce1bd-85f5-4a09-ba10-191a670f74af?embed=1&discount=0"
+        class="lemonsqueezy-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Support this project with a tip"
+      >
+        <span aria-hidden="true" style="margin-right:0.5em;"></span>
+        this machine runs on tips!
+      </a>
+    </div>
+    <!-- Lemon Squeezy embed script (only include ONCE per page, outside the button) -->
+    <script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
+
+    <header>
+        <div class="github-link">
+            <a href="https://github.com/lukeslp/awesome-accessibility" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github" aria-hidden="true"></i> <span>View on GitHub</span>
+            </a>
+        </div>
+        <h1>
+            <span class="header-link">
+                Awesome Accessibility
+                <a href="https://awesome.re" target="_blank" rel="noopener noreferrer">
+                    <img src="https://awesome.re/badge.svg" alt="Awesome badge" class="awesome-badge">
+                </a>
+            </span>
+        </h1>
+        <p>Accessibility is about inclusive design and ensuring technology can be used by anyone, regardless of ability or disability. My mission is to make this repository a gateway for high-quality open source resources, tools, and knowledge that help make technology accessible and empower users.</p>
+        
+        <section id="why-accessibility-matters">
+            <h2>Why Accessibility Matters</h2>
+            <p>Accessibility is essential for upholding diversity and human rights in our digital world. By designing solutions usable by all, we can build a society that values each person's unique contributions.</p>
+            <p><strong>"For some people technology makes things easier, for others it makes things possible."</strong></p>
+        </section>
+        
+        <section id="my-mission">
+            <h2>My Mission</h2>
+            <p>I invite developers, designers, educators, and all accessibility advocates to contribute to this repository. Please share your suggestions, corrections, and techniques for empowering users through inclusive technology. Together, we can enhance accessibility for everyone.</p>
+        </section>
+    </header>
+
+    <main id="maincontent">
+        <nav aria-label="Table of Contents" role="navigation">
+            <h2 id="toc-heading">Table of Contents</h2>
+            <ul aria-labelledby="toc-heading">
+                <li><a href="#assistive-technologies">Assistive Technologies</a></li>
+                <li><a href="#web-accessibility">Web Accessibility</a></li>
+                <li><a href="#inclusive-design">Inclusive Design</a></li>
+                <li><a href="#accessibility-testing">Accessibility Testing &amp; Validation</a></li>
+                <li><a href="#aac">Augmentative and Alternative Communication</a></li>
+                <li><a href="#education-training">Education &amp; Training</a></li>
+                <li><a href="#community-organizations">Community &amp; Organizations</a></li>
+                <li><a href="#accessibility-optimization-frameworks">Accessibility Optimization Frameworks</a></li>
+                <li><a href="#compliance-standards-guidelines">Compliance Standards &amp; Guidelines</a></li>
+                <li><a href="#assistive-technology-devices">Assistive Technology Devices</a></li>
+                <li><a href="#research-publications">Research Publications</a></li>
+                <li><a href="#events-conferences">Events &amp; Conferences</a></li>
+                <li><a href="#low-vision-accessibility">Low Vision Accessibility</a></li>
+                <li><a href="#blind-accessibility">Blind Accessibility</a></li>
+                <li><a href="#motor-control-accessibility">Motor Control Accessibility</a></li>
+                <li><a href="#deaf-accessibility">Deaf and Hard of Hearing Accessibility</a></li>
+                <li><a href="#cognitive-accessibility">Cognitive Accessibility</a></li>
+                <li><a href="#speech-recognition-accessibility">Speech Recognition Accessibility</a></li>
+                <li><a href="#neurodiversity-accessibility">Neurodiversity Accessibility</a></li>
+                <li><a href="#contributing">Contributing</a></li>
+            </ul>
+            <div class="note" role="note">
+                <p><strong>Note on Specific Accessibility Categories</strong>: We've added specialized sections focused on specific disability types and accessibility needs. These sections complement our broader categories and make it easier to find resources targeted to particular accessibility requirements. These include low vision, blindness, motor control, deaf/hard of hearing, cognitive accessibility, speech recognition, and neurodiversity.</p>
+            </div>
+        </nav>
+        
+        <section id="assistive-technologies">
+            <h2>Assistive Technologies</h2>
+            <p>Tools that assist users with disabilities:</p>
+            <ul>
+                <li><a href="https://github.com/OptiKey/OptiKey" target="_blank" rel="noopener noreferrer">OptiKey</a> - On-screen keyboard usable through eye-tracking.</li>
+                <li><a href="https://www.cboard.io/" target="_blank" rel="noopener noreferrer">Cboard</a> - Augmentative communication web app.</li>
+                <li><a href="https://a11ywatch.com/" target="_blank" rel="noopener noreferrer">A11yWatch</a> - Powerful web accessibility auditing toolkit.</li>
+                <li><a href="https://www.nvaccess.org/" target="_blank" rel="noopener noreferrer">NVDA screen reader</a> - Popular open source screen reader for blind or vision impaired users on Windows.</li>
+                <li><a href="https://www.apple.com/accessibility/mac/vision/" target="_blank" rel="noopener noreferrer">VoiceOver screen reader</a> - Built-in screen reader for blind or low vision users on macOS and iOS.</li>
+                <li><a href="https://www.atia.org/home/at-resources/what-is-at/" target="_blank" rel="noopener noreferrer">ATIA</a> - Assistive Technology Industry Association, a resource for understanding assistive technologies.</li>
+                <li><a href="https://www.prentrom.com/caregivers/augmentative-and-alternative-communication-aac-resource-library" target="_blank" rel="noopener noreferrer">Prentrom AAC Resource Library</a> - A library of resources for augmentative and alternative communication.</li>
+                <li><a href="https://www.taat.org/at-links" target="_blank" rel="noopener noreferrer">TAAT</a> - Tennessee Association for Assistive Technology, a collection of assistive technology resources.</li>
+                <li><a href="https://disabilityvoicesunited.org/interchange/communication/augmentative-and-alternative-communication-resources/" target="_blank" rel="noopener noreferrer">Disability Voices United</a> - A resource for augmentative and alternative communication.</li>
+                <li><a href="https://www.augsburg.edu/class/groves/assistive-technology/everyone/" target="_blank" rel="noopener noreferrer">Augsburg</a> - A comprehensive guide to assistive technology for everyone.</li>
+                <li><a href="https://aaclanguagelab.com" target="_blank" rel="noopener noreferrer">AAC Language Lab</a> - A resource for learning about augmentative and alternative communication.</li>
+                <li><a href="https://www.atrsolutions.com" target="_blank" rel="noopener noreferrer">ATR Solutions</a> - A company providing assistive technology solutions.</li>
+                <li><a href="https://disabilityinfo.org/fact-sheet-library/assistive-technology/augmentative-and-alternative-communication-aac-resources/" target="_blank" rel="noopener noreferrer">DisabilityInfo.org</a> - A fact sheet library on augmentative and alternative communication.</li>
+                <li><a href="https://dpi.wi.gov/sped/educators/consultation/assistive-technology" target="_blank" rel="noopener noreferrer">DPI</a> - Department of Public Instruction's resources on assistive technology.</li>
+                <li><a href="https://dap.berkeley.edu/types-assistive-technology" target="_blank" rel="noopener noreferrer">Types of assistive technology</a> - A comprehensive guide to various types of assistive technology tools, including screen readers, magnification software, and alternative input devices.</li>
+                <li><a href="https://www.dor.ca.gov/Home/AssistiveTechnology" target="_blank" rel="noopener noreferrer">Assistive Technology</a> - An informative resource from the California Department of Rehabilitation detailing various assistive technology services and programs.</li>
+                <li><a href="https://www.resna.org/AT-Standards" target="_blank" rel="noopener noreferrer">RESNA AT Standards</a> - The Rehabilitation Engineering and Assistive Technology Society of North America (RESNA) provides access to official assistive technology standards.</li>
+                <li><a href="https://www.crilhayward.org/assistive-technology" target="_blank" rel="noopener noreferrer">Assistive Technology</a> - Community Resources for Independent Living offers a comprehensive guide to assistive technology, including a device lending program and information.</li>
+                <li><a href="https://www.levelaccess.com/blog/assistive-technology/" target="_blank" rel="noopener noreferrer">Assistive Technology in Digital Inclusion Types examples</a> - A comprehensive guide on assistive technology in digital inclusion, covering various types and examples.</li>
+                <li><a href="https://mdelio.org/blind-visually-impaired/educator-support/assistive-technology-guidelines" target="_blank" rel="noopener noreferrer">Assistive Technology Guidelines MDE LIO</a> - Guidelines for teachers of students who are blind or visually impaired, covering assistive technology devices, data collection, and IEP development.</li>
+                <li><a href="https://www.ldrfa.org/assistive-technology-tools/" target="_blank" rel="noopener noreferrer">Assistive Technology Tools and Resources</a> - Curated list of assistive technology tools and apps for people with learning disabilities.</li>
+                <li><a href="https://ssd.umich.edu/article/assistive-technology-resources" target="_blank" rel="noopener noreferrer">Assistive Technology Resources</a> - A comprehensive list of free and purchasable assistive technologies provided by the University of Michigan.</li>
+                <li><a href="https://abledata.acl.gov/" target="_blank" rel="noopener noreferrer">AbleData</a> - Comprehensive database of assistive technology products, including detailed product information, comparisons, and resources for various disabilities.</li>
+                <li><a href="https://www.atia.org/home/at-resources/" target="_blank" rel="noopener noreferrer">ATIA Assistive Technology Resources</a> - Comprehensive collection of assistive technology resources, including webinars, buyer's guides, and information on various types of AT.</li>
+                <li><a href="https://www.assistiveware.com/products" target="_blank" rel="noopener noreferrer">AssistiveWare</a> - Offers a range of assistive technology apps and software, including AAC solutions, text-to-speech tools, and switch access apps.</li>
+                <li><a href="https://www.atia.org/at-resources/what-is-at/at-products-database/" target="_blank" rel="noopener noreferrer">ATIA Assistive Technology Products</a> - Curated database of assistive technology products from ATIA members, covering a wide range of disabilities and functional needs.</li>
+            </ul>
+        </section>
+        <section id="web-accessibility">
+            <h2>Web Accessibility</h2>
+            <p>Resources for ensuring websites work for all:</p>
+            <ul>
+                <li><a href="https://github.com/jdan/tota11y" target="_blank" rel="noopener noreferrer">Tota11y</a> - Visually test accessibility right in the browser.</li>
+                <li><a href="https://github.com/IBMa/equal-access" target="_blank" rel="noopener noreferrer">IBM Equal Access Toolkit</a> - Detect accessibility issues in web content.</li>
+                <li><a href="https://www.drupal.org/about/features/accessibility" target="_blank" rel="noopener noreferrer">Drupal Accessibility Modules</a> - Modules like Accessibility Checker for audits.</li>
+                <li><a href="https://www.deque.com/axe/browser-extensions/" target="_blank" rel="noopener noreferrer">axe browser extension</a> - Find accessibility issues directly within your browser.</li>
+                <li><a href="https://github.com/chromelens/chromelens" target="_blank" rel="noopener noreferrer">ChromeLens browser extension</a> - Identify accessibility issues and best practices for your web projects.</li>
+                <li><a href="https://www.w3.org/WAI/ER/tools/" target="_blank" rel="noopener noreferrer">W3C Web Accessibility Evaluation Tools List</a> - A list of software programs and online services that help determine if web content is accessible.</li>
+                <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">WCAG 2 Overview</a> - The Web Content Accessibility Guidelines (WCAG) 2.2 has 13 guidelines organized under 4 principles: perceivable, operable, understandable, and robust.</li>
+                <li><a href="https://www.washington.edu/accesscomputing/30-web-accessibility-tips" target="_blank" rel="noopener noreferrer">30 Web Accessibility Tips</a> - A list of 30 tips for web designers, developers, or content authors to guide them in creating or deploying web-based resources that are fully accessible.</li>
+                <li><a href="https://www.w3.org/WAI/resources/" target="_blank" rel="noopener noreferrer">WAI Resources</a> - Most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI).</li>
+                <li><a href="https://accessibility.huit.harvard.edu/testing" target="_blank" rel="noopener noreferrer">Accessibility Testing Tools and Practices</a> - Siteimprove breaks down accessibility issues into manageable tasks, tracks progress toward compliance, and provides training.</li>
+                <li><a href="https://www.a11yproject.com/" target="_blank" rel="noopener noreferrer">The A11Y Project</a> - A community-driven effort to make web accessibility easier. It provides a curated collection of web accessibility tips, tools, and resources.</li>
+                <li><a href="https://shop.smashingmagazine.com/products/inclusive-design-patterns" target="_blank" rel="noopener noreferrer">Inclusive Design Patterns</a> - A comprehensive handbook by Heydon Pickering that covers accessibility myths, WAI-ARIA roles, content guidelines, and inclusive interaction patterns.</li>
+                <li><a href="https://www.browserstack.com/guide/wcag-ada-testing-tools" target="_blank" rel="noopener noreferrer">20 Best Accessibility Testing tools WCAG and ADA Testing Tools</a> - BrowserStack's guide explores 20 top accessibility testing tools for WCAG and ADA compliance.</li>
+                <li><a href="https://www.lambdatest.com/blog/accessibility-testing-tools/" target="_blank" rel="noopener noreferrer">LambdaTest Accessibility DevTools</a> - LambdaTest's Accessibility DevTools offer comprehensive features for web accessibility testing, including full-page scans, partial-page scans, and more.</li>
+                <li><a href="https://www.washington.edu/accessibility/" target="_blank" rel="noopener noreferrer">Accessible Technology at the UW</a> - The University of Washington's Accessible Technology website offers a wealth of resources on creating accessible digital content.</li>
+                <li><a href="https://digital.gov/topics/accessibility/" target="_blank" rel="noopener noreferrer">Accessibility Guidelines Digital gov</a> - Digital.gov provides resources and guidance to help U.S. government agencies create accessible digital services.</li>
+                <li><a href="https://blog.pope.tech/2024/01/17/how-the-web-accessibility-framework-was-designed/" target="_blank" rel="noopener noreferrer">The Web Accessibility Framework</a> - Pope Tech's Web Accessibility Framework helps organizations improve website accessibility by defining goals, scope, risk appetite, gaps, processes, and more.</li>
+                <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/" target="_blank" rel="noopener noreferrer">Web Content Accessibility Guidelines WCAG 2 Documents</a> - The official W3C documentation for WCAG 2, including the technical standard and supporting documents.</li>
+                <li><a href="https://blog.hubspot.com/website/web-accessibility-resources" target="_blank" rel="noopener noreferrer">12 Web Accessibility Resources Every Developer Needs</a> - A curated list of web accessibility resources for developers, including tools, checklists, and guides.</li>
+                <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">Web Content Accessibility Guidelines WCAG 2 2</a> - The latest version of the Web Content Accessibility Guidelines, providing a wide range of recommendations for making Web content more accessible.</li>
+                <li><a href="https://webaim.org/articles/" target="_blank" rel="noopener noreferrer">WebAIM Articles and Resources</a> - A comprehensive collection of articles, tutorials, and best practices for web accessibility.</li>
+                <li><a href="https://www.a11yproject.com/checklist/" target="_blank" rel="noopener noreferrer">A11Y Project Checklist</a> - An easy-to-use checklist for web developers and designers to ensure their projects meet accessibility standards.</li>
+                <li><a href="https://www.w3.org/WAI/ARIA/apg/" target="_blank" rel="noopener noreferrer">WAI ARIA Authoring Practices 1 2</a> - A guide for understanding how to use WAI-ARIA to create accessible web applications.</li>
+                <li><a href="https://www.phonak.com/com/en/hearing-aids/accessories/roger.html" target="_blank" rel="noopener noreferrer">Phonak Roger</a> - Wireless microphone technology that improves speech understanding in noise and over distance for people with hearing loss.</li>
+                <li><a href="https://github.com/vue-a11y/vue-a11y-utils" target="_blank" rel="noopener noreferrer">Vue Accessibility</a> - A collection of Vue.js utilities to help developers create accessible applications.</li>
+                <li><a href="https://pa11y.org/" target="_blank" rel="noopener noreferrer">Pa11y</a> - A set of free and open source tools to help designers and developers make their web pages more accessible.</li>
+                <li><a href="https://www.w3.org/TR/wai-aria-1.2/" target="_blank" rel="noopener noreferrer">Accessible Rich Internet Applications WAI ARIA 1 2</a> - A technical specification that provides an ontology of roles, states, and properties for accessible user interface elements.</li>
+                <li><a href="https://www.w3.org/TR/UAAG20/" target="_blank" rel="noopener noreferrer">User Agent Accessibility Guidelines UAAG 2 0</a> - Guidelines for designing user agents that lower barriers to Web accessibility for people with disabilities.</li>
+                <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" target="_blank" rel="noopener noreferrer">European Standard EN 301 549</a> - European accessibility requirements for ICT products and services, harmonized with WCAG and applicable to public procurement in the EU.</li>
+                <li><a href="https://webaim.org/resources/" target="_blank" rel="noopener noreferrer">WebAIM Web Accessibility In Mind</a> - Comprehensive web accessibility resources, including articles, tools, and training materials.</li>
+            </ul>
+        </section>
+        
+        <section id="inclusive-design">
+            <h2>Inclusive Design</h2>
+            <p>Principles and patterns for accessibility:</p>
+            <ul>
+                <li><a href="https://inclusive-components.design/" target="_blank" rel="noopener noreferrer">Inclusive Components</a> - UI components optimizing for accessibility.</li>
+                <li><a href="https://a11y-style-guide.com/style-guide/" target="_blank" rel="noopener noreferrer">A11y Style Guide</a> - Patterns, code, and examples.</li>
+                <li><a href="https://inclusivedesignprinciples.org/" target="_blank" rel="noopener noreferrer">Inclusive Design Principles</a> - Principles from University of Cambridge.</li>
+                <li><a href="https://web.dev/accessibility/" target="_blank" rel="noopener noreferrer">Accessibility Developer Guide</a> - Patterns, code examples, and guides published by Google.</li>
+                <li><a href="https://idrc.ocadu.ca/" target="_blank" rel="noopener noreferrer">Inclusive Design Research Centre</a> - An international community of developers, designers, researchers, educators &amp; co-designers working to ensure the newest technology and practices are designed inclusively.</li>
+                <li><a href="https://uxdesign.cc/inclusive-design-resources-6b6f4b5f0f5e" target="_blank" rel="noopener noreferrer">Inclusive Design Resources from a UX Design School</a> - A collection of resources on inclusivity and accessible design.</li>
+                <li><a href="https://centreforinclusivedesign.org.au/" target="_blank" rel="noopener noreferrer">The Centre For Inclusive Design</a> - An industry leader in inclusive and accessible design, working with clients to create inclusive design processes and strategies.</li>
+                <li><a href="https://www.w3.org/WAI/ARIA/apg/patterns/" target="_blank" rel="noopener noreferrer">W3C Web Accessibility Initiative Patterns</a> - How to build accessibility semantics into web patterns and widgets.</li>
+                <li><a href="https://www.washington.edu/doit/universal-design-process-principles-and-applications" target="_blank" rel="noopener noreferrer">Universal Design: Process, Principles, and Applications</a> - Principles and guidelines relevant to Universal Design for Education (UDE).</li>
+                <li><a href="https://www.inclusivedesigntoolkit.com/case_studies/case_studies.html" target="_blank" rel="noopener noreferrer">Inclusive Design Toolkit Case Studies</a> - Case studies demonstrating how inclusive design can foster innovation and improve design.</li>
+                <li><a href="https://www.microsoft.com/design/inclusive/" target="_blank" rel="noopener noreferrer">Microsoft Inclusive Design</a> - Microsoft's comprehensive resource on inclusive design, offering toolkits, case studies, and best practices.</li>
+                <li><a href="https://www.smashingmagazine.com/2016/10/inclusive-design-patterns/" target="_blank" rel="noopener noreferrer">Inclusive Design Patterns</a> - A comprehensive book covering techniques, gotchas, and front-end strategies for building accessible, inclusive interfaces.</li>
+                <li><a href="https://thekelsey.org/learn-center/design-standards/" target="_blank" rel="noopener noreferrer">Inclusive Design Standards</a> - The Kelsey's Inclusive Design Standards consist of over 300 Elements reflecting design operations and choices for inclusive development strategies.</li>
+                <li><a href="https://www.nngroup.com/articles/inclusive-design/" target="_blank" rel="noopener noreferrer">Inclusive Design</a> - An article by Nielsen Norman Group explaining inclusive design methodologies for creating products that understand and enable people of all backgrounds.</li>
+                <li><a href="https://www.interaction-design.org/master-classes/accessible-and-inclusive-design-patterns" target="_blank" rel="noopener noreferrer">Accessible and Inclusive Design Patterns</a> - A master class by Vitaly Friedman that delves into design guidelines, real-life examples, and best practices for truly inclusive, universal, and accessible design.</li>
+            </ul>
+        </section>
+
+        <section id="accessibility-testing">
+            <h2>Accessibility Testing &amp; Validation</h2>
+            <p>Tools and resources for testing and validating accessibility:</p>
+            <ul>
+                <li><a href="https://accessibilityinsights.io/" target="_blank" rel="noopener noreferrer">Accessibility Insights</a> - Find issues before users encounter them.</li>
+                <li><a href="https://www.w3.org/WAI/test-evaluate/" target="_blank" rel="noopener noreferrer">Accessibility Conformance Testing</a> - Techniques from W3C Web Accessibility Initiative.</li>
+                <li><a href="https://github.com/Asqatasun/Asqatasun" target="_blank" rel="noopener noreferrer">Asqatasun</a> - Continuous accessibility monitoring and reporting.</li>
+                <li><a href="https://developer.chrome.com/docs/lighthouse/" target="_blank" rel="noopener noreferrer">Lighthouse</a> - Audit for accessibility, performance, SEO and best practices by Google.</li>
+                <li><a href="https://github.com/inclusive-design/AChecker" target="_blank" rel="noopener noreferrer">Achecker</a> - Batch accessibility checking for sets of online documents.</li>
+                <li><a href="https://wave.webaim.org/" target="_blank" rel="noopener noreferrer">WAVE</a> - Web Accessibility Evaluation Tool developed by WebAIM.</li>
+                <li><a href="https://accessibe.com/accessscan" target="_blank" rel="noopener noreferrer">accessScan</a> - Accessibility testing tool.</li>
+                <li><a href="https://color.a11y.com/" target="_blank" rel="noopener noreferrer">A11y Color Contrast Accessibility Validator</a> - Color contrast checker for accessibility.</li>
+                <li><a href="https://www.eclipse.org/actf/" target="_blank" rel="noopener noreferrer">ACTF aDesigner</a> - Accessibility simulator and checker.</li>
+                <li><a href="https://www.htmlvalidator.com/" target="_blank" rel="noopener noreferrer">CSS &amp; HTML Validator</a> - Checks HTML, CSS, SEO, PHP, and more for errors and warnings.</li>
+                <li><a href="https://www.accessibilitychecker.org/" target="_blank" rel="noopener noreferrer">Accessibility Checker</a> - ADA &amp; WCAG Compliance checker.</li>
+                <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener noreferrer">Contrast Checker</a> - Check color contrast for WCAG compliance.</li>
+                <li><a href="https://www.lambdatest.com/learning-hub/accessibility-testing" target="_blank" rel="noopener noreferrer">LambdaTest</a> - Cloud-based cross-browser testing platform with accessibility testing features.</li>
+                <li><a href="https://siteimprove.com/en-us/accessibility/" target="_blank" rel="noopener noreferrer">Siteimprove</a> - Digital presence optimization software including accessibility testing.</li>
+                <li><a href="https://www.cyxtera.com/digital-resilience/compliancesheriff" target="_blank" rel="noopener noreferrer">ComplianceSheriff</a> - Checks websites, intranets, content, and apps for accessibility compliance.</li>
+                <li><a href="https://www.uxpin.com/studio/blog/accessibility-design-tools/" target="_blank" rel="noopener noreferrer">Best Tools and Resources for Your Accessible Design</a> - A curated list of tools and resources for accessible design, including ANDI, NVDA, contrast checkers, and various guides.</li>
+                <li><a href="https://www.ibm.com/able/toolkit/" target="_blank" rel="noopener noreferrer">IBM Equal Access Toolkit</a> - A set of tools and guidance to help designers and developers create accessible products and applications.</li>
+                <li><a href="https://webaim.org/articles/tools/" target="_blank" rel="noopener noreferrer">WebAIM Web Accessibility Evaluation Tools</a> - Comprehensive guide to web accessibility evaluation tools, including both automated and manual testing methods.</li>
+                <li><a href="https://developers.google.com/web/tools/lighthouse" target="_blank" rel="noopener noreferrer">Lighthouse</a> - An open-source, automated tool for improving the quality of web pages. It includes accessibility audits.</li>
+                <li><a href="https://www.ibm.com/able/toolkit/verify/automated-accessibility-testing/" target="_blank" rel="noopener noreferrer">IBM Equal Access Accessibility Checker</a> - A set of open source tools and guidance to help designers and developers create accessible products and applications.</li>
+            </ul>
+        </section>
+        <section id="aac">
+            <h2>Augmentative and Alternative Communication</h2>
+            <p>Tools for facilitating communication:</p>
+            <ul>
+                <li><a href="https://www.cboard.io/" target="_blank" rel="noopener noreferrer">Cboard</a> - Symbol-based communication platform.</li>
+                <li><a href="https://www.mycoughdrop.com/" target="_blank" rel="noopener noreferrer">MyCoughDrop</a> - Cloud-based communication system.</li>
+                <li><a href="https://www.eyetell.com/" target="_blank" rel="noopener noreferrer">EyeTell</a> - Communication through eye-tracking technology.</li>
+                <li><a href="https://goboardmaker.com/" target="_blank" rel="noopener noreferrer">Boardmaker</a> - Design and print symbol-based communication boards.</li>
+                <li><a href="https://www.aacandautism.com/lamp" target="_blank" rel="noopener noreferrer">LAMP Words for Life</a> - Subscription app for symbol-based communication.</li>
+                <li><a href="https://www.atia.org/home/at-resources/what-is-at/" target="_blank" rel="noopener noreferrer">ATIA</a> - Assistive Technology Industry Association, a resource for understanding assistive technologies.</li>
+                <li><a href="https://www.prentrom.com/caregivers/augmentative-and-alternative-communication-aac-resource-library" target="_blank" rel="noopener noreferrer">Prentrom AAC Resource Library</a> - A library of resources for augmentative and alternative communication.</li>
+                <li><a href="https://www.taat.org/at-links" target="_blank" rel="noopener noreferrer">TAAT</a> - Tennessee Association for Assistive Technology, a collection of assistive technology resources.</li>
+                <li><a href="https://disabilityvoicesunited.org/interchange/communication/augmentative-and-alternative-communication-resources/" target="_blank" rel="noopener noreferrer">Disability Voices United</a> - A resource for augmentative and alternative communication.</li>
+                <li><a href="https://www.augsburg.edu/class/groves/assistive-technology/everyone/" target="_blank" rel="noopener noreferrer">Augsburg</a> - A comprehensive guide to assistive technology for everyone.</li>
+                <li><a href="https://aaclanguagelab.com" target="_blank" rel="noopener noreferrer">AAC Language Lab</a> - A resource for learning about augmentative and alternative communication.</li>
+                <li><a href="https://www.atrsolutions.com" target="_blank" rel="noopener noreferrer">ATR Solutions</a> - A company providing assistive technology solutions.</li>
+                <li><a href="https://disabilityinfo.org/fact-sheet-library/assistive-technology/augmentative-and-alternative-communication-aac-resources/" target="_blank" rel="noopener noreferrer">DisabilityInfo.org</a> - A fact sheet library on augmentative and alternative communication.</li>
+                <li><a href="https://dpi.wi.gov/sped/educators/consultation/assistive-technology" target="_blank" rel="noopener noreferrer">DPI</a> - Department of Public Instruction's resources on assistive technology.</li>
+                <li><a href="https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/" target="_blank" rel="noopener noreferrer">ASHA</a> - American Speech-Language-Hearing Association's resources on AAC.</li>
+                <li><a href="https://www.openaac.org" target="_blank" rel="noopener noreferrer">OpenAAC</a> - OpenAAC is a community-driven initiative to create free, open standards and tools for the AAC community.</li>
+                <li><a href="https://arasaac.org/" target="_blank" rel="noopener noreferrer">ARASAAC Aragonese Portal of Augmentative and Alternative Communication</a> - ARASAAC offers a large collection of free pictograms, software tools, and resources for creating AAC materials.</li>
+                <li><a href="https://www.isaac-online.org/english/home/" target="_blank" rel="noopener noreferrer">ISAAC International Society for Augmentative and Alternative Communication</a> - A global organization working to improve the lives of children and adults with complex communication needs.</li>
+                <li><a href="https://www.prentrom.com/prentrom-aac-devices/accent-1000" target="_blank" rel="noopener noreferrer">Accent 1000</a> - Dedicated speech generating device with multiple access methods. Features Unity and LAMP Words for Life language systems.</li>
+                <li><a href="https://www.aphasia.com/products/touchtalk-aac-device/" target="_blank" rel="noopener noreferrer">Lingraphica TouchTalk AAC Device</a> - Portable speech-generating device designed for adults with aphasia or other language disorders.</li>
+                <li><a href="https://usaspeechtablets.com/products/swb" target="_blank" rel="noopener noreferrer">SpeechWatch AAC1</a> - A wearable AAC device with a 2.9" touchscreen, preinstalled with TalkTablet PRO.</li>
+                <li><a href="https://enablingdevices.com/product-category/communication-devices/" target="_blank" rel="noopener noreferrer">Enabling Devices AAC Communicators</a> - A wide range of AAC devices including one-message, two-message, progressive, and wearable communicators.</li>
+                <li><a href="https://www.assistiveware.com/products/proloquo" target="_blank" rel="noopener noreferrer">AssistiveWare Proloquo</a> - A symbol-based AAC app for iOS devices, designed to help non-verbal users communicate effectively.</li>
+                <li><a href="https://us.tobiidynavox.com/pages/snap-core-first" target="_blank" rel="noopener noreferrer">Tobii Dynavox Snap Core First</a> - A symbol-based AAC software that provides a systematic approach to communication and literacy.</li>
+                <li><a href="https://lingraphica.com" target="_blank" rel="noopener noreferrer">Lingraphica TouchTalk AAC Device</a> - Portable speech-generating device designed for adults with aphasia or other language disorders.</li>
+                <li><a href="https://www.openaac.org/" target="_blank" rel="noopener noreferrer">OpenAAC</a> - An open-source initiative providing free AAC resources, including symbol sets, vocabularies, and tools.</li>
+            </ul>
+        </section>
+        <section id="education-training">
+            <h2>Education &amp; Training</h2>
+            <p>Resources for learning about accessibility and assistive technology:</p>
+            <ul>
+                <li><a href="https://accessiblecampus.ca/tools-resources/educators-tool-kit/" target="_blank" rel="noopener noreferrer">Accessible Campus Educator's Accessibility Toolkit</a> - Provides guidelines and tips for making courses and teaching more accessible.</li>
+                <li><a href="https://accessibility.ecampusontario.ca/accessibility/resources/" target="_blank" rel="noopener noreferrer">eCampusOntario Digital Accessibility Resources</a> - A comprehensive repository of resources on digital accessibility.</li>
+                <li><a href="https://accessibility.mcmaster.ca/training/accessible-education-training-for-instructional-staff/" target="_blank" rel="noopener noreferrer">McMaster University Accessible Education Training</a> - Training resources for instructional staff on accessible education.</li>
+                <li><a href="https://aem.cast.org/" target="_blank" rel="noopener noreferrer">CAST National Center on Accessible Educational Materials</a> - Provides technical assistance and resources to increase the availability of accessible educational materials.</li>
+                <li><a href="https://uwaterloo.ca/accessibility/guides-and-resources/accessibility-education-resources" target="_blank" rel="noopener noreferrer">University of Waterloo Accessibility in Education Resources</a> - A comprehensive list of resources related to accessibility and universal design.</li>
+                <li><a href="https://www.section508.gov/create/developer-training/" target="_blank" rel="noopener noreferrer">Section508.gov Accessibility Training for Developers</a> - Training options to help improve accessibility skills for developers.</li>
+                <li><a href="https://developers.google.com/profile/badges/playlists/webdev/learn-accessibility" target="_blank" rel="noopener noreferrer">Google Developers Learn Accessibility</a> - A pathway to learn how to make websites and web apps more accessible.</li>
+                <li><a href="https://webaim.org/services/training/" target="_blank" rel="noopener noreferrer">WebAIM Accessibility Training</a> - Live, online training events covering accessibility principles and techniques.</li>
+                <li><a href="https://usability.yale.edu/web-accessibility/training/developer-training" target="_blank" rel="noopener noreferrer">Yale University Developer Training</a> - Resources for developer training in usability and web accessibility.</li>
+                <li><a href="https://www.coursera.org/courses?query=web%20accessibility" target="_blank" rel="noopener noreferrer">Coursera Web Accessibility Courses</a> - A variety of web accessibility courses available on Coursera.</li>
+                <li><a href="https://www.linkedin.com/learning/topics/accessibility" target="_blank" rel="noopener noreferrer">LinkedIn Learning Accessibility Online Training</a> - Courses covering web accessibility standards, testing tools, and best practices.</li>
+                <li><a href="https://www.a11y-collective.com/" target="_blank" rel="noopener noreferrer">A11y Collective Web Accessibility Courses</a> - Practical introduction to web accessibility and implementation.</li>
+                <li><a href="https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility" target="_blank" rel="noopener noreferrer">edX W3Cx: Introduction to Web Accessibility</a> - An online course on international standards for web accessibility from the W3C.</li>
+            </ul>
+        </section>
+        <section id="community-organizations">
+            <h2>Community &amp; Organizations</h2>
+            <p>Connect with the accessibility community:</p>
+            <ul>
+                <li><a href="https://www.a11yproject.com/community/" target="_blank" rel="noopener noreferrer">A11y Project Community</a> - Free resources and community forum.</li>
+                <li><a href="https://www.accessibilityassociation.org/" target="_blank" rel="noopener noreferrer">International Association of Accessibility Professionals</a> - Association dedicated to accessibility.</li>
+                <li><a href="https://knowbility.org/services/" target="_blank" rel="noopener noreferrer">Knowbility</a> - Nonprofit empowering through tech access.</li>
+                <li><a href="https://www.accessibilityassociation.org/s/connections-community" target="_blank" rel="noopener noreferrer">IAAP Accessibility Community</a> - Forum and resources published by the accessibility association.</li>
+                <li><a href="https://webaim.org/discussion/" target="_blank" rel="noopener noreferrer">WebAIM Community</a> - Forum for discussing web accessibility.</li>
+                <li><a href="https://www.w3.org/WAI/" target="_blank" rel="noopener noreferrer">W3C Web Accessibility Initiative</a> - International standards for web accessibility.</li>
+                <li><a href="https://www.nfb.org/" target="_blank" rel="noopener noreferrer">National Federation of the Blind</a> - Largest organization of blind and low-vision people in the US.</li>
+                <li><a href="https://www.afb.org/" target="_blank" rel="noopener noreferrer">American Foundation for the Blind</a> - National nonprofit with resources on vision loss.</li>
+                <li><a href="https://www.nad.org/" target="_blank" rel="noopener noreferrer">National Association of the Deaf</a> - Civil rights organization of, by, and for deaf and hard-of-hearing individuals.</li>
+                <li><a href="https://dredf.org/" target="_blank" rel="noopener noreferrer">Disability Rights Education &amp; Defense Fund</a> - National civil rights law and policy center directed by individuals with disabilities.</li>
+                <li><a href="https://www.cforat.org/" target="_blank" rel="noopener noreferrer">Center for Accessible Technology</a> - Nonprofit providing access to computers for people with disabilities.</li>
+                <li><a href="https://g3ict.org/" target="_blank" rel="noopener noreferrer">Global Initiative for Inclusive ICTs</a> - Advocacy initiative launched in December 2006 by the United Nations.</li>
+                <li><a href="https://www.tpgi.com/" target="_blank" rel="noopener noreferrer">The Paciello Group</a> - Creating accessible software, services, and websites.</li>
+                <li><a href="https://www.levelaccess.com/" target="_blank" rel="noopener noreferrer">Level Access</a> - Digital accessibility solutions.</li>
+                <li><a href="https://www.deque.com/" target="_blank" rel="noopener noreferrer">Deque Systems</a> - Web accessibility software and services.</li>
+                <li><a href="https://www.abilitynet.org.uk/" target="_blank" rel="noopener noreferrer">AbilityNet</a> - UK charity helping disabled adults and children use computers and the internet.</li>
+                <li><a href="https://www.rnib.org.uk/" target="_blank" rel="noopener noreferrer">RNIB</a> - UK's leading charity supporting blind and partially sighted people.</li>
+                <li><a href="https://www.visionaustralia.org/" target="_blank" rel="noopener noreferrer">Vision Australia</a> - Leading national provider of blindness and low vision services in Australia.</li>
+                <li><a href="https://www.sightsavers.org/" target="_blank" rel="noopener noreferrer">Sightsavers</a> - International organization working with partners in developing countries to eliminate avoidable blindness.</li>
+                <li><a href="https://worldblindunion.org/" target="_blank" rel="noopener noreferrer">World Blind Union</a> - Internationally recognized organization representing the 285 million people worldwide who are blind or partially sighted.</li>
+                <li><a href="https://aacinstitute.org/" target="_blank" rel="noopener noreferrer">AAC Institute</a> - The AAC Institute provides evidence-based information on AAC to support clinical practice, research, and education.</li>
+                <li><a href="https://webaim.org/" target="_blank" rel="noopener noreferrer">WebAIM Web Accessibility in Mind</a> - WebAIM provides comprehensive web accessibility resources, including articles, tools, and training.</li>
+                <li><a href="https://adata.org/" target="_blank" rel="noopener noreferrer">ADA National Network</a> - The ADA National Network provides information, guidance and training on the Americans with Disabilities Act (ADA).</li>
+                <li><a href="https://www.christopherreeve.org/wp-content/uploads/2024/05/Assistive-Technology-4-30-24-FINAL.pdf" target="_blank" rel="noopener noreferrer">Assistive Technology Christopher Reeve Foundation</a> - An extensive guide on assistive technology resources, including computer access tools and specialized rehabilitation centers.</li>
+                <li><a href="https://knowbility.org/programs/accessu" target="_blank" rel="noopener noreferrer">John Slatin AccessU 2025</a> - Information about Knowbility's annual conference on digital accessibility.</li>
+                <li><a href="https://www.microsoft.com/en-us/accessibility" target="_blank" rel="noopener noreferrer">Accessibility Technology Tools Microsoft Accessibility</a> - Microsoft's hub for accessibility features and tools across their products.</li>
+                <li><a href="https://www.assistiveware.com/learn-aac" target="_blank" rel="noopener noreferrer">AssistiveWare Learn AAC</a> - A comprehensive resource center for learning about AAC, provided by AssistiveWare.</li>
+                <li><a href="https://www.accessibility-developer-guide.com/" target="_blank" rel="noopener noreferrer">Accessibility Developer Guide</a> - The Accessibility Developer Guide is a comprehensive resource for developers to learn about implementing accessibility in web projects.</li>
+                <li><a href="https://dequeuniversity.com/" target="_blank" rel="noopener noreferrer">Deque University</a> - Deque University offers a wide range of accessibility courses, from beginner to advanced levels.</li>
+                <li><a href="https://www.section508.gov/create/documents/" target="_blank" rel="noopener noreferrer">Create Accessible Documents</a> - A resource guide on creating accessible Microsoft Word documents that conform to the Revised 508 Standards.</li>
+                <li><a href="https://www.ctdinstitute.org/" target="_blank" rel="noopener noreferrer">Center on Technology and Disability</a> - Offers a wide range of resources on assistive and instructional technology for children with disabilities.</li>
+                <li><a href="https://accessiblecommunity.org/" target="_blank" rel="noopener noreferrer">Accessible Community</a> - A nonprofit providing tools and resources to create a more inclusive world for people with disabilities.</li>
+                <li><a href="https://ocul.on.ca/accessibility-community" target="_blank" rel="noopener noreferrer">OCUL Accessibility Community</a> - A forum for information-sharing and discussion on accessibility issues for Ontario university libraries.</li>
+                <li><a href="https://www.can-rca.ca/communities-of-practice/" target="_blank" rel="noopener noreferrer">Canadian Accessibility Network</a> - Provides inclusive opportunities for members to drive accessibility forward.</li>
+                <li><a href="https://support.google.com/accessibility/answer/9248846?hl=en" target="_blank" rel="noopener noreferrer">Google Accessibility Community</a> - Connect with community members and stay up-to-date on Google Accessibility features and products.</li>
+                <li><a href="https://www.astc.org/digital-accessibility-toolkit/accessibility-organizations/" target="_blank" rel="noopener noreferrer">ASTC Accessibility Organizations</a> - A list of accessibility organizations for science and technology centers.</li>
+                <li><a href="https://nod.org/" target="_blank" rel="noopener noreferrer">National Organization on Disability</a> - Works with companies to assess and improve disability inclusion practices and policies.</li>
+                <li><a href="https://www.disabilityrightsohio.org/" target="_blank" rel="noopener noreferrer">Disability Rights Ohio</a> - A non-profit advocating for an equitable Ohio for people with disabilities.</li>
+                <li><a href="https://www.bazelon.org/resource-library/disability-rights-organizations/" target="_blank" rel="noopener noreferrer">Bazelon Center for Mental Health Law</a> - A resource library of disability rights organizations.</li>
+                <li><a href="https://www.aapd.com/" target="_blank" rel="noopener noreferrer">American Association of People with Disabilities (AAPD)</a> - A national disability-led and cross-disability rights organization.</li>
+                <li><a href="https://thearc.org/" target="_blank" rel="noopener noreferrer">The Arc</a> - Promotes and protects the human rights of people with intellectual and developmental disabilities.</li>
+                <li><a href="https://www.ndrn.org/" target="_blank" rel="noopener noreferrer">National Disability Rights Network (NDRN)</a> - Works on behalf of Protection and Advocacy Systems (P&As) and Client Assistance Programs (CAPs).</li>
+            </ul>
+        </section>
+        <section id="accessibility-optimization-frameworks">
+            <h2>Accessibility Optimization Frameworks</h2>
+            <p>Discover systematic approaches for continually improving accessibility:</p>
+            <ul>
+                <li><a href="https://www.bbc.co.uk/accessibility/" target="_blank" rel="noopener noreferrer">BBC Accessibility Standards</a> - Guidelines and resources for accessibility.</li>
+                <li><a href="https://www.section508.gov/" target="_blank" rel="noopener noreferrer">US Section 508 Standards</a> - U.S. Federal procurement accessibility regulations.</li>
+                <li><a href="https://www.w3.org/WAI/fundamentals/components/" target="_blank" rel="noopener noreferrer">W3C's Essential Components of Web Accessibility</a> - Key components for inclusion in web accessibility.</li>
+                <li><a href="https://www.itic.org/policy/accessibility/vpat" target="_blank" rel="noopener noreferrer">Voluntary Product Accessibility Template</a> - Self-assessment companies can use to evaluate accessibility.</li>
+                <li><a href="https://shop.bsigroup.com/products/web-accessibility-code-of-practice/standard" target="_blank" rel="noopener noreferrer">BS 8878 Web Accessibility Code of Practice</a> - Best practice framework from the British Standards Institute.</li>
+                <li><a href="https://www.deque.com/axe/devtools/" target="_blank" rel="noopener noreferrer">axe DevTools</a> - A powerful accessibility testing toolkit by Deque Systems. It offers browser extensions and integrations with popular development tools to help ide...</li>
+                <li><a href="https://www.deque.com/axe/" target="_blank" rel="noopener noreferrer">axe Accessibility Testing Tools and Software</a> - Deque's axe suite offers robust, efficient, and accurate accessibility testing tools built on the popular axe-core library. It includes browser ext...</li>
+                <li><a href="https://github.com/dequelabs/axe-core" target="_blank" rel="noopener noreferrer">axe core</a> - An open-source JavaScript library for automated accessibility testing. It provides a robust set of rules for identifying and reporting accessibilit...</li>
+                <li><a href="https://www.maka-agency.com/power-help-center/power-theme-accessibility-optimization-guide" target="_blank" rel="noopener noreferrer">Maka Agency Accessibility Optimization Guide</a> - Guide to optimizing website accessibility with built-in tools and best practices.</li>
+                <li><a href="https://www.linkedin.com/advice/0/how-do-you-optimize-web-app-accessibility-frameworks" target="_blank" rel="noopener noreferrer">LinkedIn How to Optimize Web App Accessibility with Frameworks</a> - Learn how to make web apps more accessible using frameworks like React, Angular, Vue, and Bootstrap.</li>
+                <li><a href="https://www.siteimprove.com/blog/how-to-use-a-framework-to-plan-web-accessibility-better/" target="_blank" rel="noopener noreferrer">Siteimprove How to use a framework to plan web accessibility better</a> - Explains how using the ARRM framework can integrate accessibility throughout the web production process.</li>
+                <li><a href="https://www.w3.org/TR/maturity-model/" target="_blank" rel="noopener noreferrer">W3C Accessibility Maturity Model</a> - A framework for measuring and assessing accessibility maturity.</li>
+                <li><a href="https://www.levelaccess.com/blog/the-digital-accessibility-maturity-model-introduction-to-damm/" target="_blank" rel="noopener noreferrer">Level Access Digital Accessibility Maturity Model (DAMM)</a> - A clear and concise method for measuring the maturity of digital accessibility programs.</li>
+                <li><a href="https://aeldata.com/guide-to-accessibility-maturity-model/" target="_blank" rel="noopener noreferrer">AEL Data Guide to Accessibility Maturity Model</a> - An overarching framework for establishing a robust and repeatable ICT accessibility program.</li>
+                <li><a href="https://blogs.microsoft.com/accessibility/accessibility-evolution-model/" target="_blank" rel="noopener noreferrer">Microsoft Accessibility Evolution Model</a> - Defines how developed an organization is in addressing accessibility.</li>
+                <li><a href="https://www.qualitylogic.com/knowledge-center/comparison-of-the-different-accessibility-maturity-models/" target="_blank" rel="noopener noreferrer">QualityLogic Comparison of the Different Accessibility Maturity Models</a> - Compares various accessibility maturity models.</li>
+                <li><a href="https://cccaccessibility.org/10-carousel/68-ccc-accessibility-standard" target="_blank" rel="noopener noreferrer">CCC Accessibility Capability Maturity Model (ACMM)</a> - Breaks down the broad concept of accessibility into achievable goals and milestones.</li>
+                <li><a href="https://www.levelaccess.com/blog/boost-accessibility-in-2024-digital-accessibility-strategies-for-success-no-matter-where-youre-starting/" target="_blank" rel="noopener noreferrer">Level Access Increasing Accessibility in 2025</a> - Proven strategies for digital inclusion.</li>
+                <li><a href="https://www.tpgi.com/a-guide-to-creating-a-successful-digital-accessibility-program/" target="_blank" rel="noopener noreferrer">TPGI Guide to Creating a Successful Digital Accessibility Program</a> - Unpacks what digital accessibility means and how to create a successful program.</li>
+                <li><a href="https://abilitynet.org.uk/news-blogs/beginners-guide-digital-accessibility" target="_blank" rel="noopener noreferrer">AbilityNet A beginner's guide to digital accessibility</a> - An overview of digital accessibility, including audits, testing, and training.</li>
+                <li><a href="https://www.govstack.com/resources/posts/a-comprehensive-guide-to-enabling-digital-accessibility/" target="_blank" rel="noopener noreferrer">Govstack The Ultimate Guide to Digital Accessibility for Public Sector</a> - A comprehensive guide for public sector organizations to embrace inclusivity and compliance.</li>
+                <li><a href="https://www.acquia.com/blog/web-accessibility-strategy" target="_blank" rel="noopener noreferrer">Acquia How to Make a Web Accessibility Strategy</a> - Secrets to a successful web accessibility strategy, from initial scans to setting impactful policies.</li>
+            </ul>
+        </section>
+        <section id="compliance-standards-guidelines">
+            <h2>Compliance Standards &amp; Guidelines</h2>
+            <p>Ensuring conformance to accessibility regulations:</p>
+            <ul>
+                <li><a href="https://www.access-board.gov/ict/" target="_blank" rel="noopener noreferrer">Revised Section 508 Standards</a> - U.S. accessibility standards for electronic IT.</li>
+                <li><a href="https://en301549.standard.accessforge.com/" target="_blank" rel="noopener noreferrer">EN 301 549 Accessibility Standard</a> - EU standard for public procurement of ICT products and services.</li>
+                <li><a href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noopener noreferrer">WCAG 2.1</a> - Web Content Accessibility Guidelines current standard.</li>
+                <li><a href="https://www.adatitleiii.com/2024/06/federal-court-website-accessibility-lawsuit-filings-took-a-dip-in-2023/" target="_blank" rel="noopener noreferrer">ADA Title III lawsuit trends</a> - Analysis of legal risk factors.</li>
+                <li><a href="https://shop.bsigroup.com/products/web-accessibility-code-of-practice/standard" target="_blank" rel="noopener noreferrer">BS 8878 Web Accessibility Code of Practice</a> - A best practice framework from the British Standards Institute.</li>
+                <li><a href="https://www.access-board.gov/ada/" target="_blank" rel="noopener noreferrer">ADA Accessibility Standards</a> - The official ADA Accessibility Standards from the U.S. Access Board. This resource provides comprehensive guidelines for accessibility in public access.</li>
+                <li><a href="https://oit.colorado.gov/standards-policies-guides/guide-to-accessible-web-services/accessible-documents-toolkit" target="_blank" rel="noopener noreferrer">Accessible Documents Toolkit</a> - This toolkit from the Colorado Office of Information Technology provides resources and recommendations for creating accessible documents.</li>
+                <li><a href="https://www.ada.gov/law-and-regs/design-standards/" target="_blank" rel="noopener noreferrer">ADA Standards for Accessible Design</a> - Official resource for ADA Standards for Accessible Design, detailing requirements for buildings and facilities to be physically accessible to people.</li>
+                <li><a href="https://www.resna.org/at-standards" target="_blank" rel="noopener noreferrer">RESNA Assistive Technology Standards</a> - Provides standards and guidelines for various assistive technology devices, ensuring quality and effectiveness in AT products and services.</li>
+                <li><a href="https://www.w3.org/WAI/standards-guidelines/aria/" target="_blank" rel="noopener noreferrer">Accessible Rich Internet Applications WAI ARIA</a> - A technical specification from W3C that provides a framework to improve the accessibility and interoperability of web content and applications.</li>
+                <li><a href="https://www.ada.gov/resources/web-guidance/" target="_blank" rel="noopener noreferrer">ADA.gov Guidance on Web Accessibility</a> - Official guidance from ADA.gov on web accessibility for state and local governments and businesses.</li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG" target="_blank" rel="noopener noreferrer">Mozilla Understanding WCAG</a> - A guide from Mozilla Developer Network to understanding the Web Content Accessibility Guidelines.</li>
+                <li><a href="https://www.section508.gov/develop/guide-accessible-web-design-development/" target="_blank" rel="noopener noreferrer">Section508.gov Guide to Accessible Web Design</a> - A guide from Section508.gov on accessible web design and development, with relevant WCAG requirements.</li>
+                <li><a href="https://reciteme.com/us/news/website-accessibility-best-practices/" target="_blank" rel="noopener noreferrer">Recite Me Top 10 Web Accessibility Best Practices</a> - A list of top 10 web accessibility best practices.</li>
+                <li><a href="https://allyant.com/blog/4-best-web-accessibility-testing-tools-a-detailed-comparison/" target="_blank" rel="noopener noreferrer">Allyant 4 Free Best Web Accessibility Testing Tools</a> - A detailed comparison of four free web accessibility testing tools.</li>
+                <li><a href="https://userway.org/" target="_blank" rel="noopener noreferrer">UserWay Web Accessibility AI Solution</a> - An AI-powered web accessibility solution for ADA & WCAG compliance.</li>
+                <li><a href="https://applitools.com/blog/top-10-web-accessibility-testing-tools/" target="_blank" rel="noopener noreferrer">Applitools Top 10 Accessibility Testing Tools</a> - A list of the top 10 web accessibility testing tools.</li>
+                <li><a href="https://honorlock.com/blog/what-is-web-accessibility-and-what-are-compliance-standards/" target="_blank" rel="noopener noreferrer">Honorlock What are Web Accessibility Guidelines & Compliance Standards</a> - Explains web accessibility guidelines and compliance standards.</li>
+                <li><a href="https://www.section508.gov/manage/laws-and-policies/" target="_blank" rel="noopener noreferrer">Section508.gov IT Accessibility Laws and Policies</a> - Information on IT accessibility laws and policies under Section 508.</li>
+                <li><a href="https://userway.org/blog/what-are-wcag-2-0-a-aa-and-aaa/" target="_blank" rel="noopener noreferrer">UserWay WCAG Levels A, AA, AAA</a> - Explains WCAG levels and how to elevate site functionality.</li>
+                <li><a href="https://www.levelaccess.com/blog/navigating-international-accessibility-laws/" target="_blank" rel="noopener noreferrer">Level Access Mastering Global Accessibility Laws</a> - A guide to navigating international accessibility laws.</li>
+                <li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/guidance-implementing-standard-web-accessibility.html" target="_blank" rel="noopener noreferrer">Canada.ca Guidance on Implementing the Standard on Web Accessibility</a> - Guidance for Canadian government departments on web accessibility.</li>
+                <li><a href="https://www.siteimprove.com/blog/a-complete-overview-of-canadas-accessibility-laws/" target="_blank" rel="noopener noreferrer">Siteimprove A Complete Overview of Canada's Accessibility Laws</a> - An overview of current and proposed Canadian accessibility legislation.</li>
+                <li><a href="https://hostingcanada.org/canadian-website-accessibility-guidelines/" target="_blank" rel="noopener noreferrer">Hosting Canada Canadian Website Accessibility Guidelines</a> - Guidelines for improving website accessibility in Canada.</li>
+                <li><a href="https://reciteme.com/us/news/aca-web-accessibility-law-in-canada/" target="_blank" rel="noopener noreferrer">Recite Me ACA and Web Accessibility Laws in Canada</a> - Information on web accessibility laws in Canada and compliance.</li>
+                <li><a href="https://webaim.org/articles/laws/canada/" target="_blank" rel="noopener noreferrer">WebAIM Web Accessibility Laws in Canada</a> - Details on web accessibility laws in Canada.</li>
+                <li><a href="http://www.ontario.ca/page/how-make-websites-accessible" target="_blank" rel="noopener noreferrer">Ontario.ca How to make websites accessible</a> - Guidelines from Ontario, Canada, on making websites accessible.</li>
+                <li><a href="https://accessibe.com/compliance/ada-title-iii" target="_blank" rel="noopener noreferrer">accessiBe ADA Title III Compliance</a> - Information on ADA website compliance and WCAG conformance.</li>
+                <li><a href="https://userway.org/compliance/ada/" target="_blank" rel="noopener noreferrer">UserWay ADA Compliance for Websites</a> - Tips on designing ADA compliant websites.</li>
+                <li><a href="https://testpros.com/articles/ada-website-compliance/" target="_blank" rel="noopener noreferrer">TestPros What Is ADA Compliance?</a> - Explains ADA compliance and its impact on websites.</li>
+                <li><a href="https://www.braunability.com/us/en/blog/disability-rights/what-does-ada-compliant-mean.html" target="_blank" rel="noopener noreferrer">BraunAbility What Is ADA Compliance?</a> - Explains what ADA compliant means and its benefits.</li>
+                <li><a href="https://www.accessibilitychecker.org/guides/ada-compliance/" target="_blank" rel="noopener noreferrer">Accessibility Checker ADA Compliance for Websites</a> - A comprehensive checklist for ADA website compliance.</li>
+                <li><a href="https://www.audioeye.com/compliance/ada/" target="_blank" rel="noopener noreferrer">AudioEye ADA Compliance Guide</a> - A guide to getting websites compliant with ADA digital accessibility standards.</li>
+            </ul>
+        </section>
+        <section id="assistive-technology-devices">
+            <h2>Assistive Technology Devices</h2>
+            <p>Hardware and peripherals increasing accessibility:</p>
+            <ul>
+                <li><a href="https://www.ablenetinc.com/switches" target="_blank" rel="noopener noreferrer">Switch Access Devices</a> - Devices activated by buttons, switches, joysticks and keyboards for motor impairments.</li>
+                <li><a href="https://webaim.org/articles/voice/" target="_blank" rel="noopener noreferrer">Screen Readers</a> - Software transmitting web content through braille, speech synthesis, etc.</li>
+                <li><a href="https://us.tobiidynavox.com/pages/eye-gaze-technology" target="_blank" rel="noopener noreferrer">Eye Gaze Systems</a> - Track eye movements to navigate devices.</li>
+                <li><a href="https://www.orcam.com/" target="_blank" rel="noopener noreferrer">OrCam assistive devices</a> - Portable device with facial recognition and text reading.</li>
+                <li><a href="https://www.tobiidynavox.com/" target="_blank" rel="noopener noreferrer">Tobii Dynavox eye trackers</a> - Eye gaze interaction for communication devices and computer control.</li>
+                <li><a href="https://github.com/OptiKey/OptiKey" target="_blank" rel="noopener noreferrer">OptiKey</a> - On-screen keyboard usable through eye-tracking[1].</li>
+                <li><a href="https://www.cboard.io/" target="_blank" rel="noopener noreferrer">Cboard</a> - Augmentative communication web app[1].</li>
+                <li><a href="https://a11ywatch.com/" target="_blank" rel="noopener noreferrer">A11yWatch</a> - Powerful web accessibility auditing toolkit[1].</li>
+                <li><a href="https://www.nvaccess.org/" target="_blank" rel="noopener noreferrer">NVDA screen reader</a> - Popular open source screen reader for blind or vision impaired users on Windows[1].</li>
+                <li><a href="https://www.apple.com/accessibility/mac/vision/" target="_blank" rel="noopener noreferrer">VoiceOver screen reader</a> - Built-in screen reader for blind or low vision users on macOS and iOS[1].</li>
+                <li><a href="https://www.atia.org/home/at-resources/what-is-at/" target="_blank" rel="noopener noreferrer">ATIA</a> - Assistive Technology Industry Association, a resource for understanding assistive technologies[1].</li>
+                <li><a href="https://www.prentrom.com/caregivers/augmentative-and-alternative-communication-aac-resource-library" target="_blank" rel="noopener noreferrer">Prentrom AAC Resource Library</a> - A library of resources for augmentative and alternative communication[1].</li>
+                <li><a href="https://www.taat.org/at-links" target="_blank" rel="noopener noreferrer">TAAT</a> - Tennessee Association for Assistive Technology, a collection of assistive technology resources[1].</li>
+                <li><a href="https://disabilityvoicesunited.org/interchange/communication/augmentative-and-alternative-communication-resources/" target="_blank" rel="noopener noreferrer">Disability Voices United</a> - A resource for augmentative and alternative communication[1].</li>
+                <li><a href="https://www.augsburg.edu/class/groves/assistive-technology/everyone/" target="_blank" rel="noopener noreferrer">Augsburg</a> - A comprehensive guide to assistive technology for everyone[1].</li>
+                <li><a href="https://aaclanguagelab.com" target="_blank" rel="noopener noreferrer">AAC Language Lab</a> - A resource for learning about augmentative and alternative communication[1].</li>
+                <li><a href="https://www.atrsolutions.com" target="_blank" rel="noopener noreferrer">ATR Solutions</a> - A company providing assistive technology solutions[1].</li>
+                <li><a href="https://disabilityinfo.org/fact-sheet-library/assistive-technology/augmentative-and-alternative-communication-aac-resources/" target="_blank" rel="noopener noreferrer">DisabilityInfo.org</a> - A fact sheet library on augmentative and alternative communication[1].</li>
+                <li><a href="https://dpi.wi.gov/sped/educators/consultation/assistive-technology" target="_blank" rel="noopener noreferrer">DPI</a> - Department of Public Instruction's resources on assistive technology[1].</li>
+                <li><a href="https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/" target="_blank" rel="noopener noreferrer">ASHA</a> - American Speech-Language-Hearing Association's resources on AAC[1].</li>
+                <li><a href="https://us.tobiidynavox.com/pages/i-series" target="_blank" rel="noopener noreferrer">Tobii Dynavox I Series</a> - Eye-tracking enabled speech generating device for people with complex communication needs, including those with ALS, cerebral palsy, and other cond...</li>
+                <li><a href="https://www.eyecontrol.co.il/product" target="_blank" rel="noopener noreferrer">EyeControl</a> - Wearable eye-tracking device that enables ALS and locked-in patients to communicate using eye movements, without the need for a screen or calibration.</li>
+                <li><a href="https://synapsebiomedical.com/products/neurx-diaphragm-pacing-system/" target="_blank" rel="noopener noreferrer">NeuRx Diaphragm Pacing System</a> - Implantable device that stimulates the diaphragm to assist breathing in ALS patients and others with respiratory muscle weakness.</li>
+                <li><a href="https://saltillo.com/products/novachat" target="_blank" rel="noopener noreferrer">NovaChat</a> - Portable speech generating device with a range of vocabulary options. Offers customizable layouts, word prediction, and built-in cameras for person...</li>
+                <li><a href="https://www.ablenetinc.com/quicktalker-s" target="_blank" rel="noopener noreferrer">AbleNet QuickTalker</a> - A series of portable speech-generating devices with varying message capacities, designed for individuals with speech and language disabilities.</li>
+            </ul>
+        </section>
+        <section id="research-publications">
+            <h2>Research Publications</h2>
+            <p>Latest academic papers and findings related to accessibility:</p>
+            <ul>
+                <li><a href="https://dl.acm.org/conference/assets" target="_blank" rel="noopener noreferrer">ASSETS Conference Proceedings</a> - ACM SIGACCESS Conference on Computers and Accessibility documents.</li>
+                <li><a href="https://www.tandfonline.com/toc/hihc20/current" target="_blank" rel="noopener noreferrer">International Journal of Human–Computer Interaction</a> - Academic research on human-computer interaction, including accessibility.</li>
+                <li><a href="https://dl.acm.org/journal/taccess" target="_blank" rel="noopener noreferrer">ACM Transactions on Accessible Computing</a> - Dedicated journal exploring computing accessibility advances.</li>
+                <li><a href="https://www.tandfonline.com/toc/hihc20/current" target="_blank" rel="noopener noreferrer">International Journal of Human-Computer Interaction</a> - Academic research on human-computer interaction and accessibility.</li>
+                <li><a href="https://dl.acm.org/journal/taccess" target="_blank" rel="noopener noreferrer">ACM SIGACCESS Accessibility and Computing Journal</a> - Computing accessibility research.</li>
+                <li><a href="https://www.jacces.org/" target="_blank" rel="noopener noreferrer">Journal of Accessibility and Design for All</a> - Multidisciplinary journal that publishes theoretical and empirical research on accessibility[1].</li>
+                <li><a href="https://www.springer.com/journal/10209" target="_blank" rel="noopener noreferrer">Universal Access in the Information Society</a> - International journal dedicated to the promotion of accessible technology[1].</li>
+                <li><a href="https://www.tandfonline.com/journals/iidt20" target="_blank" rel="noopener noreferrer">Disability and Rehabilitation: Assistive Technology</a> - Journal focusing on the application of technology to improve individual functioning and quality of life[1].</li>
+                <li><a href="https://www.tandfonline.com/toc/hihc20/current" target="_blank" rel="noopener noreferrer">International Journal of Human-Computer Interaction</a> - Journal covering the implications of advanced technologies for human life and society[1].</li>
+                <li><a href="https://www.atia.org/atobcurrentvolume/" target="_blank" rel="noopener noreferrer">Assistive Technology Outcomes and Benefits</a> - Journal focused on the outcomes and benefits of assistive technologies for individuals with disabilities[1].</li>
+                <li><a href="https://www.emerald.com/insight/publication/issn/2398-6263" target="_blank" rel="noopener noreferrer">Journal of Assistive Technologies</a> - Journal covering the role of assistive technologies in supporting disabled, elderly and chronically ill people[1].</li>
+                <li><a href="https://content.iospress.com/journals/technology-and-disability" target="_blank" rel="noopener noreferrer">Technology and Disability</a> - Journal reporting on the use of technology in the field of disability and rehabilitation[1].</li>
+                <li><a href="https://journals.sagepub.com/home/jst" target="_blank" rel="noopener noreferrer">Journal of Special Education Technology</a> - Journal focusing on technology used in special education[1].</li>
+                <li><a href="https://scholarworks.calstate.edu/collections/vh53x372b" target="_blank" rel="noopener noreferrer">Journal on Technology &amp; Persons with Disabilities</a> - Journal focusing on both the theoretical and practical aspects of using technology to support persons with disabilities[1].</li>
+                <li><a href="https://telerehab.pitt.edu/ojs/index.php/Telerehab" target="_blank" rel="noopener noreferrer">International Journal of Telerehabilitation</a> - Journal focusing on the application of technology in the field of rehabilitation[1].</li>
+                <li><a href="https://communicationmatters.org.uk/resources/" target="_blank" rel="noopener noreferrer">Communication Matters AAC Resources</a> - Communication Matters, a UK charity, offers a wide range of AAC resources including information sheets, videos, and research publications. They pro...</li>
+                <li><a href="https://www.ahead.org/professional-resources/publications/jped" target="_blank" rel="noopener noreferrer">Journal of Postsecondary Education and Disability JPED</a> - JPED is a peer-reviewed journal that publishes research and contemporary best practices related to disabled college students and disability service...</li>
+                <li><a href="https://info.arxiv.org/about/accessibility_research_report.html" target="_blank" rel="noopener noreferrer">Accessibility Research Report</a> - A comprehensive report on improving the accessibility of research papers on arXiv.org. It discusses accessibility problems in research, reviews cur...</li>
+            </ul>
+        </section>
+        <section id="events-conferences">
+            <h2>Events &amp; Conferences</h2>
+            <ul>
+                <li><a href="https://web.cvent.com/event/2c5d8c51-6441-44c0-b361-131ff9544dd5/summary" target="_blank" rel="noopener noreferrer">CSUN Assistive Technology Conference</a> - An annual event presenting unique, new and innovative technology and practices in the field of assistive technology.</li>
+                <li><a href="https://www.m-enabling.com/" target="_blank" rel="noopener noreferrer">M-Enabling Summit</a> - A conference dedicated to promoting accessible and assistive technology for senior citizens and users of all abilities.</li>
+                <li><a href="https://accessinghigherground.org/" target="_blank" rel="noopener noreferrer">Accessing Higher Ground</a> - A conference focused on the implementation and benefits of accessible media, universal design and assistive technology in university and college settings.</li>
+                <li><a href="http://www.w4a.info/" target="_blank" rel="noopener noreferrer">Web for All Conference</a> - An annual conference on web accessibility.</li>
+                <li><a href="https://globalaccessibilityawarenessday.org/" target="_blank" rel="noopener noreferrer">Global Accessibility Awareness Day</a> - An event aimed at getting everyone talking, thinking and learning about digital access and inclusion.</li>
+                <li><a href="https://inova.snv.jussieu.fr/evenements/colloques/colloques/" target="_blank" rel="noopener noreferrer">European e-Accessibility Forum</a> - An event dedicated to digital accessibility.</li>
+                <li><a href="https://web.cvent.com/event/2c5d8c51-6441-44c0-b361-131ff9544dd5/summary" target="_blank" rel="noopener noreferrer">International Technology and Persons with Disabilities Conference</a> - An event that brings together thousands of people from around the world to network and share the latest technology related to disabilities.</li>
+                <li><a href="https://inclusivedesign24.org/" target="_blank" rel="noopener noreferrer">Inclusive Design 24</a> - A 24-hour online event for the global community that celebrates inclusive design and shares knowledge and ideas.</li>
+                <li><a href="https://www.ahead.org/events-programming/conferences" target="_blank" rel="noopener noreferrer">AHEAD Conference</a> - An annual conference by the Association on Higher Education And Disability.</li>
+                <li><a href="https://www.atia.org/conference/" target="_blank" rel="noopener noreferrer">ATIA Conference</a> - The Assistive Technology Industry Association's annual conference, showcasing the latest AT studies, practices, and solutions[1].</li>
+                <li><a href="https://www.continualengine.com/blog/list-of-accessibility-conferences/" target="_blank" rel="noopener noreferrer">List of Accessibility Conferences 2025</a> - A comprehensive list of accessibility conferences and events scheduled for 2025. It includes detailed information about each conference, such as da...</li>
+                <li><a href="https://www.deque.com/axe-con/" target="_blank" rel="noopener noreferrer">axe con 2025 Digital Accessibility Conference</a> - Details about axe-con 2025, a free virtual digital accessibility conference scheduled for February 25-27. The conference welcomes all levels of exp...</li>
+                <li><a href="https://www.digitala11y.com/accessibility-conferences-events/" target="_blank" rel="noopener noreferrer">Accessibility Conferences 2025 and Events</a> - A curated list of accessibility conferences and events for 2025. The resource provides information on various conferences, including brief descript...</li>
+            </ul>
+        </section>
+        <section id="low-vision-accessibility">
+            <h2>Low Vision Accessibility</h2>
+            <p>Resources for users with low vision, partial sight, and color blindness:</p>
+            <ul>
+                <li><a href="https://www.tpgi.com/color-contrast-checker/" target="_blank" rel="noopener noreferrer">Colour Contrast Analyser</a> - A tool to check color contrasts against WCAG standards.</li>
+                <li><a href="https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl" target="_blank" rel="noopener noreferrer">NoCoffee Vision Simulator</a> - A browser extension that simulates different visual impairments.</li>
+                <li><a href="https://accessible-colors.com" target="_blank" rel="noopener noreferrer">Accessible Colors</a> - A tool for finding accessible color combinations.</li>
+                <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener noreferrer">Contrast Checker</a> - Check color contrast for WCAG compliance.</li>
+                <li><a href="https://michelf.ca/projects/sim-daltonism/" target="_blank" rel="noopener noreferrer">Sim Daltonism</a> - A color blindness simulator for Mac and iOS.</li>
+                <li><a href="https://www.letsenvision.com/envision-glasses" target="_blank" rel="noopener noreferrer">Envision Glasses</a> - AI-powered smart glasses that can read text, recognize faces, describe scenes, and more for blind and low vision users.</li>
+                <li><a href="https://www.orcam.com/en/myeye/" target="_blank" rel="noopener noreferrer">OrCam MyEye</a> - Wearable AI-powered device that instantly reads text, recognizes faces, and identifies products for people who are blind or have low vision.</li>
+                <li><a href="https://accessible-colors.com/" target="_blank" rel="noopener noreferrer">Accessible Colors</a> - An interactive tool that helps designers find accessible color combinations, providing real-time contrast ratio calculations and WCAG compliance ch...</li>
+                <li><a href="https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa" target="_blank" rel="noopener noreferrer">Colorblinding</a> - A Chrome extension that simulates various types of color blindness on web pages, helping developers and designers ensure their content is accessibl...</li>
+            </ul>
+        </section>
+        <section id="blind-accessibility">
+            <h2>Blind Accessibility</h2>
+            <p>Resources for blind users and screen reader compatibility:</p>
+            <ul>
+                <li><a href="https://www.nvaccess.org/" target="_blank" rel="noopener noreferrer">NVDA</a> - Free, open-source screen reader for Windows.</li>
+                <li><a href="https://www.freedomscientific.com/products/software/jaws/" target="_blank" rel="noopener noreferrer">JAWS</a> - Popular screen reader for Windows.</li>
+                <li><a href="https://www.apple.com/accessibility/vision/" target="_blank" rel="noopener noreferrer">VoiceOver</a> - Built-in screen reader for Apple devices.</li>
+                <li><a href="https://webaim.org/projects/screenreadersurvey9/" target="_blank" rel="noopener noreferrer">WebAIM Screen Reader Survey</a> - Results from surveys of screen reader users.</li>
+                <li><a href="https://www.inclusiveandroid.com/" target="_blank" rel="noopener noreferrer">Blind iOS Reference</a> - Resource for blind and low vision users of iOS devices.</li>
+                <li><a href="https://www.a11yproject.com/posts/getting-started-with-voiceover/" target="_blank" rel="noopener noreferrer">A11Y Project Screen Reader Guide</a> - Practical guide for developers on how to use VoiceOver screen reader for testing web accessibility, with tips applicable to other screen readers.</li>
+                <li><a href="https://dequeuniversity.com/screenreaders/" target="_blank" rel="noopener noreferrer">Deque University Screen Reader Basics</a> - Comprehensive resource for learning about various screen readers, their usage, and how to test for compatibility across different platforms.</li>
+                <li><a href="https://www.aph.org/product/screen-reader-comparison/" target="_blank" rel="noopener noreferrer">APH Screen Reader Comparison</a> - Detailed comparison of popular screen readers including NVDA, JAWS, and VoiceOver, helping users choose the best option for their needs.</li>
+                <li><a href="https://humanware.com/en-usa/products/blindness/braille-notetakers/braillenote-touch-plus" target="_blank" rel="noopener noreferrer">Braille Note Touch Plus</a> - Powerful braille notetaker with a built-in screen reader, offering a tactile braille display and a touchscreen for users who are blind or have low vision.</li>
+                <li><a href="https://humanware.com/en-usa/products/blindness/braille-displays/brailliant-bi-x-series" target="_blank" rel="noopener noreferrer">Brailliant BI X Series</a> - Refreshable braille displays with multiple connectivity options, designed to work seamlessly with screen readers on various devices for braille out...</li>
+                <li><a href="https://webaim.org/articles/assistive/" target="_blank" rel="noopener noreferrer">WebAIM Assistive Technologies</a> - Comprehensive guide on various assistive technologies, including screen readers, screen magnifiers, and alternative input devices.</li>
+                <li><a href="https://www.microsoft.com/en-us/accessibility/assistive-technology" target="_blank" rel="noopener noreferrer">Microsoft Accessibility Assistive Technology</a> - Detailed information on built-in accessibility features in Microsoft products and third-party assistive technologies, including screen readers, spe...</li>
+            </ul>
+        </section>
+        <section id="motor-control-accessibility">
+            <h2>Motor Control Accessibility</h2>
+            <p>Resources for users with motor impairments and mobility disabilities:</p>
+            <ul>
+                <li><a href="https://support.microsoft.com/en-us/windows/use-mouse-keys-to-move-the-mouse-pointer-9e0c72c8-b882-d7cf-8135-e0902a5081a5" target="_blank" rel="noopener noreferrer">MouseKeys</a> - Windows feature for controlling mouse with keyboard.</li>
+                <li><a href="https://www.tobiidynavox.com/pages/eye-gaze" target="_blank" rel="noopener noreferrer">Eye Gaze Systems</a> - Eye tracking solutions for computer control.</li>
+                <li><a href="https://www.xbox.com/en-US/accessories/controllers/xbox-adaptive-controller" target="_blank" rel="noopener noreferrer">Xbox Adaptive Controller</a> - Accessible gaming controller for users with limited mobility.</li>
+                <li><a href="https://www.apple.com/accessibility/vision/" target="_blank" rel="noopener noreferrer">Voice Control</a> - Voice commands for device control on macOS and iOS.</li>
+                <li><a href="https://support.google.com/accessibility/android/answer/6122836" target="_blank" rel="noopener noreferrer">Switch Access</a> - Android accessibility feature for controlling devices using switches.</li>
+                <li><a href="https://glassouse.com/" target="_blank" rel="noopener noreferrer">Glassouse</a> - Hands-free mouse alternative worn like glasses, controlled by head movements and bites, designed for people with limited hand mobility.</li>
+                <li><a href="https://thinksmartbox.com/product/grid-pad/" target="_blank" rel="noopener noreferrer">Grid Pad</a> - Versatile communication aid with multiple access methods including touch, switch, and eye gaze. Comes with Grid 3 software for symbol and text-base...</li>
+                <li><a href="https://www.assistiveware.com/products/proloquo2go" target="_blank" rel="noopener noreferrer">Proloquo2Go</a> - Symbol-supported AAC app for iOS devices. Offers customizable vocabulary, natural-sounding voices, and supports motor planning for efficient commun...</li>
+                <li><a href="https://www.jabbla.com/en/mind-express/" target="_blank" rel="noopener noreferrer">Jabbla Mind Express</a> - Versatile AAC software that can be used on various devices, offering symbol and text-based communication with advanced features like eye gaze contr...</li>
+                <li><a href="https://www.razmobility.com/assistive-technology-blog/a-groundbreaking-alternative-to-aac-devices/" target="_blank" rel="noopener noreferrer">Voiceitt Speech Recognition Technology</a> - Cutting-edge voice recognition technology that translates non-standard speech into standard speech, allowing people with speech disabilities to com...</li>
+                <li><a href="https://us.tobiidynavox.com/" target="_blank" rel="noopener noreferrer">Tobii Dynavox</a> - Offers a range of eye-tracking and AAC devices, including the I-Series which combines eye tracking with speech generation for individuals with comp...</li>
+            </ul>
+        </section>
+        <section id="deaf-accessibility">
+            <h2>Deaf and Hard of Hearing Accessibility</h2>
+            <p>Resources for deaf and hard of hearing users:</p>
+            <ul>
+                <li><a href="https://webcaptioner.com/" target="_blank" rel="noopener noreferrer">Web Captioner</a> - Free, real-time captioning tool.</li>
+                <li><a href="https://www.closedcaptioncreator.com/" target="_blank" rel="noopener noreferrer">Closed Caption Creator</a> - Tool for creating closed captions for videos.</li>
+                <li><a href="https://www.w3.org/WAI/media/av/captions/" target="_blank" rel="noopener noreferrer">Caption and Subtitles Guidelines</a> - W3C guidelines for captions and subtitles.</li>
+                <li><a href="https://www.signall.us/" target="_blank" rel="noopener noreferrer">SignAll</a> - Technology that translates sign language into text.</li>
+                <li><a href="https://aslbrowser.com/" target="_blank" rel="noopener noreferrer">ASL Browser</a> - American Sign Language dictionary with video demonstrations.</li>
+            </ul>
+        </section>
+        <section id="cognitive-accessibility">
+            <h2>Cognitive Accessibility</h2>
+            <p>Resources for users with cognitive disabilities, learning disabilities, and attention deficits:</p>
+            <ul>
+                <li><a href="https://www.changepeople.org/getmedia/923a6399-c13f-418c-bb29-051413f7e3a3/How-to-make-info-accessible-guide-2016-Final" target="_blank" rel="noopener noreferrer">Easy Read Guidelines</a> - Guidelines for creating Easy Read documents.</li>
+                <li><a href="https://hemingwayapp.com/" target="_blank" rel="noopener noreferrer">Hemingway Editor</a> - Tool to make your writing clear and readable.</li>
+                <li><a href="https://readabilityguidelines.co.uk/" target="_blank" rel="noopener noreferrer">Readability Guidelines</a> - Content design patterns for readability.</li>
+                <li><a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank" rel="noopener noreferrer">Dyslexia Style Guide</a> - Guide for making content dyslexia-friendly.</li>
+                <li><a href="https://www.adhddd.com/accessibility-guidelines/" target="_blank" rel="noopener noreferrer">ADHD-Friendly Design Guidelines</a> - Design recommendations for ADHD users.</li>
+                <li><a href="https://github.com/a11yance/a11yance" target="_blank" rel="noopener noreferrer">A11yance</a> - A collection of web components that implement common UI patterns with a focus on accessibility.</li>
+                <li><a href="https://www.humancentereddesign.org/" target="_blank" rel="noopener noreferrer">Institute for Human Centered Design</a> - Offers resources, consulting, and training on universal design and accessibility, with a focus on enhancing experiences for people of all abilities...</li>
+            </ul>
+        </section>
+        <section id="speech-recognition-accessibility">
+            <h2>Speech Recognition Accessibility</h2>
+            <p>Resources for speech recognition and voice control:</p>
+            <ul>
+                <li><a href="https://www.nuance.com/dragon.html" target="_blank" rel="noopener noreferrer">Dragon NaturallySpeaking</a> - Industry-leading speech recognition software.</li>
+                <li><a href="https://cloud.google.com/speech-to-text" target="_blank" rel="noopener noreferrer">Google Speech-to-Text</a> - API for converting speech to text.</li>
+                <li><a href="https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-83ff75bd-63eb-0b6c-18d4-6fae94050571" target="_blank" rel="noopener noreferrer">Windows Speech Recognition</a> - Built-in speech recognition for Windows.</li>
+                <li><a href="https://talonvoice.com/" target="_blank" rel="noopener noreferrer">Talon Voice</a> - Hands-free computer control with voice and eye tracking.</li>
+                <li><a href="https://dictation.io/" target="_blank" rel="noopener noreferrer">Dictation.io</a> - Free online dictation tool.</li>
+            </ul>
+        </section>
+        <section id="neurodiversity-accessibility">
+            <h2>Neurodiversity Accessibility</h2>
+            <p>Resources for neurodivergent users, including those with autism and sensory processing differences:</p>
+            <ul>
+                <li><a href="https://www.hassellinclusion.com/blog/accessibility-autism-sensory-ux-design/" target="_blank" rel="noopener noreferrer">Sensory Considerations</a> - Design guidelines for sensory sensitivities.</li>
+                <li><a href="https://source.opennews.org/articles/motion-sick/" target="_blank" rel="noopener noreferrer">Animation Sensitivity Guidelines</a> - Designing with reduced motion to avoid triggering vestibular disorders.</li>
+                <li><a href="https://chrome.google.com/webstore/detail/focus-mode-productivity/jgjggfakhopcciohioddgcffbecjoffg" target="_blank" rel="noopener noreferrer">Focus Mode Extensions</a> - Browser extensions to reduce distractions.</li>
+                <li><a href="https://www.microsoft.com/en-us/accessibility/features" target="_blank" rel="noopener noreferrer">Microsoft Accessibility Features</a> - Focus assistance and other accommodations for neurodivergent users.</li>
+                <li><a href="https://support.apple.com/guide/safari/hide-ads-and-distractions-sfri32632/mac" target="_blank" rel="noopener noreferrer">Safari Reader Mode</a> - Simplified webpage reading experience in Safari.</li>
+                <li><a href="https://react-spectrum.adobe.com/react-aria/" target="_blank" rel="noopener noreferrer">React Aria</a> - A library of React Hooks that provides accessible UI primitives for your design system. It's designed to work with any styling solution.</li>
+                <li><a href="https://aacapps.com/lamp/" target="_blank" rel="noopener noreferrer">LAMP Words for Life</a> - An AAC language system designed to meet the communication needs of children and adults with autism spectrum disorder and other developmental disabilities.</li>
+            </ul>
+        </section>
+        <section id="contributing">
+            <h2>Please contribute!</h2>
+            <p>Use the <a href="https://github.com/lukeslp/awesome-accessibility" target="_blank" rel="noopener noreferrer">Github repository</a> or <a href="mailto:luke@lukesteuber.com">hit me up via email</a> to suggest additions or improvements.</p>
+        </section>
+    </main>
+    
+    <footer id="license">
+        <h2>License</h2>
+        <p>Contents of this repository are released under the <a href="LICENSE" rel="noopener noreferrer">MIT License</a>.</p>
+        
+        <div style="margin-top: 2rem; font-size: 0.9rem; line-height: 1.4;">
+            <p><strong>Additional Resources:</strong></p>
+            <ul style="columns: 2; column-gap: 2rem; list-style-type: none; padding-left: 0;">
+                <li>• <a href="https://www.who.int/news-room/fact-sheets/detail/assistive-technology" target="_blank" rel="noopener noreferrer">WHO Assistive Technology</a> - World Health Organization's fact sheet on assistive technology</li>
+                <li>• <a href="https://enablingdevices.com/shop/" target="_blank" rel="noopener noreferrer">Enabling Devices</a> - Comprehensive store for adaptive devices and assistive technology</li>
+                <li>• <a href="https://www.texthelp.com/resources/topics/assistive-technology/" target="_blank" rel="noopener noreferrer">Texthelp Assistive Technology Resources</a> - Resources on assistive technology alignment</li>
+                <li>• <a href="https://www.bcit.ca/accessibility/accommodations-resources/assistive-technology/" target="_blank" rel="noopener noreferrer">BCIT Assistive Technology</a> - British Columbia Institute resources</li>
+                <li>• <a href="https://www.audioeye.com/post/types-of-assistive-technologies/" target="_blank" rel="noopener noreferrer">AudioEye Types of Assistive Technologies</a> - Article outlining various types</li>
+                <li>• <a href="https://reciteme.com/news/assistive-technology-for-physical-disabilities/" target="_blank" rel="noopener noreferrer">Recite Me Assistive Technology for Physical Disabilities</a> - Information on AT for physical disabilities</li>
+                <li>• <a href="https://focuscare.com.au/blog/5-new-assistive-technologies-for-2024" target="_blank" rel="noopener noreferrer">Focus Care Top Assistive Technologies 2024</a> - New and emerging assistive technologies</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
