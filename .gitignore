@@ -3,3 +3,19 @@ DS_Store
 *copy*
 old*
 update*
+
+# HTML frontend and artifact files
+index.html
+*.html
+
+# Link validation files and reports
+FINAL_SUMMARY.md
+COMPREHENSIVE_VALIDATION_REPORT.md
+README_VALIDATION.md
+CHANGELOG.md
+MANUAL_FIXES_COMPLETED.md
+link_validation_report.txt
+link_validation_results.json
+link_validator.py
+link_fixer.py
+apply_all_fixes.py
