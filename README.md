@@ -1,5 +1,9 @@
 # Awesome Accessibility
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+
 > **"For some people technology makes things easier, for others it makes things possible."**
 
 I invite developers, designers, educators, and all accessibility advocates to contribute to this repository. Please share your suggestions, corrections, and especially broken links!
