@@ -10,6 +10,13 @@
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-lukeslp-yellow?logo=huggingface)](https://huggingface.co/lukeslp)
 [![Kaggle](https://img.shields.io/badge/Kaggle-lucassteuber-20BEFF?logo=kaggle)](https://www.kaggle.com/lucassteuber)
 
+## Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas) | Disability demographics, web accessibility compliance, and assistive technology usage datasets |
+| [assisted.site](https://assisted.site/accessibility) | Mirrors this list — paths `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here |
+
 > **"For some people technology makes things easier, for others it makes things possible."**
 
 I invite developers, designers, educators, and all accessibility advocates to contribute to this repository. Please share your suggestions, corrections, and especially broken links!
