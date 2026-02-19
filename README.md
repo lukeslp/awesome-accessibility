@@ -36,6 +36,7 @@ Contributions welcome — please share suggestions, corrections, and especially 
 - [Gaming Accessibility](#gaming-accessibility)
 - [Education & Certification](#education--certification)
 - [Compliance & Legal](#compliance--legal)
+- [Accessibility Packages and Tools](#accessibility-packages-and-tools)
 - [Related Projects](#related-projects)
 - [Contributing](#contributing)
 
@@ -727,3 +728,57 @@ Contents of this repository are released under the [MIT License](LICENSE).
 - [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas) - Disability demographics, web accessibility compliance, and assistive technology usage datasets for research and visualization.
 - [assisted.site](https://assisted.site/accessibility) - Short URLs for this list: `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here.
 
+
+## Accessibility Packages and Tools
+
+### All-in-One Widgets
+
+- [DockWCAG](https://wcag.dock.codes/) - Comprehensive accessibility widget with profiles for various disabilities. (Commercial, with free tier)
+- [Accessibilik](https://github.com/RosenGray/accessibilik) - React-based accessibility widget with a wide range of features. (MIT License)
+- [All-in-One Accessibility](https://www.skynettechnologies.com/all-in-one-accessibility) - Widget for Django, Wagtail, and Plone. (MIT License, wraps a commercial service)
+- [acc_toolbar](https://github.com/mickidum/acc_toolbar) - Lightweight, dependency-free JavaScript accessibility toolbar. (MIT License)
+- [Sienna Accessibility Widget](https://github.com/bennyluk/Sienna-Accessibility-Widget) - Free, lightweight accessibility widget.
+- [have-wcag](https://www.npmjs.com/package/have-wcag) - A new, comprehensive WCAG accessibility toolkit with a widget and auditor. (MIT License)
+
+### Testing & Auditing
+
+- [axe-core](https://www.deque.com/axe/core/) - The industry-standard accessibility testing engine. (MPL-2.0 License)
+- [Pa11y](https://pa11y.org/) - Automated accessibility testing tool. (GNU General Public License v2.0)
+- [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) - Static analysis plugin for identifying accessibility issues in JSX. (MIT License)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Google's automated auditing tool for web pages. (Apache-2.0 License)
+- [tota11y](https://github.com/Khan/tota11y) - An accessibility visualization toolkit from Khan Academy. (MIT License)
+- [python-a11y-playwright](https://pypi.org/project/python-a11y-playwright/) - Python integration of axe-core with Playwright for automated accessibility testing. (MIT License)
+- [Sa11y](https://sa11y.netlify.app/) - Accessibility quality assurance tool that visually highlights issues directly on the page. (MIT License)
+- [awesome-lint](https://github.com/sindresorhus/awesome-lint) - Linter for Awesome lists, useful for maintaining list quality. (MIT License)
+
+### Accessible Component Libraries
+
+- [React Aria](https://react-aria.adobe.com/) - Unstyled, accessible React components and hooks from Adobe. (MIT License)
+- [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible component primitives for React. (MIT License)
+- [Headless UI](https://headlessui.com/) - Unstyled, accessible UI components for React and Vue from Tailwind Labs. (MIT License)
+- [Chakra UI](https://chakra-ui.com/) - Accessible React component library with built-in WAI-ARIA compliance. (MIT License)
+- [Reach UI](https://reach.tech/) - Accessible foundation components for React applications. (MIT License)
+- [Ariakit](https://ariakit.org/) - Toolkit for building accessible web apps with React, providing low-level primitives with full WAI-ARIA support. (MIT License)
+- [Vue A11y](https://vue-a11y.com/) - A collection of Vue.js utilities and components for building accessible applications.
+- [Appt Foundation](https://appt.org/) - Open-source knowledge base for mobile accessibility with code samples for Android, iOS, Flutter, React Native, and Xamarin.
+
+### Specialized Tools
+
+- [color-blind](https://www.npmjs.com/package/color-blind) - Simulate color blindness by converting RGB hex codes. (MIT License)
+- [focus-trap](https://github.com/focus-trap/focus-trap) - A library for trapping focus within a DOM node. (MIT License)
+- [OpenDyslexic](https://opendyslexic.org/) - A typeface designed to increase readability for readers with dyslexia. (SIL Open Font License)
+- [Cboard](https://github.com/cboard-org/cboard) - An open-source, web-based AAC app for users with speech and language impairments. (MIT License)
+- [NCSU Readability Widget](https://github.com/NCSU-Libraries-UX/readability-widget) - A vanilla JS widget focused on balancing competing accessibility needs. (No license specified)
+- [color-contrast-checker](https://www.npmjs.com/package/color-contrast-checker) - A library for checking color contrast ratios against WCAG AA and AAA standards. (MIT License)
+- [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) - CSS media query for detecting user preference for reduced motion, critical for epilepsy and vestibular disorder accommodation.
+- [@fontsource/opendyslexic](https://www.npmjs.com/package/@fontsource/opendyslexic) - Self-hosted OpenDyslexic font package for npm-based projects. (SIL Open Font License)
+- [accessibility](https://www.npmjs.com/package/accessibility) - An npm package providing an accessibility toolbar with text resizing, contrast, and link highlighting features. (MIT License)
+- [Talon Voice](https://talonvoice.com/) - Hands-free computer control combining voice commands and eye tracking for motor-impaired users.
+
+### AI-Powered Tools
+
+- [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using AI. (MIT License)
+- [alt-text](https://pypi.org/project/alt-text/) - A Python package for finding, generating, and setting alt-text for images in HTML and EPUB files. (MIT License)
+- [MatplotAlt](https://github.com/matplotalt/matplotalt) - A Python library for adding alt text to Matplotlib figures. (MIT License)
+
+> **Note on Accessibility Overlays**: All-in-one accessibility widgets (also called "overlays") are controversial in the accessibility community. While they provide user-facing options, experts argue they cannot replace code-level accessibility work and may interfere with users' own assistive technologies. The [2025 Web Almanac Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) provides further context on this debate. A layered approach combining automated testing, accessible components, and specialized tools is the recommended best practice.
