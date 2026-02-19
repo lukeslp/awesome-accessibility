@@ -19,3 +19,32 @@ link_validation_results.json
 link_validator.py
 link_fixer.py
 apply_all_fixes.py
+# AI coding assistant artifacts
+.claude/
+.claude.json
+.cursor/
+.cursor-server/
+.github/copilot/
+.aider/
+.aider.log
+.continue/
+.tabnine/
+.codeium/
+.windsurf/
+.bolt/
+.replit
+.codex/
+.serena/
+.warp/
+.cody/
+.tabby/
+
+# AI-generated markers
+*_generated_by_ai.*
+*.ai-generated
+*.prompt.txt
+.prompts/
+*.conversation.json
+.conversations/
+.ai-cache/
+.llm-cache/
