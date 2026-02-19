@@ -725,6 +725,8 @@ Contents of this repository are released under the [MIT License](LICENSE).
 
 ## Related Projects
 
+- [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - A developer-first toolkit for building accessible web experiences, with packages for testing, components, and accommodations.
+- [accessibility-devkit-llm](https://github.com/lukeslp/accessibility-devkit-llm) - LLM extension for the devkit: prompts, skills, tools, MCP servers, and API wrappers for accessibility workflows.
 - [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas) - Disability demographics, web accessibility compliance, and assistive technology usage datasets for research and visualization.
 - [assisted.site](https://assisted.site/accessibility) - Short URLs for this list: `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here.
 
