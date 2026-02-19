@@ -1,12 +1,12 @@
 ## Contributing to Awesome Accessibility
 
-Thank you for your interest in contributing to this curated list! I appreciate your help in making accessibility resources more discoverable.
+Thanks for your interest in contributing to this list. I appreciate your help in making accessibility resources more discoverable.
 
 ### How to Contribute
 
 #### Suggesting New Resources
 
-If you'd like to suggest a new resource:
+If you want to suggest a new resource:
 
 1. **Check for duplicates** - Search the list to ensure the resource isn't already included
 2. **Verify quality** - Ensure the resource is high-quality, accurate, and actively maintained
@@ -18,7 +18,7 @@ If you'd like to suggest a new resource:
 
 #### Reporting Issues
 
-If you find broken links, outdated information, or errors:
+If you find broken links, outdated info, or errors:
 
 1. **Open an issue** with:
    - Clear description of the problem
@@ -27,7 +27,7 @@ If you find broken links, outdated information, or errors:
 
 #### Improving Existing Content
 
-Contributions to improve descriptions, organization, or formatting are welcome:
+Contributions to improve descriptions, organization, or formatting are also welcome:
 
 1. **Fork the repository**
 2. **Make your changes** following the style guidelines below
@@ -35,7 +35,7 @@ Contributions to improve descriptions, organization, or formatting are welcome:
 
 ### Quality Standards
 
-Resources added to this list should:
+Resources on this list should:
 
 - **Be relevant** to accessibility, assistive technology, or inclusive design
 - **Be high-quality** and well-maintained
@@ -47,18 +47,18 @@ Resources added to this list should:
 
 #### Formatting
 
-- Use **Markdown** formatting consistently
-- Keep descriptions **concise** (1-2 sentences)
-- Use **sentence case** for titles
-- Include **direct links** to resources
-- Maintain **alphabetical order** within sections (where applicable)
+- Use Markdown formatting
+- Keep descriptions concise (1-2 sentences)
+- Use sentence case for titles
+- Include direct links
+- Maintain alphabetical order within sections where it makes sense
 
 #### Descriptions
 
-- Start with what the resource **is** or **does**
-- Explain **why it's useful**
-- Keep it **objective** and **factual**
-- Avoid marketing language or hype
+- Start with what the resource is or does
+- Explain why it's useful
+- Keep it objective
+- Avoid marketing language
 
 Example:
 ```markdown
@@ -78,7 +78,7 @@ Resources should be placed in appropriate categories:
 - **Books** - Published books on accessibility
 - **Assistive Technology** - Screen readers, input devices, etc.
 
-If a resource doesn't fit existing categories, suggest a new category in your pull request.
+If a resource doesn't fit an existing category, suggest a new one in your pull request.
 
 ### Pull Request Process
 
@@ -94,7 +94,7 @@ If a resource doesn't fit existing categories, suggest a new category in your pu
 
 ### Commit Message Format
 
-Use clear, descriptive commit messages:
+Use clear commit messages:
 
 ```
 Add [Resource Name] to [Category]
@@ -126,7 +126,7 @@ Please don't submit:
 
 ### Questions?
 
-If you're unsure whether a resource fits or have questions about contributing:
+If you're not sure if a resource fits, or have questions:
 
 - **Open an issue** to discuss before submitting
 - Check existing issues and pull requests for similar discussions
@@ -147,7 +147,14 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ---
 
-Thank you for helping make accessibility resources more discoverable and accessible to everyone!
+Thanks for helping make accessibility resources more discoverable.
 
-**Luke Steuber**  
-[dr.eamer.dev](https://dr.eamer.dev)
+**Luke Steuber**
+
+[dr.eamer.dev](https://dr.eamer.dev) | [dr.eamer.dev/datavis](https://dr.eamer.dev/datavis) | [dr.eamer.dev/code](https://dr.eamer.dev/code)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Luke%20Steuber-blue?logo=linkedin)](https://www.linkedin.com/in/lukesteuber/)
+[![Bluesky](https://img.shields.io/badge/Bluesky-@lukesteuber.com-1DA1F2?logo=bluesky)](https://bsky.app/profile/lukesteuber.com)
+[![CodePen](https://img.shields.io/badge/CodePen-lukeslp-black?logo=codepen)](https://codepen.io/lukeslp)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-lukeslp-yellow?logo=huggingface)](https://huggingface.co/lukeslp)
+[![Kaggle](https://img.shields.io/badge/Kaggle-lucassteuber-20BEFF?logo=kaggle)](https://www.kaggle.com/lucassteuber)
