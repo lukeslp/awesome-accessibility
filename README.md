@@ -1,25 +1,14 @@
 # Awesome Accessibility
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-active-success)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Luke%20Steuber-blue?logo=linkedin)](https://www.linkedin.com/in/lukesteuber/)
-[![Bluesky](https://img.shields.io/badge/Bluesky-@lukesteuber.com-1DA1F2?logo=bluesky)](https://bsky.app/profile/lukesteuber.com)
-[![CodePen](https://img.shields.io/badge/CodePen-lukeslp-black?logo=codepen)](https://codepen.io/lukeslp)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-lukeslp-yellow?logo=huggingface)](https://huggingface.co/lukeslp)
-[![Kaggle](https://img.shields.io/badge/Kaggle-lucassteuber-20BEFF?logo=kaggle)](https://www.kaggle.com/lucassteuber)
-
-## Related Projects
-
-| Project | Description |
-|---------|-------------|
-| [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas) | Disability demographics, web accessibility compliance, and assistive technology usage datasets |
-| [assisted.site](https://assisted.site/accessibility) | Mirrors this list — paths `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here |
+> A curated list of resources, tools, guidelines, and communities for building accessible, inclusive digital experiences.
 
 > **"For some people technology makes things easier, for others it makes things possible."**
 
-I invite developers, designers, educators, and all accessibility advocates to contribute to this repository. Please share your suggestions, corrections, and especially broken links!
+Contributions welcome — please share suggestions, corrections, and especially broken links. See [contributing.md](contributing.md).
 
 ## Table of Contents
 
@@ -43,10 +32,11 @@ I invite developers, designers, educators, and all accessibility advocates to co
 - [Speech Recognition Accessibility](#speech-recognition-accessibility)
 - [Neurodiversity Accessibility](#neurodiversity-accessibility)
 - [Data & Datasets](#data--datasets)
-- [AI & Accessibility](#ai--accessibility)
+- [Automated Accessibility Tools](#automated-accessibility-tools)
 - [Gaming Accessibility](#gaming-accessibility)
 - [Education & Certification](#education--certification)
 - [Compliance & Legal](#compliance--legal)
+- [Related Projects](#related-projects)
 - [Contributing](#contributing)
 
 > **Note on Specific Accessibility Categories**: This list includes specialized sections focused on specific disability types and accessibility needs. These sections complement the broader categories and make it easier to find resources for particular accessibility requirements, including low vision, blindness, motor control, deaf/hard of hearing, cognitive accessibility, speech recognition, and neurodiversity.
@@ -697,7 +687,7 @@ Contents of this repository are released under the [MIT License](LICENSE).
 - [Annual Disability Statistics Collection](https://www.researchondisability.org/annual-disability-statistics-collection) - A collection of tools and reports offering over 16 years of disability statistics.
 - [The Web Almanac by HTTP Archive - Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) - An annual report on the state of the web, with a dedicated chapter on accessibility.
 
-## AI & Accessibility
+## Automated Accessibility Tools
 
 - [Visme](https://visme.co/) - Content creation platform with built-in accessibility features, including text-to-speech, auto-captioning, and an accessibility checker.
 - [Stark](https://www.getstark.co/) - Accessibility tool that integrates with design and development workflows. Provides real-time suggestions, automated alt-text, and contrast checking.
@@ -731,3 +721,9 @@ Contents of this repository are released under the [MIT License](LICENSE).
 - [Accessible Canada Act](https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html) - Canadian federal legislation driving progress toward a barrier-free country by 2040, with required accessibility plans for federally regulated entities.
 - [W3C International Accessibility Laws and Policies](https://www.w3.org/WAI/policies/) - Directory of accessibility laws and policies worldwide, maintained by the W3C Web Accessibility Initiative.
 - [UN Convention on the Rights of Persons with Disabilities](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html) - The international treaty driving accessibility legislation globally, with ongoing implementation and reporting requirements.
+
+## Related Projects
+
+- [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas) - Disability demographics, web accessibility compliance, and assistive technology usage datasets for research and visualization.
+- [assisted.site](https://assisted.site/accessibility) - Short URLs for this list: `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here.
+

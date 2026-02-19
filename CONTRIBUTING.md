@@ -143,7 +143,7 @@ By contributing, you agree to:
 
 ### License
 
-By contributing, you agree that your contributions will be licensed under the MIT License.
+By contributing, you agree that your contributions will be licensed under CC0 (public domain).
 
 ---
 
