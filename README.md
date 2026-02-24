@@ -694,6 +694,7 @@ Contents of this repository are released under the [MIT License](LICENSE).
 - [Stark](https://www.getstark.co/) - Accessibility tool that integrates with design and development workflows. Provides real-time suggestions, automated alt-text, and contrast checking.
 - [Voiceitt](https://voiceitt.com/) - Personalized speech recognition for individuals with non-standard speech patterns, enabling them to communicate and control smart devices.
 - [Cognixion ONE](https://www.cognixion.com/) - Wearable device that combines a brain-computer interface (BCI) with augmented reality to help individuals with severe motor impairments communicate.
+- [RatedWithAI](https://ratedwithai.com) - AI-powered website accessibility scanner that checks sites for ADA and WCAG compliance issues, providing instant audits with actionable recommendations. Free scanner available.
 
 ## Gaming Accessibility
 
