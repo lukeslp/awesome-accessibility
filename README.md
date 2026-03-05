@@ -183,6 +183,7 @@ Tools and resources for testing and validating accessibility:
 - [jest-axe - Automated A11y Testing](https://github.com/NickColley/jest-axe) - Jest matcher for automated accessibility testing in React/JavaScript applications. Built on axe-core engine for finding common WCAG violations in unit tests. Free and open-source. Note: Automated tools detect ~30% of accessibility issues - combine with manual testing and screen reader checks. (Added 2025)
 - [axe-core Library](https://www.npmjs.com/package/axe-core) - Open-source JavaScript accessibility testing engine that powers axe DevTools, jest-axe, and other tools. Provides automated WCAG 2.0-2.2 violation detection for integration into testing pipelines. Free and open-source library from Deque Systems. (Added 2025)
 - [axe DevTools Browser Extension](https://www.deque.com/axe/devtools/) - Powerful browser extension for accessibility testing with intelligent guided tests, full-page scanning, and element inspection. Free version available; Pro version offers CI/CD integration and advanced features. Available for Chrome, Firefox, and Edge. (Enhanced 2025)
+- [RatedWithAI](https://ratedwithai.com/) - Free web accessibility testing tool for WCAG 2.2 Level AA compliance. Provides automated scans with detailed issue reports, color contrast checking, and actionable remediation guidance. Includes free scanner tool accessible without signup. (Added 2026)
 
 ## Augmentative and Alternative Communication
 
