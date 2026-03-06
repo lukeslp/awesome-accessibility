@@ -10,6 +10,16 @@
 
 Contributions welcome — please share suggestions, corrections, and especially broken links. See [contributing.md](contributing.md).
 
+---
+
+> [!NOTE]
+> **My accessibility tools** — companion projects to this list:
+> - [**accessibility-devkit**](https://github.com/lukeslp/accessibility-devkit) — `@accessibility-devkit/audit` (axe-core runner + ESLint config), `@accessibility-devkit/components` (focus traps, skip links, live regions, dialogs), `@accessibility-devkit/accommodations` (color blindness simulation, WCAG contrast checks)
+> - [**accessibility-devkit-llm**](https://github.com/lukeslp/accessibility-devkit-llm) — `alt-text` and `wcag-audit` CLI tools + MCP server for generating alt text and auditing WCAG compliance with any LLM provider
+> - [**accessibility-atlas**](https://github.com/lukeslp/accessibility-atlas) — 62 disability datasets covering demographics, employment, assistive technology usage, and web accessibility compliance
+
+---
+
 ## Table of Contents
 
 - [Assistive Technologies](#assistive-technologies)
