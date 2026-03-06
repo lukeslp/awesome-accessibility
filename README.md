@@ -17,6 +17,7 @@ Contributions welcome — please share suggestions, corrections, and especially 
 > - [**accessibility-devkit**](https://github.com/lukeslp/accessibility-devkit) — `@accessibility-devkit/audit` (axe-core runner + ESLint config), `@accessibility-devkit/components` (focus traps, skip links, live regions, dialogs), `@accessibility-devkit/accommodations` (color blindness simulation, WCAG contrast checks)
 > - [**accessibility-devkit-llm**](https://github.com/lukeslp/accessibility-devkit-llm) — `alt-text` and `wcag-audit` CLI tools + MCP server for generating alt text and auditing WCAG compliance with any LLM provider
 > - [**accessibility-atlas**](https://github.com/lukeslp/accessibility-atlas) — 62 disability datasets covering demographics, employment, assistive technology usage, and web accessibility compliance
+> - [**accessibility-skill**](https://github.com/lukeslp/accessibility-skill) — WCAG 2.2 accessibility skill for coding agents (Claude, Codex, Cursor) with 10 audit scripts, production CSS, and JS patterns covering motor, cognitive, visual, and communication disabilities
 
 ---
 
@@ -738,6 +739,7 @@ Contents of this repository are released under the [MIT License](LICENSE).
 - [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - A developer-first toolkit for building accessible web experiences, with packages for testing, components, and accommodations.
 - [accessibility-devkit-llm](https://github.com/lukeslp/accessibility-devkit-llm) - LLM extension for the devkit: prompts, skills, tools, MCP servers, and API wrappers for accessibility workflows.
 - [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas) - Disability demographics, web accessibility compliance, and assistive technology usage datasets for research and visualization.
+- [accessibility-skill](https://github.com/lukeslp/accessibility-skill) - WCAG 2.2 accessibility skill for coding agents with 10 audit scripts and production CSS/JS patterns.
 - [assisted.site](https://assisted.site/accessibility) - Short URLs for this list: `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here.
 
 
