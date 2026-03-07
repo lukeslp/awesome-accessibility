@@ -742,6 +742,7 @@ Contents of this repository are released under the [MIT License](LICENSE).
 - [accessibility-devkit-llm](https://github.com/lukeslp/accessibility-devkit-llm) - LLM extension for the devkit: prompts, skills, tools, MCP servers, and API wrappers for accessibility workflows.
 - [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas) - Disability demographics, web accessibility compliance, and assistive technology usage datasets for research and visualization.
 - [accessibility-skill](https://github.com/lukeslp/accessibility-skill) - WCAG 2.2 accessibility skill for coding agents with 10 audit scripts and production CSS/JS patterns.
+- [Safeguard](https://github.com/lukeslp/oss-safeguard-ux) - Content safety evaluator with full WCAG 2.1 AA compliance, keyboard navigation, screen reader support, and prefers-reduced-motion. Zero dependencies.
 - [assisted.site](https://assisted.site/accessibility) - Short URLs for this list: `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here.
 
 
