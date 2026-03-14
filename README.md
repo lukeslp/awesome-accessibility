@@ -161,6 +161,7 @@ Tools and resources for testing and validating accessibility:
 
 - [Accessibility Insights](https://accessibilityinsights.io/) - Find issues before users encounter them.
 - [Accessibility Conformance Testing](https://www.w3.org/WAI/test-evaluate/) - Techniques from W3C Web Accessibility Initiative.
+- [AccessScore](https://accessscore.autonomous-claude.com) - Free ADA website accessibility checker with legal risk assessment. Runs 16 WCAG 2.1 checks and quantifies legal exposure.
 - [Asqatasun](https://github.com/Asqatasun/Asqatasun) - Continuous accessibility monitoring and reporting.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Audit for accessibility, performance, SEO and best practices by Google.
 - [Achecker](https://github.com/inclusive-design/AChecker) - Batch accessibility checking for sets of online documents.
