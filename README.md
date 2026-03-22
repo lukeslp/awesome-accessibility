@@ -12,15 +12,6 @@ Contributions welcome — please share suggestions, corrections, and especially 
 
 ---
 
-> [!NOTE]
-> **My accessibility tools** — companion projects to this list:
-> - [**accessibility-devkit**](https://github.com/lukeslp/accessibility-devkit) — `@accessibility-devkit/audit` (axe-core runner + ESLint config), `@accessibility-devkit/components` (focus traps, skip links, live regions, dialogs), `@accessibility-devkit/accommodations` (color blindness simulation, WCAG contrast checks)
-> - [**accessibility-devkit-llm**](https://github.com/lukeslp/accessibility-devkit-llm) — `alt-text` and `wcag-audit` CLI tools + MCP server for generating alt text and auditing WCAG compliance with any LLM provider
-> - [**accessibility-atlas**](https://github.com/lukeslp/accessibility-atlas-dataset) — 62 disability datasets covering demographics, employment, assistive technology usage, and web accessibility compliance
-> - [**accessibility-skill**](https://github.com/lukeslp/accessibility-skills) — WCAG 2.2 accessibility skill for coding agents (Claude, Codex, Cursor) with 10 audit scripts, production CSS, and JS patterns covering motor, cognitive, visual, and communication disabilities
-
----
-
 ## Table of Contents
 
 - [Assistive Technologies](#assistive-technologies)
@@ -48,7 +39,6 @@ Contributions welcome — please share suggestions, corrections, and especially 
 - [Education & Certification](#education--certification)
 - [Compliance & Legal](#compliance--legal)
 - [Accessibility Packages and Tools](#accessibility-packages-and-tools)
-- [Related Projects](#related-projects)
 - [Contributing](#contributing)
 
 > **Note on Specific Accessibility Categories**: This list includes specialized sections focused on specific disability types and accessibility needs. These sections complement the broader categories and make it easier to find resources for particular accessibility requirements, including low vision, blindness, motor control, deaf/hard of hearing, cognitive accessibility, speech recognition, and neurodiversity.
@@ -630,7 +620,7 @@ Tools and resources for neurodivergent users:
 
 ## Data & Datasets
 
-- [Accessibility Atlas](https://github.com/lukeslp/accessibility-atlas-dataset) - A collection of 53 datasets on disability demographics, employment, web accessibility, and more.
+- [Accessibility Atlas](https://github.com/lukeslp/accessibility-atlas-dataset) - A collection of 62 datasets on disability demographics, employment, assistive technology usage, and web accessibility compliance.
 - [Disability and Health Data System (DHDS)](https://dhds.cdc.gov/) - State-level data on adults with disabilities from the CDC.
 - [Annual Disability Statistics Collection](https://www.researchondisability.org/annual-disability-statistics-collection) - A collection of tools and reports offering over 16 years of disability statistics.
 - [The Web Almanac by HTTP Archive - Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) - An annual report on the state of the web, with a dedicated chapter on accessibility.
@@ -669,15 +659,6 @@ Tools and resources for neurodivergent users:
 - [W3C International Accessibility Laws and Policies](https://www.w3.org/WAI/policies/) - Directory of accessibility laws and policies worldwide, maintained by the W3C Web Accessibility Initiative.
 - [UN Convention on the Rights of Persons with Disabilities](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd) - The international treaty driving accessibility legislation globally, with ongoing implementation and reporting requirements.
 
-## Related Projects
-
-- [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - A developer-first toolkit for building accessible web experiences, with packages for testing, components, and accommodations.
-- [accessibility-devkit-llm](https://github.com/lukeslp/accessibility-devkit-llm) - LLM extension for the devkit: prompts, skills, tools, MCP servers, and API wrappers for accessibility workflows.
-- [accessibility-atlas](https://github.com/lukeslp/accessibility-atlas-dataset) - Disability demographics, web accessibility compliance, and assistive technology usage datasets for research and visualization.
-- [accessibility-skill](https://github.com/lukeslp/accessibility-skills) - WCAG 2.2 accessibility skill for coding agents with 10 audit scripts and production CSS/JS patterns.
-- [ux-oss-safeguard](https://github.com/lukeslp/ux-oss-safeguard) - Content safety evaluator with full WCAG 2.1 AA compliance, keyboard navigation, screen reader support, and prefers-reduced-motion. Zero dependencies.
-- [assisted.site](https://assisted.site/accessibility) - Short URLs for this list: `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here.
-
 ## Accessibility Packages and Tools
 
 ### All-in-One Widgets
@@ -696,6 +677,7 @@ Tools and resources for neurodivergent users:
 - [tota11y](https://github.com/jdan/tota11y) - An accessibility visualization toolkit. (MIT License)
 - [python-a11y-playwright](https://pypi.org/project/python-a11y-playwright/) - Python integration of axe-core with Playwright for automated accessibility testing. (MIT License)
 - [aria-query](https://github.com/A11yance/aria-query) - JavaScript utility for querying WAI-ARIA role and property metadata, used by accessibility testing tools like jest-axe and axe-core.
+- [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - Developer toolkit with three packages: `@accessibility-devkit/audit` (axe-core runner + ESLint config), `@accessibility-devkit/components` (focus traps, skip links, live regions, dialogs), and `@accessibility-devkit/accommodations` (color blindness simulation, WCAG contrast checks).
 
 ### Accessible Component Libraries
 
@@ -714,11 +696,14 @@ Tools and resources for neurodivergent users:
 - [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) - CSS media query for detecting user preference for reduced motion, critical for epilepsy and vestibular disorder accommodation.
 - [@fontsource/opendyslexic](https://www.npmjs.com/package/@fontsource/opendyslexic) - Self-hosted OpenDyslexic font package for npm-based projects. (SIL Open Font License)
 - [accessibility](https://www.npmjs.com/package/accessibility) - An npm package providing an accessibility toolbar with text resizing, contrast, and link highlighting features. (MIT License)
+- [accessibility-skill](https://github.com/lukeslp/accessibility-skills) - WCAG 2.2 accessibility skill for coding agents (Claude, Codex, Cursor) with 10 audit scripts, production CSS, and JS patterns covering motor, cognitive, visual, and communication disabilities.
+- [ux-oss-safeguard](https://github.com/lukeslp/ux-oss-safeguard) - Content safety evaluator with full WCAG 2.1 AA compliance, keyboard navigation, screen reader support, and prefers-reduced-motion. Zero dependencies.
 
 ### Automated Alt Text Tools
 
 - [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using a language model. (MIT License)
 - [alt-text](https://pypi.org/project/alt-text/) - A Python package for finding, generating, and setting alt-text for images in HTML and EPUB files. (MIT License)
+- [accessibility-devkit-llm](https://github.com/lukeslp/accessibility-devkit-llm) - `alt-text` and `wcag-audit` CLI tools + MCP server for generating alt text and auditing WCAG compliance with any LLM provider.
 
 > **Note on Accessibility Overlays**: All-in-one accessibility widgets (also called "overlays") are controversial in the accessibility community. While they provide user-facing options, experts argue they cannot replace code-level accessibility work and may interfere with users' own assistive technologies. The [2025 Web Almanac Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) provides further context on this debate. A layered approach combining automated testing, accessible components, and specialized tools is the recommended best practice.
 
@@ -736,6 +721,8 @@ To contribute:
 - Submit a pull request with your changes
 - Follow the [contribution guidelines](CONTRIBUTING.md)
 - Make sure all links work and descriptions are accurate
+
+Short URLs for this list: [assisted.site/accessibility](https://assisted.site/accessibility), [assisted.site/a11y](https://assisted.site/a11y), [assisted.site/alt](https://assisted.site/alt).
 
 Thanks for helping make this resource better.
 
