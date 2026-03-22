@@ -279,7 +279,6 @@ Connect with the accessibility community:
 - [Accessibility Technology Tools Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility) - Microsoft's hub for accessibility features and tools across their products.
 - [AssistiveWare Learn AAC](https://www.assistiveware.com/learn-aac) - A resource center for learning about AAC, provided by AssistiveWare.
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) - The Accessibility Developer Guide is a resource for developers to learn about implementing accessibility in web projects.
-- [Deque University](https://dequeuniversity.com/) - Deque University offers a wide range of accessibility courses, from beginner to advanced levels.
 - [Create Accessible Documents](https://www.section508.gov/create/documents/) - A resource guide on creating accessible Microsoft Word documents that conform to the Revised 508 Standards.
 - [Center on Technology and Disability](https://ctdinstitute.org/) - Offers a wide range of resources on assistive and instructional technology for children with disabilities.
 - [Accessible Community](https://accessiblecommunity.org/) - A nonprofit providing tools and resources to create a more inclusive world for people with disabilities.
@@ -303,9 +302,6 @@ Discover systematic approaches for continually improving accessibility:
 - [W3C's Essential Components of Web Accessibility](https://www.w3.org/WAI/fundamentals/components/) - Key components for inclusion in web accessibility.
 - [Voluntary Product Accessibility Template](https://www.itic.org/policy/accessibility/vpat) - Self-assessment companies can use to evaluate accessibility.
 - [BS 8878 Web Accessibility Code of Practice](https://shop.bsigroup.com/products/web-accessibility-code-of-practice/standard) - Best practice framework from the British Standards Institute.
-- [axe DevTools](https://www.deque.com/axe/devtools/) - A powerful accessibility testing toolkit by Deque Systems. It offers browser extensions and integrations with popular development tools to help ide...
-- [axe Accessibility Testing Tools and Software](https://www.deque.com/axe/) - Deque's axe suite offers robust, efficient, and accurate accessibility testing tools built on the popular axe-core library. It includes browser ext...
-- [axe core](https://github.com/dequelabs/axe-core) - An open-source JavaScript library for automated accessibility testing. It provides a robust set of rules for identifying and reporting accessibilit...
 - [Maka Agency Accessibility Optimization Guide](https://www.maka-agency.com/power-help-center/power-theme-accessibility-optimization-guide) - Guide to optimizing website accessibility with built-in tools and best practices.
 - [LinkedIn How to Optimize Web App Accessibility with Frameworks](https://www.linkedin.com/advice/0/how-do-you-optimize-web-app-accessibility-frameworks) - Learn how to make web apps more accessible using frameworks like React, Angular, Vue, and Bootstrap.
 - [Siteimprove How to use a framework to plan web accessibility better](https://www.siteimprove.com/blog/how-to-use-a-framework-to-plan-web-accessibility-better/) - Explains how using the ARRM framework can integrate accessibility throughout the web production process.
@@ -332,13 +328,11 @@ Ensuring conformance to accessibility regulations:
 - [European Accessibility Act (EAA) 2025](https://accessible-eu-centre.ec.europa.eu/index_en) - EU accessibility requirements for products and services, effective June 28, 2025. Applies to consumer electronics, websites, mobile apps, e-commerce, and digital services. Requires EN 301 549 compliance (harmonized with WCAG 2.1 Level AA, updating to 2.2). Enforcement varies by member state with fines for non-compliance. Microenterprises (fewer than 10 employees) exempt. Existing products have 5-year grace period. Official EU resource. (Added 2025)
 - [CVAA - Communications and Video Accessibility Act](https://www.fcc.gov/consumers/guides/21st-century-communications-and-video-accessibility-act-cvaa) - FCC requirements for accessibility of modern communications including advanced communications services (VoIP, messaging, video conferencing) and video programming (TV, streaming media). Critical for telecommunications, streaming platforms, and video content providers. Includes closed captioning, video description, and accessible user interfaces. Official FCC resource. (Added 2025)
 - [BS 8878 Web Accessibility Code of Practice](https://shop.bsigroup.com/products/web-accessibility-code-of-practice/standard) - A best practice framework from the British Standards Institute.
-- [ADA Accessibility Standards](https://www.access-board.gov/ada/) - The official ADA Accessibility Standards from the U.S. Access Board. This resource provides guidelines for accessibility in public ac...
-- [Accessible Documents Toolkit](https://oit.colorado.gov/standards-policies-guides/guide-to-accessible-web-services/accessible-documents-toolkit) - This toolkit from the Colorado Office of Information Technology provides resources and recommendations for creating accessible documents. It covers...
-- [ADA Standards for Accessible Design](https://www.ada.gov/law-and-regs/design-standards/) - Official resource for ADA Standards for Accessible Design, detailing requirements for buildings and facilities to be physically accessible to peopl...
+- [ADA Accessibility Standards](https://www.access-board.gov/ada/) - The official ADA Accessibility Standards from the U.S. Access Board, providing guidelines for accessibility in public accommodations and commercial facilities.
+- [Accessible Documents Toolkit](https://oit.colorado.gov/standards-policies-guides/guide-to-accessible-web-services/accessible-documents-toolkit) - Toolkit from the Colorado Office of Information Technology with resources and recommendations for creating accessible documents across multiple formats.
+- [ADA Standards for Accessible Design](https://www.ada.gov/law-and-regs/design-standards/) - Official resource detailing ADA requirements for buildings and facilities to be physically accessible to people with disabilities.
 - [RESNA Assistive Technology Standards](https://www.resna.org/at-standards) - Provides standards and guidelines for various assistive technology devices, ensuring quality and effectiveness in AT products and services.
-- [Accessible Rich Internet Applications WAI ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - A technical specification from W3C that provides a framework to improve the accessibility and interoperability of web content and applications. It'...
-- [ADA.gov ADA Standards for Accessible Design](https://www.ada.gov/law-and-regs/design-standards/) - Official standards for accessible design under the Americans with Disabilities Act.
-- [Access Board ADA Accessibility Standards](https://www.access-board.gov/ada/) - Accessibility standards issued under the ADA.
+- [Accessible Rich Internet Applications WAI ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) - W3C technical specification providing a framework to improve the accessibility and interoperability of web content and applications through roles, states, and properties.
 - [Honorlock What are Web Accessibility Guidelines & Compliance Standards](https://honorlock.com/blog/what-is-web-accessibility-and-what-are-compliance-standards/) - Explains web accessibility guidelines and compliance standards.
 - [Section508.gov IT Accessibility Laws and Policies](https://www.section508.gov/manage/laws-and-policies/) - Information on IT accessibility laws and policies under Section 508.
 - [UserWay WCAG Levels A, AA, AAA](https://userway.org/blog/what-are-wcag-2-0-a-aa-and-aaa/) - Explains WCAG levels and how to elevate site functionality.
@@ -364,10 +358,10 @@ Hardware and peripherals increasing accessibility:
 - [Screen Readers](https://webaim.org/articles/screenreader_testing/) - Software transmitting web content through braille, speech synthesis, etc.
 - [OrCam assistive devices](https://www.orcam.com/en-us/home) - Portable device with facial recognition and text reading.
 - [Tobii Dynavox eye trackers](https://www.tobiidynavox.com/) - Eye gaze interaction for communication devices and computer control.
-- [Tobii Dynavox I Series](https://us.tobiidynavox.com/pages/td-i-series) - Eye-tracking enabled speech generating device for people with complex communication needs, including those with ALS, cerebral palsy, and other cond...
+- [Tobii Dynavox I Series](https://us.tobiidynavox.com/pages/td-i-series) - Eye-tracking enabled speech generating device for people with complex communication needs, including those with ALS, cerebral palsy, and other motor impairments.
 - [EyeControl](https://www.eyecontrol.co.il/) - Wearable eye-tracking device that enables ALS and locked-in patients to communicate using eye movements, without the need for a screen or calibration.
 - [NeuRx Diaphragm Pacing System](https://www.synapsebiomedical.com/neurx-diaphragm-pacing-system/) - Implantable device that stimulates the diaphragm to assist breathing in ALS patients and others with respiratory muscle weakness.
-- [NovaChat](https://saltillo.com/product-categories/speech-devices) - Portable speech generating device with a range of vocabulary options. Offers customizable layouts, word prediction, and built-in cameras for person...
+- [NovaChat](https://saltillo.com/product-categories/speech-devices) - Portable speech generating device with a range of vocabulary options, customizable layouts, word prediction, and built-in cameras for personalized communication.
 - [Enabling Devices](https://enablingdevices.com/shop/) - A store for adaptive devices and assistive technology for special needs.
 - [CSU Ohio Hardware and Hardware-Software Assistive Devices](https://pressbooks.ulib.csuohio.edu/accessibility/chapter/chapter-1-11-hardware-and-hardware-software-assistive-devices/) - Details on specialized keyboards, mice, and switches.
 - [Minnesota.gov Types of AT](https://mn.gov/admin/at/getting-started/understanding-at/types/) - Information on various types of assistive technology hardware.
@@ -404,8 +398,8 @@ Latest academic papers and findings related to accessibility:
 - [Technology and Disability](https://content.iospress.com/journals/technology-and-disability) - Journal reporting on the use of technology in the field of disability and rehabilitation.
 - [Journal of Special Education Technology](https://journals.sagepub.com/home/jst) - Journal focusing on technology used in special education.
 - [Journal on Technology & Persons with Disabilities](https://scholarworks.calstate.edu/collections/vh53x372b) - Journal focusing on both the theoretical and practical aspects of using technology to support persons with disabilities.
-- [Journal of Postsecondary Education and Disability JPED](https://www.ahead.org/professional-resources/publications/jped) - JPED is a peer-reviewed journal that publishes research and contemporary best practices related to disabled college students and disability service...
-- [Accessibility Research Report](https://info.arxiv.org/about/accessibility_research_report.html) - A report on improving the accessibility of research papers on arXiv.org. It discusses accessibility problems in research, reviews cur...
+- [Journal of Postsecondary Education and Disability JPED](https://www.ahead.org/professional-resources/publications/jped) - Peer-reviewed journal publishing research and best practices related to disabled college students and disability services in higher education.
+- [Accessibility Research Report](https://info.arxiv.org/about/accessibility_research_report.html) - Report on improving the accessibility of research papers on arXiv.org, discussing accessibility barriers and reviewing current approaches to making scientific content more accessible.
 - [Review of Disability Studies](https://rdsjournal.org/index.php/journal) - A peer-reviewed, open-access academic journal providing an international forum for disability studies.
 - [UT Dallas LibGuides Accessibility and Disability Journals](https://libguides.utdallas.edu/accessibility-and-disability/sources/journals) - A list of academic journals related to accessibility and disability.
 - [MSU Study Uncovers Critical Accessibility Gap in Journals](https://eeb.msu.edu/news/study-uncovers-critical-accessibility-gap-in-journals.aspx) - Research highlighting accessibility issues in academic publishing.
@@ -431,12 +425,10 @@ Latest academic papers and findings related to accessibility:
 - [Inclusive Design 24](https://inclusivedesign24.org/2025/) - A 24-hour online event for the global community that celebrates inclusive design and shares knowledge and ideas.
 - [AHEAD Conference](https://www.ahead.org/events-programming/conferences) - An annual conference by the Association on Higher Education And Disability.
 - [ATIA Conference](https://www.atia.org/conference/) - The Assistive Technology Industry Association's annual conference, showcasing the latest AT studies, practices, and solutions.
-- [List of Accessibility Conferences 2025](https://www.continualengine.com/blog/list-of-accessibility-conferences/) - A list of accessibility conferences and events scheduled for 2025. It includes detailed information about each conference, such as da...
-- [axe con 2025 Digital Accessibility Conference](https://www.deque.com/axe-con/) - Details about axe-con 2025, a free virtual digital accessibility conference scheduled for February 25-27. The conference welcomes all levels of exp...
-- [Accessibility Conferences 2025 and Events](https://www.digitala11y.com/accessibility-conferences-events/) - A curated list of accessibility conferences and events for 2025. The resource provides information on various conferences, including brief descript...
+- [List of Accessibility Conferences 2025](https://www.continualengine.com/blog/list-of-accessibility-conferences/) - A list of accessibility conferences and events, with detailed information including dates, locations, and topics covered.
+- [axe con 2025 Digital Accessibility Conference](https://www.deque.com/axe-con/) - Free virtual digital accessibility conference from Deque, welcoming all levels of expertise from beginners to advanced practitioners.
+- [Accessibility Conferences 2025 and Events](https://www.digitala11y.com/accessibility-conferences-events/) - Curated list of accessibility conferences and events with descriptions, dates, and registration details.
 - [IAAP Accessibility Conferences](https://www.accessibilityassociation.org/event-category/a1AIV00000IFhyn2AD/accessibility-conferences) - A list of accessibility conferences from the International Association of Accessibility Professionals.
-- [Continual Engine List of Accessibility Conferences](https://www.continualengine.com/blog/list-of-accessibility-conferences/) - A list of accessibility conferences, events, and webinars.
-- [Deque Systems axe-con Digital Accessibility Conference](https://www.deque.com/axe-con/) - Information about the free virtual digital accessibility conference.
 - [Beyond Limits Canada’s Conference for Diversity & Accessibility](https://beyondlimitscanada.ca/) - An annual conference focused on diversity and accessibility in Canada.
 - [Disability:IN Global Conference & Expo](https://disabilityin.org/conference) - The global corporate disability inclusion event.
 - [Accessibility Checker Top 10 Accessibility Conferences](https://www.accessibilitychecker.org/blog/accessibility-conferences/) - A list of top accessibility conferences to attend.
@@ -448,7 +440,6 @@ Latest academic papers and findings related to accessibility:
 - [UC Denver The Conference for Assistive Technology and Education (CATE)](https://www.ucdenver.edu/center-for-innovative-design-and-engineering/community-engagement/assistive-tech-in-k-12/professional-development/the-conference-for-assistive-technology-and-education-(cate)) - A virtual conference on assistive technology topics.
 - [The AIDC Accessible and Inclusive Design Conference](https://www.theaidc.com/) - A virtual event focused on creating accessible and inclusive learning environments.
 - [We Count Events](https://wecount.inclusivedesign.ca/events/) - Events related to inclusive co-design research.
-- [Inclusive Design 24](https://inclusivedesign24.org/2025/) - A free 24-hour online event celebrating inclusive design.
 - [SmashingConf Inclusive Design Patterns Workshops](https://smashingconf.com/online-workshops/workshops/inclusive-design-patterns-vitaly-friedman) - Online workshops on inclusive design patterns.
 
 ## Low Vision Accessibility
@@ -472,8 +463,7 @@ Tools and resources for users with partial sight and color blindness:
 - [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/) - A color blindness simulator for Mac and iOS.
 - [Envision Glasses](https://www.letsenvision.com/glasses/home) - Smart glasses that read text, recognize faces, and describe scenes for blind and low vision users.
 - [OrCam MyEye](https://www.orcam.com/en-us/orcam-myeye) - Wearable device that reads text, recognizes faces, and identifies products for people who are blind or have low vision.
-- [Accessible Colors](https://accessible-colors.com/) - An interactive tool that helps designers find accessible color combinations, providing real-time contrast ratio calculations and WCAG compliance ch...
-- [Colorblinding](https://chromewebstore.google.com/detail/empty-title/dgbgleaofjainknadoffbjkclicbbgaa) - A Chrome extension that simulates various types of color blindness on web pages, helping developers and designers ensure their content is accessibl...
+- [Colorblinding](https://chromewebstore.google.com/detail/empty-title/dgbgleaofjainknadoffbjkclicbbgaa) - Chrome extension that simulates various types of color blindness on web pages, helping developers and designers verify their content is accessible to colorblind users.
 - [Microsoft Support Accessibility tools for vision](https://support.microsoft.com/en-us/topic/accessibility-tools-for-vision-b3c57606-e0af-46d2-97b4-fa6b5fba4fa1) - Lists sight-related accessibility tools for Microsoft Windows and Microsoft 365 users.
 - [AFB Assistive Technology Products](https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products) - Products for blind and low vision users, including accessible mobile apps, braille printers, and CCTVs.
 - [BemyEyes 10 Essential Accessibility Tools & Apps for the Visually Impaired](https://business.bemyeyes.com/10-essential-accessibility-tools-apps-for-the-visually-impaired) - A list of essential accessibility tools and apps for the visually impaired.
@@ -492,7 +482,6 @@ Tools and resources for users with partial sight and color blindness:
 - [CNIB Magnification](https://www.cnib.ca/en/magnification) - Information on screen magnification software for users with low vision.
 - [AbilityNet Screen Magnification](https://abilitynet.org.uk/factsheets/screen-magnification) - Explains how screen magnification works.
 - [Freedom Scientific MAGic](https://support.freedomscientific.com/Products/LowVision/MAGic) - A screen magnification and screen reading solution for low vision computer users.
-- [Dolphin Computer Access SuperNova](https://yourdolphin.com/SuperNova) - Assistive technology for people who are blind or partially sighted, including screen magnification.
 - [AFB Review of Freeware and Shareware Screen Magnification](https://afb.org/aw/14/4/15707) - A review of various freeware and shareware screen magnification programs.
 
 ## Blind Accessibility
@@ -505,7 +494,7 @@ Tools and resources for users who are blind:
 - [TalkBack (Android)](https://www.android.com/accessibility/) - Official Android screen reader with gesture navigation, braille display support, voice feedback, and integration with Google services. Built into Android OS. Free. (Enhanced 2025)
 - [Orca Screen Reader (Linux)](https://wiki.gnome.org/Projects/Orca) - Free, open-source screen reader for GNOME desktop (Linux) with speech synthesis, braille display support, and keyboard navigation. Actively maintained by the GNOME Project. Works with Firefox, LibreOffice, and GNOME applications. Free. (Enhanced 2025)
 - [Narrator (Windows 11)](https://support.microsoft.com/en-us/windows/chapter-1-introducing-narrator-7fe8fd72-541f-4536-7658-bfc37ddaf9c6) - Built-in Windows screen reader with significant Windows 11 improvements including natural voices, enhanced braille support, better application compatibility, and improved navigation features. Free with Windows. Continuously updated by Microsoft. (Added 2025)
-- [BrailleNote](https://www.humanware.com/support/braillenote_touch_plus/) - Portable notetaking device with braille display and speech output.
+- [BrailleNote Touch Plus](https://www.humanware.com/support/braillenote_touch_plus/) - Powerful braille notetaker with a built-in screen reader, offering a tactile braille display and a touchscreen for users who are blind or have low vision.
 - [Braille displays](https://www.afb.org/node/16207/refreshable-braille-displays) - Tactile displays that convert text to braille for blind users.
 - [Be My Eyes](https://www.bemyeyes.com/) - App connecting blind users with sighted volunteers for visual assistance.
 - [Seeing AI](https://www.seeingai.com/) - App that describes surroundings for blind users using computer vision.
@@ -519,10 +508,9 @@ Tools and resources for users who are blind:
 - [A11Y Project Screen Reader Guide](https://www.a11yproject.com/posts/getting-started-with-voiceover/) - Practical guide for developers on how to use VoiceOver screen reader for testing web accessibility, with tips applicable to other screen readers.
 - [Deque University Screen Reader Basics](https://dequeuniversity.com/screenreaders/) - Resource for learning about various screen readers, their usage, and how to test for compatibility across different platforms.
 - [APH Screen Reader Comparison](https://www.aph.org/resources/) - Detailed comparison of popular screen readers including NVDA, JAWS, and VoiceOver, helping users choose the best option for their needs.
-- [Braille Note Touch Plus](https://www.humanware.com/support/braillenote_touch_plus/) - Powerful braille notetaker with a built-in screen reader, offering a tactile braille display and a touchscreen for users who are blind or have low vision.
 - [Brailliant BI X Series](https://store.humanware.com/hus/brailliant-bi-40x-braille-display.html) - Refreshable braille displays with multiple connectivity options, compatible with screen readers across devices for braille output.
 - [WebAIM Assistive Technologies](https://webaim.org/articles/motor/assistive) - Guide on various assistive technologies, including screen readers, screen magnifiers, and alternative input devices.
-- [Microsoft Accessibility Assistive Technology](https://www.microsoft.com/en-us/accessibility/) - Detailed information on built-in accessibility features in Microsoft products and third-party assistive technologies, including screen readers, spe...
+- [Microsoft Accessibility Assistive Technology](https://www.microsoft.com/en-us/accessibility/) - Information on built-in accessibility features in Microsoft products, including screen readers, speech recognition, magnification, and other assistive technologies.
 
 ## Motor Control Accessibility
 
@@ -640,7 +628,6 @@ Tools and resources for neurodivergent users:
 - [Focus Mode Extensions](https://chromewebstore.google.com/detail/empty-title/jgjggfakhopcciohioddgcffbecjoffg) - Browser extensions to reduce distractions.
 - [Microsoft Accessibility Features](https://www.microsoft.com/en-us/accessibility/accessible-technology-products) - Focus assistance and other accommodations for neurodivergent users.
 - [Safari Reader Mode](https://support.apple.com/guide/safari/hide-distractions-when-reading-sfri32632/mac) - Simplified webpage reading experience in Safari.
-- [React Aria](https://react-aria.adobe.com/) - A library of React Hooks that provides accessible UI primitives for your design system, designed to work with any styling solution.
 - [LAMP Words for Life](https://documentation.prc-saltillo.com/) - An AAC language system designed to meet the communication needs of children and adults with autism spectrum disorder and other developmental disabi...
 
 ## Data & Datasets
@@ -653,7 +640,6 @@ Tools and resources for neurodivergent users:
 ## Automated Accessibility Tools
 
 - [Visme](https://www.visme.co/) - Content creation platform with built-in accessibility features, including text-to-speech, auto-captioning, and an accessibility checker.
-- [Stark](https://www.getstark.co/) - Accessibility tool that integrates with design and development workflows. Provides real-time suggestions, automated alt-text, and contrast checking.
 - [Voiceitt](https://voiceitt.com/) - Personalized speech recognition for individuals with non-standard speech patterns, enabling them to communicate and control smart devices.
 - [Cognixion ONE](https://www.cognixion.com/) - Wearable device that combines a brain-computer interface (BCI) with augmented reality to help individuals with severe motor impairments communicate.
 - [RatedWithAI](https://ratedwithai.com/) - Automated website accessibility scanner that checks sites for ADA and WCAG compliance issues, providing instant audits with actionable recommendations. Free scanner available.
@@ -709,12 +695,9 @@ Tools and resources for neurodivergent users:
 ### Testing & Auditing
 
 - [axe-core](https://www.npmjs.com/package/axe-core) - The industry-standard accessibility testing engine. (MPL-2.0 License)
-- [Pa11y](https://pa11y.org/) - Automated accessibility testing tool. (GNU General Public License v2.0)
 - [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) - Static analysis plugin for identifying accessibility issues in JSX. (MIT License)
-- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - Google's automated auditing tool for web pages. (Apache-2.0 License)
 - [tota11y](https://github.com/jdan/tota11y) - An accessibility visualization toolkit. (MIT License)
 - [python-a11y-playwright](https://pypi.org/project/python-a11y-playwright/) - Python integration of axe-core with Playwright for automated accessibility testing. (MIT License)
-- [Sa11y](https://sa11y.netlify.app/) - Accessibility quality assurance tool that visually highlights issues directly on the page. (MIT License)
 - [awesome-lint](https://github.com/sindresorhus/awesome-lint) - Linter for Awesome lists, useful for maintaining list quality. (MIT License)
 
 ### Accessible Component Libraries
@@ -724,21 +707,16 @@ Tools and resources for neurodivergent users:
 - [Headless UI](https://headlessui.com/) - Unstyled, accessible UI components for React and Vue from Tailwind Labs. (MIT License)
 - [Chakra UI](https://chakra-ui.com/) - Accessible React component library with built-in WAI-ARIA compliance. (MIT License)
 - [Ariakit](https://ariakit.org/) - Toolkit for building accessible web apps with React, providing low-level primitives with full WAI-ARIA support. (MIT License)
-- [Vue A11y](https://vue-a11y.com/) - A collection of Vue.js utilities and components for building accessible applications.
-- [Appt Foundation](https://appt.org/en) - Open-source knowledge base for mobile accessibility with code samples for Android, iOS, Flutter, React Native, and Xamarin.
 
 ### Specialized Tools
 
 - [color-blind](https://www.npmjs.com/package/color-blind) - Simulate color blindness by converting RGB hex codes. (MIT License)
 - [focus-trap](https://github.com/focus-trap/focus-trap) - A library for trapping focus within a DOM node. (MIT License)
-- [OpenDyslexic](https://opendyslexic.org/) - A typeface designed to increase readability for readers with dyslexia. (SIL Open Font License)
-- [Cboard](https://github.com/cboard-org/cboard) - An open-source, web-based AAC app for users with speech and language impairments. (MIT License)
 - [NCSU Readability Widget](https://github.com/NCSU-Libraries-UX/readability-widget) - A vanilla JS widget focused on balancing competing accessibility needs. (No license specified)
 - [color-contrast-checker](https://www.npmjs.com/package/color-contrast-checker) - A library for checking color contrast ratios against WCAG AA and AAA standards. (MIT License)
 - [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) - CSS media query for detecting user preference for reduced motion, critical for epilepsy and vestibular disorder accommodation.
 - [@fontsource/opendyslexic](https://www.npmjs.com/package/@fontsource/opendyslexic) - Self-hosted OpenDyslexic font package for npm-based projects. (SIL Open Font License)
 - [accessibility](https://www.npmjs.com/package/accessibility) - An npm package providing an accessibility toolbar with text resizing, contrast, and link highlighting features. (MIT License)
-- [Talon Voice](https://talonvoice.com/) - Hands-free computer control combining voice commands and eye tracking for motor-impaired users.
 
 ### AI-Powered Tools
 
