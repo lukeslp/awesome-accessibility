@@ -70,7 +70,7 @@ General tools that assist users with disabilities:
 - [Everway Assistive Technology Resources](https://www.everway.com/) - Resources from Everway (formerly Texthelp) on assistive technology for reading and writing support.
 - [BCIT Assistive Technology](https://www.bcit.ca/accessibility/accommodations-resources/assistive-technology/) - British Columbia Institute of Technology's resources on assistive technology for students.
 - [AudioEye Types of Assistive Technologies](https://www.audioeye.com/post/types-of-assistive-technologies/) - An article outlining various types of assistive technologies and their benefits.
-- [Focus Care Assistive Technologies 2024](https://focuscare.com.au/blog/5-new-assistive-technologies-for-2024) - Overview of assistive technology trends and emerging devices.
+- [Focus Care Assistive Technologies 2024 (historical)](https://focuscare.com.au/blog/5-new-assistive-technologies-for-2024) - Overview of 2024 assistive technology trends and emerging devices.
 
 ## Web Accessibility
 
@@ -645,7 +645,7 @@ Tools and resources for neurodivergent users:
 ## Gaming Accessibility
 
 - [PlayStation Access Controller](https://www.playstation.com/en-us/accessories/access-controller/) - A highly customizable controller kit for the PS5, allowing gamers with disabilities to create personalized controller layouts.
-- [Xbox Adaptive Joystick](https://news.xbox.com/en-us/2024/10/02/xbox-gaming-disability-community-accessibility-2024/) - Adaptive joystick from Xbox, designed to work with the Xbox Adaptive Controller.
+- [Xbox Adaptive Joystick](https://news.xbox.com/en-us/2024/10/02/xbox-gaming-disability-community-accessibility-2024/) - Adaptive joystick from Xbox, designed to work with the Xbox Adaptive Controller (released 2025).
 - [Game Accessibility Guidelines](https://gameaccessibilityguidelines.com/) - Straightforward reference for inclusive game design, with actionable guidance for developers.
 - [Can I Play That?](https://caniplaythat.com/) - Disability-led game accessibility review site, covering new releases with detailed breakdowns of accessibility features.
 - [Makers Making Change](https://www.makersmakingchange.com/) - Open-source assistive switches, joysticks, and accessories designed to work with adaptive controllers, offering affordable and customizable options.
@@ -677,7 +677,6 @@ Tools and resources for neurodivergent users:
 - [accessibility-skill](https://github.com/lukeslp/accessibility-skills) - WCAG 2.2 accessibility skill for coding agents with 10 audit scripts and production CSS/JS patterns.
 - [ux-oss-safeguard](https://github.com/lukeslp/ux-oss-safeguard) - Content safety evaluator with full WCAG 2.1 AA compliance, keyboard navigation, screen reader support, and prefers-reduced-motion. Zero dependencies.
 - [assisted.site](https://assisted.site/accessibility) - Short URLs for this list: `/accessibility`, `/a11y`, `/alt`, `/alttext` all redirect here.
-
 
 ## Accessibility Packages and Tools
 
