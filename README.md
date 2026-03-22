@@ -70,7 +70,7 @@ General tools that assist users with disabilities:
 - [Everway Assistive Technology Resources](https://www.everway.com/) - Resources from Everway (formerly Texthelp) on assistive technology for reading and writing support.
 - [BCIT Assistive Technology](https://www.bcit.ca/accessibility/accommodations-resources/assistive-technology/) - British Columbia Institute of Technology's resources on assistive technology for students.
 - [AudioEye Types of Assistive Technologies](https://www.audioeye.com/post/types-of-assistive-technologies/) - An article outlining various types of assistive technologies and their benefits.
-- [Focus Care Top Assistive Technologies 2024](https://focuscare.com.au/blog/5-new-assistive-technologies-for-2024) - A blog post highlighting new and emerging assistive technologies.
+- [Focus Care Assistive Technologies 2024](https://focuscare.com.au/blog/5-new-assistive-technologies-for-2024) - Overview of assistive technology trends and emerging devices.
 
 ## Web Accessibility
 
@@ -203,7 +203,7 @@ Tools for facilitating communication:
 - [EyeTell](https://www.eyetell.com/) - Communication through eye-tracking technology.
 - [Boardmaker](https://us.tobiidynavox.com/pages/boardmaker) - Design and print symbol-based communication boards.
 - [LAMP Words for Life](https://lampwflapp.com/) - Subscription app for symbol-based communication with motor planning approach.
-- [Grid 3 AAC Software](https://thinksmartbox.com/grid/) - AAC software by Smartbox (UK) for symbol and text communication, environmental control, and computer access. Multiple vocabularies including Super Core (3,500+ words), Voco Chat, and Aphasia Duo. Supports touch, eye gaze, and switch access. Includes AI creativity tool Mind's Eye. Compatible with Windows (64-bit). 60-day free trial, then paid subscription. (Added 2025)
+- [Grid 3 AAC Software](https://thinksmartbox.com/grid/) - AAC software by Smartbox (UK) for symbol and text communication, environmental control, and computer access. Multiple vocabularies including Super Core (3,500+ words), Voco Chat, and Aphasia Duo. Supports touch, eye gaze, and switch access. Includes generative creativity tool Mind's Eye. Compatible with Windows (64-bit). 60-day free trial, then paid subscription. (Added 2025)
 - [TD Snap Communication Platform](https://us.tobiidynavox.com/pages/td-snap) - Flexible AAC app by Tobii Dynavox with 75,000+ Picture Communication Symbols in 25+ languages. Includes Core First, Motor Plan, Express, Text, Scanning, and Aphasia page sets (PODD and Gateway via in-app purchase). Accessible via touch, eye gaze, or switch with Google Assistant integration. Compatible with Tobii Dynavox devices and iPad. 1-month free trial, then subscription required. (Added 2025)
 - [Proloquo4Text AAC App](https://www.assistiveware.com/products/proloquo4text) - Text-based AAC app by AssistiveWare for iOS designed for literate users with motor challenges or speech difficulties. Features word prediction, abbreviation expansion, customizable natural voices, and efficient text-to-speech communication tools. One-time purchase. Complements symbol-based Proloquo2Go. (Added 2025)
 - [PRC-Saltillo AAC Resource Library](https://www.prc-saltillo.com/caregivers) - A library of resources for augmentative and alternative communication from PRC-Saltillo (formerly Prentke Romich).
@@ -275,7 +275,7 @@ Connect with the accessibility community:
 - [WebAIM Web Accessibility in Mind](https://webaim.org/) - WebAIM provides web accessibility resources, including articles, tools, and training.
 - [ADA National Network](https://adata.org/) - The ADA National Network provides information, guidance and training on the Americans with Disabilities Act (ADA).
 - [Assistive Technology Christopher Reeve Foundation](https://www.christopherreeve.org/wp-content/uploads/2024/05/Assistive-Technology-4-30-24-FINAL.pdf) - An extensive guide on assistive technology resources, including computer access tools and specialized rehabilitation centers.
-- [John Slatin AccessU 2025](https://knowbility.org/programs/john-slatin-accessu-2026) - Information about Knowbility's annual conference on digital accessibility.
+- [John Slatin AccessU 2026](https://knowbility.org/programs/john-slatin-accessu-2026) - Information about Knowbility's annual conference on digital accessibility.
 - [Accessibility Technology Tools Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility) - Microsoft's hub for accessibility features and tools across their products.
 - [AssistiveWare Learn AAC](https://www.assistiveware.com/learn-aac) - A resource center for learning about AAC, provided by AssistiveWare.
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) - The Accessibility Developer Guide is a resource for developers to learn about implementing accessibility in web projects.
@@ -530,11 +530,11 @@ Tools and resources for users with motor impairments:
 - [Xbox Adaptive Controller](https://www.xbox.com/en-US/accessories/controllers/xbox-adaptive-controller) - Accessible gaming controller for users with limited mobility.
 - [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=en) - Android accessibility feature for controlling devices using switches.
 - [Glassouse](https://glassouse.com/) - Hands-free mouse alternative worn like glasses, controlled by head movements and bites, designed for people with limited hand mobility.
-- [Grid Pad](https://thinksmartbox.com/grid-pad-overview/) - Versatile communication aid with multiple access methods including touch, switch, and eye gaze. Comes with Grid 3 software for symbol and text-base...
-- [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go) - Symbol-supported AAC app for iOS devices. Offers customizable vocabulary, natural-sounding voices, and supports motor planning for efficient commun...
-- [Jabbla Mind Express](https://www.jabbla.com/en/mind-express/) - Versatile AAC software that can be used on various devices, offering symbol and text-based communication with advanced features like eye gaze contr...
+- [Grid Pad](https://thinksmartbox.com/grid-pad-overview/) - Versatile communication aid with multiple access methods including touch, switch, and eye gaze. Comes with Grid 3 software for symbol and text-based communication.
+- [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go) - Symbol-supported AAC app for iOS devices with customizable vocabulary, natural-sounding voices, and motor planning support for efficient communication.
+- [Jabbla Mind Express](https://www.jabbla.com/en/mind-express/) - Versatile AAC software for various devices, offering symbol and text-based communication with advanced features like eye gaze control and environmental control.
 - [Voiceitt Speech Recognition Technology](https://www.voiceitt.com/) - Voice recognition that translates non-standard speech into standard speech, allowing people with speech disabilities to communicate with devices and others.
-- [Tobii Dynavox](https://us.tobiidynavox.com/) - Offers a range of eye-tracking and AAC devices, including the I-Series which combines eye tracking with speech generation for individuals with comp...
+- [Tobii Dynavox](https://us.tobiidynavox.com/) - Range of eye-tracking and AAC devices, including the I-Series which combines eye tracking with speech generation for individuals with complex communication needs.
 - [Recite Me Assistive Technology for Physical Disabilities](https://reciteme.com/news/assistive-technology-for-physical-disabilities/) - Information on assistive technologies for physical disabilities.
 
 ## Deaf and Hard of Hearing Accessibility
@@ -579,13 +579,12 @@ Tools and resources for users with cognitive disabilities:
 - [Readability Guidelines](https://readabilityguidelines.co.uk/) - Content design patterns for readability from the UK government.
 - [Dyslexia Style Guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace) - Guide for making content dyslexia-friendly.
 - [ADHD-Friendly Design Guidelines](https://www.w3.org/WAI/cognitive/) - W3C resources on cognitive accessibility, including design patterns for attention and focus.
-- [aria-query](https://github.com/A11yance/aria-query) - A JavaScript utility for querying WAI-ARIA role and property metadata, used by accessibility testing tools like jest-axe and axe-core.
 - [Brain.fm](https://www.brain.fm/) - Functional music designed to improve focus, relaxation, and sleep, using rhythmic patterns to support deep work.
 - [Goblin.tools](https://goblin.tools/) - Collection of small, single-task tools for people who find certain tasks overwhelming, including a task breakdown feature and tone estimator.
 - [Structured](https://structured.app/) - Visual day planner app with a timeline-based interface, particularly helpful for individuals with time blindness.
 - [Focusmate](https://www.focusmate.com/) - Virtual coworking platform that pairs users for live, focused work sessions using body doubling.
 - [OpenDyslexic](https://opendyslexic.org/) - Free typeface designed to increase readability for readers with dyslexia, with unique letter shapes to prevent confusion.
-- [Institute for Human Centered Design](https://humancentereddesign.org/) - Offers resources, consulting, and training on universal design and accessibility, with a focus on enhancing experiences for people of all abilities...
+- [Institute for Human Centered Design](https://humancentereddesign.org/) - Resources, consulting, and training on universal design and accessibility, focused on enhancing experiences for people of all abilities and backgrounds.
 
 ## Speech Recognition Accessibility
 
@@ -628,7 +627,6 @@ Tools and resources for neurodivergent users:
 - [Focus Mode Extensions](https://chromewebstore.google.com/detail/empty-title/jgjggfakhopcciohioddgcffbecjoffg) - Browser extensions to reduce distractions.
 - [Microsoft Accessibility Features](https://www.microsoft.com/en-us/accessibility/accessible-technology-products) - Focus assistance and other accommodations for neurodivergent users.
 - [Safari Reader Mode](https://support.apple.com/guide/safari/hide-distractions-when-reading-sfri32632/mac) - Simplified webpage reading experience in Safari.
-- [LAMP Words for Life](https://documentation.prc-saltillo.com/) - An AAC language system designed to meet the communication needs of children and adults with autism spectrum disorder and other developmental disabi...
 
 ## Data & Datasets
 
@@ -647,7 +645,7 @@ Tools and resources for neurodivergent users:
 ## Gaming Accessibility
 
 - [PlayStation Access Controller](https://www.playstation.com/en-us/accessories/access-controller/) - A highly customizable controller kit for the PS5, allowing gamers with disabilities to create personalized controller layouts.
-- [Xbox Adaptive Joystick](https://news.xbox.com/en-us/2024/10/02/xbox-gaming-disability-community-accessibility-2024/) - A new adaptive joystick from Xbox, designed to be used with the Xbox Adaptive Controller (launching in early 2025).
+- [Xbox Adaptive Joystick](https://news.xbox.com/en-us/2024/10/02/xbox-gaming-disability-community-accessibility-2024/) - Adaptive joystick from Xbox, designed to work with the Xbox Adaptive Controller.
 - [Game Accessibility Guidelines](https://gameaccessibilityguidelines.com/) - Straightforward reference for inclusive game design, with actionable guidance for developers.
 - [Can I Play That?](https://caniplaythat.com/) - Disability-led game accessibility review site, covering new releases with detailed breakdowns of accessibility features.
 - [Makers Making Change](https://www.makersmakingchange.com/) - Open-source assistive switches, joysticks, and accessories designed to work with adaptive controllers, offering affordable and customizable options.
@@ -698,7 +696,7 @@ Tools and resources for neurodivergent users:
 - [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) - Static analysis plugin for identifying accessibility issues in JSX. (MIT License)
 - [tota11y](https://github.com/jdan/tota11y) - An accessibility visualization toolkit. (MIT License)
 - [python-a11y-playwright](https://pypi.org/project/python-a11y-playwright/) - Python integration of axe-core with Playwright for automated accessibility testing. (MIT License)
-- [awesome-lint](https://github.com/sindresorhus/awesome-lint) - Linter for Awesome lists, useful for maintaining list quality. (MIT License)
+- [aria-query](https://github.com/A11yance/aria-query) - JavaScript utility for querying WAI-ARIA role and property metadata, used by accessibility testing tools like jest-axe and axe-core.
 
 ### Accessible Component Libraries
 
@@ -718,9 +716,9 @@ Tools and resources for neurodivergent users:
 - [@fontsource/opendyslexic](https://www.npmjs.com/package/@fontsource/opendyslexic) - Self-hosted OpenDyslexic font package for npm-based projects. (SIL Open Font License)
 - [accessibility](https://www.npmjs.com/package/accessibility) - An npm package providing an accessibility toolbar with text resizing, contrast, and link highlighting features. (MIT License)
 
-### AI-Powered Tools
+### Automated Alt Text Tools
 
-- [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using AI. (MIT License)
+- [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using a language model. (MIT License)
 - [alt-text](https://pypi.org/project/alt-text/) - A Python package for finding, generating, and setting alt-text for images in HTML and EPUB files. (MIT License)
 
 > **Note on Accessibility Overlays**: All-in-one accessibility widgets (also called "overlays") are controversial in the accessibility community. While they provide user-facing options, experts argue they cannot replace code-level accessibility work and may interfere with users' own assistive technologies. The [2025 Web Almanac Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) provides further context on this debate. A layered approach combining automated testing, accessible components, and specialized tools is the recommended best practice.
