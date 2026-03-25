@@ -594,6 +594,7 @@ Tools and resources for voice-based interaction:
 - [Google Speech-to-Text](https://cloud.google.com/speech-to-text) - API for converting speech to text.
 - [Talon Voice](https://talonvoice.com/) - Hands-free computer control with voice and eye tracking.
 - [Dictation.io](https://dictation.io/) - Free online dictation tool.
+- [DailyVox](https://getdailyvox.com) - Voice-first AI diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking via sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
 
 ## Neurodiversity Accessibility
 
