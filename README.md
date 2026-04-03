@@ -632,6 +632,7 @@ Tools and resources for neurodivergent users:
 - [Voiceitt](https://voiceitt.com/) - Personalized speech recognition for individuals with non-standard speech patterns, enabling them to communicate and control smart devices.
 - [Cognixion ONE](https://www.cognixion.com/) - Wearable device that combines a brain-computer interface (BCI) with augmented reality to help individuals with severe motor impairments communicate.
 - [RatedWithAI](https://ratedwithai.com/) - Automated website accessibility scanner that checks sites for ADA and WCAG compliance issues, providing instant audits with actionable recommendations. Free scanner available.
+- [AccessCheck](https://accesscheck-app.netlify.app) – Free web accessibility scanner that runs Playwright and axe-core against any URL to identify WCAG 2.1 violations, with detailed remediation guidance and exportable reports.
 
 ## Gaming Accessibility
 
