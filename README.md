@@ -106,6 +106,7 @@ Resources for ensuring websites work for all:
 - [Axe Linter](https://github.com/dequelabs/axe-linter-action) - GitHub Action from Deque that catches accessibility issues in HTML, React, Vue, and Markdown files during pull requests.
 - [Sa11y](https://sa11y.netlify.app/) - Accessibility quality assurance tool that visually highlights issues directly on the page, designed for content authors and editors.
 - [Editoria11y](https://editoria11y.princeton.edu/) - Princeton-built content accessibility checker that runs automatically on page load, flagging issues like missing alt text and heading structure problems.
+- [Alt Audit](https://altaudit.com) - AI-powered alt text generator and WCAG 2.1 compliance checker for WordPress. Bulk generation, rule-based templates (free, offline), 5-status quality scoring. WordPress plugin + SaaS.
 - [WCAG 2.2 Map](https://intopia.digital/articles/intopia-launches-wcag-2-2-map/) - Interactive visual map from Intopia showing all WCAG 2.2 success criteria organized by principle, level, and guideline.
 
 ## Inclusive Design
