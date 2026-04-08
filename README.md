@@ -511,7 +511,6 @@ Tools and resources for users with motor impairments:
 - [Switch Access Devices](https://www.ablenetinc.com/switches/) - Devices activated by buttons, switches, joysticks and keyboards for motor impairments.
 - [Tobii Dynavox eye trackers](https://www.tobiidynavox.com/) - Eye gaze interaction for communication devices and computer control.
 - [EyeControl](https://www.eyecontrol.co.il/) - Wearable eye-tracking device that enables ALS and locked-in patients to communicate using eye movements.
-- [Dragon NaturallySpeaking](https://dragon.nuance.com/business-solutions/dragon-professional-anywhere.html) - Voice recognition software for hands-free computer control.
 - [Windows Speech Recognition](https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-83ff75bd-63eb-0b6c-18d4-6fae94050571) - Built-in voice control for Windows.
 - [Voice Control](https://support.apple.com/guide/mac-help/mchl1a04f324/mac) - Built-in voice control for Mac and iOS devices.
 - [Android Voice Access](https://support.google.com/accessibility/android/answer/6151843) - Voice control for Android devices.
@@ -696,6 +695,7 @@ Tools and resources for neurodivergent users:
 - [focus-trap](https://github.com/focus-trap/focus-trap) - A library for trapping focus within a DOM node. (MIT License)
 - [NCSU Readability Widget](https://github.com/NCSU-Libraries-UX/readability-widget) - A vanilla JS widget focused on balancing competing accessibility needs. (No license specified)
 - [color-contrast-checker](https://www.npmjs.com/package/color-contrast-checker) - A library for checking color contrast ratios against WCAG AA and AAA standards. (MIT License)
+- [WCAG Color Contrast Checker](https://www.davidmello.com/tools/color-contrast-checker) - Interactive foreground and background color contrast checker against WCAG 2.1 AA and AAA standards, with colorblindness simulation for four deficiency types, accessible color variant suggestions, and a markdown bug report for logging accessibility defects.
 - [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) - CSS media query for detecting user preference for reduced motion, critical for epilepsy and vestibular disorder accommodation.
 - [@fontsource/opendyslexic](https://www.npmjs.com/package/@fontsource/opendyslexic) - Self-hosted OpenDyslexic font package for npm-based projects. (SIL Open Font License)
 - [accessibility](https://www.npmjs.com/package/accessibility) - An npm package providing an accessibility toolbar with text resizing, contrast, and link highlighting features. (MIT License)
