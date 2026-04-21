@@ -72,6 +72,7 @@ Resources for ensuring websites work for all:
 - [axe browser extension](https://www.deque.com/axe/devtools/extension/) - Find accessibility issues directly within your browser.
 - [ChromeLens browser extension](https://github.com/chromelens/chromelens) - Identify accessibility issues and best practices for your web projects.
 - [W3C Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/) - A list of software programs and online services that help determine if web content is accessible.
+- [Accessalyze](https://genesisaiservices.github.io/accessalyze/) - Free WCAG 2.1 AA accessibility scanner. Scans any URL for WCAG violations, generates AI-powered plain-English fix suggestions, and produces a downloadable PDF compliance report. Free for 1 page, no signup required.
 - [WCAGsafe](https://wcagsafe.com)|WCAG 2.1 AA website and PDF accessibility scanner — plain-English results, legal risk indicator, AI-generated fix instructions, and monthly monitoring. No installation required.
 - [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) - The Web Content Accessibility Guidelines (WCAG) 2.2 has 13 guidelines organized under 4 principles: perceivable, operable, understandable, and robust.
 - [WAI Resources](https://www.w3.org/WAI/resources/) - Most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI).
