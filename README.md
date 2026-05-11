@@ -348,6 +348,7 @@ Hardware and peripherals increasing accessibility:
 - [Switch Access Devices](https://www.ablenetinc.com/switches/) - Devices activated by buttons, switches, joysticks and keyboards for motor impairments.
 - [Screen Readers](https://webaim.org/articles/screenreader_testing/) - Software transmitting web content through braille, speech synthesis, etc.
 - [OrCam assistive devices](https://www.orcam.com/en-us/home) - Portable device with facial recognition and text reading.
+- [SightlineAI](https://github.com/rudra496/sightlineai) - AI-powered smart glasses for the blind, providing real-time object detection, text-to-speech, and navigation assistance for 2.2B+ visually impaired people worldwide.
 - [Tobii Dynavox eye trackers](https://www.tobiidynavox.com/) - Eye gaze interaction for communication devices and computer control.
 - [Tobii Dynavox I Series](https://us.tobiidynavox.com/pages/td-i-series) - Eye-tracking enabled speech generating device for people with complex communication needs, including those with ALS, cerebral palsy, and other motor impairments.
 - [EyeControl](https://www.eyecontrol.co.il/) - Wearable eye-tracking device that enables ALS and locked-in patients to communicate using eye movements, without the need for a screen or calibration.
@@ -492,6 +493,7 @@ Tools and resources for users who are blind:
 - [Lookout](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal) - Google's app to help blind users identify objects and navigate their environment.
 - [Aira](https://aira.io/) - On-demand visual interpreting service for blind users.
 - [Envision AI](https://www.letsenvision.com/) - App that reads text aloud and describes scenes for blind users.
+- [SightlineAI](https://github.com/rudra496/sightlineai) - Open-source AI smart glasses for the blind with real-time object detection, text-to-speech, and navigation assistance.
 - [Voice Dream Reader](https://www.voicedream.com/) - Text-to-speech app for reading digital content.
 - [KNFB Reader](https://www.nfb.org/programs-services/knfb-reader) - App that converts printed text to speech for blind users.
 - [WebAIM Screen Reader Survey](https://webaim.org/projects/screenreadersurvey9/) - Results from surveys of screen reader users.
