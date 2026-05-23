@@ -634,6 +634,7 @@ Tools and resources for neurodivergent users:
 - [Cognixion ONE](https://www.cognixion.com/) - Wearable device that combines a brain-computer interface (BCI) with augmented reality to help individuals with severe motor impairments communicate.
 - [RatedWithAI](https://ratedwithai.com/) - Automated website accessibility scanner that checks sites for ADA and WCAG compliance issues, providing instant audits with actionable recommendations. Free scanner available.
 - [AccessCheck](https://accesscheck-app.netlify.app) – Free web accessibility scanner that runs Playwright and axe-core against any URL to identify WCAG 2.1 violations, with detailed remediation guidance and exportable reports.
+- [TrustYourWebsite](https://trustyourwebsite.com) - Automated accessibility scanner (axe-core) bundled with GDPR/cookie compliance checks. Built for EU and UK small businesses. Free risk score, €2.50 full report.
 
 ## Gaming Accessibility
 
