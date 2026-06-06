@@ -142,6 +142,7 @@ Principles and patterns for accessibility:
 - [EN 301 549 v3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) - Latest version of the European standard for ICT accessibility, harmonized with WCAG and used for public procurement across the EU.
 - [Appt Foundation](https://appt.org/en) - Open-source knowledge base for mobile accessibility, with code samples for Android, iOS, Flutter, React Native, and Xamarin.
 - [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/) - Tool for checking foreground and background color contrast ratios against WCAG AA and AAA standards.
+- [Cards for Humanity](https://cardsforhumanity.frog.co/) - A tool for creating random user scenarios by getting dealt two cards: a person and a trait. Use this scenario to test your product, service or concept from a different perspective.
 
 ## Accessibility Testing & Validation
 
