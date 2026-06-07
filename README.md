@@ -340,6 +340,7 @@ Ensuring conformance to accessibility regulations:
 - [BraunAbility What Is ADA Compliance?](https://www.braunability.com/us/en/blog/disability-rights/what-does-ada-compliant-mean.html) - Explains what ADA compliant means and its benefits.
 - [Accessibility Checker ADA Compliance for Websites](https://www.accessibilitychecker.org/guides/ada-compliance/) - A checklist for ADA website compliance.
 - [AudioEye ADA Compliance Guide](https://www.audioeye.com/compliance/ada/) - A guide to getting websites compliant with ADA digital accessibility standards.
+- [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) - A plain-English, beginner friendly and easy-to-use guide to WCAG.
 
 ## Assistive Technology Devices
 
