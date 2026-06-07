@@ -238,6 +238,7 @@ Tools for facilitating communication:
 - [LinkedIn Learning Accessibility Online Training](https://www.linkedin.com/learning/topics/accessibility) - Courses covering web accessibility standards, testing tools, and best practices.
 - [A11y Collective Web Accessibility Courses](https://www.a11y-collective.com/) - Practical introduction to web accessibility and implementation.
 - [edX W3Cx: Introduction to Web Accessibility](https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility) - An online course on international standards for web accessibility from the W3C.
+- [Accessibility for Everyone by Laura Kalbag](https://accessibilityforeveryone.site/) - An introductory resource to the accessibility landscape: understand disability and impairment challenges; get a handle on important laws and guidelines; and learn how to plan for, evaluate, and test accessible design.
 
 ## Community & Organizations
 
