@@ -341,6 +341,7 @@ Ensuring conformance to accessibility regulations:
 - [BraunAbility What Is ADA Compliance?](https://www.braunability.com/us/en/blog/disability-rights/what-does-ada-compliant-mean.html) - Explains what ADA compliant means and its benefits.
 - [Accessibility Checker ADA Compliance for Websites](https://www.accessibilitychecker.org/guides/ada-compliance/) - A checklist for ADA website compliance.
 - [AudioEye ADA Compliance Guide](https://www.audioeye.com/compliance/ada/) - A guide to getting websites compliant with ADA digital accessibility standards.
+- [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) - Machine-readable regulatory database mapping WCAG to EN 301 549 and national law across 17 jurisdictions, with typed exports and enforcement-body lookups. (MIT License)
 
 ## Assistive Technology Devices
 
@@ -683,6 +684,7 @@ Tools and resources for neurodivergent users:
 - [python-a11y-playwright](https://pypi.org/project/python-a11y-playwright/) - Python integration of axe-core with Playwright for automated accessibility testing. (MIT License)
 - [aria-query](https://github.com/A11yance/aria-query) - JavaScript utility for querying WAI-ARIA role and property metadata, used by accessibility testing tools like jest-axe and axe-core.
 - [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - Developer toolkit with three packages: `@accessibility-devkit/audit` (axe-core runner + ESLint config), `@accessibility-devkit/components` (focus traps, skip links, live regions, dialogs), and `@accessibility-devkit/accommodations` (color blindness simulation, WCAG contrast checks).
+- [@holmdigital/engine](https://www.npmjs.com/package/@holmdigital/engine) - WCAG testing engine (`hd-a11y-scan` CLI) that maps failures to EN 301 549 and national accessibility law across 17 jurisdictions, with sector-aware enforcement routing (WAD/EAA), CI mode, and JUnit/PDF reporting. (MIT License)
 
 ### Accessible Component Libraries
 
@@ -691,6 +693,7 @@ Tools and resources for neurodivergent users:
 - [Headless UI](https://headlessui.com/) - Unstyled, accessible UI components for React and Vue from Tailwind Labs. (MIT License)
 - [Chakra UI](https://chakra-ui.com/) - Accessible React component library with built-in WAI-ARIA compliance. (MIT License)
 - [Ariakit](https://ariakit.org/) - Toolkit for building accessible web apps with React, providing low-level primitives with full WAI-ARIA support. (MIT License)
+- [@holmdigital/components](https://www.npmjs.com/package/@holmdigital/components) - Accessible React components with built-in regulatory compliance and a 12-locale accessibility-statement component. (MIT License)
 
 ### Specialized Tools
 
