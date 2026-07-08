@@ -545,6 +545,7 @@ Tools and resources for users with hearing impairments:
 - [TTY/TDD](https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs) - Text telephone devices for deaf users.
 - [Web Captioner](https://github.com/curtgrimes/webcaptioner) - Open-source real-time captioning tool (hosted service retired; source code available on GitHub).
 - [Closed Caption Creator](https://www.closedcaptioncreator.com/) - Tool for creating closed captions for videos.
+- [Picute](https://picute.net/) - AI subtitle and caption generator with free, no-signup browser tools to convert and repair subtitle files (SRT, VTT, ASS) for accessible video.
 - [Caption and Subtitles Guidelines](https://www.w3.org/WAI/media/av/captions/) - W3C guidelines for captions and subtitles.
 - [ASL Browser](https://aslbrowser.com/) - American Sign Language dictionary with video demonstrations.
 - [Merlin Hearing Aid](https://www.starkey.com/) - Starkey's hearing aid platform with fall detection, language translation, and health tracking features.
