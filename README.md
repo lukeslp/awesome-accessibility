@@ -600,6 +600,7 @@ Tools and resources for voice-based interaction:
 - [Talon Voice](https://talonvoice.com/) - Hands-free computer control with voice and eye tracking.
 - [Dictation.io](https://dictation.io/) - Free online dictation tool.
 - [DailyVox](https://getdailyvox.com) - Voice-first AI diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking via sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
+- [Voicefield](https://github.com/tatargabor/voicefield) - Open-source React library that turns a phone into a wireless microphone for any web form. Users scan a QR code, and speech recognition runs client-side on the phone — only text is relayed to the desktop. Works with the browser's built-in Web Speech API or cloud STT providers. Enables hands-free form input for users with motor disabilities or RSI. ([Website](https://voicefield.dev)) (MIT License)
 
 ## Neurodiversity Accessibility
 
