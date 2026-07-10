@@ -521,7 +521,6 @@ Tools and resources for users with motor impairments:
 - [Xbox Adaptive Controller](https://www.xbox.com/en-US/accessories/controllers/xbox-adaptive-controller) - Accessible gaming controller for users with limited mobility.
 - [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=en) - Android accessibility feature for controlling devices using switches.
 - [Glassouse](https://glassouse.com/) - Hands-free mouse alternative worn like glasses, controlled by head movements and bites, designed for people with limited hand mobility.
--  [TypelessForm](https://typelessform.com) — Voice form filling widget for HTML forms. Eliminates keyboard input entirely — users speak one natural sentence and AI fills every field at once. Drop-in script tag, no backend changes. 
 - [Grid Pad](https://thinksmartbox.com/grid-pad-overview/) - Versatile communication aid with multiple access methods including touch, switch, and eye gaze. Comes with Grid 3 software for symbol and text-based communication.
 - [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go) - Symbol-supported AAC app for iOS devices with customizable vocabulary, natural-sounding voices, and motor planning support for efficient communication.
 - [Jabbla Mind Express](https://www.jabbla.com/en/mind-express/) - Versatile AAC software for various devices, offering symbol and text-based communication with advanced features like eye gaze control and environmental control.
@@ -597,7 +596,7 @@ Tools and resources for voice-based interaction:
 - [Talon Voice](https://talonvoice.com/) - Hands-free computer control with voice and eye tracking.
 - [Dictation.io](https://dictation.io/) - Free online dictation tool.
 - [DailyVox](https://getdailyvox.com) - Voice-first AI diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking via sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
-- [TypelessForm](https://typelessform.com) — Voice form filling widget for HTML forms. Eliminates keyboard input entirely — users speak one natural sentence and AI fills every field at once. Drop-in script tag, no backend changes. 
+- [TypelessForm](https://typelessform.com) - Voice form filling widget for HTML forms. Eliminates keyboard input entirely — users speak one natural sentence and AI fills every field at once. Drop-in script tag, no backend changes.
 
 ## Neurodiversity Accessibility
 
