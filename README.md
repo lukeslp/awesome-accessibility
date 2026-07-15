@@ -600,6 +600,7 @@ Tools and resources for voice-based interaction:
 - [Talon Voice](https://talonvoice.com/) - Hands-free computer control with voice and eye tracking.
 - [Dictation.io](https://dictation.io/) - Free online dictation tool.
 - [DailyVox](https://getdailyvox.com) - Voice-first AI diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking via sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
+- [Vocalinux](https://github.com/jatinkrmalik/vocalinux) - Free offline voice dictation for Linux desktops. Local speech recognition (whisper.cpp, Whisper, or VOSK) types into any app on X11 and Wayland; useful for RSI, limited typing, and privacy-sensitive workflows.
 
 ## Neurodiversity Accessibility
 
