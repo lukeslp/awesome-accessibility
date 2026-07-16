@@ -217,6 +217,7 @@ Tools for facilitating communication:
 - [AssistiveWare Proloquo](https://www.assistiveware.com/products/proloquo) - A symbol-based AAC app for iOS devices, designed to help non-verbal users communicate effectively.
 - [Tobii Dynavox Snap Core First](https://us.tobiidynavox.com/pages/td-snap-core-first) - A symbol-based AAC software that provides a systematic approach to communication and literacy.
 - [Speech and Language Kids AAC Resource Page](https://www.speechandlanguagekids.com/aacpage/) - A resource page on AAC for children with speech and language delays.
+- [Communicator](https://ecksquad.github.io/communicator2/) - Free browser-based gesture-to-speech app: the camera turns head movements, blinks, and hand gestures into customizable spoken phrases, or plays recordings of the user's own voice. All processing on-device, no install or account required, available in seven languages. Open source (MIT). (Added 2026)
 - [Child Development Programs AAC Resources](https://www.childdevelopmentprograms.ca/resource-category/aac/) - E-learning courses and resources on AAC.
 - [SRALab Augmentative and Alternative Communication Listing](https://www.sralab.org/lifecenter/resources/listing-augmentative-and-alternative-communication) - A resource list including AAC blogs, websites, and books.
 - [TherapyWorks The Most Popular AAC Devices](https://therapyworks.com/blog/autism/the-most-popular-aac-devices/) - A blog post listing popular AAC devices.
