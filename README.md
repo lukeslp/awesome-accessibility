@@ -231,7 +231,6 @@ Tools for facilitating communication:
 - [eCampusOntario Digital Accessibility Resources](https://accessibility.ecampusontario.ca/accessibility/resources/) - A repository of resources on digital accessibility.
 - [McMaster University Accessible Education Training](https://accessibility.mcmaster.ca/training/accessible-education-training-for-instructional-staff/) - Training resources for instructional staff on accessible education.
 - [CAST National Center on Accessible Educational Materials](https://aem.cast.org/) - Provides technical assistance and resources to increase the availability of accessible educational materials.
-- [University of Waterloo Accessibility in Education Resources](https://uwaterloo.ca/accessibility/guides-and-resources/accessibility-education-resources) - A list of resources related to accessibility and universal design.
 - [Section508.gov Accessibility Training for Developers](https://www.section508.gov/create/developer-training/) - Training options to help improve accessibility skills for developers.
 - [Google Developers Learn Accessibility](https://developers.google.com/profile/badges/playlists/webdev/learn-accessibility) - A pathway to learn how to make websites and web apps more accessible.
 - [WebAIM Accessibility Training](https://webaim.org/services/training/) - Live, online training events covering accessibility principles and techniques.
@@ -432,7 +431,7 @@ Latest academic papers and findings related to accessibility:
 - [United Ability AT Alabama](https://www.unitedability.org/at-alabama/) - An assistive technology conference in Alabama.
 - [School of Medicine Columbia Assistive Technology Expo](https://sc.edu/study/colleges_schools/medicine/centers_and_institutes_new/center_for_disability_resources/assistive_technology/expo/) - An expo showcasing assistive technology.
 - [NASA Assistive Technologies Startup Summit](https://technology.nasa.gov/live-event/nasa-assistive-technologies-startup-summit) - An event connecting industry leaders in assistive technologies.
-- [UC Denver The Conference for Assistive Technology and Education (CATE)](https://www.ucdenver.edu/center-for-innovative-design-and-engineering/community-engagement/assistive-tech-in-k-12/professional-development/the-conference-for-assistive-technology-and-education-(cate)) - A virtual conference on assistive technology topics.
+- [CU Denver The Conference for Assistive Technology and Education (CATE)](<https://www.ucdenver.edu/center-for-innovative-design-and-engineering/community-engagement/assistive-tech-in-k-12/professional-development/the-conference-for-assistive-technology-and-education-(cate)>) - A virtual conference on assistive technology topics.
 - [The AIDC Accessible and Inclusive Design Conference](https://www.theaidc.com/) - A virtual event focused on creating accessible and inclusive learning environments.
 - [We Count Events](https://wecount.inclusivedesign.ca/events/) - Events related to inclusive co-design research.
 - [SmashingConf Inclusive Design Patterns Workshops](https://smashingconf.com/online-workshops/workshops/inclusive-design-patterns-vitaly-friedman) - Online workshops on inclusive design patterns.
@@ -585,7 +584,6 @@ Tools and resources for users with cognitive disabilities:
 
 Tools and resources for voice-based interaction:
 
-- [Dragon NaturallySpeaking](https://dragon.nuance.com/business-solutions/dragon-professional-anywhere.html) - Professional voice recognition software for dictation and computer control.
 - [Windows Speech Recognition](https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-83ff75bd-63eb-0b6c-18d4-6fae94050571) - Built-in voice control for Windows operating systems.
 - [Voice Control](https://support.apple.com/guide/mac-help/mchl1a04f324/mac) - Built-in voice control for Mac and iOS devices.
 - [Android Voice Access](https://support.google.com/accessibility/android/answer/6151843) - Voice control for Android devices.
@@ -729,12 +727,11 @@ Contributions are welcome. Here's how you can help:
 4. **Add context**: Descriptions, reviews, or additional detail on existing resources.
 
 To contribute:
+
 - Create an issue in the repository
 - Submit a pull request with your changes
 - Follow the [contribution guidelines](CONTRIBUTING.md)
 - Make sure all links work and descriptions are accurate
-
-Short URLs for this list: [assisted.site/accessibility](https://assisted.site/accessibility), [assisted.site/a11y](https://assisted.site/a11y), [assisted.site/alt](https://assisted.site/alt).
 
 Thanks for helping make this resource better.
 
