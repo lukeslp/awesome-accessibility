@@ -343,6 +343,7 @@ Ensuring conformance to accessibility regulations:
 - [Accessibility Checker ADA Compliance for Websites](https://www.accessibilitychecker.org/guides/ada-compliance/) - A checklist for ADA website compliance.
 - [AudioEye ADA Compliance Guide](https://www.audioeye.com/compliance/ada/) - A guide to getting websites compliant with ADA digital accessibility standards.
 - [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) - Machine-readable regulatory database mapping WCAG to EN 301 549 and national law across 17 jurisdictions, with typed exports and enforcement-body lookups. (MIT License)
+- [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) - A plain-English, beginner friendly and easy-to-use guide to WCAG.
 
 ## Assistive Technology Devices
 
