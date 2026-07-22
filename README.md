@@ -107,6 +107,7 @@ Resources for ensuring websites work for all:
 - [Sa11y](https://sa11y.netlify.app/) - Accessibility quality assurance tool that visually highlights issues directly on the page, designed for content authors and editors.
 - [Editoria11y](https://editoria11y.princeton.edu/) - Princeton-built content accessibility checker that runs automatically on page load, flagging issues like missing alt text and heading structure problems.
 - [WCAG 2.2 Map](https://intopia.digital/articles/intopia-launches-wcag-2-2-map/) - Interactive visual map from Intopia showing all WCAG 2.2 success criteria organized by principle, level, and guideline.
+- [Accesserty Signal](https://accesserty.com/en/signal) - Chrome and Firefox extension that shows published accessibility certifications and statements for sites in Google and Bing results, and lets users report barriers they encounter.
 
 ## Inclusive Design
 
@@ -689,6 +690,7 @@ Tools and resources for neurodivergent users:
 - [aria-query](https://github.com/A11yance/aria-query) - JavaScript utility for querying WAI-ARIA role and property metadata, used by accessibility testing tools like jest-axe and axe-core.
 - [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - Framework-agnostic TypeScript toolkit of eight packages mapped to WCAG success criteria, covering more than the usual visual checks: `audit` (axe-core + ESLint), `components` (focus traps, dialogs, menus), `accommodations` (color blindness, contrast, dyslexia typography, text spacing), `motor` (target size, pointer cancellation, dragging alternatives, tremor tolerance), `cognitive` (session timeouts, redundant-entry memory, accessible authentication, undo), `language` (readability scoring, plain-language flags, abbreviations), `media` (captions, autoplay-audio control, transcripts), and `motion` (reduced-motion gating, flash metering). (MIT License)
 - [@holmdigital/engine](https://www.npmjs.com/package/@holmdigital/engine) - WCAG testing engine (`hd-a11y-scan` CLI) that maps failures to EN 301 549 and national accessibility law across 17 jurisdictions (16 countries plus the EU, sourced from the [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) database), with sector-aware enforcement routing (WAD/EAA), CI mode, and JUnit/PDF reporting. (MIT License)
+- [Accesserty DevCheck](https://accesserty.com/en/devcheck) - Browser extension that runs axe-core scans, focus path review, visual simulations, and PDF structure checks on the current page, including local, staging, and authenticated states.
 
 ### Accessible Component Libraries
 
@@ -698,6 +700,7 @@ Tools and resources for neurodivergent users:
 - [Chakra UI](https://chakra-ui.com/) - Accessible React component library with built-in WAI-ARIA compliance. (MIT License)
 - [Ariakit](https://ariakit.org/) - Toolkit for building accessible web apps with React, providing low-level primitives with full WAI-ARIA support. (MIT License)
 - [@holmdigital/components](https://www.npmjs.com/package/@holmdigital/components) - Accessible React components including a regulation-ready `AccessibilityStatement` generator with legal templates in 12 locales (en, sv, no, fi, da, nl, de, fr, es, it, pt, pl, plus aliases). (MIT License)
+- [Accesserty UI Kit](https://accesserty.com/en/uikit/) - HTML-first accessible Web Components with built-in keyboard behavior and state management, usable with any framework or with plain HTML. (MIT License)
 
 ### Specialized Tools
 
