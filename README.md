@@ -8,7 +8,7 @@
 
 > **"For some people technology makes things easier, for others it makes things possible."**
 
-Contributions welcome — please share suggestions, corrections, and especially broken links. See [contributing.md](contributing.md).
+Contributions welcome — please share suggestions, corrections, and especially broken links. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
@@ -687,7 +687,7 @@ Tools and resources for neurodivergent users:
 - [tota11y](https://github.com/jdan/tota11y) - An accessibility visualization toolkit. (MIT License)
 - [python-a11y-playwright](https://pypi.org/project/python-a11y-playwright/) - Python integration of axe-core with Playwright for automated accessibility testing. (MIT License)
 - [aria-query](https://github.com/A11yance/aria-query) - JavaScript utility for querying WAI-ARIA role and property metadata, used by accessibility testing tools like jest-axe and axe-core.
-- [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - Developer toolkit with three packages: `@accessibility-devkit/audit` (axe-core runner + ESLint config), `@accessibility-devkit/components` (focus traps, skip links, live regions, dialogs), and `@accessibility-devkit/accommodations` (color blindness simulation, WCAG contrast checks).
+- [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - Framework-agnostic TypeScript toolkit of eight packages mapped to WCAG success criteria, covering more than the usual visual checks: `audit` (axe-core + ESLint), `components` (focus traps, dialogs, menus), `accommodations` (color blindness, contrast, dyslexia typography, text spacing), `motor` (target size, pointer cancellation, dragging alternatives, tremor tolerance), `cognitive` (session timeouts, redundant-entry memory, accessible authentication, undo), `language` (readability scoring, plain-language flags, abbreviations), `media` (captions, autoplay-audio control, transcripts), and `motion` (reduced-motion gating, flash metering). (MIT License)
 - [@holmdigital/engine](https://www.npmjs.com/package/@holmdigital/engine) - WCAG testing engine (`hd-a11y-scan` CLI) that maps failures to EN 301 549 and national accessibility law across 17 jurisdictions (16 countries plus the EU, sourced from the [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) database), with sector-aware enforcement routing (WAD/EAA), CI mode, and JUnit/PDF reporting. (MIT License)
 
 ### Accessible Component Libraries
@@ -716,7 +716,6 @@ Tools and resources for neurodivergent users:
 
 - [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using a language model. (MIT License)
 - [alt-text](https://pypi.org/project/alt-text/) - A Python package for finding, generating, and setting alt-text for images in HTML and EPUB files. (MIT License)
-- [accessibility-devkit-llm](https://github.com/lukeslp/accessibility-devkit-llm) - `alt-text` and `wcag-audit` CLI tools + MCP server for generating alt text and auditing WCAG compliance with any LLM provider.
 
 > **Note on Accessibility Overlays**: All-in-one accessibility widgets (also called "overlays") are controversial in the accessibility community. While they provide user-facing options, experts argue they cannot replace code-level accessibility work and may interfere with users' own assistive technologies. The [2025 Web Almanac Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) provides further context on this debate. A layered approach combining automated testing, accessible components, and specialized tools is the recommended best practice.
 
