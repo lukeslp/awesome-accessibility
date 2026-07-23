@@ -72,7 +72,7 @@ Resources for ensuring websites work for all:
 - [axe browser extension](https://www.deque.com/axe/devtools/extension/) - Find accessibility issues directly within your browser.
 - [ChromeLens browser extension](https://github.com/chromelens/chromelens) - Identify accessibility issues and best practices for your web projects.
 - [W3C Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/) - A list of software programs and online services that help determine if web content is accessible.
-- [WCAGsafe](https://wcagsafe.com)|WCAG 2.1 AA website and PDF accessibility scanner — plain-English results, legal risk indicator, AI-generated fix instructions, and monthly monitoring. No installation required.
+- [WCAGsafe](https://wcagsafe.com)|WCAG 2.1 AA website and PDF accessibility scanner — plain-English results, legal risk indicator, language-model-generated fix instructions, and monthly monitoring. No installation required.
 - [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) - The Web Content Accessibility Guidelines (WCAG) 2.2 has 13 guidelines organized under 4 principles: perceivable, operable, understandable, and robust.
 - [WAI Resources](https://www.w3.org/WAI/resources/) - Most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI).
 - [The A11Y Project](https://www.a11yproject.com/) - A community-driven effort to make web accessibility easier. It provides a curated collection of web accessibility tips, tools, and resources.
@@ -548,7 +548,7 @@ Tools and resources for users with hearing impairments:
 - [TTY/TDD](https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs) - Text telephone devices for deaf users.
 - [Web Captioner](https://github.com/curtgrimes/webcaptioner) - Open-source real-time captioning tool (hosted service retired; source code available on GitHub).
 - [Closed Caption Creator](https://www.closedcaptioncreator.com/) - Tool for creating closed captions for videos.
-- [Picute](https://picute.net/) - AI subtitle and caption generator with free, no-signup browser tools to convert and repair subtitle files (SRT, VTT, ASS) for accessible video.
+- [Picute](https://picute.net/) - Automated subtitle and caption generator with free, no-signup browser tools to convert and repair subtitle files (SRT, VTT, ASS) for accessible video.
 - [Caption and Subtitles Guidelines](https://www.w3.org/WAI/media/av/captions/) - W3C guidelines for captions and subtitles.
 - [ASL Browser](https://aslbrowser.com/) - American Sign Language dictionary with video demonstrations.
 - [Merlin Hearing Aid](https://www.starkey.com/) - Starkey's hearing aid platform with fall detection, language translation, and health tracking features.
@@ -599,7 +599,7 @@ Tools and resources for voice-based interaction:
 - [Google Speech-to-Text](https://cloud.google.com/speech-to-text) - API for converting speech to text.
 - [Talon Voice](https://talonvoice.com/) - Hands-free computer control with voice and eye tracking.
 - [Dictation.io](https://dictation.io/) - Free online dictation tool.
-- [DailyVox](https://getdailyvox.com) - Voice-first AI diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking via sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
+- [DailyVox](https://getdailyvox.com) - Voice-first diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking uses sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
 - [Vocalinux](https://github.com/jatinkrmalik/vocalinux) - Free offline voice dictation for Linux desktops. Local speech recognition (whisper.cpp, Whisper, or VOSK) types into any app on X11 and Wayland; useful for RSI, limited typing, and privacy-sensitive workflows.
 
 ## Neurodiversity Accessibility
@@ -687,7 +687,7 @@ Tools and resources for neurodivergent users:
 - [tota11y](https://github.com/jdan/tota11y) - An accessibility visualization toolkit. (MIT License)
 - [python-a11y-playwright](https://pypi.org/project/python-a11y-playwright/) - Python integration of axe-core with Playwright for automated accessibility testing. (MIT License)
 - [aria-query](https://github.com/A11yance/aria-query) - JavaScript utility for querying WAI-ARIA role and property metadata, used by accessibility testing tools like jest-axe and axe-core.
-- [accessibility-devkit](https://github.com/lukeslp/accessibility-devkit) - Framework-agnostic TypeScript toolkit of eight packages mapped to WCAG success criteria, covering more than the usual visual checks: `audit` (axe-core + ESLint), `components` (focus traps, dialogs, menus), `accommodations` (color blindness, contrast, dyslexia typography, text spacing), `motor` (target size, pointer cancellation, dragging alternatives, tremor tolerance), `cognitive` (session timeouts, redundant-entry memory, accessible authentication, undo), `language` (readability scoring, plain-language flags, abbreviations), `media` (captions, autoplay-audio control, transcripts), and `motion` (reduced-motion gating, flash metering). (MIT License)
+- [accessibility-devkit](https://github.com/actually-useful-ai/accessibility-devkit) - Framework-agnostic TypeScript toolkit with eight packages mapped to WCAG success criteria: `audit` (axe-core + ESLint), `components` (focus traps, dialogs, menus), `accommodations` (color blindness, contrast, dyslexia typography, text spacing), `motor` (target size, pointer cancellation, dragging alternatives, tremor tolerance), `cognitive` (session timeouts, redundant-entry memory, accessible authentication, undo), `language` (readability scoring, plain-language flags, abbreviations), `media` (captions, autoplay-audio control, transcripts), and `motion` (reduced-motion gating, flash metering). (MIT License)
 - [@holmdigital/engine](https://www.npmjs.com/package/@holmdigital/engine) - WCAG testing engine (`hd-a11y-scan` CLI) that maps failures to EN 301 549 and national accessibility law across 17 jurisdictions (16 countries plus the EU, sourced from the [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) database), with sector-aware enforcement routing (WAD/EAA), CI mode, and JUnit/PDF reporting. (MIT License)
 
 ### Accessible Component Libraries
