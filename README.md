@@ -168,6 +168,7 @@ Tools and resources for testing and validating accessibility:
 - [IBM Equal Access Accessibility Checker](https://www.ibm.com/able/) - A set of open source tools and guidance to help designers and developers create accessible products and applications.
 - [Allyant 4 Free Best Web Accessibility Testing Tools](https://allyant.com/blog/4-best-web-accessibility-testing-tools-a-detailed-comparison/) - A detailed comparison of four free web accessibility testing tools.
 - [Applitools Top 10 Accessibility Testing Tools](https://applitools.com/blog/top-10-web-accessibility-testing-tools/) - A list of the top 10 web accessibility testing tools.
+- [Access Check](https://khangyen.github.io/access-check/) - Browser-based WCAG 2.1 scanner that checks a URL or pasted HTML and maps each violation to its success criterion. Runs client-side with no install or account, and documents axe-core's roughly 30-50% automated-detection ceiling rather than implying full coverage.
 - [Section508.gov Accessibility Testing](https://www.section508.gov/test/web-software/) - Overview of how to use the Accessible Name & Description Inspector tool (ANDI) for testing.
 - [AudioEye Top 23 Free Accessibility Testing Tools](https://www.audioeye.com/post/free-accessibility-testing-tools/) - A list of 23 free accessibility testing tools.
 - [GOV.UK Testing for Accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility) - Guidelines on testing for accessibility, including tools like Microsoft's Accessibility Insights.
