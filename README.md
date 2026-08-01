@@ -581,6 +581,7 @@ Tools and resources for users with cognitive disabilities:
 - [Focusmate](https://www.focusmate.com/) - Virtual coworking platform that pairs users for live, focused work sessions using body doubling.
 - [OpenDyslexic](https://opendyslexic.org/) - Free typeface designed to increase readability for readers with dyslexia, with unique letter shapes to prevent confusion.
 - [Institute for Human Centered Design](https://humancentereddesign.org/) - Resources, consulting, and training on universal design and accessibility, focused on enhancing experiences for people of all abilities and backgrounds.
+- [Dopastep](https://dopastep.com/) - Body doubling in live focus rooms: break a task into small steps, then work alongside other people in synced focus and break cycles. No camera, chat or booking.
 
 ## Speech Recognition Accessibility
 
