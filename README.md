@@ -186,6 +186,7 @@ Tools and resources for testing and validating accessibility:
 - [Octopus Scanner](https://lachie1999.itch.io/octopus-scanner) - Desktop accessibility auditing app using Puppeteer and axe-core. Supports full-site crawls, sitemap ingestion, interactive journey recording for authenticated flows, and deep scan engine for dynamic content. Generates interactive reports with visual defect highlighting. Free, cross-platform.
 - [PageGuard](https://pageguard.org) - Free website health scanner that checks SEO, performance, accessibility, and best practices. Generates plain-English reports. No registration required. Powered by Cloudflare Workers AI.
 - [PDF 2 EPUB (toolkit.bot)](https://toolkit.bot/pdf2epub) - Converts PDF to reflowable EPUB 3 compliant with EPUB Accessibility 1.1 and WCAG 2.2 AA, making document libraries accessible to screen readers. Required for European Accessibility Act compliance. Free web service with REST API. (Added 2026)
+- [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
 
 ## Augmentative and Alternative Communication
 
