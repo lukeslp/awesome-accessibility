@@ -590,6 +590,7 @@ Tools and resources for users with cognitive disabilities:
 
 Tools and resources for voice-based interaction:
 
+- [AI Dictation](https://github.com/writingmate/aidictation) - Cross-platform voice typing with offline recognition on supported devices and optional cloud transcription. It may reduce keyboard use in standard text fields; operating-system and application restrictions apply.
 - [Windows Speech Recognition](https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-83ff75bd-63eb-0b6c-18d4-6fae94050571) - Built-in voice control for Windows operating systems.
 - [Voice Control](https://support.apple.com/guide/mac-help/mchl1a04f324/mac) - Built-in voice control for Mac and iOS devices.
 - [Android Voice Access](https://support.google.com/accessibility/android/answer/6151843) - Voice control for Android devices.
