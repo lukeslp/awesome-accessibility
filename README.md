@@ -489,7 +489,7 @@ Tools and resources for users with partial sight and color blindness:
 
 Tools and resources for users who are blind:
 
-- [BlindAssist](https://github.com/violetljj/blind-assist) - An AGPL-3.0 Android research prototype for on-device camera perception and accessible UI, speech, and vibration feedback. Publishes model provenance, reproducible checks, negative results, and explicit evidence and safety boundaries; it is not a certified mobility device.
+- [BlindAssist](https://github.com/violetljj/blind-assist) - An open-source Android research prototype for on-device assistive perception with accessible speech and vibration feedback, reproducible checks, and documented safety limitations.
 - [NVDA screen reader](https://www.nvaccess.org/) - Popular open source screen reader for blind or vision impaired users on Windows.
 - [VoiceOver screen reader](https://www.apple.com/accessibility/features/?vision) - Built-in screen reader for blind or low vision users on macOS and iOS.
 - [JAWS](https://www.freedomscientific.com/products/software/jaws/) - Leading screen reader for Windows users who are blind or visually impaired.
