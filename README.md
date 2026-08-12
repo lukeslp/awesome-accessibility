@@ -721,6 +721,7 @@ Tools and resources for neurodivergent users:
 - [accessibility](https://www.npmjs.com/package/accessibility) - An npm package providing an accessibility toolbar with text resizing, contrast, and link highlighting features. (MIT License)
 - [accessibility-skill](https://github.com/lukeslp/accessibility-skills) - WCAG 2.2 accessibility skill for coding agents (Claude, Codex, Cursor) with 10 audit scripts, production CSS, and JS patterns covering motor, cognitive, visual, and communication disabilities.
 - [ux-oss-safeguard](https://github.com/lukeslp/ux-oss-safeguard) - Content safety evaluator with full WCAG 2.1 AA compliance, keyboard navigation, screen reader support, and prefers-reduced-motion. Zero dependencies.
+- [A11Y.md](https://github.com/fecarrico/A11Y.md) - Persistent accessibility context standard for AI coding agents (Claude Code, Cursor, Copilot, Gemini). Portable markdown with an AI behavior contract, WCAG 2.2 AA compliance profiles, 24 lazy-loaded component guides, and versioned evidence artifacts. English and Portuguese. (MIT License)
 
 ### Automated Alt Text Tools
 
