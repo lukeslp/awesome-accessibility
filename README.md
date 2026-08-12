@@ -189,6 +189,7 @@ Tools and resources for testing and validating accessibility:
 - [PageGuard](https://pageguard.org) - Free website health scanner that checks SEO, performance, accessibility, and best practices. Generates plain-English reports. No registration required. Powered by Cloudflare Workers AI.
 - [PDF 2 EPUB (toolkit.bot)](https://toolkit.bot/pdf2epub) - Converts PDF to reflowable EPUB 3 compliant with EPUB Accessibility 1.1 and WCAG 2.2 AA, making document libraries accessible to screen readers. Required for European Accessibility Act compliance. Free web service with REST API. (Added 2026)
 - [Nutilz Accessibility Checker](https://nutilz.com/accessibility-checker) - Free WCAG scanner that audits any URL for critical, serious, moderate, and minor violations, gives the page a numeric score, and lists passed checks alongside per-issue fix guidance. No signup required. (Added 2026)
+- [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
 
 ## Augmentative and Alternative Communication
 
@@ -609,6 +610,7 @@ Tools and resources for voice-based interaction:
 - [DailyVox](https://getdailyvox.com) - Voice-first diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking uses sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
 - [Vocalinux](https://github.com/jatinkrmalik/vocalinux) - Free offline voice dictation for Linux desktops. Local speech recognition (whisper.cpp, Whisper, or VOSK) types into any app on X11 and Wayland; useful for RSI, limited typing, and privacy-sensitive workflows.
 - [YazSes](https://github.com/MSKazemi/yazses) - Free, open-source offline dictation for Linux, macOS, and Windows. Hold-to-talk rather than always-listening, so the speaker decides when recognition starts and stops; includes a dysfluency-friendly mode intended for stuttered and dysarthric speech. Runs entirely on-device, useful for RSI and privacy-sensitive work.
+- [Voicefield](https://github.com/tatargabor/voicefield) - Open-source React library that turns a phone into a wireless microphone for any web form. Users scan a QR code, and speech recognition runs client-side on the phone — only text is relayed to the desktop. Works with the browser's built-in Web Speech API or cloud STT providers. Enables hands-free form input for users with motor disabilities or RSI. ([Website](https://voicefield.dev)) (MIT License)
 
 ## Neurodiversity Accessibility
 
