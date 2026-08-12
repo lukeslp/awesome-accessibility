@@ -552,6 +552,7 @@ Tools and resources for users with hearing impairments:
 - [Closed Caption Creator](https://www.closedcaptioncreator.com/) - Tool for creating closed captions for videos.
 - [Picute](https://picute.net/) - Automated subtitle and caption generator with free, no-signup browser tools to convert and repair subtitle files (SRT, VTT, ASS) for accessible video.
 - [Caption and Subtitles Guidelines](https://www.w3.org/WAI/media/av/captions/) - W3C guidelines for captions and subtitles.
+- [Caption readability check](https://timedsubs.com/en/guides/caption-readability-check) - Practical pre-publication guide for checking caption timing, overlaps, line length, reading speed, and SRT/VTT structure without presenting style thresholds as WCAG guarantees.
 - [ASL Browser](https://aslbrowser.com/) - American Sign Language dictionary with video demonstrations.
 - [Merlin Hearing Aid](https://www.starkey.com/) - Starkey's hearing aid platform with fall detection, language translation, and health tracking features.
 
