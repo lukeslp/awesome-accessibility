@@ -460,6 +460,7 @@ Tools and resources for users with partial sight and color blindness:
 - [Accessible Colors](https://accessible-colors.com) - A tool for finding accessible color combinations.
 - [Contrast Checker](https://webaim.org/resources/contrastchecker/) - Check color contrast for WCAG compliance.
 - [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/) - A color blindness simulator for Mac and iOS.
+- [Color Vision Labs Simulator & Filter](https://colorvisionlabs.com/color-blind-filter) - Free browser-based color blindness simulator (protan, deutan, tritan, with adjustable severity including partial forms) for live camera or photos, plus a daltonization assist mode. Runs entirely client-side, no signup.
 - [Envision Glasses](https://www.letsenvision.com/glasses/home) - Smart glasses that read text, recognize faces, and describe scenes for blind and low vision users.
 - [OrCam MyEye](https://www.orcam.com/en-us/orcam-myeye) - Wearable device that reads text, recognizes faces, and identifies products for people who are blind or have low vision.
 - [Colorblinding](https://chromewebstore.google.com/detail/empty-title/dgbgleaofjainknadoffbjkclicbbgaa) - Chrome extension that simulates various types of color blindness on web pages, helping developers and designers verify their content is accessible to colorblind users.
