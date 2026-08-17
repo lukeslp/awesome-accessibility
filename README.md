@@ -226,6 +226,7 @@ Tools for facilitating communication:
 - [Speech and Language Kids AAC Apps](https://www.speechandlanguagekids.com/aac-apps-review/) - A review of AAC apps for children.
 - [Towson University LibGuides AAC Apps](https://towson.libguides.com/speech-language-pathology/aac-apps) - A research guide on AAC apps.
 - [Digital Scribbler 5 Must-Have AAC Apps For Adults](https://digitalscribbler.org/5-must-have-aac-apps-for-adults/) - A list of five essential AAC apps for adults.
+- [AAC Board AI](https://github.com/shayc/aac-board-ai) - Free, open-source AAC web app for symbol-based communication, with keyboard navigation, OBF/OBZ imports, multilingual interfaces, offline core features after initial load, and optional browser-provided on-device AI.
 
 ## Education & Training
 
