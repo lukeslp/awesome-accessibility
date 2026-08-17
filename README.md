@@ -192,6 +192,7 @@ Tools and resources for testing and validating accessibility:
 
 Tools for facilitating communication:
 
+- [AAC Board AI](https://github.com/shayc/aac-board-ai) - Free, open-source AAC web app for symbol-based communication, with keyboard navigation, OBF/OBZ imports, multilingual interfaces, offline core features after initial load, and optional browser-provided on-device AI.
 - [Cboard](https://www.cboard.io/) - Symbol-based communication platform.
 - [MyCoughDrop](https://www.mycoughdrop.com/) - Cloud-based communication system.
 - [EyeTell](https://www.eyetell.com/) - Communication through eye-tracking technology.
