@@ -187,6 +187,7 @@ Tools and resources for testing and validating accessibility:
 - [PageGuard](https://pageguard.org) - Free website health scanner that checks SEO, performance, accessibility, and best practices. Generates plain-English reports. No registration required. Powered by Cloudflare Workers AI.
 - [Nutilz Accessibility Checker](https://nutilz.com/accessibility-checker) - Free WCAG scanner that audits any URL for critical, serious, moderate, and minor violations, gives the page a numeric score, and lists passed checks alongside per-issue fix guidance. No signup required. (Added 2026)
 - [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
+- [A11yKit](https://a11ykit.site) - 15 free, 100% client-side web accessibility tools for WCAG 2.2 and EAA compliance. Includes contrast checker (WCAG + APCA), color blindness simulator, ARIA generator, and heading analyzer with zero code uploads. (Added 2026)
 
 ## Augmentative and Alternative Communication
 
