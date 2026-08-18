@@ -621,6 +621,7 @@ Tools and resources for neurodivergent users:
 - [Noise-cancelling headphones](https://www.bose.com/c/headphones/noise-cancelling) - Audio equipment for sensory regulation.
 - [Stim Toy Box](https://stimtoybox.wordpress.com/) - Blog reviewing fidget and sensory tools for regulation and focus.
 - [Visual timers](https://www.timetimer.com/) - Visual countdown timers for time management support.
+- [Autism crisis communication cards](https://www.maskedbutaware.nl/en/tools/crisis-mode) - Free, phone-friendly communication support for moments when sensory overload makes speaking difficult. Available in English and Dutch without tracking; printable templates are [open source](https://github.com/maskedbutaware/autism-crisis-communication-cards).
 - [Autism Accessibility Guidelines](https://hassellinclusion.com/blog/autism-accessibility-guidelines-resource/) - Design guidance for sensory and other access needs.
 - [Animation Sensitivity Guidelines](https://source.opennews.org/articles/motion-sick/) - Designing with reduced motion to avoid triggering vestibular disorders.
 - [Focus Mode Extensions](https://chromewebstore.google.com/detail/empty-title/jgjggfakhopcciohioddgcffbecjoffg) - Browser extensions to reduce distractions.
