@@ -160,6 +160,7 @@ Tools and resources for testing and validating accessibility:
 - [CSS & HTML Validator](https://www.htmlvalidator.com/) - Checks HTML, CSS, SEO, PHP, and more for errors and warnings.
 - [Accessibility Checker](https://www.accessibilitychecker.org/) - ADA & WCAG Compliance checker.
 - [Contrast Checker](https://webaim.org/resources/contrastchecker/) - Checks color contrast for WCAG compliance.
+- [CompliaScan](https://compliascan.com) - Free WCAG 2.2 checker powered by axe-core plus custom checks; scans any URL in seconds with a prioritized report and a fix suggestion per issue, no signup.
 - [TestMuAI](https://www.testmuai.com/learning-hub/accessibility-testing/) - Cloud-based cross-browser testing platform with accessibility testing features.
 - [Siteimprove](https://www.siteimprove.com/platform/accessibility/) - Digital presence optimization software including accessibility testing.
 - [Best Tools and Resources for Your Accessible Design](https://www.uxpin.com/studio/blog/accessibility-design-tools/) - A curated list of tools and resources for accessible design, including ANDI, NVDA, contrast checkers, and various guides.
