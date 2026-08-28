@@ -537,6 +537,7 @@ Tools and resources for users with hearing impairments:
 - [Phonak Roger](https://www.phonak.com/en-int/hearing-devices/microphones) - Wireless microphone technology that improves speech understanding in noise and over distance for people with hearing loss.
 - [Live Caption](https://support.google.com/accessibility/android/answer/9350862?hl=en) - Real-time captioning for Android devices.
 - [Otter.ai](https://otter.ai/) - Automated transcription service for meetings and conversations.
+- [Trippi (OSS)](https://github.com/skrylkovs/trippi-oss) - Open-source, MIT-licensed Chrome extension that captures a browser tab's audio and shows live translated captions over Google Meet, Zoom, and Microsoft Teams calls, using Deepgram for speech recognition and DeepL for translation.
 - [Video Relay Service (VRS)](https://www.fcc.gov/consumers/guides/video-relay-services) - Video calling service that connects deaf users with hearing people through sign language interpreters.
 - [Sorenson](https://sorenson.com/) - Video relay service and communication solutions for deaf users.
 - [Hearing loop systems](https://centerforhearingaccess.org/) - Assistive listening technology for hearing aid users.
