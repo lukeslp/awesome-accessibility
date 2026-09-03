@@ -187,6 +187,7 @@ Tools and resources for testing and validating accessibility:
 - [PageGuard](https://pageguard.org) - Free website health scanner that checks SEO, performance, accessibility, and best practices. Generates plain-English reports. No registration required. Powered by Cloudflare Workers AI.
 - [Nutilz Accessibility Checker](https://nutilz.com/accessibility-checker) - Free WCAG scanner that audits any URL for critical, serious, moderate, and minor violations, gives the page a numeric score, and lists passed checks alongside per-issue fix guidance. No signup required. (Added 2026)
 - [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
+- [wcag-contrast-ci](https://github.com/johnsmithCA-sta/wcag-contrast-ci) - Zero-dependency Python CLI that batch-checks color pairs against WCAG AA/AAA (normal, large, and UI-component tiers) and audits CSS token hygiene - variable definition/usage counts, hardcoded color values, and dead token detection. Exits non-zero on failure so it can gate a CI pipeline directly. (Added 2026)
 
 ## Augmentative and Alternative Communication
 
