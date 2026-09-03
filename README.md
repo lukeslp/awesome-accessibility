@@ -187,6 +187,7 @@ Tools and resources for testing and validating accessibility:
 - [PageGuard](https://pageguard.org) - Free website health scanner that checks SEO, performance, accessibility, and best practices. Generates plain-English reports. No registration required. Powered by Cloudflare Workers AI.
 - [Nutilz Accessibility Checker](https://nutilz.com/accessibility-checker) - Free WCAG scanner that audits any URL for critical, serious, moderate, and minor violations, gives the page a numeric score, and lists passed checks alongside per-issue fix guidance. No signup required. (Added 2026)
 - [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
+- [Annex Markup Scan](https://yakupefecaliskann.github.io/annex-site/tools/scan/) - Browser-based WCAG 2.2 checker for a page's HTML. Paste a source and 14 rules run client-side with no install or account. Names colour contrast, keyboard operation and focus visibility as out of scope for static analysis rather than scoring them as passed.
 
 ## Augmentative and Alternative Communication
 
@@ -344,6 +345,7 @@ Ensuring conformance to accessibility regulations:
 - [AudioEye ADA Compliance Guide](https://www.audioeye.com/compliance/ada/) - A guide to getting websites compliant with ADA digital accessibility standards.
 - [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) - Machine-readable regulatory database mapping WCAG to EN 301 549 and national law across 17 jurisdictions, with typed exports and enforcement-body lookups. (MIT License)
 - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) - A plain-English, beginner friendly and easy-to-use guide to WCAG.
+- [EAA National Transposition by Member State](https://yakupefecaliskann.github.io/annex-site/eaa/transposition/) - The national instrument transposing the European Accessibility Act in each of the 27 EU member states, each row read from the official EUR-Lex transposition record. A business is judged against the national law rather than the directive itself.
 
 ## Assistive Technology Devices
 
