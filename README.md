@@ -187,7 +187,7 @@ Tools and resources for testing and validating accessibility:
 - [PageGuard](https://pageguard.org) - Free website health scanner that checks SEO, performance, accessibility, and best practices. Generates plain-English reports. No registration required. Powered by Cloudflare Workers AI.
 - [Nutilz Accessibility Checker](https://nutilz.com/accessibility-checker) - Free WCAG scanner that audits any URL for critical, serious, moderate, and minor violations, gives the page a numeric score, and lists passed checks alongside per-issue fix guidance. No signup required. (Added 2026)
 - [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
-- [Annex Markup Scan](https://yakupefecaliskann.github.io/annex-site/tools/scan/) - Browser-based WCAG 2.2 checker for a page's HTML. Paste a source and 14 rules run client-side with no install or account. Names colour contrast, keyboard operation and focus visibility as out of scope for static analysis rather than scoring them as passed.
+- [Annex Markup Scan](https://yakupefecaliskann.github.io/annex-site/tools/scan/) - Browser-based WCAG 2.2 checker for a page's HTML. The 14 rules run client-side in both modes: pasting a source sends nothing anywhere, and scanning by address sends only the address to a proxy that fetches the page and hands the HTML back. Names colour contrast, keyboard operation and focus visibility as out of scope for static analysis rather than scoring them as passed.
 
 ## Augmentative and Alternative Communication
 
