@@ -700,6 +700,7 @@ Tools and resources for neurodivergent users:
 - [@holmdigital/engine](https://www.npmjs.com/package/@holmdigital/engine) - WCAG testing engine (`hd-a11y-scan` CLI) that maps failures to EN 301 549 and national accessibility law across 17 jurisdictions (16 countries plus the EU, sourced from the [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) database), with sector-aware enforcement routing (WAD/EAA), CI mode, and JUnit/PDF reporting. (MIT License)
 - [Accesserty DevCheck](https://accesserty.com/en/devcheck) - Browser extension that runs axe-core scans, focus path review, visual simulations, and PDF structure checks on the current page, including local, staging, and authenticated states.
 - [squirrelscan](https://github.com/squirrelscan/squirrelscan) - CLI website audit tool built for coding agents (Claude Code, Cursor) that crawls a site and runs 260+ rules across accessibility, SEO, performance and security, handing the agent exact fixes mapped to source files. Free local audits, GitHub Action for CI, MCP server. (MIT License)
+- [ux-ui-audit](https://github.com/uxbyissa/ux-ui-audit) - Browser probes that measure WCAG contrast, tap targets and focus-ring contrast, plus an Arabic/RTL engine for plural agreement, bidi hazards and letter-spacing on cursive script. (MIT License)
 
 ### Accessible Component Libraries
 
