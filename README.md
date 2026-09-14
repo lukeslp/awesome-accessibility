@@ -76,6 +76,7 @@ Resources for ensuring websites work for all:
 - [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) - The Web Content Accessibility Guidelines (WCAG) 2.2 has 13 guidelines organized under 4 principles: perceivable, operable, understandable, and robust.
 - [WAI Resources](https://www.w3.org/WAI/resources/) - Most technical and educational resources from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI).
 - [The A11Y Project](https://www.a11yproject.com/) - A community-driven effort to make web accessibility easier. It provides a curated collection of web accessibility tips, tools, and resources.
+- [Accessible SVG Icons: ARIA, Roles and Labels](https://iconvectors.io/tutorials/accessible-svg-icons-aria-roles-labels.html) - Practical guide to making SVG icons accessible with ARIA roles, labels, and decorative icon patterns.
 - [20 Best Accessibility Testing tools WCAG and ADA Testing Tools](https://www.browserstack.com/guide/wcag-ada-testing-tools) - BrowserStack's guide explores 20 top accessibility testing tools for WCAG and ADA compliance.
 - [TestMuAI Accessibility DevTools](https://www.testmuai.com/blog/accessibility-testing-tools/) - TestMuAI's Accessibility DevTools offer full-featured web accessibility testing, including full-page scans, partial-page scans, and more.
 - [Accessible Technology at the UW](https://www.washington.edu/accessibility/) - The University of Washington's Accessible Technology website offers a wealth of resources on creating accessible digital content.
