@@ -173,6 +173,7 @@ Tools and resources for testing and validating accessibility:
 - [Section508.gov Accessibility Testing](https://www.section508.gov/test/web-software/) - Overview of how to use the Accessible Name & Description Inspector tool (ANDI) for testing.
 - [AudioEye Top 23 Free Accessibility Testing Tools](https://www.audioeye.com/post/free-accessibility-testing-tools/) - A list of 23 free accessibility testing tools.
 - [GOV.UK Testing for Accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility) - Guidelines on testing for accessibility, including tools like Microsoft's Accessibility Insights.
+- [The ID Toolbox](https://nextgenailearning.com) - Free browser-based accessibility checks for e-learning courses rather than web pages: alt text across a published SCORM package or PowerPoint deck, colour contrast against WCAG AA and AAA, colour blindness simulation, and caption reading speed. Runs client-side with no account and no upload.
 - [DigitalA11Y Open Source Accessibility Tools Roundup](https://www.digitala11y.com/open-source-accessibility-tools/) - A curated list of open-source web accessibility evaluation tools.
 - [Website Accessibility Checker](https://websiteaccessibilitychecker.com/checker/index.php) - A tool to check single HTML pages for conformance with accessibility standards.
 - [SIUMED Web Accessibility: Evaluation Tools](https://libguides.siumed.edu/c.php?g=51821&p=334740) - A libguide on web content accessibility validators.
