@@ -643,6 +643,7 @@ Tools and resources for neurodivergent users:
 - [Annual Disability Statistics Collection](https://www.researchondisability.org/annual-disability-statistics-collection) - A collection of tools and reports offering over 16 years of disability statistics.
 - [The Web Almanac by HTTP Archive - Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) - An annual report on the state of the web, with a dedicated chapter on accessibility.
 - [EU Accessibility Mapping](https://github.com/sergordienko/eu-accessibility-mapping) - Open MIT dataset (JSON + CSV) crosswalking every WCAG 2.x A/AA success criterion to EN 301 549, the EU Accessibility Act, and Germany's BFSG, documenting the harmonized-standard chain that grants presumption of conformity.
+- [Website language statistics 2026](https://www.stackscan.com/blog/website-language-statistics) - A crawl of 158.5 million websites measuring the declared HTML lang attribute, the mechanism behind WCAG 2.1 SC 3.1.1 (Language of Page). A quarter of sites declare no language at all.
 
 ## Automated Accessibility Tools
 
