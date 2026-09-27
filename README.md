@@ -190,6 +190,7 @@ Tools and resources for testing and validating accessibility:
 - [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
 - [Annex Markup Scan](https://yakupefecaliskann.github.io/annex-site/tools/scan/) - Browser-based WCAG 2.2 checker for a page's HTML. The 14 rules run client-side in both modes: pasting a source sends nothing anywhere, and scanning by address sends only the address to a proxy that fetches the page and hands the HTML back. Names colour contrast, keyboard operation and focus visibility as out of scope for static analysis rather than scoring them as passed.
 - [wcag-contrast-ci](https://github.com/johnsmithCA-sta/wcag-contrast-ci) - Zero-dependency Python CLI that batch-checks color pairs against WCAG AA/AAA (normal, large, and UI-component tiers) and audits CSS token hygiene - variable definition/usage counts, hardcoded color values, and dead token detection. Exits non-zero on failure so it can gate a CI pipeline directly. (Added 2026)
+- [Oh My Android](https://github.com/ateymoori/oh-my-android) - Free, open-source macOS app for accessibility testing of Android apps in the emulator or on a device over adb. Toggles TalkBack, font scale, bold text and RTL/pseudo-locales, and runs an audit that numbers each TalkBack stop in focus order and flags unlabeled controls and small touch targets.
 
 ## Augmentative and Alternative Communication
 
