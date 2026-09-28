@@ -653,6 +653,7 @@ Tools and resources for neurodivergent users:
 - [AccessCheck](https://accesscheck-app.netlify.app) – Free web accessibility scanner that runs Playwright and axe-core against any URL to identify WCAG 2.1 violations, with detailed remediation guidance and exportable reports.
 - [TrustYourWebsite](https://trustyourwebsite.com) - Automated website accessibility and compliance scanner for EU and UK small businesses, built on axe-core. Reports WCAG issues only and injects nothing into the page (not an overlay). The free scan returns a risk score and issue counts.
 - [WCAG Watch](https://wcagwatch.tirelesslabs.com) - Automated technical WCAG/EAA monitoring for EU-facing sites, built on axe-core. Free instant scan; paid continuous monitoring from €29/mo. Note: automated scanners catch only an estimated 25–33% of WCAG issues — not a substitute for a human audit or legal/compliance certification.
+- [Conformly](https://conformly.online/en) - Continuous accessibility monitoring for websites, aligned with the French RGAA 4.1.2 (based on WCAG 2.1) and the European Accessibility Act. Renders pages in a real browser, runs axe-core plus expert checks, alerts on regressions after each deploy and offers an MIT-licensed CLI and GitHub Action for CI. Not an overlay; untestable criteria are listed and excluded from the score. Free for one site.
 
 ## Gaming Accessibility
 
