@@ -559,6 +559,7 @@ Tools and resources for users with hearing impairments:
 - [Caption readability check](https://timedsubs.com/en/guides/caption-readability-check) - Practical pre-publication guide for checking caption timing, overlaps, line length, reading speed, and SRT/VTT structure without presenting style thresholds as WCAG guarantees.
 - [ASL Browser](https://aslbrowser.com/) - American Sign Language dictionary with video demonstrations.
 - [Merlin Hearing Aid](https://www.starkey.com/) - Starkey's hearing aid platform with fall detection, language translation, and health tracking features.
+- [Audio to Text](https://www.ruanjiange.com/audio-to-text/) - Browser-based Whisper transcription for audio and video files; nothing is uploaded and no account is needed, and the result can be saved as TXT or SRT for accessible captioning workflows.
 
 ## Cognitive Accessibility
 
