@@ -555,6 +555,7 @@ Tools and resources for users with hearing impairments:
 - [Web Captioner](https://github.com/curtgrimes/webcaptioner) - Open-source real-time captioning tool (hosted service retired; source code available on GitHub).
 - [Closed Caption Creator](https://www.closedcaptioncreator.com/) - Tool for creating closed captions for videos.
 - [Picute](https://picute.net/) - Automated subtitle and caption generator with free, no-signup browser tools to convert and repair subtitle files (SRT, VTT, ASS) for accessible video.
+- [Captions Generator](https://captionsgenerator.app/) - Browser-based caption and subtitle generator that transcribes speech automatically, lets you edit the text and timing, and exports SRT/VTT files or video with burned-in captions. Free plan available.
 - [Caption and Subtitles Guidelines](https://www.w3.org/WAI/media/av/captions/) - W3C guidelines for captions and subtitles.
 - [Caption readability check](https://timedsubs.com/en/guides/caption-readability-check) - Practical pre-publication guide for checking caption timing, overlaps, line length, reading speed, and SRT/VTT structure without presenting style thresholds as WCAG guarantees.
 - [ASL Browser](https://aslbrowser.com/) - American Sign Language dictionary with video demonstrations.
