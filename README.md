@@ -585,6 +585,7 @@ Tools and resources for users with cognitive disabilities:
 - [ADHD-Friendly Design Guidelines](https://www.w3.org/WAI/cognitive/) - W3C resources on cognitive accessibility, including design patterns for attention and focus.
 - [Brain.fm](https://www.brain.fm/) - Functional music designed to improve focus, relaxation, and sleep, using rhythmic patterns to support deep work.
 - [Goblin.tools](https://goblin.tools/) - Collection of small, single-task tools for people who find certain tasks overwhelming, including a task breakdown feature and tone estimator.
+- [ZeroLoginFocus](https://zerologinfocus.com/) - Free ADHD focus tools that run in the browser with no login or signup, including a task breaker, visual timer, dopamine menu and voice brain dump. Your data stays on the device, apart from anonymous aggregate analytics and the browser's own speech recognition service used by the voice tool.
 - [Structured](https://structured.app/) - Visual day planner app with a timeline-based interface, particularly helpful for individuals with time blindness.
 - [Focusmate](https://www.focusmate.com/) - Virtual coworking platform that pairs users for live, focused work sessions using body doubling.
 - [OpenDyslexic](https://opendyslexic.org/) - Free typeface designed to increase readability for readers with dyslexia, with unique letter shapes to prevent confusion.
