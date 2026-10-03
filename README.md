@@ -713,6 +713,7 @@ Tools and resources for neurodivergent users:
 - [Ariakit](https://ariakit.com/) - Toolkit for building accessible web apps with React, providing low-level primitives with full WAI-ARIA support. (MIT License)
 - [@holmdigital/components](https://www.npmjs.com/package/@holmdigital/components) - Accessible React components including a regulation-ready `AccessibilityStatement` generator with legal templates in 12 locales (en, sv, no, fi, da, nl, de, fr, es, it, pt, pl, plus aliases). (MIT License)
 - [Accesserty UI Kit](https://accesserty.com/en/uikit/) - HTML-first accessible Web Components with built-in keyboard behavior and state management, usable with any framework or with plain HTML. (MIT License)
+- [Riffle](https://github.com/reactivepixels/riffle) - Headless cycling card stack for vanilla JS, React and Vue that follows the WAI-ARIA carousel pattern, with keyboard navigation and reduced-motion support. (MIT License)
 
 ### Specialized Tools
 
