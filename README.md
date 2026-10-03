@@ -512,6 +512,7 @@ Tools and resources for users who are blind:
 - [WebAIM Assistive Technologies](https://webaim.org/articles/motor/assistive) - Guide on various assistive technologies, including screen readers, screen magnifiers, and alternative input devices.
 - [Microsoft Accessibility Assistive Technology](https://www.microsoft.com/en-us/accessibility/) - Information on built-in accessibility features in Microsoft products, including screen readers, speech recognition, magnification, and other assistive technologies.
 - [PulseTime](https://apps.repebble.com/1624684ac5dd46ac85eee2a6) - Haptic clock for Pebble, Wear OS, and Garmin that tells the time through vibration patterns, with lessons for learning the rhythm and large high-contrast digits for anyone who can use them. Built for a blind friend; open source (MIT). (Added 2026)
+- [OneFindMe](https://onefindme.com/accessibility/) - Free product search for AliExpress built for screen readers: result counts are announced, each product card reads as one sentence (name, price, rating, orders), and a "Describe this product" button uses AI to describe the product photo in the shopper's language (13 languages). Tested by the founder's blind brother with VoiceOver; supported by affiliate links. (Added 2026)
 
 ## Motor Control Accessibility
 
