@@ -535,6 +535,7 @@ Tools and resources for users with motor impairments:
 - [Xbox Adaptive Controller](https://www.xbox.com/en-US/accessories/controllers/xbox-adaptive-controller) - Accessible gaming controller for users with limited mobility.
 - [Switch Access](https://support.google.com/accessibility/android/answer/6122836?hl=en) - Android accessibility feature for controlling devices using switches.
 - [Glassouse](https://glassouse.com/) - Hands-free mouse alternative worn like glasses, controlled by head movements and bites, designed for people with limited hand mobility.
+- [Leviate](https://github.com/vladpereverzyev/leviate) - Controls the mouse and 3D programs with mid-air hand gestures through a webcam or a phone, without touching the mouse. Open source.
 - [Grid Pad](https://thinksmartbox.com/grid-pad-overview/) - Versatile communication aid with multiple access methods including touch, switch, and eye gaze. Comes with Grid 3 software for symbol and text-based communication.
 - [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go) - Symbol-supported AAC app for iOS devices with customizable vocabulary, natural-sounding voices, and motor planning support for efficient communication.
 - [Jabbla Mind Express](https://www.jabbla.com/en/mind-express/) - Versatile AAC software for various devices, offering symbol and text-based communication with advanced features like eye gaze control and environmental control.
