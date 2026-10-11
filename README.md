@@ -685,6 +685,7 @@ Tools and resources for neurodivergent users:
 - [Accessible Canada Act](https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html) - Canadian federal legislation driving progress toward a barrier-free country by 2040, with required accessibility plans for federally regulated entities.
 - [W3C International Accessibility Laws and Policies](https://www.w3.org/WAI/policies/) - Directory of accessibility laws and policies worldwide, maintained by the W3C Web Accessibility Initiative.
 - [UN Convention on the Rights of Persons with Disabilities](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd) - The international treaty driving accessibility legislation globally, with ongoing implementation and reporting requirements.
+- [Accessibility statement generator (A11y Kit)](https://vread-corp.github.io/declaration-accessibilite/en/) - Free, in-browser generator for accessibility statements following the European Accessibility Act Annex V structure, with French (RGAA) and German (BFSG) versions; exports HTML, Markdown and Word and sends no data. It formats your answers and does not test the site.
 
 ## Accessibility Packages and Tools
 
