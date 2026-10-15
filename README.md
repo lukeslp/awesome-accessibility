@@ -116,7 +116,7 @@ Principles and patterns for accessibility:
 
 - [Inclusive Components](https://inclusive-components.design/) - UI components optimizing for accessibility.
 - [A11y Style Guide](https://a11y-style-guide.com/style-guide/) - Patterns, code, and examples.
-- [Inclusive Design Principles](https://inclusivedesignprinciples.org/) - Principles from University of Cambridge.
+- [Inclusive Design Principles](https://web.archive.org/web/20230601105718/https://inclusivedesignprinciples.org/) - Seven principles by Henny Swan, Ian Pouncey, Heydon Pickering and Léonie Watson (archived copy; the original domain has lapsed).
 - [Accessibility Developer Guide](https://web.dev/accessibility/) - Patterns, code examples, and guides published by Google.
 - [Inclusive Design Research Centre](https://idrc.ocadu.ca/) - An international community of developers, designers, researchers, educators & co-designers working to ensure the newest technology and practices are designed inclusively.
 - [The Centre For Inclusive Design](https://centreforinclusivedesign.org.au/) - An industry leader in inclusive and accessible design, working with clients to create inclusive design processes and strategies.
@@ -282,7 +282,6 @@ Connect with the accessibility community:
 - [AssistiveWare Learn AAC](https://www.assistiveware.com/learn-aac) - A resource center for learning about AAC, provided by AssistiveWare.
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) - The Accessibility Developer Guide is a resource for developers to learn about implementing accessibility in web projects.
 - [Create Accessible Documents](https://www.section508.gov/create/documents/) - A resource guide on creating accessible Microsoft Word documents that conform to the Revised 508 Standards.
-- [Center on Technology and Disability](https://ctdinstitute.org/) - Offers a wide range of resources on assistive and instructional technology for children with disabilities.
 - [Accessible Community](https://accessiblecommunity.org/) - A nonprofit providing tools and resources to create a more inclusive world for people with disabilities.
 - [OCUL Accessibility Community](https://ocul.on.ca/accessibility-community) - A forum for information-sharing and discussion on accessibility issues for Ontario university libraries.
 - [Canadian Accessibility Network](https://www.can-rca.ca/communities-of-practice/) - Provides inclusive opportunities for members to drive accessibility forward.
@@ -516,7 +515,7 @@ Tools and resources for users who are blind:
 - [WebAIM Assistive Technologies](https://webaim.org/articles/motor/assistive) - Guide on various assistive technologies, including screen readers, screen magnifiers, and alternative input devices.
 - [Microsoft Accessibility Assistive Technology](https://www.microsoft.com/en-us/accessibility/) - Information on built-in accessibility features in Microsoft products, including screen readers, speech recognition, magnification, and other assistive technologies.
 - [PulseTime](https://apps.repebble.com/1624684ac5dd46ac85eee2a6) - Haptic clock for Pebble, Wear OS, and Garmin that tells the time through vibration patterns, with lessons for learning the rhythm and large high-contrast digits for anyone who can use them. Built for a blind friend; open source (MIT). (Added 2026)
-- [AliExpress Photo Describer](https://onefindme.com/describe/) - Free web tool for blind shoppers that describes AliExpress product photos in 13 languages, including visible text, item counts and differences from the listing title. Descriptions can be inaccurate; [source code](https://github.com/skazi1976/aliexpress-photo-describer) is available under MIT.
+- [AliExpress Photo Describer](https://onefindme.com/describe/) - Free web tool for blind shoppers that describes AliExpress product photos in 13 languages, including visible text, item counts and differences from the listing title. Descriptions can be inaccurate.
 
 ## Motor Control Accessibility
 
@@ -548,6 +547,7 @@ Tools and resources for users with hearing impairments:
 
 - [Phonak Roger](https://www.phonak.com/en-int/hearing-devices/microphones) - Wireless microphone technology that improves speech understanding in noise and over distance for people with hearing loss.
 - [Live Caption](https://support.google.com/accessibility/android/answer/9350862?hl=en) - Real-time captioning for Android devices.
+- [NotchLive](https://notchlive.app/) - macOS app that captions system and microphone audio on the device, across meetings, videos and in-person conversation; live captions are free.
 - [Otter.ai](https://otter.ai/) - Automated transcription service for meetings and conversations.
 - [Trippi (OSS)](https://github.com/skrylkovs/trippi-oss) - Open-source, MIT-licensed Chrome extension that captures a browser tab's audio and shows live translated captions over Google Meet, Zoom, and Microsoft Teams calls, using Deepgram for speech recognition and DeepL for translation.
 - [Video Relay Service (VRS)](https://www.fcc.gov/consumers/guides/video-relay-services) - Video calling service that connects deaf users with hearing people through sign language interpreters.
