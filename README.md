@@ -70,7 +70,7 @@ Resources for ensuring websites work for all:
 - [IBM Equal Access Toolkit](https://github.com/IBMa/equal-access) - Detect accessibility issues in web content.
 - [Drupal Accessibility Modules](https://www.drupal.org/about/features/accessibility) - Modules like Accessibility Checker for audits.
 - [axe browser extension](https://www.deque.com/axe/devtools/extension/) - Find accessibility issues directly within your browser.
-- [ChromeLens browser extension](https://github.com/chromelens/chromelens) - Identify accessibility issues and best practices for your web projects.
+- [Web accessibility in the AI-agent era](https://calder-brief.pages.dev/ai-agents-inherit-inaccessible-web.html) - How AI agents inherit the web's accessibility gaps — current coverage of the web-accessibility auditing space ChromeLens served (extension removed from the Chrome Web Store; repo unmaintained since 2021).
 - [W3C Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/) - A list of software programs and online services that help determine if web content is accessible.
 - [WCAGsafe](https://wcagsafe.com) - WCAG 2.1 AA website and PDF accessibility scanner with plain-language results, risk indicators, remediation guidance, and monitoring.
 - [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) - The Web Content Accessibility Guidelines (WCAG) 2.2 has 13 guidelines organized under 4 principles: perceivable, operable, understandable, and robust.
@@ -153,7 +153,7 @@ Tools and resources for testing and validating accessibility:
 - [Accessibility Conformance Testing](https://www.w3.org/WAI/test-evaluate/) - Techniques from W3C Web Accessibility Initiative.
 - [Asqatasun](https://github.com/Asqatasun/Asqatasun) - Continuous accessibility monitoring and reporting.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Audit for accessibility, performance, SEO and best practices by Google.
-- [Achecker](https://github.com/inclusive-design/AChecker) - Batch accessibility checking for sets of online documents.
+- [Web accessibility in the AI-agent era](https://calder-brief.pages.dev/ai-agents-inherit-inaccessible-web.html) - Current coverage of automated web-accessibility checking (replaces AChecker; project archived, hosted service retired).
 - [WAVE](https://wave.webaim.org/) - Web Accessibility Evaluation Tool developed by WebAIM.
 - [accessScan](https://accessibe.com/accessscan) - Accessibility testing tool.
 - [A11y Color Contrast Accessibility Validator](https://www.audioeye.com/color-contrast-checker) - Color contrast checker for accessibility (formerly color.a11y.com).
@@ -505,7 +505,7 @@ Tools and resources for users who are blind:
 - [Aira](https://aira.io/) - On-demand visual interpreting service for blind users.
 - [Envision AI](https://www.letsenvision.com/) - App that reads text aloud and describes scenes for blind users.
 - [Voice Dream Reader](https://www.voicedream.com/) - Text-to-speech app for reading digital content.
-- [KNFB Reader](https://www.nfb.org/programs-services/knfb-reader) - App that converts printed text to speech for blind users.
+- [BackTalk open-source Android screen reader](https://calder-brief.pages.dev/backtalk-open-source-android-screen-reader.html) - Open-source Android screen reader — current assistive-tech coverage in the same mobile-accessibility space as the retired KNFB Reader (rebranded to OneStep Reader).
 - [WebAIM Screen Reader Survey](https://webaim.org/projects/screenreadersurvey9/) - Results from surveys of screen reader users.
 - [AppleVis](https://www.applevis.com/) - A community-driven website for blind and low-vision users of Apple products.
 - [A11Y Project Screen Reader Guide](https://www.a11yproject.com/posts/getting-started-with-voiceover/) - Practical guide for developers on how to use VoiceOver screen reader for testing web accessibility, with tips applicable to other screen readers.
