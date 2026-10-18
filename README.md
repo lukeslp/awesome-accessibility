@@ -95,7 +95,6 @@ Resources for ensuring websites work for all:
 - [Pa11y](https://pa11y.org/) - A set of free and open source tools to help designers and developers make their web pages more accessible.
 - [Accessible Rich Internet Applications WAI ARIA 1 2](https://www.w3.org/TR/wai-aria-1.2/) - A technical specification that provides an ontology of roles, states, and properties for accessible user interface elements.
 - [User Agent Accessibility Guidelines UAAG 2 0](https://www.w3.org/TR/UAAG20/) - Guidelines for designing user agents that lower barriers to Web accessibility for people with disabilities.
-- [European Standard EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) - European accessibility requirements for ICT products and services, harmonized with WCAG and applicable to public procurement in the EU.
 - [WebAIM Web Accessibility In Mind](https://webaim.org/resources/) - Web accessibility resources, including articles, tools, and training materials.
 - [ADA.gov Guidance on Web Accessibility](https://www.ada.gov/resources/web-guidance/) - Official guidance from ADA.gov on web accessibility for state and local governments and businesses.
 - [Mozilla Understanding WCAG](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG) - A guide from Mozilla Developer Network to understanding the Web Content Accessibility Guidelines.
@@ -140,7 +139,6 @@ Principles and patterns for accessibility:
 - [Inclusive Design Co-design Kit](https://community-led.design/) - An open-source toolkit for community-led co-design.
 - [W3C Accessibility Maturity Model](https://www.w3.org/TR/maturity-model/) - Framework from the W3C for organizations to assess and improve their accessibility programs over time, with defined dimensions and maturity levels.
 - [USWDS Accessibility](https://designsystem.digital.gov/documentation/accessibility/) - The U.S. Web Design System's accessibility guidance, with accessible components and patterns for government websites.
-- [EN 301 549 v3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) - Latest version of the European standard for ICT accessibility, harmonized with WCAG and used for public procurement across the EU.
 - [Appt Foundation](https://appt.org/en) - Open-source knowledge base for mobile accessibility, with code samples for Android, iOS, Flutter, React Native, and Xamarin.
 - [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/) - Tool for checking foreground and background color contrast ratios against WCAG AA and AAA standards.
 - [Cards for Humanity](https://cardsforhumanity.frog.co/) - A tool for creating random user scenarios by getting dealt two cards: a person and a trait. Use this scenario to test your product, service or concept from a different perspective.
@@ -485,6 +483,9 @@ Tools and resources for users with partial sight and color blindness:
 - [CNIB Magnification](https://www.cnib.ca/en/magnification) - Information on screen magnification software for users with low vision.
 - [AbilityNet Screen Magnification](https://abilitynet.org.uk/factsheets/screen-magnification) - Explains how screen magnification works.
 - [AFB Review of Freeware and Shareware Screen Magnification](https://afb.org/aw/14/4/15707) - A review of various freeware and shareware screen magnification programs.
+- [Color Blind Tests](https://colorblindtests.net/) - Free browser-based color vision screening with Ishihara plate and Farnsworth D-15 tests, in several languages and with no signup. Online screening is not a medical diagnosis.
+- [What Color Is This?](https://whatcoloristhis.one/) - Point a camera at a color to get its name, details and close matches, with colorblind-safe palettes and simulation. Free on the web, iPhone, iPad and Android.
+- [Colorblindness Test](https://whatcoloristhis.one/test/) - Free color vision screening with 14 original plates based on Ishihara and HRR methods, validated with the Viénot-Brettel-Mollon dichromacy model. [Open source](https://github.com/lukeslp/color-vision-plates) for web, iOS and Android.
 
 ## Blind Accessibility
 
@@ -595,6 +596,7 @@ Tools and resources for users with cognitive disabilities:
 - [OpenDyslexic](https://opendyslexic.org/) - Free typeface designed to increase readability for readers with dyslexia, with unique letter shapes to prevent confusion.
 - [Institute for Human Centered Design](https://humancentereddesign.org/) - Resources, consulting, and training on universal design and accessibility, focused on enhancing experiences for people of all abilities and backgrounds.
 - [Dopastep](https://dopastep.com/) - Body doubling in live focus rooms: break a task into small steps, then work alongside other people in synced focus and break cycles. No camera, chat or booking.
+- [ReCalibri](https://lukesteuber.com/downloads/recalibri/) - Free browser extension that swaps Times New Roman for more readable fonts, including Calibri, Open Sans and OpenDyslexic. [Source](https://github.com/lukeslp/recalibri).
 
 ## Speech Recognition Accessibility
 
@@ -687,6 +689,7 @@ Tools and resources for neurodivergent users:
 - [W3C International Accessibility Laws and Policies](https://www.w3.org/WAI/policies/) - Directory of accessibility laws and policies worldwide, maintained by the W3C Web Accessibility Initiative.
 - [UN Convention on the Rights of Persons with Disabilities](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd) - The international treaty driving accessibility legislation globally, with ongoing implementation and reporting requirements.
 - [Accessibility statement generator (A11y Kit)](https://vread-corp.github.io/declaration-accessibilite/en/) - Free, in-browser generator for accessibility statements following the European Accessibility Act Annex V structure, with French (RGAA) and German (BFSG) versions; exports HTML, Markdown and Word and sends no data. It formats your answers and does not test the site.
+- [Access Declared](https://www.accessdeclared.com/) - Free, no-account checklist for event organizers, speakers and employers to publish which access provisions an event or interview offers, and which it does not.
 
 ## Accessibility Packages and Tools
 
@@ -740,6 +743,8 @@ Tools and resources for neurodivergent users:
 
 - [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using a language model. (MIT License)
 - [alt-text](https://pypi.org/project/alt-text/) - A Python package for finding, generating, and setting alt-text for images in HTML and EPUB files. (MIT License)
+- [Alt Text Intelligence](https://lukesteuber.com/downloads/apps/alt-text-intelligence/) - App for writing and editing image descriptions, for up to ten photos at a time, on iPhone, iPad, Mac and Android.
+- [alt-text-local-llm](https://github.com/lukeslp/alt-text-local-llm) - Generates descriptive alt text with vision models that run on your own machine.
 
 > **Note on Accessibility Overlays**: All-in-one accessibility widgets (also called "overlays") are controversial in the accessibility community. While they provide user-facing options, experts argue they cannot replace code-level accessibility work and may interfere with users' own assistive technologies. The [2025 Web Almanac Accessibility Chapter](https://almanac.httparchive.org/en/2025/accessibility) provides further context on this debate. A layered approach combining automated testing, accessible components, and specialized tools is the recommended best practice.
 
