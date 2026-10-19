@@ -37,6 +37,7 @@ Contributions to improve descriptions, organization, or formatting are also welc
 
 Resources on this list should:
 
+- **Be free to use or open source** for new additions. State any account requirement, eligibility restriction, optional paid service or model API cost. A temporary trial or preview does not count as a free resource. Existing commercial references remain labeled for context, alongside freely readable technical documentation.
 - **Be relevant** to accessibility, assistive technology, or inclusive design
 - **Be high-quality** and well-maintained
 - **Be accessible** themselves (practice what they preach)
@@ -50,35 +51,57 @@ Resources on this list should:
 - Use Markdown formatting
 - Keep descriptions concise (1-2 sentences)
 - Use sentence case for titles
-- Include direct links
-- Maintain alphabetical order within sections where it makes sense
+- Link straight to the resource, not to a listicle or landing page about it
+- Keep entries in alphabetical order within each section, except the guided learning path in Start here
+- Add each resource once, in the section where people would look for it first
 
 #### Descriptions
 
 - Start with what the resource is or does
 - Explain why it's useful
 - Keep it objective
-- Avoid marketing language
+- Avoid marketing language ("powerful", "industry-leading", "the best")
+- Say what is free, identify paid dependencies or limits, and give the license for open source projects
+- Mention important limits honestly, for example "AI descriptions can be wrong" or "not cleared for clinical use"
+- Don't add date tags such as "(Added 2025)"; git history records that
 
 Example:
 ```markdown
-- [Resource Name](https://example.com) - Brief description of what it is and why it's valuable for accessibility work.
+- [Resource Name](https://example.com) - What it is, then why it's useful for accessibility work. Open source (MIT).
 ```
 
-### Categories
+For books: `- [Title](https://example.com) - Author (Publisher, Year). One-sentence summary and a link to the free full edition.`
 
-Resources should be placed in appropriate categories:
+### Sections
 
-- **Tools** - Software, browser extensions, testing tools
-- **Guidelines** - Standards, best practices, documentation
-- **Learning** - Tutorials, courses, educational resources
-- **Communities** - Forums, groups, organizations
-- **Blogs & Articles** - Written content and publications
-- **Videos & Podcasts** - Multimedia educational content
-- **Books** - Published books on accessibility
-- **Assistive Technology** - Screen readers, input devices, etc.
+The list is organized by what people are doing:
 
-If a resource doesn't fit an existing category, suggest a new one in your pull request.
+- **Start here** - The basics, for people new to accessibility
+- **Standards and guidelines** - WCAG, ARIA, EN 301 549 and guides to them
+- **Laws and policy** - Official sources by region
+- **Accessibility programs** - Maturity models, procurement, accessibility statements
+- **Inclusive design** - Principles, design tools, color and contrast
+- **Web development** - Guides, component libraries, developer libraries, widgets and overlays
+- **Mobile and native apps** - iOS, Android, Windows, Linux and cross-platform
+- **Testing and auditing** - Methods, browser tools, testing engines, linters, screen reader testing, online scanners
+- **Content and media** - Documents and PDF, plain language, captions and audio description, data visualization, math, email
+- **AI and accessibility** - AI in assistive technology, AI tools for builders, research and critique
+- **Assistive technology** - Grouped by access need, from screen readers to AAC
+- **Gaming**, **Built environment and maps**
+- **Learning** - Courses, certification, books, podcasts, blogs
+- **Community** - Disability organizations, professional communities, events
+- **Research and data** - Journals and datasets
+
+If a resource doesn't fit an existing section, suggest a new one in your pull request.
+
+### Automated checks
+
+Pull requests run two checks:
+
+- **Links** - [lychee](https://lychee.cli.rs/) checks web links in the README and this guide. The job summary separates reachable, bot-blocked, excluded and failed links. HTTP 403/429 and configured exclusions need a separate check; a green job does not verify them. Pull requests report results; weekly and main-branch runs fail on other link errors.
+- **Lint** - [awesome-lint](https://github.com/sindresorhus/awesome-lint) checks formatting against the Awesome list guidelines. Reproduce CI with `npm install --no-save --no-package-lock awesome-lint@2.3.0`, then `node --no-deprecation .github/scripts/lint-readme.mjs`.
+
+For a full check including repository metadata, run `npx awesome-lint README.md`. Availability checks do not certify a tool's accessibility or the accuracy of every claim. Dated review evidence and unresolved checks are in [the review log](docs/reviews/2026-10-18/README.md).
 
 ### Pull Request Process
 
@@ -117,9 +140,12 @@ I especially welcome contributions that:
 
 Please don't submit:
 
-- Commercial products without clear accessibility value
-- Resources behind paywalls (unless exceptional)
-- Self-promotion without substantial value
+- New paid-only products, temporary trials or subscription-only services
+- Vendor marketing posts and "top 10 tools" listicles
+- New accessibility overlays (see the note in the README)
+- Generic productivity apps with no accessibility focus
+- Resources whose useful content is behind a paywall
+- Self-promotion without substantial value (submitting your own project is fine; please say so in the pull request)
 - Duplicate or very similar resources
 - Outdated or unmaintained projects
 - Off-topic content

@@ -1,0 +1,39 @@
+# Link checker settings for README.md and CONTRIBUTING.md.
+# Docs: https://lychee.cli.rs/usage/config/
+
+max_concurrency = 12
+timeout = 45
+max_retries = 3
+retry_wait_time = 5
+max_redirects = 10
+
+# Some sites serve bot checks to the default user agent.
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+# 403 and 429 are unverified, usually a bot wall or rate limit. Accept them
+# for CI continuity; summarize-links.mjs lists them separately from reachable
+# pages. Do not report a green job as proof that these links work.
+accept = ["200..=299", "403", "429"]
+
+# Only check web links.
+scheme = ["https", "http"]
+
+exclude_all_private = true
+
+# Hosts that reject automated requests even though the pages work in a
+# browser. Check these by hand when editing their entries.
+exclude = [
+  # Answers 999 to automated requests.
+  '^https://www\.linkedin\.com/',
+  # Breaks lychee's HTTP/2 client.
+  '^https://www\.canada\.ca/',
+  # Sends bots into a sign-in redirect loop.
+  '^https://developer\.android\.com/',
+  # Bot protection answers 406.
+  '^https://gitlab\.gnome\.org/',
+  # Answers 500 to automated requests.
+  '^https://www\.bookshare\.org/',
+  # Exact page verified in a browser on 2026-10-18; HTTP clients receive a
+  # misleading 404. Evidence: docs/reviews/2026-10-18/ftc-browser.png.
+  '^https://www\.ftc\.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million$',
+]

@@ -1,0 +1,60 @@
+{
+  "total": 2,
+  "unique": 2,
+  "successful": 1,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 0,
+  "remaps": 0,
+  "excludes": 0,
+  "errors": 1,
+  "cached": 0,
+  "success_map": {
+    "/tmp/awesome-accessibility-lychee/recheck.md": [
+      {
+        "url": "https://arxiv.org/abs/1908.08939",
+        "status": {
+          "text": "200 OK",
+          "code": 200
+        },
+        "span": {
+          "line": 2,
+          "column": 1
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 643062417
+        }
+      }
+    ]
+  },
+  "error_map": {
+    "/tmp/awesome-accessibility-lychee/recheck.md": [
+      {
+        "url": "https://pdfchecks.com/",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable",
+          "code": 503
+        },
+        "span": {
+          "line": 1,
+          "column": 1
+        },
+        "duration": {
+          "secs": 1,
+          "nanos": 241252708
+        }
+      }
+    ]
+  },
+  "timeout_map": {},
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration": {
+    "secs": 1,
+    "nanos": 242239583
+  },
+  "detailed_stats": true
+}

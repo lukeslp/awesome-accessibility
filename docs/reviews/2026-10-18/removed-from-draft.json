@@ -1,0 +1,103 @@
+[
+  {
+    "name": "ux-oss-safeguard",
+    "entry": "- [ux-oss-safeguard](https://github.com/actually-useful-ai/ux-oss-safeguard) - Content safety evaluator with WCAG 2.1 AA support, keyboard navigation, screen-reader support, and reduced-motion handling. Zero dependencies."
+  },
+  {
+    "name": "All-in-One Accessibility",
+    "entry": "- [All-in-One Accessibility](https://www.skynettechnologies.com/all-in-one-accessibility) - Widget for Django, Wagtail and Plone that wraps a commercial service. Open source (MIT)."
+  },
+  {
+    "name": "Dock Access",
+    "entry": "- [Dock Access](https://dockaccess.org/) - Commercial accessibility suite with a user-facing widget, automated audits, monitoring and manual audits. (Free browser extension and paid services)"
+  },
+  {
+    "name": "UserWay",
+    "entry": "- [UserWay](https://userway.org/) - Commercial accessibility overlay widget."
+  },
+  {
+    "name": "WCAG Watch",
+    "entry": "- [WCAG Watch](https://wcagwatch.tirelesslabs.com) - Automated technical WCAG/EAA monitoring for EU-facing sites, built on axe-core. Free instant scan; paid continuous monitoring from \u20ac29/mo. Note: automated scanners catch only an estimated 25\u201333% of WCAG issues \u2014 not a substitute for a human audit or legal/compliance certification."
+  },
+  {
+    "name": "axe MCP Server",
+    "entry": "- [axe MCP Server](https://www.deque.com/axe/mcp-server/) - Deque's MCP server that lets AI coding agents run axe scans and get remediation guidance in the editor. Commercial; requires an axe DevTools subscription."
+  },
+  {
+    "name": "Duxbury Braille Translator",
+    "entry": "- [Duxbury Braille Translator](https://www.duxburysystems.com/) - Commercial braille translation and formatting software widely used by transcribers and schools."
+  },
+  {
+    "name": "BlindSquare",
+    "entry": "- [BlindSquare](https://www.blindsquare.com/) - Paid iOS GPS app for blind and deafblind travelers that describes surroundings and announces intersections and points of interest."
+  },
+  {
+    "name": "Glide",
+    "entry": "- [Glide](https://www.glidance.io/) - Wheeled mobility aid for blind and low-vision people that uses cameras and AI to steer around obstacles; rolling out in the U.S., Canada and the UK in 2026, with a monthly subscription."
+  },
+  {
+    "name": "WeWALK Smart Cane 2",
+    "entry": "- [WeWALK Smart Cane 2](https://wewalk.io/) - Smart handle for a white cane with obstacle detection, voice-guided navigation and an AI voice assistant."
+  },
+  {
+    "name": "Dragon Professional",
+    "entry": "- [Dragon Professional](https://dragon.nuance.com/) - Commercial speech recognition for Windows with dictation and voice control of applications, long a standard for people who cannot use a keyboard."
+  },
+  {
+    "name": "ModelTalker",
+    "entry": "- [ModelTalker](https://www.modeltalker.org/) - Voice banking service from the Nemours Speech Research Lab that builds a personal synthetic voice for people expecting to lose their speech."
+  },
+  {
+    "name": "SpeakUnique",
+    "entry": "- [SpeakUnique](https://www.speakunique.co.uk/) - UK voice banking and voice repair service that can build a personal synthetic voice even from recordings of already-affected speech."
+  },
+  {
+    "name": "An Introduction to Accessibility and Inclusive Design",
+    "entry": "- [An Introduction to Accessibility and Inclusive Design](https://www.coursera.org/learn/accessibility) - University of Illinois course on Coursera covering disability, assistive technology, law and universal design. Free to audit."
+  },
+  {
+    "name": "Accessible UX Research",
+    "entry": "- [Accessible UX Research](https://www.smashingmagazine.com/printed-books/accessible-ux-research/) - Michele A. Williams (Smashing Media, 2026). Practical guide to planning, recruiting for and running UX research with disabled participants."
+  },
+  {
+    "name": "Being Heumann",
+    "entry": "- [Being Heumann](https://www.beacon.org/Being-Heumann-P1618.aspx) - Judith Heumann with Kristen Joiner (Beacon Press, 2020). Memoir of a disability rights leader, including the 1977 Section 504 sit-in."
+  },
+  {
+    "name": "Disability Visibility",
+    "entry": "- [Disability Visibility](https://www.penguinrandomhouse.com/books/617802/disability-visibility-by-alice-wong/) - Alice Wong, editor (Vintage, 2020). Anthology of first-person essays by disabled writers on disability culture and lived experience."
+  },
+  {
+    "name": "Form Design Patterns",
+    "entry": "- [Form Design Patterns](https://www.smashingmagazine.com/printed-books/form-design-patterns/) - Adam Silver (Smashing Media, 2018). Works through real forms and builds a set of accessible form components along the way."
+  },
+  {
+    "name": "Inclusive Components: The Book",
+    "entry": "- [Inclusive Components: The Book](https://book.inclusive-components.design/) - Heydon Pickering (2019). Expanded edition of the Inclusive Components blog on building common interface patterns accessibly."
+  },
+  {
+    "name": "Inclusive Design for a Digital World",
+    "entry": "- [Inclusive Design for a Digital World](https://link.springer.com/book/9798868818196) - Regine Gilbert (Apress, 2025). Second edition of an introduction to accessible product design, covering WCAG 2.2, the European Accessibility Act and AI."
+  },
+  {
+    "name": "Mismatch",
+    "entry": "- [Mismatch](https://mitpress.mit.edu/9780262539487/mismatch/) - Kat Holmes (MIT Press, 2018). How design choices exclude people, and the case for designing with excluded communities."
+  },
+  {
+    "name": "Practical Web Accessibility",
+    "entry": "- [Practical Web Accessibility](https://link.springer.com/book/10.1007/979-8-8688-0152-5) - Ashley Firth (Apress, 2024). Second edition of a guide organized around access needs, updated for WCAG 2.2."
+  },
+  {
+    "name": "Web Accessibility Cookbook",
+    "entry": "- [Web Accessibility Cookbook](https://www.oreilly.com/library/view/web-accessibility-cookbook/9781098145590/) - Manuel Matuzovi\u0107 (O'Reilly, 2024). Recipes for building common components accessibly, including navigation, dialogs, filters and data tables."
+  },
+  {
+    "name": "A Web for Everyone",
+    "entry": "- [A Web for Everyone](https://rosenfeldmedia.com/books/a-web-for-everyone/) - Sarah Horton and Whitney Quesenbery (Rosenfeld Media, 2014). UX-centered guide to accessible design built on universal design principles."
+  },
+  {
+    "name": "PDFChecks",
+    "entry": "- [PDFChecks](https://pdfchecks.com/) - Free local PDF accessibility quick check, with an optional uploaded-file audit of machine-testable PDF/UA requirements using veraPDF. Automated results complement manual review.",
+    "reason": "Repeated HTTP 500/503 from local lychee, GitHub runner and normal browser on 2026-10-18; defer until recovered."
+  }
+]

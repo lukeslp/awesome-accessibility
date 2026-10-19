@@ -48,3 +48,6 @@ apply_all_fixes.py
 .conversations/
 .ai-cache/
 .llm-cache/
+
+# Local tooling
+node_modules/

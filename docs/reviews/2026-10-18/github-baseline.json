@@ -1,0 +1,960 @@
+{
+  "date": "2026-10-18",
+  "method": "GitHub GraphQL public repository metadata; license detection is not a legal audit.",
+  "repositories": [
+    {
+      "requested": "A11yance/aria-query",
+      "metadata": {
+        "nameWithOwner": "A11yance/aria-query",
+        "url": "https://github.com/A11yance/aria-query",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2024-12-06T16:37:20Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "ChromeDevTools/chrome-devtools-mcp",
+      "metadata": {
+        "nameWithOwner": "ChromeDevTools/chrome-devtools-mcp",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-19T06:21:45Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "FormidableLabs/eslint-plugin-react-native-a11y",
+      "metadata": {
+        "nameWithOwner": "FormidableLabs/eslint-plugin-react-native-a11y",
+        "url": "https://github.com/FormidableLabs/eslint-plugin-react-native-a11y",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2024-11-04T13:43:26Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "IBMa/equal-access",
+      "metadata": {
+        "nameWithOwner": "IBMa/equal-access",
+        "url": "https://github.com/IBMa/equal-access",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-16T16:40:24Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "JustasMonkev/mcp-accessibility-scanner",
+      "metadata": {
+        "nameWithOwner": "JustasMonkev/mcp-accessibility-scanner",
+        "url": "https://github.com/JustasMonkev/mcp-accessibility-scanner",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-17T13:48:54Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "MSKazemi/yazses",
+      "metadata": {
+        "nameWithOwner": "MSKazemi/yazses",
+        "url": "https://github.com/MSKazemi/yazses",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-18T17:06:21Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "NCSU-Libraries-UX/readability-widget",
+      "metadata": {
+        "nameWithOwner": "NCSU-Libraries-UX/readability-widget",
+        "url": "https://github.com/NCSU-Libraries-UX/readability-widget",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-08-25T19:26:44Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "NickColley/jest-axe",
+      "metadata": {
+        "nameWithOwner": "NickColley/jest-axe",
+        "url": "https://github.com/NickColley/jest-axe",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-16T12:41:37Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "OHF-Voice/piper1-gpl",
+      "metadata": {
+        "nameWithOwner": "OHF-Voice/piper1-gpl",
+        "url": "https://github.com/OHF-Voice/piper1-gpl",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-17T19:52:51Z",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "OptiKey/OptiKey",
+      "metadata": {
+        "nameWithOwner": "OptiKey/OptiKey",
+        "url": "https://github.com/OptiKey/OptiKey",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-03T19:50:16Z",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "RHVoice/RHVoice",
+      "metadata": {
+        "nameWithOwner": "RHVoice/RHVoice",
+        "url": "https://github.com/RHVoice/RHVoice",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-13T06:00:50Z",
+        "licenseInfo": {
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "requested": "RosenGray/accessibilik",
+      "metadata": {
+        "nameWithOwner": "RosenGray/accessibilik",
+        "url": "https://github.com/RosenGray/accessibilik",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-02-05T18:50:37Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "Speech-Rule-Engine/speech-rule-engine",
+      "metadata": {
+        "nameWithOwner": "Speech-Rule-Engine/speech-rule-engine",
+        "url": "https://github.com/Speech-Rule-Engine/speech-rule-engine",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-12T11:00:00Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "VocaHQ/vocalinux",
+      "metadata": {
+        "nameWithOwner": "VocaHQ/vocalinux",
+        "url": "https://github.com/VocaHQ/vocalinux",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-19T02:56:13Z",
+        "licenseInfo": {
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "abb128/LiveCaptions",
+      "metadata": {
+        "nameWithOwner": "abb128/LiveCaptions",
+        "url": "https://github.com/abb128/LiveCaptions",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2025-02-27T21:24:11Z",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "actually-useful-ai/accessibility-devkit",
+      "metadata": {
+        "nameWithOwner": "actually-useful-ai/accessibility-devkit",
+        "url": "https://github.com/actually-useful-ai/accessibility-devkit",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-04T06:52:57Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "actually-useful-ai/ux-oss-safeguard",
+      "metadata": {
+        "nameWithOwner": "actually-useful-ai/ux-oss-safeguard",
+        "url": "https://github.com/actually-useful-ai/ux-oss-safeguard",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-15T01:53:50Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "adobe/leonardo",
+      "metadata": {
+        "nameWithOwner": "adobe/leonardo",
+        "url": "https://github.com/adobe/leonardo",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-07-08T22:10:56Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "alphagov/accessible-autocomplete",
+      "metadata": {
+        "nameWithOwner": "alphagov/accessible-autocomplete",
+        "url": "https://github.com/alphagov/accessible-autocomplete",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-16T16:55:48Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "angular-eslint/angular-eslint",
+      "metadata": {
+        "nameWithOwner": "angular-eslint/angular-eslint",
+        "url": "https://github.com/angular-eslint/angular-eslint",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-18T13:46:30Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "arnog/mathlive",
+      "metadata": {
+        "nameWithOwner": "arnog/mathlive",
+        "url": "https://github.com/arnog/mathlive",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-10T14:13:28Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "ateymoori/oh-my-android",
+      "metadata": {
+        "nameWithOwner": "ateymoori/oh-my-android",
+        "url": "https://github.com/ateymoori/oh-my-android",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-19T04:37:13Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "bennyluk/Sienna-Accessibility-Widget",
+      "metadata": {
+        "nameWithOwner": "bennyluk/Sienna-Accessibility-Widget",
+        "url": "https://github.com/bennyluk/Sienna-Accessibility-Widget",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-03-27T05:30:51Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "brailcom/speechd",
+      "metadata": {
+        "nameWithOwner": "brailcom/speechd",
+        "url": "https://github.com/brailcom/speechd",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-15T09:45:57Z",
+        "licenseInfo": {
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "requested": "component-driven/cypress-axe",
+      "metadata": {
+        "nameWithOwner": "component-driven/cypress-axe",
+        "url": "https://github.com/component-driven/cypress-axe",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-03T08:52:47Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "data-poems/accessibility-atlas-dataset",
+      "metadata": {
+        "nameWithOwner": "data-poems/accessibility-atlas-dataset",
+        "url": "https://github.com/data-poems/accessibility-atlas-dataset",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-04-11T20:53:40Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "dequelabs/axe-core",
+      "metadata": {
+        "nameWithOwner": "dequelabs/axe-core",
+        "url": "https://github.com/dequelabs/axe-core",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-15T23:48:11Z",
+        "licenseInfo": {
+          "spdxId": "MPL-2.0"
+        }
+      }
+    },
+    {
+      "requested": "dequelabs/axe-core-npm",
+      "metadata": {
+        "nameWithOwner": "dequelabs/axe-core-npm",
+        "url": "https://github.com/dequelabs/axe-core-npm",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-15T16:36:08Z",
+        "licenseInfo": {
+          "spdxId": "MPL-2.0"
+        }
+      }
+    },
+    {
+      "requested": "dequelabs/axe-linter-action",
+      "metadata": {
+        "nameWithOwner": "dequelabs/axe-linter-action",
+        "url": "https://github.com/dequelabs/axe-linter-action",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-13T06:33:58Z",
+        "licenseInfo": {
+          "spdxId": "MPL-2.0"
+        }
+      }
+    },
+    {
+      "requested": "double-great/stylelint-a11y",
+      "metadata": {
+        "nameWithOwner": "double-great/stylelint-a11y",
+        "url": "https://github.com/double-great/stylelint-a11y",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-11T01:47:05Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "eps1lon/dom-accessibility-api",
+      "metadata": {
+        "nameWithOwner": "eps1lon/dom-accessibility-api",
+        "url": "https://github.com/eps1lon/dom-accessibility-api",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-04-19T06:27:37Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "espeak-ng/espeak-ng",
+      "metadata": {
+        "nameWithOwner": "espeak-ng/espeak-ng",
+        "url": "https://github.com/espeak-ng/espeak-ng",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-22T10:58:46Z",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "fecarrico/A11Y.md",
+      "metadata": {
+        "nameWithOwner": "fecarrico/A11Y.md",
+        "url": "https://github.com/fecarrico/A11Y.md",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-16T19:43:36Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "focus-trap/focus-trap",
+      "metadata": {
+        "nameWithOwner": "focus-trap/focus-trap",
+        "url": "https://github.com/focus-trap/focus-trap",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-14T20:29:00Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "ggml-org/whisper.cpp",
+      "metadata": {
+        "nameWithOwner": "ggml-org/whisper.cpp",
+        "url": "https://github.com/ggml-org/whisper.cpp",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-12T05:01:56Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "google/Accessibility-Test-Framework-for-Android",
+      "metadata": {
+        "nameWithOwner": "google/Accessibility-Test-Framework-for-Android",
+        "url": "https://github.com/google/Accessibility-Test-Framework-for-Android",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2024-04-03T11:08:51Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "google/project-gameface",
+      "metadata": {
+        "nameWithOwner": "google/project-gameface",
+        "url": "https://github.com/google/project-gameface",
+        "isArchived": true,
+        "isDisabled": false,
+        "pushedAt": "2024-08-30T23:44:28Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "guidepup/virtual-screen-reader",
+      "metadata": {
+        "nameWithOwner": "guidepup/virtual-screen-reader",
+        "url": "https://github.com/guidepup/virtual-screen-reader",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-18T20:26:10Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "harlan-zw/unlighthouse",
+      "metadata": {
+        "nameWithOwner": "harlan-zw/unlighthouse",
+        "url": "https://github.com/harlan-zw/unlighthouse",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-15T17:26:41Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "ideasman42/nerd-dictation",
+      "metadata": {
+        "nameWithOwner": "ideasman42/nerd-dictation",
+        "url": "https://github.com/ideasman42/nerd-dictation",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2025-10-10T10:43:53Z",
+        "licenseInfo": {
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "james-trayford/strauss",
+      "metadata": {
+        "nameWithOwner": "james-trayford/strauss",
+        "url": "https://github.com/james-trayford/strauss",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-25T17:01:52Z",
+        "licenseInfo": {
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "requested": "johnsmithCA-sta/wcag-contrast-ci",
+      "metadata": {
+        "nameWithOwner": "johnsmithCA-sta/wcag-contrast-ci",
+        "url": "https://github.com/johnsmithCA-sta/wcag-contrast-ci",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-22T13:47:48Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "metadata": {
+        "nameWithOwner": "jsx-eslint/eslint-plugin-jsx-a11y",
+        "url": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-01-06T02:25:30Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "kobaltedev/kobalte",
+      "metadata": {
+        "nameWithOwner": "kobaltedev/kobalte",
+        "url": "https://github.com/kobaltedev/kobalte",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-15T07:58:56Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "kreent/alt-images-ai",
+      "metadata": {
+        "nameWithOwner": "kreent/alt-images-ai",
+        "url": "https://github.com/kreent/alt-images-ai",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-02-09T17:31:55Z",
+        "licenseInfo": null
+      }
+    },
+    {
+      "requested": "lukeslp/alt-text-local-llm",
+      "metadata": {
+        "nameWithOwner": "lukeslp/alt-text-local-llm",
+        "url": "https://github.com/lukeslp/alt-text-local-llm",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-04-09T05:25:43Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "lukeslp/color-vision-plates",
+      "metadata": {
+        "nameWithOwner": "lukeslp/color-vision-plates",
+        "url": "https://github.com/lukeslp/color-vision-plates",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-15T08:54:58Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "lukeslp/recalibri",
+      "metadata": {
+        "nameWithOwner": "lukeslp/recalibri",
+        "url": "https://github.com/lukeslp/recalibri",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-06-21T23:50:39Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "m-bain/whisperx",
+      "metadata": {
+        "nameWithOwner": "m-bain/whisperX",
+        "url": "https://github.com/m-bain/whisperX",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-18T16:53:35Z",
+        "licenseInfo": {
+          "spdxId": "BSD-2-Clause"
+        }
+      }
+    },
+    {
+      "requested": "maskedbutaware/autism-crisis-communication-cards",
+      "metadata": {
+        "nameWithOwner": "maskedbutaware/autism-crisis-communication-cards",
+        "url": "https://github.com/maskedbutaware/autism-crisis-communication-cards",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-08-18T15:02:50Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "mickidum/acc_toolbar",
+      "metadata": {
+        "nameWithOwner": "mickidum/acc_toolbar",
+        "url": "https://github.com/mickidum/acc_toolbar",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2024-01-26T14:57:24Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "open-wc/open-wc",
+      "metadata": {
+        "nameWithOwner": "open-wc/open-wc",
+        "url": "https://github.com/open-wc/open-wc",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-14T14:12:17Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "openai/whisper",
+      "metadata": {
+        "nameWithOwner": "openai/whisper",
+        "url": "https://github.com/openai/whisper",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-08-31T17:19:19Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "pa11y/pa11y-ci",
+      "metadata": {
+        "nameWithOwner": "pa11y/pa11y-ci",
+        "url": "https://github.com/pa11y/pa11y-ci",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-13T13:18:03Z",
+        "licenseInfo": {
+          "spdxId": "LGPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "pamelafox/axe-playwright-python",
+      "metadata": {
+        "nameWithOwner": "pamelafox/axe-playwright-python",
+        "url": "https://github.com/pamelafox/axe-playwright-python",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-08-29T06:12:56Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "qualweb/qualweb",
+      "metadata": {
+        "nameWithOwner": "qualweb/qualweb",
+        "url": "https://github.com/qualweb/qualweb",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-26T22:45:42Z",
+        "licenseInfo": {
+          "spdxId": "ISC"
+        }
+      }
+    },
+    {
+      "requested": "reactivepixels/riffle",
+      "metadata": {
+        "nameWithOwner": "reactivepixels/riffle",
+        "url": "https://github.com/reactivepixels/riffle",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-02T07:49:45Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "ronantakizawa/a11ymcp",
+      "metadata": {
+        "nameWithOwner": "ronantakizawa/a11ymcp",
+        "url": "https://github.com/ronantakizawa/a11ymcp",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-03-10T11:49:46Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "salesforce/sa11y",
+      "metadata": {
+        "nameWithOwner": "salesforce/sa11y",
+        "url": "https://github.com/salesforce/sa11y",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-18T08:32:14Z",
+        "licenseInfo": {
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "requested": "sergordienko/eu-accessibility-mapping",
+      "metadata": {
+        "nameWithOwner": "sergordienko/eu-accessibility-mapping",
+        "url": "https://github.com/sergordienko/eu-accessibility-mapping",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-06-06T10:53:48Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "shayc/aac-board-ai",
+      "metadata": {
+        "nameWithOwner": "shayc/aac-board-ai",
+        "url": "https://github.com/shayc/aac-board-ai",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-15T18:53:44Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "skrylkovs/trippi-oss",
+      "metadata": {
+        "nameWithOwner": "skrylkovs/trippi-oss",
+        "url": "https://github.com/skrylkovs/trippi-oss",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-08-28T18:54:21Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "smacke/ffsubsync",
+      "metadata": {
+        "nameWithOwner": "smacke/ffsubsync",
+        "url": "https://github.com/smacke/ffsubsync",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-07-24T04:53:31Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "spacetelescope/astronify",
+      "metadata": {
+        "nameWithOwner": "spacetelescope/astronify",
+        "url": "https://github.com/spacetelescope/astronify",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-02-01T17:25:42Z",
+        "licenseInfo": null
+      }
+    },
+    {
+      "requested": "squirrelscan/squirrelscan",
+      "metadata": {
+        "nameWithOwner": "squirrelscan/squirrelscan",
+        "url": "https://github.com/squirrelscan/squirrelscan",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-19T02:58:00Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "stochastic-technologies/markproof-cli",
+      "metadata": {
+        "nameWithOwner": "stochastic-technologies/markproof-cli",
+        "url": "https://github.com/stochastic-technologies/markproof-cli",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-18T23:34:37Z",
+        "licenseInfo": {
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "requested": "tatargabor/voicefield",
+      "metadata": {
+        "nameWithOwner": "tatargabor/voicefield",
+        "url": "https://github.com/tatargabor/voicefield",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-06-19T06:26:15Z",
+        "licenseInfo": null
+      }
+    },
+    {
+      "requested": "tvraman/emacspeak",
+      "metadata": {
+        "nameWithOwner": "tvraman/emacspeak",
+        "url": "https://github.com/tvraman/emacspeak",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2024-08-26T02:38:10Z",
+        "licenseInfo": null
+      }
+    },
+    {
+      "requested": "uxbyissa/ux-ui-audit",
+      "metadata": {
+        "nameWithOwner": "uxbyissa/ux-ui-audit",
+        "url": "https://github.com/uxbyissa/ux-ui-audit",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-01T13:04:52Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "violetljj/blind-assist",
+      "metadata": {
+        "nameWithOwner": "violetljj/blind-assist",
+        "url": "https://github.com/violetljj/blind-assist",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-16T06:14:06Z",
+        "licenseInfo": {
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "visa/visa-chart-components",
+      "metadata": {
+        "nameWithOwner": "visa/visa-chart-components",
+        "url": "https://github.com/visa/visa-chart-components",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-04-15T05:03:05Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "requested": "vladpereverzyev/leviate",
+      "metadata": {
+        "nameWithOwner": "vladpereverzyev/leviate",
+        "url": "https://github.com/vladpereverzyev/leviate",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-15T09:42:54Z",
+        "licenseInfo": {
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "requested": "wilmerjoseperezorozco-dev/aac-voz-gestos-bajo-costo",
+      "metadata": {
+        "nameWithOwner": "wilmerjoseperezorozco-dev/aac-voz-gestos-bajo-costo",
+        "url": "https://github.com/wilmerjoseperezorozco-dev/aac-voz-gestos-bajo-costo",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-09-23T02:31:14Z",
+        "licenseInfo": {
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "requested": "writingmate/aidictation",
+      "metadata": {
+        "nameWithOwner": "writingmate/aidictation",
+        "url": "https://github.com/writingmate/aidictation",
+        "isArchived": false,
+        "isDisabled": false,
+        "pushedAt": "2026-10-19T05:33:27Z",
+        "licenseInfo": {
+          "spdxId": "MIT"
+        }
+      }
+    }
+  ]
+}

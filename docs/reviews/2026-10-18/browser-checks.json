@@ -1,0 +1,121 @@
+[
+  {
+    "url": "https://content.iospress.com/journals/technology-and-disability",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: content.iospress.com/journals/technology-and-disability"
+  },
+  {
+    "url": "https://dl.acm.org/conference/assets",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: dl.acm.org/conference/assets"
+  },
+  {
+    "url": "https://dl.acm.org/journal/taccess",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: dl.acm.org/journal/taccess"
+  },
+  {
+    "url": "https://doi.org/10.1145/3356727",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: dl.acm.org/doi/10.1145/3356727"
+  },
+  {
+    "url": "https://doi.org/10.7551/mitpress/12255.001.0001",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "readable page observed",
+    "title": "Design Justice: Community-Led Practices to Build the Worlds We Need | Books Gateway | MIT Press, URL: direct.mit.edu/books/oa-monograph/4605/Design-JusticeCommunity-Led-Practices-to…"
+  },
+  {
+    "url": "https://journals.sagepub.com/home/jst",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: journals.sagepub.com/home/jst"
+  },
+  {
+    "url": "https://scholarworks.calstate.edu/collections/vh53x372b",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: scholarworks.calstate.edu/collections/vh53x372b"
+  },
+  {
+    "url": "https://www.audioeye.com/color-contrast-checker",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "readable page observed",
+    "title": "Color Contrast Checker | Free Accessibility Tool | AudioEye®, URL: audioeye.com/color-contrast-checker/"
+  },
+  {
+    "url": "https://www.changepeople.org/resources",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: changepeople.org/resources"
+  },
+  {
+    "url": "https://www.emerald.com/insight/publication/issn/2398-6263",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "readable page observed",
+    "title": "Journal of Enabling Technologies | Emerald Publishing, URL: emerald.com/jet"
+  },
+  {
+    "url": "https://www.iso.org/standard/70913.html",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "readable page observed",
+    "title": "URL: iso.org/standard/70913.html, ISO/IEC 30071-1:2019 - Information technology — Development of user interface accessibility — Part 1: Code of practice for creating accessible ICT products and services"
+  },
+  {
+    "url": "https://www.iso.org/standard/82278.html",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "readable page observed",
+    "title": "URL: iso.org/standard/82278.html, ISO 14289-2:2024 - Document management applications — Electronic document file format enhancement for accessibility — Part 2: Use of ISO 32000-2 (PDF/UA-2)"
+  },
+  {
+    "url": "https://www.scienceopen.com/collection/e1e3fd98-e818-47dc-a396-69009efa34e7",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: scienceopen.com/collection/e1e3fd98-e818-47dc-a396-69009efa34e7"
+  },
+  {
+    "url": "https://www.tandfonline.com/journals/cdso20",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: tandfonline.com/journals/cdso20"
+  },
+  {
+    "url": "https://www.tandfonline.com/journals/iidt20",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "blocked by browser challenge",
+    "title": "Just a moment..., URL: tandfonline.com/journals/iidt20"
+  },
+  {
+    "url": "https://www.tandfonline.com/toc/hihc20/current",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "readable page observed",
+    "title": "International Journal of Human–Computer Interaction: Vol 42, No 20 (Current issue), URL: tandfonline.com/toc…"
+  },
+  {
+    "url": "https://www.w3.org/publishing/epubcheck/",
+    "date": "2026-10-18",
+    "method": "Normal in-app browser navigation; page title and main headings inspected; no CAPTCHA solved.",
+    "result": "readable page observed",
+    "title": "EPUBCheck, URL: w3.org/publishing/epubcheck/"
+  }
+]

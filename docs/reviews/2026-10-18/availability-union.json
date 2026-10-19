@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-18",
+  "catalog_blob": "a989277467726d3d838bcc564781595c91108007",
+  "current_web_urls": 703,
+  "reachable_by_one_or_more_clients": 694,
+  "unresolved": [
+    "https://content.iospress.com/journals/technology-and-disability",
+    "https://dl.acm.org/conference/assets",
+    "https://dl.acm.org/journal/taccess",
+    "https://journals.sagepub.com/home/jst",
+    "https://scholarworks.calstate.edu/collections/vh53x372b",
+    "https://www.changepeople.org/resources",
+    "https://www.scienceopen.com/collection/e1e3fd98-e818-47dc-a396-69009efa34e7",
+    "https://www.tandfonline.com/journals/cdso20",
+    "https://www.tandfonline.com/journals/iidt20"
+  ],
+  "method": "Retained Markdown web links reconciled with saved Python GET baseline, lychee HTTP 2xx full/recheck responses, and explicit normal-browser observations. Accepted bot statuses and exclusions do not count as reachable. Removed PDFChecks after repeated HTTP 500/503 and browser error. Relinked AI ethics paper to its open preprint."
+}

@@ -1,0 +1,35 @@
+name: Report a broken or outdated link
+description: A link is dead, redirects somewhere unrelated, or describes something that has changed.
+title: "Broken link: "
+labels: ["broken link"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link in the list
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem
+      options:
+        - The page is gone (404 or similar)
+        - It redirects to something unrelated (domain taken over)
+        - The product is discontinued or renamed
+        - The description is wrong or out of date
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: A replacement link or corrected description, if you have one.
