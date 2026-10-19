@@ -210,7 +210,9 @@ npm install --no-save --no-package-lock awesome-lint@2.3.0
 node --no-deprecation .github/scripts/lint-readme.mjs
 npx --no-install awesome-lint README.md
 lychee --config .github/lychee.toml --verbose --format json --output lychee/out.json README.md CONTRIBUTING.md
-node .github/scripts/summarize-links.mjs lychee/out.json
+node .github/scripts/recheck-timeouts.mjs lychee/out.json lychee/recheck.json
+FAIL_ON_ERRORS=true node .github/scripts/summarize-links.mjs lychee/out.json lychee/recheck.json
+node --test .github/scripts/summarize-links.test.mjs
 ```
 
 Use lychee 0.24.2. The local binary was downloaded from its official GitHub
@@ -222,6 +224,28 @@ in `.github/lychee.toml`. The new summary explicitly separates these unverified
 results from reachable links. PR runs remain report-only so unrelated outages
 do not block contributors; main and weekly runs fail on other errors. Action
 dependencies are pinned to the commits resolved from their official major tags.
+
+### Follow-up: intermittent runner timeouts
+
+The first strict main-branch [link run](https://github.com/lukeslp/awesome-accessibility/actions/runs/39212304647)
+failed with zero HTTP errors and four timeouts, at Michigan's assistive technology
+list, the Speech Accessibility Project, WAIC and Research on Disability's annual
+statistics. These pages had already been reached independently during the review.
+The [main-branch lint run](https://github.com/lukeslp/awesome-accessibility/actions/runs/39212304486)
+passed.
+
+The focused repair retries only URLs in the original timeout report, with two
+concurrent requests and a 90-second timeout. It preserves the original JSON,
+writes a separate retry report and classifies recovered links separately.
+Unresolved timeouts and HTTP errors still fail main and scheduled checks;
+403/429 remain unverified. Tool failures and missing or malformed reports fail
+the job. PR checks remain report-only for link availability.
+
+Five Node tests cover recovery, persistent errors, unresolved timeouts, blocked
+responses and PR failure policy. A real replay of the three timeouts in
+`lychee-ci-attempt1.json` recovered all three using the pinned lychee binary;
+the strict combined summary returned zero failures or timeouts. The repository
+lint also passed. GitHub execution of this repair is recorded below once complete.
 
 ## Remaining work and rollback
 

@@ -5,11 +5,15 @@ on:
     paths:
       - "README.md"
       - ".github/scripts/lint-readme.mjs"
+      - ".github/scripts/recheck-timeouts.mjs"
+      - ".github/scripts/summarize-links.mjs"
+      - ".github/scripts/summarize-links.test.mjs"
       - ".github/workflows/lint.yml"
   push:
     branches: [main]
     paths:
       - "README.md"
+      - ".github/scripts/*.mjs"
   workflow_dispatch:
 
 permissions:
@@ -32,3 +36,8 @@ jobs:
 
       - name: Lint README against the Awesome list guidelines
         run: node --no-deprecation .github/scripts/lint-readme.mjs
+
+      - name: Verify timeout classification and CI failure policy
+        run: |
+          node --check .github/scripts/recheck-timeouts.mjs
+          node --test .github/scripts/summarize-links.test.mjs
