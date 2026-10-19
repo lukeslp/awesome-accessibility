@@ -28,7 +28,7 @@ or inference was run.
 - [x] Read the catalog and research new resources using primary sources.
 - [x] Review every baseline web URL and all direct GitHub repositories.
 - [x] Correct editorial policy conflicts and unsupported descriptions.
-- [ ] Complete final lint, link and rendered-navigation checks.
+- [x] Complete local lint, links, structural and rendered-navigation checks; final link CI pending.
 - [ ] Merge the reviewed overhaul and verify the final repository state.
 
 Acceptance: one entry per resource, working section anchors, concise factual
@@ -136,6 +136,35 @@ was checked against project files rather than treated as proof of no license
 full software or license audit. Tools linked through websites/registries are
 outside that repository census.
 
+**Measured final links:** [lychee-final.json](lychee-final.json) and
+[link-summary.md](link-summary.md) record zero failed URLs and zero timeouts.
+The local run found 638 reachable web links, 61 bot-blocked/rate-limited links
+and 11 excluded web links. These are this client's classifications, not an
+assertion that blocked links are dead.
+
+[availability-union.json](availability-union.json) reconciles retained Markdown
+links with both HTTP clients and explicit browser checks: 694 of 704 current
+Markdown web URLs were reachable by at least one method. All 17 initially
+unresolved destinations were then visited in the browser: seven loaded their
+real pages and ten still displayed browser challenges.
+[browser-checks.json](browser-checks.json) records every disposition. No CAPTCHA
+was solved or bypassed. The ten initially unresolved links remain clearly identified
+for a future human check; they are mainly journal/article destinations.
+
+The AI ethics article was subsequently relinked from its blocked ACM DOI to
+the author's [open preprint](https://arxiv.org/abs/1908.08939), reducing the
+remaining queue to nine destinations. The final availability ledger reflects
+that replacement.
+
+**Measured final structure:** [structure.json](structure.json) records 685
+resources, 16 main sections and 57 subsections, with no broken local links or
+duplicate primary resource URLs. Heading fragments were checked with GitHub
+Slugger against the parsed Markdown heading tree.
+
+**Measured final repository metadata:** [github-final.json](github-final.json)
+covers all 77 current direct GitHub repositories: none missing or disabled;
+Project Gameface remains the only archived repository, explicitly labeled.
+
 **Measured lint:** both the repository script and the complete awesome-lint
 2.3.0 rules passed locally after corrections. Added the `awesome` and
 `awesome-list` topics, resolving the metadata follow-up instead of treating the
@@ -143,9 +172,25 @@ skipped metadata rule as validation.
 
 **Observed presentation:** a narrow GitHub rendering of the original draft
 showed the nested index filling several screens before the first resource;
-see [navigation-before.png](navigation-before.png). Final rendering and anchor
-checks are pending. No screen-reader walkthrough, switch test, physical device
-test or WCAG conformance verdict is claimed.
+see [navigation-before.png](navigation-before.png). The
+[revised index](navigation-after.png) fits with Start here in one narrow viewport.
+Activating [Explore AI tools](ai-navigation.png) and [Find AAC](aac-navigation.png)
+reached their intended subsections. Evidence is a 473 × 848 GitHub rendering
+in the Codex in-app browser. Desktop-width rendering was not separately tested.
+No screen-reader walkthrough, switch test, physical device test or WCAG
+conformance verdict is claimed.
+
+**Observed client difference:** the FTC case and press-release URLs returned
+404 to lychee and 403 to Python while the normal browser loaded the full
+press release with its April 22, 2025 date and final-order text. The final
+README uses the browser-verified press release. Only that exact URL is excluded
+from automatic checking; [ftc-browser.png](ftc-browser.png) records the page.
+This exception is distinct from the outstanding bot-blocked verification queue.
+
+**Observed redirect correction:** Michigan's old resource URL redirected to
+a generic home page. The new direct
+[assistive technology list](https://studentaccessibility.umich.edu/assistive-technology)
+was checked against the current university source.
 
 ## Maintenance and reproduction
 
@@ -161,7 +206,7 @@ Use lychee 0.24.2. The local binary was downloaded from its official GitHub
 release to `/tmp/awesome-accessibility-lychee` and checked against the published
 SHA-256. No global package installation was required.
 
-Link CI accepts 403/429 for continuity and skips five host patterns documented
+Link CI accepts 403/429 for continuity and skips five host patterns plus the browser-verified FTC URL documented
 in `.github/lychee.toml`. The new summary explicitly separates these unverified
 results from reachable links. PR runs remain report-only so unrelated outages
 do not block contributors; main and weekly runs fail on other errors. Action
@@ -169,9 +214,14 @@ dependencies are pinned to the commits resolved from their official major tags.
 
 ## Remaining work and rollback
 
-Pending: final link output, visual/anchor evidence, CI results and PR #109's
-merge disposition. Bot-blocked and excluded pages remain a separate manual
-verification queue; no result silently promotes them to verified.
+Pending: final GitHub CI results and PR #109's merge disposition. Nine retained
+URLs still presented browser challenges after both HTTP-client and browser
+checks; their exact URLs and methods are in the availability and browser ledgers.
+Recheck them in a normal human session later. They are retained as established
+resources, not reported as verified or removed merely for blocking automation.
+DCO reports missing sign-offs in inherited commits; main has no required status
+checks or branch protection. Contributor history is preserved without fabricated
+sign-offs or a history rewrite.
 
 Rollback after merge: revert the PR #109 merge commit in a new branch and PR.
 The independent Markproof merge remains on main. Before merge, review changes

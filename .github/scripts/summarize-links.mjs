@@ -26,7 +26,7 @@ if (!report.detailed_stats || results.size === 0) {
 const categories = ['reachable', 'bot-blocked or rate-limited', 'excluded', 'failed', 'timed out'];
 const lines = [
   '## Link availability', '',
-  'HTTP 403/429 responses and exclusions are **unverified**, even when this job is green. A reachable page is not proof of accessibility or editorial accuracy.', '',
+  'HTTP 403/429 responses and exclusions are **not verified by this job**, even when it is green. A reachable page is not proof of accessibility or editorial accuracy.', '',
   '| Result | Unique links |', '| --- | ---: |',
   ...categories.map(kind => `| ${kind} | ${[...results.values()].filter(r => r.kind === kind).length} |`),
   '',

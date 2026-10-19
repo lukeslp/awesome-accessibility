@@ -33,4 +33,7 @@ exclude = [
   '^https://gitlab\.gnome\.org/',
   # Answers 500 to automated requests.
   '^https://www\.bookshare\.org/',
+  # Exact page verified in a browser on 2026-10-18; HTTP clients receive a
+  # misleading 404. Evidence: docs/reviews/2026-10-18/ftc-browser.png.
+  '^https://www\.ftc\.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million$',
 ]
