@@ -692,6 +692,7 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 - [Voice Access (Windows)](https://support.microsoft.com/en-us/topic/get-started-with-voice-access-bd2aa2dc-46c2-486c-93ae-3d75f7d053a4) - Built-in Windows 11 feature for controlling the computer and dictating text by voice, offline; it replaces Windows Speech Recognition.
 - [Voice Control (Apple)](https://support.apple.com/guide/iphone/use-voice-control-iph2c21a3c88/ios) - Built-in voice control for macOS, iOS and iPadOS.
 - [Voicefield](https://github.com/tatargabor/voicefield) - React library that pairs a phone with desktop web fields by QR code and relays recognized text to the desktop. Uses browser or optional cloud speech recognition, so audio may leave the device. Open source (MIT).
+- [Yap Online Dictation](https://yapapp.cc/online-dictation) - Free, no-account browser dictation with editable text, two-minute recordings and a downloaded Whisper model for local recognition. Closed-source web tool; review recognition errors and copy or download text before closing the tab.
 - [YazSes](https://github.com/MSKazemi/yazses) - Free, open-source offline dictation for Linux, macOS, and Windows. Hold-to-talk rather than always-listening, so the speaker decides when recognition starts and stops; includes a dysfluency-friendly mode intended for stuttered and dysarthric speech. Runs entirely on-device, useful for RSI and privacy-sensitive work.
 
 ### Speech and AAC
