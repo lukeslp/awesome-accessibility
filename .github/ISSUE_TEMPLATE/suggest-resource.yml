@@ -1,0 +1,42 @@
+name: Suggest a resource
+description: Propose a tool, guide, course or other resource for the list.
+title: "Suggest: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One or two sentence description
+      description: What it is, then why it's useful. Mention if it's free, paid or open source.
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Where in the list should it go?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: It isn't already in the list.
+          required: true
+        - label: It's actively maintained or a lasting reference.
+          required: true
+        - label: It's not an accessibility overlay.
+          required: true
+        - label: I'm affiliated with this resource (fine, just say so).

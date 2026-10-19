@@ -10,10 +10,18 @@ max_redirects = 10
 # Some sites serve bot checks to the default user agent.
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
-# Treat only real success as success, so every failure shows in the report.
-accept = ["200..=299"]
+# 403 and 429 usually mean a bot wall or rate limit (w3.org, npmjs.com,
+# journal publishers), not a dead page, so they don't fail the check.
+accept = ["200..=299", "403", "429"]
 
 # Only check web links.
 scheme = ["https", "http"]
 
 exclude_all_private = true
+
+exclude = [
+  # Always answers 999 to automated requests.
+  '^https://www\.linkedin\.com/',
+  # Breaks lychee's HTTP/2 client; check these by hand.
+  '^https://www\.canada\.ca/',
+]

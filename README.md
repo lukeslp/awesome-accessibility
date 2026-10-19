@@ -2,7 +2,7 @@
 
 > A curated list of resources, tools, guidelines and communities for building accessible, inclusive digital experiences.
 
-[![License: CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/) [![Link check](https://github.com/lukeslp/awesome-accessibility/actions/workflows/links.yml/badge.svg)](https://github.com/lukeslp/awesome-accessibility/actions/workflows/links.yml)
+[![License: CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 > *"For most people technology makes things easier. For people with disabilities, technology makes things possible."* Adapted from Mary Pat Radabaugh, IBM, 1988.
 
