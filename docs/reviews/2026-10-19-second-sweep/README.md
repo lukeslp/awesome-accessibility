@@ -20,7 +20,7 @@ the earlier full HTTP and GitHub repository inventories.
 - [x] Verify consequential descriptions against primary documentation and code.
 - [x] Revisit the unresolved browser destinations and verify replacement routes.
 - [x] Apply focused corrections, two removals and two additions.
-- [ ] Complete lint, structure, changed-link and rendered-navigation checks.
+- [x] Complete lint, structure, changed-link and rendered-navigation checks.
 - [ ] Inspect GitHub CI, merge the follow-up and verify final repository state.
 
 ## Corrections and primary evidence
@@ -42,7 +42,7 @@ the earlier full HTTP and GitHub repository inventories.
 
 ## Removals
 
-- **alt-images-ai:** [processHTML at reviewed commit](https://github.com/kreent/alt-images-ai/blob/84ee2c38c2f1ed91c166cafa77b4c997eb8b07d4/src/client.ts#L108) processes intentional `alt=""` by default, even with `overrideExisting` false. That can add screen-reader clutter to decorative images; [W3C's decorative-image guidance](https://www.w3.org/WAI/tutorials/images/decorative/) distinguishes an empty alternative from a missing attribute. Source inspection supports this finding; the package was not installed or executed. It is published as npm 1.0.1 and declares MIT, so this is not a missing-release or missing-license removal. Other retained tools cover the task. Reconsider after a source change that preserves deliberate empty alternatives by default.
+- **alt-images-ai:** [processHTML at reviewed commit](https://github.com/kreent/alt-images-ai/blob/84ee2c38c2f1ed91c166cafa77b4c997eb8b07d4/src/client.ts#L108) processes intentional `alt=""` by default, even with `overrideExisting` false. That can add screen-reader clutter to decorative images; [W3C's decorative-image guidance](https://www.w3.org/WAI/tutorials/images/decorative/) distinguishes an empty alternative from a missing attribute. The same condition was confirmed in `dist/client.js` inside the [published npm 1.0.1 archive](https://registry.npmjs.org/alt-images-ai/-/alt-images-ai-1.0.1.tgz), whose metadata records source commit `5b19918ae761f79c793e60843e05d7f553bed9e6`. This was source inspection without installation or execution. The package declares MIT, so this is not a missing-release or missing-license removal. Other retained tools cover the task. Reconsider after a source change that preserves deliberate empty alternatives by default.
 - **ASL Browser:** the [MSU landing page](https://commtechlab.msu.edu/sites/aslweb/index.html) requires frames and the legacy QuickTime browser plugin, and points readers to a newer dictionary. A successful HTTP response did not make this a suitable current-browser resource. Existing ASL dictionaries cover the need. Reconsider if the publisher supplies a working modern video interface.
 
 The contribution guide now requires content-modifying tools to preserve
@@ -71,6 +71,14 @@ browser-challenge queue is now **six destinations**, down from nine. The Sage
 Technology and Disability source was readable through the web retrieval tool,
 but the normal browser still displayed a challenge; it remains in this queue.
 No CAPTCHA was solved or bypassed.
+
+Both repository lint and full awesome-lint 2.3.0 passed locally. The parser
+found no broken local links or duplicate primary resource URLs. A targeted
+[lychee 0.24.2 check](changed-links.json) of the four new destinations returned
+three HTTP 200 responses and one HTTP 403 at Sage; that blocked response is
+unverified by the checker. The [rendered dictation section](dictation-render.png)
+was inspected in GitHub at 1280 × 720, confirming its heading fragment,
+alphabetical placement and readable wrapping of the new cost/privacy labels.
 
 This is a catalog/source review. It does not establish every tool's functional
 accessibility, privacy behavior, recognition accuracy or conformance. Earlier
