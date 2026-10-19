@@ -93,12 +93,38 @@ resources after Yap and the one-for-one Change replacement.
 [structure.json](structure.json) records 16 main sections, 57 subsections,
 711 web URLs and no broken local links or duplicate primary URLs against
 README blob `7c93cf8fa56f97d2698113a9fad67f1bdf1dec6a`.
-Repository lint passed locally; complete metadata lint and final CI are checked
-on the published branch and final main state.
+Repository lint passed locally. Final branch and main results are recorded below.
+
+PR #115 merged as `08a59ea16f57c1555194b1bc976c4e53c9c93d71` after
+[lint](https://github.com/lukeslp/awesome-accessibility/actions/runs/39303342285)
+and its [full PR sweep](https://github.com/lukeslp/awesome-accessibility/actions/runs/39303342498)
+passed. That sweep had 625 reachable, 74 blocked/rate-limited and 12 excluded
+URLs, with zero errors or timeouts. The preceding [strict main run after Yap](https://github.com/lukeslp/awesome-accessibility/actions/runs/39303055701)
+also passed with those counts, clearing both the prior Roselli failure and
+U-M timeout in that run. Complete awesome-lint 2.3.0 passed on the published
+follow-up branch. The [replacement entry](plain-language-render.png) and
+[Yap entry](dictation-render.png) were inspected in the rendered GitHub catalog
+at 1280 × 720, confirming placement, wording and readable wrapping.
 
 - [x] Source and browser checks; focused catalog corrections.
 - [x] PR #114 lint, full link sweep and merge.
-- [ ] Follow-up PR, final strict CI, structure and synchronized main.
+- [x] Follow-up PR, final strict CI, structure and synchronized main.
+
+## Final state
+
+The [final strict main link sweep](https://github.com/lukeslp/awesome-accessibility/actions/runs/39303617554)
+and [main lint](https://github.com/lukeslp/awesome-accessibility/actions/runs/39303617454)
+passed at merge `08a59ea16f57c1555194b1bc976c4e53c9c93d71`.
+The link sweep reported **625 reachable, 74 blocked/rate-limited, 12 excluded,
+zero errors and zero timeouts**. Blocked and excluded URLs remain explicitly
+unverified by that automated job. No checker exception or failure policy was
+changed. This supersedes the earlier availability failures for the current
+checked catalog, while preserving those failures as dated evidence.
+
+The final query found no open PRs or issues. Main was synchronized before this
+documentation-only completion commit; its README blob matches the structural
+and rendered evidence above. The original six-destination browser follow-up
+is closed; this does not certify every listed tool's functional accessibility.
 
 ## Rollback
 

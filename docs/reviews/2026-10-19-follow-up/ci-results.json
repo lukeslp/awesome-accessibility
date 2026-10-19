@@ -33,6 +33,48 @@
         "failed": 0,
         "timed out": 0
       }
+    },
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39303055701",
+      "reviewedHead": "98845cec6477d9e4471d54815ea2d8fa43e5c794",
+      "event": "push",
+      "conclusion": "success",
+      "counts": {
+        "reachable": 625,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 74,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 0
+      }
+    },
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39303342498",
+      "reviewedHead": "a683397dbd0d254fe649138fc7c0f19433ef5222",
+      "event": "pull_request",
+      "conclusion": "success",
+      "counts": {
+        "reachable": 625,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 74,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 0
+      }
+    },
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39303617554",
+      "reviewedHead": "08a59ea16f57c1555194b1bc976c4e53c9c93d71",
+      "event": "push",
+      "conclusion": "success",
+      "counts": {
+        "reachable": 625,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 74,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 0
+      }
     }
   ]
 }
