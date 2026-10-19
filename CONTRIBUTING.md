@@ -97,7 +97,7 @@ If a resource doesn't fit an existing section, suggest a new one in your pull re
 
 Pull requests run two checks:
 
-- **Links** - [lychee](https://lychee.cli.rs/) checks every link in the README; the same check runs weekly on the main branch.
+- **Links** - [lychee](https://lychee.cli.rs/) checks every link in the README and lists failures and redirects in the job summary. On pull requests it only reports; the weekly run on the main branch fails when a link breaks.
 - **Lint** - [awesome-lint](https://github.com/sindresorhus/awesome-lint) checks formatting against the Awesome list guidelines. Run it locally with `npx awesome-lint README.md`.
 
 ### Pull Request Process

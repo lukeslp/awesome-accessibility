@@ -2,7 +2,7 @@
 # Docs: https://lychee.cli.rs/usage/config/
 
 max_concurrency = 12
-timeout = 30
+timeout = 45
 max_retries = 3
 retry_wait_time = 5
 max_redirects = 10
@@ -19,9 +19,17 @@ scheme = ["https", "http"]
 
 exclude_all_private = true
 
+# Hosts that reject automated requests even though the pages work in a
+# browser. Check these by hand when editing their entries.
 exclude = [
-  # Always answers 999 to automated requests.
+  # Answers 999 to automated requests.
   '^https://www\.linkedin\.com/',
-  # Breaks lychee's HTTP/2 client; check these by hand.
+  # Breaks lychee's HTTP/2 client.
   '^https://www\.canada\.ca/',
+  # Sends bots into a sign-in redirect loop.
+  '^https://developer\.android\.com/',
+  # Bot protection answers 406.
+  '^https://gitlab\.gnome\.org/',
+  # Answers 500 to automated requests.
+  '^https://www\.bookshare\.org/',
 ]

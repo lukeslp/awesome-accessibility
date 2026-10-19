@@ -39,5 +39,7 @@ jobs:
             --config .github/lychee.toml
             --verbose
             README.md CONTRIBUTING.md
-          fail: false
+          # Report-only on pull requests, so contributors aren't blocked by
+          # unrelated sites going down; scheduled and main-branch runs fail.
+          fail: ${{ github.event_name != 'pull_request' }}
           jobSummary: true
