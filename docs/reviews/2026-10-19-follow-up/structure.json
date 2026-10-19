@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-19",
+  "resources": 686,
+  "mainSections": 16,
+  "subsections": 57,
+  "brokenLocalLinks": [],
+  "duplicatePrimaryURLs": [],
+  "currentWebURLs": 711,
+  "catalog_blob": "7c93cf8fa56f97d2698113a9fad67f1bdf1dec6a",
+  "method": "Parsed Markdown using remark-parse and github-slugger. Primary URLs compared ignoring trailing slash. Web census uses README and CONTRIBUTING links and images; local-link existence also checked in the review index and follow-up audit."
+}

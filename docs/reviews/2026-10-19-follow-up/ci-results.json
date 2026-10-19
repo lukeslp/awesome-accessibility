@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "provenance": "Counts extracted from completed GitHub job logs after the configured targeted timeout retry; summaries, not raw lychee output.",
+  "runs": [
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39302320049",
+      "reviewedHead": "0ddedaf740e7687f25a4f90e6f48859a35286533",
+      "event": "workflow_dispatch",
+      "conclusion": "failure",
+      "counts": {
+        "reachable": 622,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 75,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 1
+      },
+      "timeoutURLs": [
+        "https://studentaccessibility.umich.edu/assistive-technology"
+      ],
+      "observations": "Adrian Roselli was reachable. U-M timed out after the configured retry; fresh local curl and targeted lychee then returned HTTP 200. It also passed the subsequent PR #114 full sweep. No exception added."
+    },
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39302620641",
+      "reviewedHead": "5929561c60cde2e133585d2b832a71877ed4c55a",
+      "event": "pull_request",
+      "conclusion": "success",
+      "counts": {
+        "reachable": 626,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 73,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 0
+      }
+    }
+  ]
+}
