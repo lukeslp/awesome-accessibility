@@ -1,7 +1,7 @@
 {
-  "total": 4,
-  "unique": 4,
-  "successful": 4,
+  "total": 6,
+  "unique": 6,
+  "successful": 6,
   "unknown": 0,
   "unsupported": 0,
   "timeouts": 0,
@@ -13,22 +13,7 @@
   "success_map": {
     "/tmp/awesome-accessibility-second-sweep-links.md": [
       {
-        "url": "https://www.csun.edu/cod/journal",
-        "status": {
-          "text": "200 OK",
-          "code": 200
-        },
-        "span": {
-          "line": 3,
-          "column": 1
-        },
-        "duration": {
-          "secs": 1,
-          "nanos": 8707125
-        }
-      },
-      {
-        "url": "https://github.com/cjpais/Handy",
+        "url": "https://play.google.com/store/apps/details?hl=en&id=com.lazarillo",
         "status": {
           "text": "200 OK",
           "code": 200
@@ -38,8 +23,38 @@
           "column": 1
         },
         "duration": {
-          "secs": 1,
-          "nanos": 129591917
+          "secs": 0,
+          "nanos": 353943083
+        }
+      },
+      {
+        "url": "https://apps.apple.com/us/app/lazarillo-accessible-gps/id1139331874",
+        "status": {
+          "text": "200 OK",
+          "code": 200
+        },
+        "span": {
+          "line": 3,
+          "column": 1
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 439578417
+        }
+      },
+      {
+        "url": "https://journals.sagepub.com/home/tad",
+        "status": {
+          "text": "403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 6,
+          "column": 1
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 410692709
         }
       },
       {
@@ -53,15 +68,30 @@
           "column": 1
         },
         "duration": {
-          "secs": 1,
-          "nanos": 260855708
+          "secs": 0,
+          "nanos": 598619083
         }
       },
       {
-        "url": "https://journals.sagepub.com/home/tad",
+        "url": "https://www.csun.edu/cod/journal",
         "status": {
-          "text": "403 Forbidden",
-          "code": 403
+          "text": "200 OK",
+          "code": 200
+        },
+        "span": {
+          "line": 5,
+          "column": 1
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 886288958
+        }
+      },
+      {
+        "url": "https://github.com/cjpais/Handy",
+        "status": {
+          "text": "200 OK",
+          "code": 200
         },
         "span": {
           "line": 4,
@@ -69,7 +99,7 @@
         },
         "duration": {
           "secs": 0,
-          "nanos": 965615000
+          "nanos": 603805542
         }
       }
     ]
@@ -80,8 +110,8 @@
   "redirect_map": {},
   "excluded_map": {},
   "duration": {
-    "secs": 2,
-    "nanos": 300597584
+    "secs": 1,
+    "nanos": 884959125
   },
   "detailed_stats": true
 }

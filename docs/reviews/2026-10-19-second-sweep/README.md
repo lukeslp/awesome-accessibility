@@ -39,6 +39,7 @@ the earlier full HTTP and GitHub repository inventories.
 | Technology and Disability | The [ISSN transfer record](https://portal.issn.org/resource/ISSN/1055-4181) identifies Sage as the receiving publisher from January 2025. Replaced the IOS Press URL with the [current journal page](https://journals.sagepub.com/home/tad) and labeled mixed article access. |
 | CSUN journal | Replaced the challenged repository collection with the [official journal page](https://www.csun.edu/cod/journal), which loaded normally and links current and previous open-access volumes. |
 | Journal of Disability Research | The retained [ScienceOpen collection](https://www.scienceopen.com/collection/e1e3fd98-e818-47dc-a396-69009efa34e7) loaded normally. Its Open Access / APCs panel describes gold open access with author publication charges and eligibility-based waivers. Removed the incorrect diamond label and alphabetized the journal under its actual title. |
+| Lazarillo | The full GitHub sweep and its retry timed out at the vendor homepage; a fresh local curl request and normal browser navigation also timed out. The official [Android](https://play.google.com/store/apps/details?hl=en&id=com.lazarillo) and [iOS](https://apps.apple.com/us/app/lazarillo-accessible-gps/id1139331874) listings remain available. Replaced the stalled website with direct store routes and retained the app. This records an observed outage, not a claim of permanent closure. |
 
 ## Removals
 
@@ -61,8 +62,10 @@ Two additions and two removals leave **684 resources, 16 main sections and
 [structure.json](structure.json) records the parsed heading and resource
 inventory, local-link checks and duplicate-primary-URL checks against the exact
 README blob. The web URL census includes both links and images and excludes
-example code blocks. It is a fresh parser census, not a direct comparison with
-the previous audit's availability-reconciliation count.
+example code blocks. For the unchanged starting commit this parser finds 709
+URLs, while the prior availability reconciliation records 703 under its text
+extraction method. The parser census and that earlier reconciliation count
+should not be compared as resource growth or used interchangeably.
 
 [browser-checks.json](browser-checks.json) records the current browser results.
 CSUN's replacement route, Journal of Special Education Technology and the
@@ -74,11 +77,18 @@ No CAPTCHA was solved or bypassed.
 
 Both repository lint and full awesome-lint 2.3.0 passed locally. The parser
 found no broken local links or duplicate primary resource URLs. A targeted
-[lychee 0.24.2 check](changed-links.json) of the four new destinations returned
-three HTTP 200 responses and one HTTP 403 at Sage; that blocked response is
+[lychee 0.24.2 check](changed-links.json) of the six new destinations returned
+five HTTP 200 responses and one HTTP 403 at Sage; that blocked response is
 unverified by the checker. The [rendered dictation section](dictation-render.png)
 was inspected in GitHub at 1280 × 720, confirming its heading fragment,
 alphabetical placement and readable wrapping of the new cost/privacy labels.
+
+The initial [full PR link run](https://github.com/lukeslp/awesome-accessibility/actions/runs/39223380913)
+found zero HTTP errors but retained a Lazarillo timeout after its targeted retry;
+[pr-initial-links.json](pr-initial-links.json) preserves the measured result.
+That report-only green check was not counted as a clean sweep. The additional
+curl and browser failures prompted the direct-store correction above; both
+store URLs returned HTTP 200 in the final targeted check.
 
 This is a catalog/source review. It does not establish every tool's functional
 accessibility, privacy behavior, recognition accuracy or conformance. Earlier

@@ -625,7 +625,7 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 ### Navigation and wayfinding
 
 - [GoodMaps](https://goodmaps.com/) - Navigation app with turn-by-turn directions inside mapped venues such as transit stations, airports and campuses.
-- [Lazarillo](https://lazarillo.app/) - Free GPS app for blind and low-vision people that announces nearby places, streets and transit stops.
+- [Lazarillo](https://play.google.com/store/apps/details?hl=en&id=com.lazarillo) - Free GPS app for blind and low-vision people on Android and [iOS](https://apps.apple.com/us/app/lazarillo-accessible-gps/id1139331874), with audio announcements of nearby places, streets and transit stops.
 - [NaviLens](https://www.navilens.com/) - Free app that reads high-contrast codes on transit, signs and products from several meters away, telling blind and low-vision people where they are and what is nearby.
 - [Soundscape by Scottish Tech Army](https://sta.ngo/soundscapeapp) - Free continuation of Microsoft Soundscape from a volunteer group that closely matches the original iPhone app, with an Android version in beta.
 - [Soundscape Community](https://apps.apple.com/app/id6449701760) - Community-maintained continuation of Microsoft Soundscape for iPhone, using 3D audio callouts to build awareness of surroundings.
