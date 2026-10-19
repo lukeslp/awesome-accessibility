@@ -15,6 +15,7 @@ Resources are grouped by what you're doing: learning the standards, designing, b
 - [Laws and policy](#laws-and-policy)
   - [United States](#united-states)
   - [Europe](#europe)
+  - [United Kingdom](#united-kingdom)
   - [Canada](#canada)
   - [International and other regions](#international-and-other-regions)
 - [Accessibility programs](#accessibility-programs)
@@ -29,6 +30,7 @@ Resources are grouped by what you're doing: learning the standards, designing, b
   - [User-facing widgets and overlays](#user-facing-widgets-and-overlays)
 - [Mobile and native apps](#mobile-and-native-apps)
   - [Cross-platform](#cross-platform)
+  - [iOS and Apple platforms](#ios-and-apple-platforms)
   - [Android](#android)
 - [Testing and auditing](#testing-and-auditing)
   - [Methods and guides](#methods-and-guides)
@@ -41,16 +43,23 @@ Resources are grouped by what you're doing: learning the standards, designing, b
   - [Documents, PDF and e-books](#documents-pdf-and-e-books)
   - [Plain language and readability](#plain-language-and-readability)
   - [Captions, subtitles and audio description](#captions-subtitles-and-audio-description)
+  - [Data visualization](#data-visualization)
+  - [Math and STEM](#math-and-stem)
+  - [Email](#email)
 - [AI and accessibility](#ai-and-accessibility)
+  - [AI in assistive technology](#ai-in-assistive-technology)
   - [AI tools for builders](#ai-tools-for-builders)
+  - [Research, data and critique](#research-data-and-critique)
 - [Assistive technology](#assistive-technology)
   - [General](#general)
   - [Screen readers](#screen-readers)
+  - [Text-to-speech engines](#text-to-speech-engines)
   - [Braille](#braille)
   - [Low vision and magnification](#low-vision-and-magnification)
   - [Color vision](#color-vision)
   - [Vision apps and wearables](#vision-apps-and-wearables)
   - [Reading and print access](#reading-and-print-access)
+  - [Navigation and wayfinding](#navigation-and-wayfinding)
   - [Deaf and hard of hearing](#deaf-and-hard-of-hearing)
   - [Sign languages](#sign-languages)
   - [Motor and alternative input](#motor-and-alternative-input)
@@ -65,6 +74,7 @@ Resources are grouped by what you're doing: learning the standards, designing, b
   - [Certification](#certification)
   - [Books](#books)
   - [Podcasts and video](#podcasts-and-video)
+  - [Newsletters and blogs](#newsletters-and-blogs)
 - [Community](#community)
   - [Disability organizations](#disability-organizations)
   - [Professional communities](#professional-communities)
@@ -81,11 +91,14 @@ New to accessibility? These cover the basics.
 - [How people with disabilities use the web](https://www.w3.org/WAI/people-use-web/tools-techniques/) - W3C overview of the tools and techniques people use to browse, from screen readers and magnifiers to voice control and reading aids.
 - [The A11Y Project](https://www.a11yproject.com/) - Community-driven site with plain-language posts, a checklist and curated resources for making the web accessible.
 - [WebAIM articles](https://webaim.org/articles/) - Long-running library of practical articles on web accessibility, from alt text and forms to screen reader testing.
+- [MDN: Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) - Free module in MDN's web development curriculum covering accessible HTML, CSS, JavaScript, WAI-ARIA and multimedia, with skill tests.
 
 ## Standards and guidelines
 
 The technical standards most laws point to, and guides to reading them.
 
+- [Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/) - W3C format and community-written rules that describe how to test WCAG success criteria consistently, used by automated tools and manual methods alike.
+- [Authoring Tool Accessibility Guidelines (ATAG) 2.0](https://www.w3.org/TR/ATAG20/) - W3C Recommendation for content management systems, editors and other authoring tools: they should be accessible to authors with disabilities and help everyone produce accessible content.
 - [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/) - European standard for ICT accessibility, from ETSI's official directory of versions. V3.2.1 is the version cited for legal presumption of conformity; V4.1.1, published September 2026, moves to WCAG 2.2 and maps its clauses to the European Accessibility Act.
 - [Essential components of web accessibility](https://www.w3.org/WAI/fundamentals/components/) - W3C explainer on how content, authoring tools, browsers and assistive technology work together, and which guidelines cover each.
 - [How to Meet WCAG 2.2 (quick reference)](https://www.w3.org/WAI/WCAG22/quickref/) - Filterable W3C reference to every WCAG 2.2 success criterion, with techniques, failures and understanding documents.
@@ -109,30 +122,50 @@ Official sources first. Laws change; check the date on anything you rely on.
 
 - [21st Century Communications and Video Accessibility Act (CVAA)](https://www.fcc.gov/consumers/guides/21st-century-communications-and-video-accessibility-act-cvaa) - FCC guide to accessibility rules for advanced communications services and video programming, including captions, video description and accessible menus.
 - [ADA National Network](https://adata.org/) - Ten regional centers that provide information, guidance and training on the Americans with Disabilities Act.
+- [ADA Title II rule (Federal Register)](https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state) - Full text of the 2024 rule adopting WCAG 2.1 Level AA for state and local government web content and mobile apps, including its exceptions.
+- [ADA Title II small entity compliance guide](https://www.ada.gov/resources/small-entity-compliance-guide/) - Plain-language Department of Justice guide to who the Title II web rule covers, what it requires and how its exceptions work.
 - [ADA Title II web and mobile rule](https://www.ada.gov/resources/2024-03-08-web-rule/) - Department of Justice fact sheet on the 2024 rule requiring state and local government websites and mobile apps to meet WCAG 2.1 Level AA. An April 2026 interim final rule moved the compliance dates to 26 April 2027 (populations of 50,000 or more) and 26 April 2028 (smaller governments and special districts).
+- [ADA Title II web rule: first steps](https://www.ada.gov/resources/web-rule-first-steps/) - Department of Justice list of first steps for state and local governments working toward the web and mobile app requirements.
+- [ADA Title III News & Insights](https://www.adatitleiii.com/) - Seyfarth Shaw blog tracking ADA Title III lawsuits, court decisions and Department of Justice actions, including yearly website accessibility lawsuit counts.
 - [ADA.gov guidance on web accessibility](https://www.ada.gov/resources/web-guidance/) - Department of Justice guidance on web accessibility for state and local governments and businesses under the Americans with Disabilities Act.
+- [National Federation of the Blind v. Department of Justice](https://clearinghouse.net/case/48281/) - Civil Rights Litigation Clearinghouse record of the May 2026 lawsuit challenging the DOJ and HHS deadline extensions; useful for following whether the new dates hold.
 - [Revised Section 508 Standards](https://www.access-board.gov/ict/) - U.S. Access Board standards for information and communication technology that federal agencies buy, build or use; they incorporate WCAG 2.0 Level AA.
+- [Section 504 compliance date extension (HHS)](https://www.federalregister.gov/documents/2026/05/11/2026-09266/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web) - May 2026 interim final rule moving web and mobile deadlines for recipients of HHS funding to 11 May 2027 (15 or more employees) and 10 May 2028 (fewer than 15).
 - [Section508.gov](https://www.section508.gov/) - GSA's hub for federal IT accessibility: policy, procurement, testing methods and training.
 - [Section508.gov laws and policies](https://www.section508.gov/manage/laws-and-policies/) - Summary of U.S. federal IT accessibility laws, regulations and policies.
+- [Title II compliance date extension (Federal Register)](https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web) - Text of the April 2026 interim final rule that moved the Title II web and mobile deadlines by one year; the WCAG 2.1 Level AA requirement is unchanged.
 
 ### Europe
 
 - [AccessibleEU](https://accessible-eu-centre.ec.europa.eu/index_en) - The European Commission's accessibility resource centre, with guidance, training and a knowledge base on EU accessibility law.
+- [Directive (EU) 2019/882](https://eur-lex.europa.eu/eli/dir/2019/882/oj) - Official text of the European Accessibility Act, the primary source behind each member state's national law.
 - [EAA National Transposition by Member State](https://yakupefecaliskann.github.io/annex-site/eaa/transposition/) - The national instrument transposing the European Accessibility Act in each of the 27 EU member states, each row read from the official EUR-Lex transposition record. A business is judged against the national law rather than the directive itself.
+- [EN 301 549 V4.1.1 published](https://nda.ie/news/en301549-published) - Ireland's National Disability Authority on the September 2026 publication of EN 301 549 V4.1.1, which aligns with WCAG 2.2 and maps requirements to the European Accessibility Act.
 - [European Accessibility Act](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en) - European Commission overview of the directive that has applied since 28 June 2025 to products and services such as computers, phones, e-commerce, banking and e-books.
+- [Web Accessibility Directive](https://digital-strategy.ec.europa.eu/en/policies/web-accessibility) - European Commission page on the directive requiring public sector websites and apps to be accessible, with its monitoring methodology and model accessibility statement.
+
+### United Kingdom
+
+- [Public Sector Bodies Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/952/contents/made) - Text of the UK regulations requiring public sector websites and apps to meet accessibility standards and publish an accessibility statement.
+- [Understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) - UK government guidance on the Public Sector Bodies Accessibility Regulations 2018: what must be fixed, exemptions, accessibility statements and monitoring.
 
 ### Canada
 
+- [Accessibility Standards Canada](https://accessible.canada.ca/) - Federal agency that develops accessibility standards under the Accessible Canada Act, including Canada's adoption of EN 301 549 for ICT.
 - [Accessible Canada Act](https://www.canada.ca/en/employment-social-development/programs/accessible-canada.html) - Canadian federal law working toward a barrier-free Canada by 2040, with accessibility plans required for federally regulated organizations.
 - [Guidance on implementing the Standard on Web Accessibility](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/guidance-implementing-standard-web-accessibility.html) - Treasury Board of Canada guidance for federal departments on meeting the Government of Canada's web accessibility standard.
+- [Integrated Accessibility Standards (O. Reg. 191/11)](https://www.ontario.ca/laws/regulation/110191) - AODA regulation with Ontario's information and communications standard, including the exact website requirements and exceptions.
 - [Ontario: how to make websites accessible](https://www.ontario.ca/page/how-make-websites-accessible) - Ontario government guidance on website requirements under the Accessibility for Ontarians with Disabilities Act (AODA).
 - [WebAIM: web accessibility laws in Canada](https://webaim.org/articles/laws/canada/) - Summary of federal and provincial accessibility laws that apply to websites in Canada.
 
 ### International and other regions
 
+- [Disability Discrimination Act 1992 (Australia)](https://www.legislation.gov.au/C2004A04426/latest/text) - Australian federal law prohibiting disability discrimination, including in goods, services and online information.
 - [@holmdigital/standards](https://www.npmjs.com/package/@holmdigital/standards) - Machine-readable regulatory database mapping WCAG to EN 301 549 and national law across 17 jurisdictions, with typed exports and enforcement-body lookups. Open source (MIT).
+- [Lei Brasileira de Inclusão (Brazil)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm) - Brazil's Inclusion of Persons with Disabilities law; Article 63 requires accessible websites for companies based in Brazil and for government bodies. In Portuguese.
 - [UN Convention on the Rights of Persons with Disabilities](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd) - International human rights treaty whose Article 9 commits states to accessibility, including of information and communications technology.
 - [W3C web accessibility laws and policies](https://www.w3.org/WAI/policies/) - Directory of accessibility laws and policies by country, maintained by the W3C Web Accessibility Initiative.
+- [WAIC](https://waic.jp/) - Japan's Web Accessibility Infrastructure Committee, which maintains guidance, translations and test resources for JIS X 8341-3, Japan's web accessibility standard.
 
 ## Accessibility programs
 
@@ -143,7 +176,11 @@ Planning, maturity models, procurement and accessibility statements for organiza
 - [Accesserty Signal](https://accesserty.com/en/signal) - Chrome and Firefox extension that shows published accessibility certifications and statements for sites in Google and Bing results, and lets people report barriers they encounter.
 - [Accessibility statement generator (A11y Kit)](https://vread-corp.github.io/declaration-accessibilite/en/) - Free, in-browser generator for accessibility statements following the European Accessibility Act Annex V structure, with French (RGAA) and German (BFSG) versions; exports HTML, Markdown and Word and sends no data. It formats your answers and does not test the site.
 - [Digital Accessibility Maturity Model (DAMM)](https://www.levelaccess.com/blog/the-digital-accessibility-maturity-model-introduction-to-damm/) - Level Access's maturity model for measuring and planning digital accessibility programs.
+- [Generate an accessibility statement](https://www.w3.org/WAI/planning/statements/generator/) - W3C tool that builds an accessibility statement from a guided form, with guidance on what a statement should cover.
+- [ISO/IEC 30071-1](https://www.iso.org/standard/70913.html) - International code of practice for building accessibility into an organization's policies and ICT development; it superseded BS 8878 and was confirmed by ISO in 2024.
 - [Microsoft Accessibility Evolution Model](https://blogs.microsoft.com/accessibility/accessibility-evolution-model/) - Microsoft's model for describing how mature an organization's accessibility practice is, and what the next stage looks like.
+- [Planning and managing web accessibility](https://www.w3.org/WAI/planning/) - W3C guidance on starting, planning, implementing and sustaining an organizational accessibility program.
+- [Sample accessibility statement (GOV.UK)](https://www.gov.uk/government/publications/sample-accessibility-statement) - UK government template for a public sector accessibility statement, with guidance on each section; a useful model in any sector.
 - [Voluntary Product Accessibility Template (VPAT)](https://www.itic.org/policy/accessibility/vpat) - ITI's template for Accessibility Conformance Reports, with editions for Section 508, EN 301 549, WCAG and an international edition combining them.
 - [W3C Accessibility Maturity Model](https://www.w3.org/TR/maturity-model/) - W3C Group Note (November 2025) for assessing and improving the maturity of an organization's accessibility program.
 - [Web Accessibility Framework](https://blog.pope.tech/2024/01/17/how-the-web-accessibility-framework-was-designed/) - Pope Tech's framework for planning an accessibility program around goals, scope, risk appetite, gaps and processes.
@@ -156,6 +193,7 @@ Planning, maturity models, procurement and accessibility statements for organiza
 - [Cards for Humanity](https://cardsforhumanity.frog.co/) - Card deck that deals a person and a trait, to test a product, service or concept from a different perspective.
 - [Centre for Inclusive Design](https://centreforinclusivedesign.org.au/) - Australian organization that helps teams build inclusive design processes, with research and training.
 - [Co-design kit](https://community-led.design/) - Open-source toolkit for community-led co-design.
+- [Designing for accessibility posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/) - UK Home Office do and don't posters for designing for autistic users, screen reader users, low vision, motor disabilities, deaf and hard of hearing users and dyslexia; openly licensed and widely translated.
 - [IBM Equal Access Toolkit](https://www.ibm.com/able/toolkit/) - IBM's step-by-step accessibility guidance for planning, design, development and verification, organized by role.
 - [Inclusive Design Guide](https://guide.inclusivedesign.ca/) - IDRC's guide to inclusive design insights and practices that apply across design fields.
 - [Inclusive Design Principles](https://web.archive.org/web/20230601105718/https://inclusivedesignprinciples.org/) - Seven principles by Henny Swan, Ian Pouncey, Heydon Pickering and Léonie Watson (archived copy; the original domain has lapsed).
@@ -174,11 +212,14 @@ Planning, maturity models, procurement and accessibility statements for organiza
 ### Color and contrast
 
 - [Accessible Colors](https://accessible-colors.com) - Finds the closest accessible color combination when a pair fails WCAG contrast.
+- [Accessible Palette](https://accessiblepalette.com/) - Tool for creating color systems with consistent lightness and predictable contrast between shades.
 - [AudioEye color contrast checker](https://www.audioeye.com/color-contrast-checker) - Color contrast checker against WCAG thresholds (formerly color.a11y.com).
 - [Color Vision Labs Simulator & Filter](https://colorvisionlabs.com/color-blind-filter) - Free browser-based color blindness simulator (protan, deutan, tritan, with adjustable severity including partial forms) for live camera or photos, plus a daltonization assist mode. Runs entirely client-side, no signup.
 - [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/) - David Nichols' interactive tool for checking how a palette looks to people with color vision deficiencies.
 - [Colour Contrast Analyser](https://vispero.com/color-contrast-checker/) - Free desktop app from Vispero for checking color contrast against WCAG, with an eyedropper for any pixel on screen.
 - [Colour contrast grid](https://maniruzzamanjubayer.com/tools/color-contrast-grid) - Free browser tool that scores every text and background pair in a palette against WCAG 2.2 contrast thresholds, previews each pair in real UI and suggests the nearest passing colour. Runs client-side with no account.
+- [Huetone](https://huetone.ardov.me/) - Tool for building accessible color palettes in the LCH color space, with contrast checks across the palette. Open source.
+- [Leonardo](https://github.com/adobe/leonardo) - Adobe's web app and JavaScript library for generating color palettes and themes from target contrast ratios. Open source (Apache-2.0).
 - [NoCoffee Vision Simulator](https://addons.mozilla.org/addon/nocoffee/) - Firefox extension that approximates low vision, color vision deficiency, cataracts and other impairments on web pages, for design review rather than clinical accuracy. Open source (MIT).
 - [Ohio State University color guidelines](https://ets.osu.edu/color-guidelines-digital-accessibility) - Guidelines for using color accessibly in digital materials.
 - [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/) - Color blindness simulator for macOS and iOS that filters the screen or camera view in real time.
@@ -191,6 +232,7 @@ Planning, maturity models, procurement and accessibility statements for organiza
 
 - [A11y Style Guide](https://a11y-style-guide.com/style-guide/) - Accessible patterns with code and examples for common page elements.
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) - Practical guide for developers, with patterns, examples and screen reader testing advice.
+- [Accessibility for Teams](https://accessibility.digital.gov/) - U.S. government guide that splits accessibility work by role: product management, content design, UX, visual design, front-end development and testing.
 - [Accessible SVG icons](https://iconvectors.io/tutorials/accessible-svg-icons-aria-roles-labels.html) - Practical guide to making SVG icons accessible with roles, labels and decorative-icon patterns.
 - [Accessible Technology at the UW](https://www.washington.edu/accessibility/) - University of Washington guides to creating accessible websites, documents, videos and IT.
 - [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) - W3C guide to building accessible widgets with WAI-ARIA, with design patterns, keyboard interaction and working examples.
@@ -201,23 +243,40 @@ Planning, maturity models, procurement and accessibility statements for organiza
 - [MDN: understanding WCAG](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG) - Mozilla's guide to WCAG for developers, organized by principle.
 - [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) - MDN reference for the CSS media query that detects a user's request for less motion, important for vestibular disorders and some forms of epilepsy.
 - [Section508.gov guide to accessible web design and development](https://www.section508.gov/develop/guide-accessible-web-design-development/) - U.S. government guide to building accessible websites, mapped to WCAG requirements.
+- [W3C: images tutorial](https://www.w3.org/WAI/tutorials/images/) - W3C tutorial on writing text alternatives for informative, decorative, functional and complex images, with a decision tree.
 
 ### Component libraries and design systems
 
+- [a11y-dialog](https://a11y-dialog.netlify.app) - Lightweight script for accessible modal and non-modal dialogs with focus management and Escape to close. Open source (MIT).
 - [Accesserty UI Kit](https://accesserty.com/en/uikit/) - HTML-first accessible Web Components with built-in keyboard behavior and state management, usable with any framework or with plain HTML. Open source (MIT).
+- [accessible-autocomplete](https://github.com/alphagov/accessible-autocomplete) - Autocomplete widget from the GOV.UK Design System team, tested with a range of screen readers and browsers; the team gives it minimal maintenance. Open source (MIT).
 - [Ariakit](https://ariakit.com/) - Toolkit for building accessible web apps with React, providing low-level primitives with full WAI-ARIA support. Open source (MIT).
+- [Ark UI](https://ark-ui.com) - Headless, accessible components for React, Vue, Solid and Svelte, built on Zag.js state machines from the Chakra UI team. Open source (MIT).
+- [Base UI](https://base-ui.com) - Headless React components from the MUI team, with focus management and ARIA handled for you. Open source (MIT).
+- [Bits UI](https://bits-ui.com) - Headless, accessible component primitives for Svelte 5. Open source (MIT).
+- [Carbon: accessibility](https://carbondesignsystem.com/guidelines/accessibility/overview/) - IBM Carbon's accessibility guidelines, with per-component notes on keyboard and screen reader behavior.
+- [Cauldron](https://cauldron.dequelabs.com/) - Deque's design system, with React components and CSS built and documented with accessibility as the primary requirement. Open source (MPL-2.0).
 - [Chakra UI](https://chakra-ui.com/) - React component library with WAI-ARIA support built into its components. Open source (MIT).
+- [GOV.UK Design System: accessibility](https://design-system.service.gov.uk/accessibility/) - How the GOV.UK Design System team tests components with assistive technologies, and the known issues recorded for each component.
+- [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/) - Code for the GOV.UK Design System, whose components are researched with users and tested with assistive technologies; a strong reference for accessible forms and error messages. Open source (MIT).
 - [Headless UI](https://headlessui.com/) - Unstyled, accessible UI components for React and Vue from Tailwind Labs. Open source (MIT).
 - [@holmdigital/components](https://www.npmjs.com/package/@holmdigital/components) - Accessible React components including a regulation-ready `AccessibilityStatement` generator with legal templates in 12 locales (en, sv, no, fi, da, nl, de, fr, es, it, pt, pl, plus aliases). Open source (MIT).
+- [Kobalte](https://github.com/kobaltedev/kobalte) - Unstyled components and primitives for building accessible SolidJS apps and design systems. Open source (MIT).
+- [Lion](https://lion.js.org) - ING's white-label, framework-agnostic Web Components with accessibility built in, meant to be extended into your own design system. Open source (MIT).
+- [NHS.UK frontend](https://nhsuk.github.io/nhsuk-frontend/) - Components and styles for NHS websites, adapted from GOV.UK Frontend. Open source (MIT).
 - [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible component primitives for React. Open source (MIT).
 - [React Aria](https://react-aria.adobe.com/) - Unstyled, accessible React components and hooks from Adobe, with keyboard, screen reader, touch and internationalization support. Open source (Apache-2.0).
+- [Reka UI](https://reka-ui.com) - Unstyled, accessible component primitives for Vue, a port of Radix Primitives formerly called Radix Vue. Open source (MIT).
 - [Riffle](https://github.com/reactivepixels/riffle) - Headless cycling card stack for vanilla JS, React and Vue that follows the WAI-ARIA carousel pattern, with keyboard navigation and reduced-motion support. Open source (MIT).
+- [Spectrum Web Components](https://opensource.adobe.com/spectrum-web-components/) - Adobe's Spectrum design system as framework-agnostic Web Components, with documented accessibility requirements for each component. Open source (Apache-2.0).
 - [U.S. Web Design System accessibility](https://designsystem.digital.gov/documentation/accessibility/) - USWDS accessibility guidance, with tested components and patterns for government websites.
 
 ### Developer libraries
 
 - [accessibility-devkit](https://github.com/actually-useful-ai/accessibility-devkit) - Framework-agnostic TypeScript toolkit of eight packages mapped to WCAG success criteria, covering auditing, accessible components, accommodations such as dyslexia typography and text spacing, motor, cognitive, language, media and motion. Open source (MIT).
 - [aria-query](https://github.com/A11yance/aria-query) - Programmatic access to the WAI-ARIA roles model, used by eslint-plugin-jsx-a11y and Testing Library. Open source (Apache-2.0).
+- [Color.js](https://colorjs.io) - Color library from CSS Working Group members that computes WCAG 2 contrast and other color metrics; its APCA support is experimental and not a WCAG 2 requirement. Open source (MIT).
+- [dom-accessibility-api](https://github.com/eps1lon/dom-accessibility-api) - JavaScript implementation of the W3C accessible name and description computation, used by Testing Library to resolve accessible names. Open source (MIT).
 - [focus-trap](https://github.com/focus-trap/focus-trap) - A library for trapping focus within a DOM node. Open source (MIT).
 - [@fontsource/opendyslexic](https://www.npmjs.com/package/@fontsource/opendyslexic) - Self-hosted OpenDyslexic font package for npm-based projects. Open source (OFL-1.1).
 - [ux-oss-safeguard](https://github.com/actually-useful-ai/ux-oss-safeguard) - Content safety evaluator with WCAG 2.1 AA support, keyboard navigation, screen-reader support, and reduced-motion handling. Zero dependencies.
@@ -245,9 +304,30 @@ Screen readers built into phones, such as VoiceOver and TalkBack, are listed und
 ### Cross-platform
 
 - [Appt](https://appt.org/en) - Open knowledge base for mobile app accessibility, with code samples for Android, iOS, Flutter, React Native, .NET MAUI and more.
+- [BBC Mobile Accessibility Guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/) - BBC's guidelines for accessible mobile web and native apps, with techniques for iOS, Android and HTML.
+- [eslint-plugin-react-native-a11y](https://github.com/FormidableLabs/eslint-plugin-react-native-a11y) - ESLint rules for React Native accessibility props, roles and states. Open source (MIT).
+- [Flutter accessibility](https://docs.flutter.dev/ui/accessibility) - Official Flutter guide to semantics, screen reader support, large fonts and contrast, including accessibility guideline matchers for widget tests.
+- [.NET MAUI accessibility](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/accessibility) - Microsoft's guide to semantic properties, screen reader announcements and automation properties in .NET MAUI apps.
+- [React Native accessibility](https://reactnative.dev/docs/accessibility) - Official guide to React Native's accessibility props, roles, actions and screen reader APIs on iOS and Android.
+- [React Native Testing Library](https://oss.callstack.com/react-native-testing-library) - Component testing for React Native with role and accessible-name queries, encouraging tests that interact the way assistive technology users do. Open source (MIT).
+
+### iOS and Apple platforms
+
+- [Accessibility Inspector](https://developer.apple.com/documentation/accessibility/accessibility-inspector) - Tool bundled with Xcode for inspecting the accessibility properties of iOS and macOS apps, running audits and simulating VoiceOver navigation.
+- [Accessibility Nutrition Labels](https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels) - App Store Connect guide to declaring which accessibility features an app supports, shown on its App Store page.
+- [Apple Developer: accessibility](https://developer.apple.com/accessibility/) - Apple's hub for accessibility APIs, documentation and WWDC sessions for UIKit, SwiftUI and AppKit.
+- [Apple Human Interface Guidelines: accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility) - Apple's design guidance for VoiceOver, Dynamic Type, contrast, motion and other accessibility features across its platforms.
+- [Perform accessibility audits for your app](https://developer.apple.com/videos/play/wwdc2023/10035/) - WWDC session on performAccessibilityAudit(), which runs automated accessibility audits inside XCTest UI tests.
 
 ### Android
 
+- [Accessibility in Jetpack Compose (codelab)](https://developer.android.com/codelabs/jetpack-compose-accessibility) - Hands-on codelab: fix touch targets, content descriptions and click labels in a sample app, then test with TalkBack.
+- [Accessibility Scanner](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor) - Google's free Android app that scans any app on screen and suggests fixes for small touch targets, low contrast and missing labels.
+- [Accessibility Test Framework for Android](https://github.com/google/Accessibility-Test-Framework-for-Android) - Google's library of automated accessibility checks behind Accessibility Scanner, Espresso checks and the Play pre-launch report. Open source (Apache-2.0).
+- [Android: build accessible apps](https://developer.android.com/guide/topics/ui/accessibility) - Google's developer hub for Android accessibility, covering principles, Views and Compose APIs, and testing.
+- [Android: test your app's accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing) - Official guide to manual testing with TalkBack, Switch Access and Voice Access, and automated testing with Accessibility Scanner, Espresso and Compose.
+- [Espresso accessibility checks](https://developer.android.com/training/testing/espresso/accessibility-checking) - Runs Accessibility Test Framework checks on every Espresso view action, with matchers for suppressing known issues.
+- [Jetpack Compose accessibility](https://developer.android.com/develop/ui/compose/accessibility) - Guides to semantics, traversal order and testing in Compose; since Compose 1.8, UI tests can enable accessibility checks that fail on missing labels, low contrast and small touch targets.
 - [Oh My Android](https://github.com/ateymoori/oh-my-android) - Free, open-source macOS app for accessibility testing of Android apps in the emulator or on a device over adb. Toggles TalkBack, font scale, bold text and RTL/pseudo-locales, and runs an audit that numbers each TalkBack stop in focus order and flags unlabeled controls and small touch targets.
 
 ## Testing and auditing
@@ -263,40 +343,73 @@ Automated tools find only part of the problems (often estimated at 30 to 40 perc
 - [Section508.gov: testing with ANDI](https://www.section508.gov/test/web-software/) - How to test web content with ANDI, the Accessible Name and Description Inspector bookmarklet.
 - [W3C: evaluating web accessibility](https://www.w3.org/WAI/test-evaluate/) - W3C overview of evaluation approaches, from quick easy checks to full conformance evaluation.
 - [W3C Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/) - Filterable list of software and online services that help check whether web content is accessible.
+- [WCAG-EM](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/) - W3C Website Accessibility Conformance Evaluation Methodology, for scoping, sampling and evaluating a whole website against WCAG.
+- [WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/) - W3C tool that walks evaluators through WCAG-EM and generates a structured conformance report.
 - [WebAIM: web accessibility evaluation tools](https://webaim.org/articles/tools/) - Guide to what automated and manual evaluation tools can and cannot tell you.
 
 ### Browser extensions and in-page checkers
 
 - [Accesserty DevCheck](https://accesserty.com/en/devcheck) - Browser extension that runs axe-core scans, focus path review, visual simulations, and PDF structure checks on the current page, including local, staging, and authenticated states.
+- [Accessibility bookmarklets](https://pauljadam.com/bookmarklets/) - Paul J. Adam's bookmarklets that reveal headings, landmarks, ARIA, alt text and focus order on any page, including in mobile browsers.
 - [Accessibility Insights](https://accessibilityinsights.io/) - Microsoft's free tools for web and Windows apps, with automated checks, a tab-stop visualizer and guided manual assessments for WCAG. Open source (MIT).
+- [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) - Accessible Name and Description Inspector, a free bookmarklet from the U.S. Social Security Administration that shows what assistive technology will announce for each element; used in Trusted Tester.
 - [ARC Toolkit](https://vispero.com/arc-platform/arc-toolkit/) - Vispero's Chrome extension for accessibility testing, with WCAG issue reporting and remediation guidance.
+- [Astro dev toolbar audits](https://docs.astro.build/en/guides/dev-toolbar/) - Astro's development toolbar runs built-in accessibility audits on the page you're working on and highlights failing elements in place.
 - [axe DevTools browser extension](https://www.deque.com/axe/devtools/extension/) - Deque's browser extension for Chrome, Firefox and Edge that scans pages with axe-core; the free tier covers automated checks.
+- [Chrome DevTools accessibility reference](https://developer.chrome.com/docs/devtools/accessibility/reference) - Guide to Chrome's built-in accessibility tools: the full accessibility tree, computed ARIA properties, contrast checks and vision deficiency emulation.
 - [Editoria11y](https://editoria11y.princeton.edu/) - Princeton-built content accessibility checker that runs automatically on page load, flagging issues like missing alt text and heading structure problems.
+- [Firefox Accessibility Inspector](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/) - Built into Firefox DevTools: shows the accessibility tree, checks contrast and keyboard focus, simulates color vision deficiencies and overlays tab order.
+- [Landmarks](https://matatk.agrip.org.uk/landmarks/) - Browser extension for Firefox, Chrome and Edge that lists and navigates a page's landmarks and headings from the keyboard. Open source (MIT).
 - [Polypane](https://polypane.app/) - Developer browser with built-in WCAG tests, contrast checks, color blindness simulation and an accessibility tree view. Paid, with a free trial.
 - [Sa11y](https://sa11y.netlify.app/) - Accessibility quality assurance tool that visually highlights issues directly on the page, designed for content authors and editors.
 - [WAVE](https://wave.webaim.org/) - WebAIM's evaluation tool, available as a browser extension and online, that shows issues in place on the page.
 
 ### Testing engines and CI
 
+- [Accessibility Insights Scan](https://www.npmjs.com/package/accessibility-insights-scan) - Microsoft's command-line scanner for one URL, a list of URLs or a crawled site, with an HTML report. Open source (MIT).
+- [Alfa](https://alfa.siteimprove.com) - Siteimprove's accessibility engine built on W3C ACT rules, with integrations for Playwright, Puppeteer, Cypress and Jest. Open source (MIT).
 - [axe-core](https://github.com/dequelabs/axe-core) - Accessibility rules engine from Deque that tests against WCAG 2.0 to 2.2 and best practices, designed to avoid false positives; most automated checkers on this list build on it. Open source (MPL-2.0).
+- [axe-core-npm](https://github.com/dequelabs/axe-core-npm) - Deque's packages for running axe-core in Playwright, Puppeteer, WebdriverIO and WebDriverJS tests, plus the @axe-core/cli scanner. Open source (MPL-2.0).
+- [axe-playwright-python](https://github.com/pamelafox/axe-playwright-python) - Runs axe-core from Python Playwright tests and returns violations as structured data or a readable report. Open source (MIT).
+- [cypress-axe](https://github.com/component-driven/cypress-axe) - Cypress commands that run axe-core against the page under test and fail on violations. Open source (MIT).
 - [@holmdigital/engine](https://www.npmjs.com/package/@holmdigital/engine) - WCAG testing engine and CLI (hd-a11y-scan) that maps failures to EN 301 549 and national accessibility law in 17 jurisdictions, with CI mode and JUnit and PDF reports. Open source (MIT).
 - [IBM Equal Access Accessibility Checker](https://github.com/IBMa/equal-access) - IBM's open-source rules engine, browser extensions and Node package for Selenium, Puppeteer and Playwright tests, with baselines so CI fails only on new issues. Open source (Apache-2.0).
 - [jest-axe](https://github.com/NickColley/jest-axe) - Jest matcher that runs axe-core against rendered markup in unit tests. Open source (MIT).
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Google's open-source auditing tool for accessibility, performance, SEO and best practices, built into Chrome DevTools.
 - [Octopus Scanner](https://lachie1999.itch.io/octopus-scanner) - Desktop accessibility auditing app using Puppeteer and axe-core. Supports full-site crawls, sitemap ingestion, interactive journey recording for authenticated flows, and deep scan engine for dynamic content. Generates interactive reports with visual defect highlighting. Free, cross-platform.
 - [Pa11y](https://pa11y.org/) - Free and open-source command-line tools for automated accessibility testing of web pages. Open source (LGPL-3.0).
+- [Pa11y CI](https://github.com/pa11y/pa11y-ci) - Command-line runner that tests a list of URLs or a sitemap with Pa11y and fails the build on errors. Open source (LGPL-3.0).
+- [Playwright ARIA snapshots](https://playwright.dev/docs/aria-snapshots) - Compares a page's accessibility tree with a stored snapshot to catch regressions in roles, names and structure. Open source (Apache-2.0).
+- [QualWeb](https://github.com/qualweb/qualweb) - University of Lisbon evaluation engine that runs W3C ACT rules, WCAG techniques and best-practice checks from a command line or Node API. Open source (ISC).
+- [Sa11y (Salesforce)](https://github.com/salesforce/sa11y) - Salesforce's axe-core wrappers with a toBeAccessible() matcher for Jest and Vitest and an API for WebdriverIO; a different project from the Sa11y content checker. Open source (BSD-3-Clause).
+- [Storybook accessibility addon](https://storybook.js.org/docs/writing-tests/accessibility-testing) - Runs axe-core on each story in Storybook and can run the same checks in CI. Open source (MIT).
+- [Testing Library ByRole queries](https://testing-library.com/docs/queries/byrole) - Finds elements by ARIA role and accessible name, so component tests fail when controls lack correct semantics or labels. Open source (MIT).
+- [Unlighthouse](https://github.com/harlan-zw/unlighthouse) - Crawls a whole site and runs Lighthouse on every page, with a UI for comparing accessibility and other scores across routes; also runs in CI. Open source (MIT).
 - [ux-ui-audit](https://github.com/uxbyissa/ux-ui-audit) - Browser probes that measure WCAG contrast, tap targets and focus-ring contrast, plus an Arabic/RTL engine for plural agreement, bidi hazards and letter-spacing on cursive script. Open source (MIT).
 - [wcag-contrast-ci](https://github.com/johnsmithCA-sta/wcag-contrast-ci) - Zero-dependency Python CLI that batch-checks color pairs against WCAG AA/AAA (normal, large, and UI-component tiers) and audits CSS token hygiene - variable definition/usage counts, hardcoded color values, and dead token detection. Exits non-zero on failure so it can gate a CI pipeline directly.
 
 ### Linters and static analysis
 
+- [angular-eslint](https://github.com/angular-eslint/angular-eslint) - ESLint tooling for Angular whose template plugin includes accessibility rules for alt text, labels, ARIA and keyboard focus. Open source (MIT).
 - [axe Linter](https://github.com/dequelabs/axe-linter-action) - Deque GitHub Action that lints HTML, React, Vue and Markdown files for accessibility issues in pull requests.
+- [Biome](https://biomejs.dev) - Fast linter and formatter for JavaScript, TypeScript and JSX whose accessibility rule group covers much of eslint-plugin-jsx-a11y. Open source (MIT or Apache-2.0).
 - [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) - ESLint rules for accessibility issues in JSX, the standard linter for React projects. Open source (MIT).
+- [eslint-plugin-lit-a11y](https://github.com/open-wc/open-wc/tree/master/packages/eslint-plugin-lit-a11y) - Accessibility linting rules for Lit templates, adapted from eslint-plugin-jsx-a11y. Open source (ISC).
+- [eslint-plugin-vuejs-accessibility](https://vue-a11y.github.io/eslint-plugin-vuejs-accessibility/) - ESLint rules that check Vue templates for missing alt text, unlabeled form controls, invalid ARIA and similar problems. Open source (MIT).
+- [html-validate](https://html-validate.org) - Offline HTML validator for documents and component templates, with rules based on WCAG techniques and ARIA usage. Open source (MIT).
+- [markuplint](https://markuplint.dev) - HTML linter that also parses Vue, Svelte and JSX templates and checks conformance with the HTML and WAI-ARIA specifications. Open source (MIT).
+- [Oxlint](https://oxc.rs/docs/guide/usage/linter) - Fast JavaScript linter that includes a port of the eslint-plugin-jsx-a11y rules. Open source (MIT).
+- [stylelint-a11y](https://github.com/double-great/stylelint-a11y) - Stylelint plugin with CSS accessibility rules, such as requiring reduced-motion alternatives and flagging removed focus outlines. Open source (MIT).
+- [Svelte accessibility warnings](https://svelte.dev/docs/svelte/compiler-warnings) - The Svelte compiler reports about 40 accessibility warnings at build time, such as missing alt text and click handlers without keyboard handlers, with no extra plugin. Open source (MIT).
 
 ### Screen reader testing
 
 - [A11Y Project: getting started with VoiceOver](https://www.a11yproject.com/posts/getting-started-with-voiceover/) - Practical guide for developers testing websites with VoiceOver on macOS, with tips that apply to other screen readers.
+- [a11ysupport.io](https://a11ysupport.io/) - Community-maintained data on how screen readers and browsers support specific HTML and ARIA features.
+- [ARIA-AT](https://aria-at.w3.org/) - W3C community project that writes test plans for ARIA patterns and reports how well screen reader and browser combinations support them.
 - [Deque University screen reader shortcuts](https://dequeuniversity.com/screenreaders/) - Keyboard and gesture reference for the major desktop and mobile screen readers.
+- [Guidepup](https://www.guidepup.dev) - Drives real screen readers (VoiceOver, NVDA and Orca) from JavaScript, with a Playwright integration, so tests can check what is actually announced. Open source (MIT).
+- [Virtual Screen Reader](https://github.com/guidepup/virtual-screen-reader) - Simulated screen reader for jsdom and browsers that produces a spoken-output log for fast unit tests; not a substitute for real screen readers. Open source (MIT).
 - [WebAIM: testing with screen readers](https://webaim.org/articles/screenreader_testing/) - How to test web content with a screen reader, with keyboard shortcuts for the major ones.
 
 ### Online checkers and scanners
@@ -323,10 +436,33 @@ Automated tools find only part of the problems (often estimated at 30 to 40 perc
 
 ### Documents, PDF and e-books
 
+- [Accessibility Metadata Display Guide](https://www.w3.org/publishing/a11y/UX-Guide-metadata/principles/) - W3C community group guide to showing e-book accessibility metadata to readers in plain language in stores, libraries and reading apps.
 - [Accessible Documents Toolkit](https://oit.colorado.gov/standards-policies-guides/guide-to-accessible-web-services/accessible-documents-toolkit) - Colorado Office of Information Technology toolkit for creating accessible documents across formats.
+- [Ace by DAISY](https://daisy.github.io/ace/) - Command-line and desktop checker that runs automated EPUB accessibility tests, built on axe-core. Open source (MIT).
+- [Ace SMART](https://smart.daisy.org/) - Free DAISY web tool for the manual part of EPUB conformance testing, which imports an Ace report and helps write accessibility metadata.
+- [Adobe Acrobat: create and verify PDF accessibility](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html) - Adobe's reference for the accessibility check, reading order tool and related features in Acrobat Pro (commercial).
 - [CAST AEM Center](https://aem.cast.org/) - National Center on Accessible Educational Materials, with guidance on creating and acquiring accessible learning materials.
+- [DAISY Accessible Publishing Knowledge Base](https://kb.daisy.org/publishing/docs/) - Continually updated best practices for producing accessible EPUB 3 and other digital publications.
+- [DAISY Pipeline 2](https://daisy.org/activities/software/pipeline-2/) - Conversion framework that produces EPUB 3, DAISY talking books and braille-ready files from Word, DTBook and EPUB sources. Open source (LGPL).
+- [EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/) - W3C Recommendation for accessibility conformance and metadata in EPUB publications.
+- [Google Docs accessibility](https://support.google.com/docs/answer/6199477) - Google's guidance on making Docs, Slides, Sheets and videos more accessible, covering alt text, headings, tables, link text and contrast.
+- [Inclusive Publishing](https://inclusivepublishing.org/) - DAISY-led news and information hub on accessible publishing, with case studies and conformance guidance.
+- [ISO 14289-2 (PDF/UA-2)](https://www.iso.org/standard/82278.html) - ISO standard, published 2024, for accessible PDF documents built on PDF 2.0.
+- [LaTeX Tagged PDF Project](https://tagging-project.latex-project.org/) - The LaTeX Project's hub for producing tagged, PDF/UA-2 PDFs from LaTeX (TeX Live 2025 or later), with usage guides and the tagging status of over 1,000 packages.
+- [Microsoft Office Accessibility Checker](https://support.microsoft.com/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f) - Microsoft's guide to the built-in checker in Word, Excel, PowerPoint, Outlook and OneNote, with an explanation of each rule.
+- [OCRmyPDF](https://ocrmypdf.readthedocs.io/) - Command-line tool that adds a text layer to scanned PDFs so they can be searched and read aloud; it does not add tags, so output still needs remediation. Open source (MPL-2.0).
+- [Overleaf: creating accessible PDFs](https://docs.overleaf.com/writing-and-editing/creating-accessible-pdfs) - Step-by-step guide to automatic tagging and PDF/UA output in LaTeX, with notes on alt text.
+- [PAC (PDF Accessibility Checker)](https://pac.pdf-accessibility.org/) - Free Windows checker for PDF/UA and WCAG from axes4 and the PDF Association, with a screen reader preview and tag tree view. Freeware.
 - [PDFChecks](https://pdfchecks.com/) - Free local PDF accessibility quick check, with an optional uploaded-file audit of machine-testable PDF/UA requirements using veraPDF. Automated results complement manual review.
+- [Quarto: PDF accessibility and standards](https://quarto.org/docs/blog/posts/2026-03-05-pdf-accessibility-and-standards) - Explains Quarto 1.9's pdf-standard option for PDF/UA output from LaTeX and Typst, and the most common failures: missing titles and alt text.
 - [Section508.gov: create accessible documents](https://www.section508.gov/create/documents/) - Guides to creating accessible Word, PowerPoint, Excel and PDF documents that conform to the Revised 508 Standards.
+- [Section508.gov: create accessible PDFs](https://www.section508.gov/create/pdfs/) - U.S. federal guide to creating, testing and fixing PDFs that conform to Section 508, with a video series on Acrobat.
+- [Tagged PDF Best Practice Guide: Syntax](https://pdfa.org/resource/tagged-pdf-best-practice-guide-syntax/) - PDF Association guide for developers who generate tagged PDF and PDF/UA, covering structure types and attributes.
+- [Typst accessibility guide](https://typst.app/docs/guides/accessibility/) - Official guide to accessible PDF output in Typst, which tags PDFs by default since version 0.14 and can stop an export that fails PDF/UA-1 checks. Open source (Apache-2.0).
+- [veraPDF](https://verapdf.org/) - Validator for PDF/A, PDF/UA-1 and PDF/UA-2 that runs as a desktop app, command-line tool or Java library, and powers several free online checkers. Open source (GPL-3.0 or MPL-2.0).
+- [WebAIM: Microsoft Word](https://webaim.org/techniques/word/) - WebAIM's guide to accessible Word documents and exporting them to tagged PDF.
+- [WebAIM: PDF accessibility](https://webaim.org/techniques/acrobat/) - WebAIM's tutorials on PDF tags, reading order and fixing PDFs in Acrobat.
+- [Well-Tagged PDF (WTPDF)](https://pdfa.org/WTPDF) - PDF Association specification for tagging PDF 2.0 files for reuse and accessibility, compatible with PDF/UA-2. Free (CC BY 4.0).
 
 ### Plain language and readability
 
@@ -335,14 +471,66 @@ Automated tools find only part of the problems (often estimated at 30 to 40 perc
 - [Easy Read resources](https://www.changepeople.org/resources) - Change's resources and guidance for creating Easy Read documents for people with learning disabilities.
 - [Federal plain language guidelines](https://digital.gov/guides/plain-language/) - Digital.gov's plain language guidelines for U.S. federal agencies, required under the Plain Writing Act of 2010, covering structure, wording and design.
 - [Hemingway Editor](https://hemingwayapp.com/) - Writing tool that highlights long sentences, passive voice and hard-to-read passages, with a grade-level score. Free web version.
+- [Rewordify](https://rewordify.com/) - Free web tool that replaces difficult words in pasted text with simpler ones and highlights each change, to support struggling readers.
 
 ### Captions, subtitles and audio description
 
+- [Able Player](https://ableplayer.github.io/ableplayer/) - Accessible HTML5 media player with captions, interactive transcripts, audio description, a sign language window and full keyboard controls. Open source (MIT).
+- [Aegisub](https://aegisub.org/) - Cross-platform subtitle editor with audio waveform timing and styling. Open source (BSD-3-Clause).
+- [Audio Description Project](https://adp.acb.org/) - American Council of the Blind's hub on audio description, with guidelines and listings of described media.
+- [BBC subtitle guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/) - BBC's detailed subtitle style and timing guidelines.
+- [Buzz](https://chidiwilliams.github.io/buzz/) - Desktop app for Windows, macOS and Linux that transcribes audio and video offline with Whisper and exports SRT, VTT or text, including live captions for talks. Open source (MIT).
 - [Caption readability check](https://timedsubs.com/en/guides/caption-readability-check) - Practical pre-publication guide for checking caption timing, overlaps, line length, reading speed, and SRT/VTT structure without presenting style thresholds as WCAG guarantees.
 - [Closed Caption Creator](https://www.closedcaptioncreator.com/) - Commercial tool for creating closed captions and subtitles for video.
+- [DCMP Captioning Key](https://dcmp.org/learn/captioningkey) - Described and Captioned Media Program guidelines for caption quality, placement and style.
+- [DCMP Description Key](https://dcmp.org/learn/descriptionkey) - Described and Captioned Media Program guidelines for writing audio description, especially for educational media.
+- [ffsubsync](https://github.com/smacke/ffsubsync) - Command-line tool that automatically shifts an out-of-sync subtitle file to match a video's audio. Open source (MIT).
+- [Media Accessibility User Requirements](https://www.w3.org/TR/media-accessibility-reqs/) - W3C note describing what people with disabilities need from web audio and video.
 - [Picute](https://picute.net/) - Automated subtitle and caption generator with free, no-signup browser tools to convert and repair subtitle files (SRT, VTT, ASS) for accessible video.
+- [pycaption](https://pycaption.readthedocs.io/) - PBS's Python library for converting between caption formats such as SCC, SRT, WebVTT and DFXP. Open source (Apache-2.0).
+- [Subtitle Edit](https://www.nikse.dk/subtitleedit) - Subtitle editor with waveform timing, speech-to-text, spell check and conversion between hundreds of formats. Open source (GPL-3.0).
 - [SubtitleFixer](https://subtitlefixer.com/) - Free, open-source (MIT) browser tools that repair caption files so they stay usable: re-sync out-of-time captions, fix garbled characters, and convert between SRT, VTT, ASS, SBV and SUB, with files processed on the device and no account.
 - [W3C: captions and subtitles](https://www.w3.org/WAI/media/av/captions/) - W3C guidance on creating captions and subtitles for audio and video.
+- [W3C: making audio and video media accessible](https://www.w3.org/WAI/media/av/) - W3C WAI guide to captions, transcripts, audio description and accessible media players.
+- [WhisperX](https://github.com/m-bain/whisperx) - Whisper-based transcription with word-level timestamps and speaker labels, useful for tightly timed captions. Open source (BSD-2-Clause).
+- [YouDescribe](https://youdescribe.org/) - Free Smith-Kettlewell service where volunteers add audio description to YouTube videos.
+- [YouTube: add subtitles and captions](https://support.google.com/youtube/answer/2734796) - YouTube's help on uploading, creating and editing captions.
+
+### Data visualization
+
+- [Chart2Music](https://www.chart2music.com) - Library that turns chart data into sound that can be explored with the keyboard, designed and tested with blind users. Open source (MIT).
+- [Chartability](https://chartability.fizz.studio/) - Testable heuristics for auditing data visualizations and data-driven interfaces for visual, motor, vestibular, neurological and cognitive accessibility.
+- [ColorBrewer](https://colorbrewer2.org/) - Tool for choosing sequential, diverging and qualitative palettes for maps and charts, with a filter for colorblind-safe schemes.
+- [Colorcet](https://colorcet.holoviz.org) - Perceptually uniform color maps for Python plotting, including sets that stay readable with color vision deficiencies. Open source (CC BY 4.0).
+- [Data Navigator](https://dig.cmu.edu/data-navigator/) - JavaScript library from Carnegie Mellon that adds keyboard, screen reader and other input navigation to charts and diagrams drawn with SVG, Canvas or WebGL. Open source (MIT).
+- [Do No Harm Guide: centering accessibility in data visualization](https://www.urban.org/research/publication/do-no-harm-guide-centering-accessibility-data-visualization) - Urban Institute guide with practical guidance and practitioner interviews on accessible charts.
+- [Highcharts accessibility module](https://www.highcharts.com/docs/accessibility/accessibility-module) - Documentation for the Highcharts module that adds keyboard navigation, screen reader descriptions and sonification to charts; commercial license for commercial use.
+- [Highcharts Sonification Studio](https://sonification.highcharts.com/) - Free browser tool from Georgia Tech's Sonification Lab and Highsoft for turning spreadsheet data into charts with an audio track.
+- [MAIDR](https://maidr.ai) - Library that adds keyboard navigation, sonification, text descriptions and braille output to statistical charts, for JavaScript, Python and R. Open source (GPL-3.0).
+- [Olli](https://umwelt-data.github.io/olli/) - Library that turns web visualizations into keyboard-navigable tree views with descriptions at several levels of detail for screen reader users. Open source (BSD-3-Clause).
+- [Visa Chart Components](https://github.com/visa/visa-chart-components) - Chart library for JavaScript, React and Angular with built-in accessibility settings, keyboard instructions and data table fallbacks. Open source (MIT).
+- [Viz Palette](https://projects.susielu.com/viz-palette) - Tool for previewing a chart palette on example charts, with color vision deficiency simulation and conflict warnings.
+- [W3C: complex images](https://www.w3.org/WAI/tutorials/images/complex/) - W3C tutorial on short and long descriptions for charts, diagrams and maps.
+
+### Math and STEM
+
+- [Astronify](https://github.com/spacetelescope/astronify) - Space Telescope Science Institute package that turns astronomical data series, such as light curves, into sound. Open source (BSD-3-Clause).
+- [Desmos accessibility](https://www.desmos.com/accessibility) - Accessibility features of the free Desmos graphing calculator, including audio trace, braille and screen reader support.
+- [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/) - NIST's LaTeX to XML and HTML converter, used by arXiv to produce accessible HTML versions of papers. Public domain.
+- [MathCAT](https://nsoiffer.github.io/MathCAT/) - Library that converts MathML into speech, braille (Nemeth, UEB and others) and navigation commands, used in NVDA through an add-on. Open source (MIT).
+- [MathJax](https://www.mathjax.org/) - JavaScript display engine for LaTeX, MathML and AsciiMath with speech, braille and interactive exploration of expressions. Open source (Apache-2.0).
+- [MathLive](https://github.com/arnog/mathlive) - Web component for entering and editing math with a physical or on-screen keyboard, producing LaTeX and MathML, with speech output. Open source (MIT).
+- [MathML Core](https://www.w3.org/TR/mathml-core/) - W3C specification for the core of MathML, now rendered natively by Chromium, Firefox and Safari so equations reach assistive technology as math.
+- [PhET inclusive design](https://phet.colorado.edu/en/inclusive-design) - University of Colorado's free science and math simulations with screen reader support, sonification and alternative input.
+- [PreTeXt](https://pretextbook.org) - Authoring system for textbooks that builds accessible HTML, EPUB, braille and print from one source. Open source (GPL-3.0).
+- [Speech Rule Engine](https://github.com/zorkow/speech-rule-engine) - Library that generates spoken descriptions and Nemeth braille from MathML, and powers MathJax's speech output. Open source (Apache-2.0).
+- [STRAUSS](https://github.com/james-trayford/strauss) - Python toolkit for sonifying scientific data, built for astronomy but usable with any dataset. Open source (MIT).
+- [Temml](https://temml.org) - Converts LaTeX to MathML in the browser or at build time, so equations reach screen readers as math markup instead of images. Open source (MIT).
+
+### Email
+
+- [Email Markup Consortium](https://emailmarkup.org/) - Nonprofit that publishes yearly reports on the accessibility of real-world HTML emails and on email client support.
+- [Good Email Code](https://www.goodemailcode.com/) - Mark Robbins' reference of accessible, standards-based HTML email code patterns.
 
 ## AI and accessibility
 
@@ -350,14 +538,38 @@ AI features in specific products are listed with them: Be My Eyes, Seeing AI, Lo
 
 > **Note on AI**: AI descriptions, captions and code suggestions can be confidently wrong, so check anything safety-critical or legally significant with a person or a second source. AI-assisted testing finds only part of WCAG issues and does not replace manual and assistive technology testing. Overlays marketed as "AI-powered" do not make a site conformant (see the note on overlays under Web development).
 
+### AI in assistive technology
+
+- [ElevenLabs Impact Program](https://elevenlabs.io/impact-program) - Free licenses for AI voice cloning and text-to-speech for people with permanent voice loss from ALS, stroke, cancer and other conditions, through partner nonprofits. Recordings are processed in the cloud.
+- [Gemini in TalkBack](https://support.google.com/accessibility/android/answer/16294093) - Android's screen reader can describe an image or the whole screen with Gemini and answer follow-up questions, on-device on some phones. Descriptions can be wrong.
+- [Project Euphonia](https://sites.research.google/euphonia/about/) - Google Research program on speech recognition for people with non-standard speech, with published research and open-source tools for personalizing models.
+- [Project Relate](https://sites.research.google/relate/) - Google beta app for Android that learns how a person with non-standard speech talks, then transcribes their speech or repeats it in a clear synthesized voice. Availability is limited.
+- [Whisper](https://github.com/openai/whisper) - Open-source speech recognition model from OpenAI that runs locally and powers many free captioning and dictation tools. It sometimes inserts words that were never spoken, so review transcripts people rely on. Open source (MIT).
+- [whisper.cpp](https://github.com/ggml-org/whisper.cpp) - Lightweight C/C++ port of Whisper that runs speech recognition offline on ordinary laptops and phones without a GPU. Open source (MIT).
+
 ### AI tools for builders
 
+- [A11y MCP](https://github.com/ronantakizawa/a11ymcp) - MCP server that gives AI clients axe-core and Puppeteer tools for testing URLs or HTML against WCAG, checking contrast and validating ARIA. Open source (MIT).
 - [A11Y.md](https://github.com/fecarrico/A11Y.md) - Persistent accessibility context standard for AI coding agents (Claude Code, Cursor, Copilot, Gemini). Portable markdown with an AI behavior contract, WCAG 2.2 AA compliance profiles, 24 lazy-loaded component guides, and versioned evidence artifacts. English and Portuguese. Open source (MIT).
 - [Alt Text Intelligence](https://lukesteuber.com/downloads/apps/alt-text-intelligence/) - App for writing and editing image descriptions, for up to ten photos at a time, on iPhone, iPad, Mac and Android.
 - [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using a language model. Open source (MIT).
 - [alt-text](https://pypi.org/project/alt-text/) - Python package for finding, generating and setting alt text for images in HTML and EPUB files. Open source (GPL-3.0).
 - [alt-text-local-llm](https://github.com/lukeslp/alt-text-local-llm) - Generates descriptive alt text with vision models that run on your own machine.
+- [axe MCP Server](https://www.deque.com/axe/mcp-server/) - Deque's MCP server that lets AI coding agents run axe scans and get remediation guidance in the editor. Commercial; requires an axe DevTools subscription.
+- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official MCP server from the Chrome DevTools team that lets coding agents inspect Chrome, with an accessibility debugging skill for Lighthouse audits, the accessibility tree, focus and contrast. Open source (Apache-2.0).
+- [MCP Accessibility Scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner) - Model Context Protocol server that lets a coding agent run axe-core scans in Chrome, check keyboard focus order and save annotated reports; it says plainly that automated checks don't certify conformance. Open source (MIT).
 - [squirrelscan](https://github.com/squirrelscan/squirrelscan) - Command-line website audit built for coding agents that crawls a site and runs 300+ rules across accessibility, SEO, performance and security, mapping fixes to source files; includes a GitHub Action and MCP server. Open source (MIT).
+
+### Research, data and critique
+
+- [AI and accessibility: a discussion of ethical considerations](https://doi.org/10.1145/3356727) - Meredith Ringel Morris' Communications of the ACM article on fairness, privacy, consent and representation when building AI for and with disabled people.
+- [AI and Accessibility Research Symposium](https://www.w3.org/WAI/research/ai2023/) - W3C WAI symposium with papers and recorded talks on the opportunities and risks of AI for people with disabilities, including bias and automated evaluation.
+- [ASL Citizen](https://www.microsoft.com/en-us/research/project/asl-citizen/) - Microsoft Research dataset of about 84,000 videos of 2,700 ASL signs, recorded with consent by Deaf and hard-of-hearing signers, for research on sign lookup.
+- [Careless Whisper: speech-to-text hallucination harms](https://arxiv.org/abs/2402.08021) - FAccT 2024 study finding that about 1 percent of Whisper transcriptions contained invented phrases, more often for speakers with aphasia; relevant to anyone using AI captions as an accommodation.
+- [Is "good enough" good enough?](https://aclanthology.org/2021.mtsummit-at4ssl.2/) - Maartje De Meulder's paper on ethics, dataset bias and priorities in sign language technology, recommending that developers and Deaf organizations set priorities together. Open access.
+- [Speech Accessibility Project](https://speechaccessibilityproject.beckman.illinois.edu/) - University of Illinois project, backed by major tech companies, that collects recordings from people with non-standard speech to improve speech recognition, shared with researchers under a data use agreement.
+- [VizWiz](https://vizwiz.org/) - Datasets of photos taken by blind people, with questions and captions, used to benchmark image description and visual question answering.
+- [WFD and WASLI statement on signing avatars](https://wasli.org/news/wfd-wasli-statement-use-signing-avatars/) - World Federation of the Deaf and World Association of Sign Language Interpreters position on when automated signing avatars are and are not acceptable.
 
 ## Assistive technology
 
@@ -372,12 +584,15 @@ Grouped by access need. Each tool appears once, in its main group; many serve mo
 - [Hardware and hardware-software assistive devices](https://pressbooks.ulib.csuohio.edu/accessibility/chapter/chapter-1-11-hardware-and-hardware-software-assistive-devices/) - Cleveland State University chapter on specialized keyboards, mice, switches and other hardware.
 - [Michigan assistive technology guidelines for teachers of students who are blind or low vision](https://rblv.org/assistive-technology-guidelines) - Guidelines on assistive technology, data collection, IEP development and instruction for pre-K to 12 students.
 - [Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility) - Microsoft's hub for the accessibility features in Windows, Office, Xbox and other products.
+- [My Computer My Way](https://mcmw.abilitynet.org.uk/) - Free AbilityNet guides to the accessibility settings in Windows, macOS, iOS, Android and ChromeOS, organized by vision, hearing, motor and cognitive needs.
 - [Types of assistive technology](https://dap.berkeley.edu/web-a11y-basics/types-assistive-technology) - UC Berkeley guide to assistive technology categories, including screen readers, magnifiers and alternative input.
 - [University of Michigan assistive technology resources](https://ssd.umich.edu/article/assistive-technology-resources) - List of free and paid assistive technology, grouped by need.
 - [WHO: assistive technology](https://www.who.int/news-room/fact-sheets/detail/assistive-technology) - World Health Organization fact sheet on assistive technology, who needs it and how many people lack access.
 
 ### Screen readers
 
+- [Emacspeak](https://github.com/tvraman/emacspeak) - Audio desktop built on GNU Emacs by T. V. Raman, who is blind, giving spoken access to editing, email, web browsing and the shell. Open source (GPL-2.0).
+- [Fenrir](https://git.stormux.org/storm/fenrir) - Modular screen reader for the Linux console and terminal emulators, with review mode, spell checking and table navigation. Open source (LGPL-3.0).
 - [JAWS](https://www.freedomscientific.com/products/software/jaws/) - Freedom Scientific's commercial screen reader for Windows, with braille support and scripting.
 - [Narrator](https://support.microsoft.com/en-us/windows/chapter-1-introducing-narrator-7fe8fd72-541f-4536-7658-bfc37ddaf9c6) - Windows' built-in screen reader, with natural voices and braille support in Windows 11.
 - [NVDA](https://www.nvaccess.org/) - Free, open-source screen reader for Windows from NV Access, with speech and braille output; version 2026.2 added a built-in magnifier.
@@ -385,11 +600,23 @@ Grouped by access need. Each tool appears once, in its main group; many serve mo
 - [TalkBack](https://support.google.com/accessibility/android/answer/6283677) - Android's built-in screen reader, with braille display support and Gemini descriptions of unlabeled images and screens.
 - [VoiceOver](https://www.apple.com/accessibility/features/?vision) - Apple's built-in screen reader for macOS, iOS, iPadOS, watchOS and tvOS; Braille Access in iOS 26 and macOS 26 turns a connected braille display into a note taker.
 
+### Text-to-speech engines
+
+- [eSpeak NG](https://github.com/espeak-ng/espeak-ng) - Compact speech synthesizer for more than 100 languages that stays clear at very high speech rates, favored by many screen reader users and shipped with NVDA. Open source (GPL-3.0).
+- [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast neural text-to-speech that runs offline on modest hardware such as a Raspberry Pi, with voices in many languages. Open source (GPL-3.0).
+- [RHVoice](https://github.com/RHVoice/RHVoice) - Multilingual speech synthesizer with voices for languages often poorly served by commercial engines; works with NVDA, Linux and Android. Open source (LGPL-2.1).
+- [Speech Dispatcher](https://github.com/brailcom/speechd) - Common speech server for Linux that lets screen readers such as Orca and Fenrir use any installed synthesizer. Open source (GPL-2.0).
+
 ### Braille
 
 - [AFB: refreshable braille displays](https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/refreshable-braille) - American Foundation for the Blind's explainer on refreshable braille displays and how they work with screen readers.
+- [American Printing House for the Blind](https://www.aph.org/) - U.S. nonprofit that makes braille, tactile, large-print and audio materials and devices, and publishes free guides and training.
+- [BrailleBlaster](https://www.brailleblaster.org/) - Free braille transcription software from APH that converts Word, EPUB and other documents into embossable braille.
 - [BrailleNote Evolve](https://www.humanware.com/support/braillenote-evolve/) - HumanWare's braille note taker running Windows 11 with the KeySoft braille interface and optional JAWS; it succeeds the Android-based BrailleNote Touch Plus.
 - [Brailliant BI X](https://store.humanware.com/hus/brailliant-bi-40x-braille-display.html) - HumanWare refreshable braille displays that connect to computers and phones over USB and Bluetooth.
+- [BRLTTY](https://brltty.app/) - Background service that gives braille display users access to the Linux console and, through BrlAPI, to desktop screen readers; supports most refreshable braille displays. Open source (LGPL-2.1).
+- [Duxbury Braille Translator](https://www.duxburysystems.com/) - Commercial braille translation and formatting software widely used by transcribers and schools.
+- [Liblouis](https://liblouis.io/) - Braille translation library with tables for many languages and codes, used by NVDA, Orca, BRLTTY and others. Open source (LGPL-2.1).
 
 ### Low vision and magnification
 
@@ -398,6 +625,7 @@ Grouped by access need. Each tool appears once, in its main group; many serve mo
 - [Android Magnification](https://support.google.com/accessibility/android/answer/6006949) - Built-in magnification gestures for Android.
 - [Android vision accessibility](https://www.android.com/accessibility/vision/) - Overview of Android's features for blind and low-vision users.
 - [CNIB: magnification](https://www.cnib.ca/en/magnification) - CNIB's guide to screen magnification for people with low vision.
+- [Dark Reader](https://darkreader.org/) - Browser extension that applies dark mode and adjustable brightness, contrast and fonts to any website, useful for photophobia, low vision or migraine. Open source (MIT).
 - [Large Print Maker](https://largeprintmaker.com/) - Free browser tool that turns any pasted text, or a ready-made template, into printable large-print PDFs at 18, 24, or 28 point, following APH large-print guidelines. Includes calendars, word searches, score sheets, and hymn sheets; runs entirely in the browser, no signup.
 - [Macular Society Low Vision Aids](https://www.macularsociety.org/support/daily-life/low-vision-aids/) - UK charity's guide to low vision aids, including magnifiers, tablets and phones.
 - [Magnifier (Apple)](https://support.apple.com/guide/iphone/magnify-or-describe-things-around-you-iphe867dc99c/26/ios/26) - Built-in app that magnifies and describes things around you using the camera, on iPhone and iPad and, since macOS 26, on Mac.
@@ -431,14 +659,37 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 
 ### Reading and print access
 
+- [Accessibility Reader (Apple)](https://mcmw.abilitynet.org.uk/how-to-make-reading-or-listening-to-content-easier-on-your-iphone-or-ipad-with-accessibility-reader-in-ios-26) - System-wide reading mode in iOS 26 and macOS 26 with custom fonts, colors and spacing and read-aloud; linked here is AbilityNet's step-by-step guide.
+- [Bookshare](https://www.bookshare.org/) - Benetech's library of accessible ebooks in audio, braille, large-print and highlighted-text formats for people with print disabilities; free for qualifying U.S. students.
+- [National Library Service for the Blind and Print Disabled](https://www.loc.gov/nls/) - Free Library of Congress service that lends braille and talking books, players and downloads to eligible readers in the United States.
 - [OneStep Reader](https://sensotec.be/en/?p=34752) - Mobile OCR app, formerly KNFB Reader, that photographs printed text and reads it aloud or sends it to a braille display; now developed by Sensotec.
+- [Reading mode (Android)](https://play.google.com/store/apps/details?id=com.google.android.accessibility.reader) - Free Google app that strips clutter from articles and apps and reads text aloud, with adjustable font, contrast and speech.
+- [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) - Free reading app for Windows, macOS and Linux that opens EPUB, PDF, DAISY books and audiobooks, with screen reader support and read-aloud. Open source (BSD-3-Clause).
 - [Voice Dream Reader](https://www.voicedream.com/) - Text-to-speech reader for iPhone and iPad that reads documents, ebooks, web articles and scanned text aloud with synchronized highlighting; subscription for new users.
+
+### Navigation and wayfinding
+
+- [BlindSquare](https://www.blindsquare.com/) - Paid iOS GPS app for blind and deafblind travelers that describes surroundings and announces intersections and points of interest.
+- [Glide](https://www.glidance.io/) - Wheeled mobility aid for blind and low-vision people that uses cameras and AI to steer around obstacles; rolling out in the U.S., Canada and the UK in 2026, with a monthly subscription.
+- [GoodMaps](https://goodmaps.com/) - Navigation app with turn-by-turn directions inside mapped venues such as transit stations, airports and campuses.
+- [Lazarillo](https://lazarillo.app/) - Free GPS app for blind and low-vision people that announces nearby places, streets and transit stops.
+- [NaviLens](https://www.navilens.com/) - Free app that reads high-contrast codes on transit, signs and products from several meters away, telling blind and low-vision people where they are and what is nearby.
+- [Soundscape by Scottish Tech Army](https://sta.ngo/soundscapeapp) - Free continuation of Microsoft Soundscape from a volunteer group that closely matches the original iPhone app, with an Android version in beta.
+- [Soundscape Community](https://apps.apple.com/app/id6449701760) - Community-maintained continuation of Microsoft Soundscape for iPhone, using 3D audio callouts to build awareness of surroundings.
+- [VoiceVista](https://apps.apple.com/app/id6450388413) - Free iPhone app for blind and low-vision pedestrians that announces nearby places and markers with 3D audio, built on Microsoft's open-sourced Soundscape. Open source (MIT).
+- [WeWALK Smart Cane 2](https://wewalk.io/) - Smart handle for a white cane with obstacle detection, voice-guided navigation and an AI voice assistant.
 
 ### Deaf and hard of hearing
 
+- [Apple hearing accessibility](https://www.apple.com/accessibility/hearing/) - Overview of Live Captions, Sound Recognition, Live Listen, hearing aid support and the hearing aid feature on AirPods Pro.
+- [Auracast broadcast audio](https://www.bluetooth.com/auracast/) - Bluetooth LE Audio broadcast standard that lets compatible hearing aids, cochlear implant processors and earbuds receive audio directly from venues and TVs.
+- [Ava](https://www.ava.me/) - Live captioning for in-person group conversations and video meetings, with speaker identification; free tier and paid plans.
 - [Center for Hearing Access](https://centerforhearingaccess.org/) - Advocacy group that explains hearing loops, telecoils and Auracast broadcast audio, and helps people request assistive listening under the ADA.
 - [Diglo](https://www.diglo.com/) - U.S. retailer of products for deaf and hard-of-hearing people, such as vibrating alarm clocks, flashing doorbells, amplified phones and assistive listening devices (formerly Harris Communications).
 - [Live Caption (Android)](https://support.google.com/accessibility/android/answer/9350862?hl=en) - Captions any audio playing on an Android phone, including videos, podcasts and calls, on the device; Expressive Captions adds cues for tone, volume and sounds.
+- [Live Captions (Linux)](https://github.com/abb128/LiveCaptions) - Linux desktop app that captions any audio playing on the computer, or the microphone, offline with a local English speech model. Open source (GPL-3.0).
+- [Live Transcribe & Sound Notifications](https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe) - Free Android app that captions nearby speech in real time in more than 70 languages and alerts people to sounds such as smoke alarms and doorbells.
+- [Nagish](https://nagish.com/) - Phone app that captions both sides of a call in real time, free for eligible U.S. users.
 - [NIDCD: assistive devices](https://www.nidcd.nih.gov/health/assistive-devices-people-hearing-voice-speech-or-language-disorders) - U.S. National Institute on Deafness and Other Communication Disorders' guide to devices for people with hearing, voice, speech or language disorders.
 - [NotchLive](https://notchlive.app/) - macOS app that captions system and microphone audio on the device, across meetings, videos and in-person conversation; live captions are free.
 - [Otter.ai](https://otter.ai/) - Automated transcription service for meetings and conversations.
@@ -451,10 +702,17 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 ### Sign languages
 
 - [ASL Browser](https://commtechlab.msu.edu/sites/aslweb/index.html) - Michigan State University's free online American Sign Language dictionary with short video clips of signs.
+- [Handspeak](https://www.handspeak.com/) - ASL dictionary, lessons and articles on Deaf culture by a Deaf author and artist.
+- [Lifeprint ASL University](https://www.lifeprint.com/) - Free American Sign Language curriculum, dictionary and video lessons by Deaf instructor Bill Vicars.
+- [SignBSL](https://www.signbsl.com/) - British Sign Language dictionary that gathers video signs from several sources, including regional variations.
+- [Signing Savvy](https://www.signingsavvy.com/) - ASL dictionary with video signs, fingerspelling and word lists; the core dictionary is free.
+- [Spreadthesign](https://www.spreadthesign.com/) - Multilingual dictionary showing the signs for the same word in dozens of national sign languages.
 
 ### Motor and alternative input
 
 - [AbleNet switches](https://www.ablenetinc.com/switches/) - Switches activated by buttons, joysticks, sip-and-puff and other methods for people with limited movement.
+- [Apple mobility accessibility](https://www.apple.com/accessibility/mobility/) - Overview of Voice Control, Switch Control, AssistiveTouch and Eye Tracking, which controls iPhone and iPad with the eyes using the front camera.
+- [Enable Viacam](https://eviacam.crea-si.com/) - Webcam head mouse for Windows and Linux that moves the pointer with head movements and clicks by dwelling. Open source (GPL-3.0).
 - [Enabling Devices](https://enablingdevices.com/shop/) - Store for adaptive switches, toys and communication devices.
 - [EyeControl](https://www.eyecontrol.co.il/) - Wearable eye-tracking device that lets people with ALS and locked-in syndrome communicate with eye movements, without a screen.
 - [Glassouse](https://glassouse.com/) - Hands-free mouse alternative worn like glasses, controlled by head movements and bites, designed for people with limited hand mobility.
@@ -463,6 +721,7 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 - [Mouse Keys (Windows)](https://support.microsoft.com/en-us/windows/make-your-mouse-keyboard-and-other-input-devices-easier-to-use-10733da7-fa82-88be-0672-f123d4b3dcfe) - Windows feature for moving the pointer with the numeric keypad.
 - [OptiKey](https://github.com/OptiKey/OptiKey) - Free, open-source on-screen keyboard and mouse for Windows, controlled by eye tracking.
 - [Perkins: introduction to adaptive switches](https://www.perkins.org/resource/introduction-7-common-adaptive-switches/) - Guide to seven common types of adaptive switch and how they are used.
+- [Project Gameface](https://github.com/google/project-gameface) - Google project that turns head movements and facial gestures from a webcam or phone camera into pointer control on Windows and Android. Open source (Apache-2.0).
 - [Switch Access (Android)](https://support.google.com/accessibility/android/answer/6122836?hl=en) - Built-in Android feature for controlling a device with switches or the front camera.
 - [Tobii Dynavox](https://www.tobiidynavox.com/) - Eye trackers and eye-gaze communication devices for computer control and AAC.
 - [WebAIM: motor disabilities and assistive technology](https://webaim.org/articles/motor/assistive) - Overview of assistive technology used by people with motor disabilities, from keyboard alternatives to eye tracking.
@@ -471,6 +730,9 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 
 - [AI Dictation](https://github.com/writingmate/aidictation) - Cross-platform voice typing with offline recognition on supported devices and optional cloud transcription. It may reduce keyboard use in standard text fields; operating-system and application restrictions apply.
 - [DailyVox](https://getdailyvox.com) - Voice-first diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking uses sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
+- [Dragon Professional](https://www.nuance.com/dragon.html) - Commercial speech recognition for Windows with dictation and voice control of applications, long a standard for people who cannot use a keyboard.
+- [nerd-dictation](https://github.com/ideasman42/nerd-dictation) - Lightweight offline dictation for Linux that types speech into any application using the VOSK recognizer. Open source (GPL-3.0).
+- [Numen](https://git.sr.ht/~geb/numen) - Offline voice control for Linux that types, clicks, scrolls and runs commands by voice on any desktop, including Wayland. Open source.
 - [Talon Voice](https://talonvoice.com/) - Hands-free computer control with voice, noise and eye tracking, popular with programmers who have RSI.
 - [Vocalinux](https://github.com/VocaHQ/vocalinux) - Free offline voice dictation for Linux desktops. Local speech recognition (whisper.cpp, Whisper, or VOSK) types into any app on X11 and Wayland; useful for RSI, limited typing, and privacy-sensitive workflows.
 - [Voice Access (Android)](https://support.google.com/accessibility/android/answer/6151843) - Built-in Android app for controlling a device by voice.
@@ -492,24 +754,32 @@ Augmentative and alternative communication (AAC) apps, devices and resources, vo
 - [ASHA: augmentative and alternative communication](https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/) - American Speech-Language-Hearing Association practice portal on AAC assessment and intervention.
 - [AssistiveWare Learn AAC](https://www.assistiveware.com/learn-aac) - AssistiveWare's free articles and guides for families and professionals supporting AAC users.
 - [AssistiveWare Proloquo](https://www.assistiveware.com/products/proloquo) - Symbol-based AAC app for iOS from AssistiveWare.
+- [AsTeRICS Grid](https://grid.asterics.eu/) - Web-based AAC communicator and board editor that works offline in the browser, with ARASAAC symbols and touch, switch, head or eye tracking access. Open source (AGPL-3.0).
 - [Boardmaker](https://us.tobiidynavox.com/pages/boardmaker) - Tobii Dynavox software for designing and printing symbol-based communication materials.
 - [Cboard](https://www.cboard.io/) - Free, open-source symbol-based communication board for the web and mobile.
 - [Cognixion Axon-R](https://www.cognixion.com/) - Non-invasive brain-computer interface headset combining EEG with augmented reality so people with ALS and other severe motor impairments can select words; a research device in clinical trials, not cleared for clinical use.
 - [Communicator](https://ecksquad.github.io/communicator2/) - Free browser-based gesture-to-speech app: the camera turns head movements, blinks, and hand gestures into customizable spoken phrases, or plays recordings of the user's own voice. All processing on-device, no install or account required, available in seven languages. Open source (MIT).
 - [CoughDrop](https://www.mycoughdrop.com/) - Cloud-based AAC app that syncs communication boards across devices; the source code is open (AGPL-3.0).
+- [Global Symbols](https://globalsymbols.com/) - Free symbol library and board builder with AAC symbol sets localized for different cultures and languages.
 - [Grid 3](https://thinksmartbox.com/grid/) - Smartbox AAC software for Windows with symbol and text communication, environmental control and computer access by touch, eye gaze or switch. Free trial, then paid.
 - [Grid Pad](https://thinksmartbox.com/grid-pad-overview/) - Dedicated communication aid from Smartbox with touch, switch and eye gaze access, running Grid 3.
 - [ISAAC](https://isaac-online.org/english/home/) - International Society for Augmentative and Alternative Communication, a global organization for people with complex communication needs.
 - [Jabbla Mind Express](https://www.jabbla.com/en/mind-express/) - AAC software with symbol and text communication, eye gaze control and environmental control.
 - [JAN: voice amplification](https://askjan.org/solutions/Voice-Amplification.cfm) - Job Accommodation Network guide to voice amplifiers for people with weak or tiring voices.
 - [LAMP Words for Life](https://lampwflapp.com/) - AAC app built on a motor planning approach to language. Subscription.
+- [Look to Speak](https://play.google.com/store/apps/details?id=com.androidexperiments.looktospeak) - Free Android app that lets people choose pre-written phrases by glancing left, right or up, then speaks them aloud, with no eye tracker needed.
+- [ModelTalker](https://www.modeltalker.org/) - Voice banking service from the Nemours Speech Research Lab that builds a personal synthetic voice for people expecting to lose their speech.
 - [NovaChat](https://prc-saltillo.com/device/novachat) - PRC-Saltillo speech generating device with vocabulary options, word prediction and customizable layouts.
 - [OpenAAC](https://www.openaac.org) - Community-driven initiative for free, open standards and tools in AAC.
+- [OpenSymbols](https://www.opensymbols.org/) - Searchable collection of openly licensed AAC symbol sets for building communication boards.
+- [Personal Voice](https://support.apple.com/en-us/104993) - Built-in iPhone, iPad and Mac feature that creates a synthesized voice that sounds like you from recorded phrases, for use with Live Speech and AAC apps. Generated on the device.
 - [PRC-Saltillo resources](https://www.prc-saltillo.com/caregivers) - Resource library for families and caregivers of AAC users.
 - [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go) - Symbol-supported AAC app for iOS from AssistiveWare, with customizable vocabulary and natural voices.
 - [Proloquo4Text](https://www.assistiveware.com/products/proloquo4text) - Text-based AAC app for iOS from AssistiveWare, with word prediction and natural voices. One-time purchase.
 - [Shirley Ryan AbilityLab: AAC resources](https://www.sralab.org/lifecenter/resources/listing-augmentative-and-alternative-communication) - Listing of AAC blogs, websites and books.
+- [SpeakUnique](https://www.speakunique.co.uk/) - UK voice banking and voice repair service that can build a personal synthetic voice even from recordings of already-affected speech.
 - [TD Snap](https://us.tobiidynavox.com/pages/td-snap) - Tobii Dynavox AAC app with Picture Communication Symbols, page sets such as Core First and Motor Plan, and touch, eye gaze or switch access. Free trial, then subscription.
+- [Team Gleason](https://teamgleason.org/) - U.S. nonprofit that provides communication devices, eye trackers and other technology to people living with ALS.
 - [Tobii Dynavox I-Series](https://us.tobiidynavox.com/pages/td-i-series) - Eye-tracking speech generating devices for people with ALS, cerebral palsy and other conditions that affect speech and movement.
 - [Voiceitt](https://www.voiceitt.com/) - Speech recognition trained on each user's own speech, so people with dysarthria and other non-standard speech can dictate text and control smart devices. Paid subscription.
 - [Widgit symbols](https://www.widgit.com/products/inprint/) - Widgit's symbol set and InPrint software for creating symbol-supported materials.
@@ -533,7 +803,10 @@ Augmentative and alternative communication (AAC) apps, devices and resources, vo
 - [Dopastep](https://dopastep.com/) - Body doubling in live focus rooms: break a task into small steps, then work alongside other people in synced focus and break cycles. No camera, chat or booking.
 - [Focusmate](https://www.focusmate.com/) - Virtual coworking platform that pairs users for live, focused work sessions using body doubling.
 - [Goblin.tools](https://goblin.tools/) - Collection of small, single-task tools built on a large language model for people who find certain tasks overwhelming, including task breakdown and tone checking. Free on the web; outputs can be wrong.
+- [How to ADHD](https://www.youtube.com/@HowtoADHD) - YouTube channel by Jessica McCabe, who has ADHD, explaining ADHD research and practical strategies in short videos.
+- [Neurodiversity Design System](https://neurodiversity.design/) - Design principles for typography, color, layout and interaction aimed at neurodivergent users, including people with dyslexia, autism and ADHD.
 - [Structured](https://structured.app/) - Visual day planner app with a timeline-based interface, particularly helpful for individuals with time blindness.
+- [Tiimo](https://www.tiimoapp.com/) - Visual planner for iOS, Android and web designed with neurodivergent people, with timelines, visual timers and routines; free tier with subscription.
 - [Time Timer](https://www.timetimer.com/) - Visual countdown timers that show time passing, helpful for time blindness.
 - [ZeroLoginFocus](https://zerologinfocus.com/) - Free ADHD focus tools that run in the browser with no login or signup, including a task breaker, visual timer, dopamine menu and voice brain dump. Your data stays on the device, apart from anonymous aggregate analytics and the browser's own speech recognition service used by the voice tool.
 
@@ -552,11 +825,18 @@ Augmentative and alternative communication (AAC) apps, devices and resources, vo
 
 Accessible buildings, housing, public spaces and mapping.
 
+- [A11yJSON](https://a11yjson.org) - Open data schema from Sozialhelden for describing the accessibility of physical places, such as entrances and toilets, in a machine-readable way. Open source (MIT).
+- [Accessibility Cloud](https://www.accessibility.cloud/) - Sozialhelden's open data exchange for place accessibility data, based on A11yJSON.
+- [AccessNow](https://accessnow.com/) - Crowd-sourced app and map that rates the accessibility of places.
 - [ADA Accessibility Standards (Access Board)](https://www.access-board.gov/ada/) - U.S. Access Board's ADA accessibility guidelines and standards for buildings and facilities, with technical guides.
 - [ADA Standards for Accessible Design](https://www.ada.gov/law-and-regs/design-standards/) - Department of Justice standards for making buildings and facilities physically accessible.
 - [City of Vaughan Inclusive Design Standards (PDF)](https://www.vaughan.ca/sites/default/files/Vaughan%20IDS_Final%20%28Aug%2010%202020%29.pdf?file-verison=1680739200052) - City of Vaughan's inclusive design standards for municipal buildings and spaces (PDF).
 - [Inclusive Design Standards](https://thekelsey.org/learn-center/design-standards/) - The Kelsey's standards for inclusive housing design, with more than 300 elements covering design and operations.
+- [OpenStreetMap: Key:wheelchair](https://wiki.openstreetmap.org/wiki/Key:wheelchair) - OpenStreetMap's tagging guidance for recording wheelchair accessibility of places.
 - [The principles of inclusive design](https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/the-principles-of-inclusive-design.pdf) - Design Council and CABE guide (PDF) to inclusive design principles for buildings and places.
+- [Project Sidewalk](https://projectsidewalk.org/) - University of Washington crowdsourcing tool for mapping sidewalk accessibility problems from street-level imagery. Open source (MIT).
+- [Touch Mapper](https://touch-mapper.org/) - Free service that creates 3D-printable or embossable tactile maps from OpenStreetMap data.
+- [Wheelmap](https://wheelmap.org/) - Crowd-sourced map of wheelchair accessibility built on OpenStreetMap, from the Berlin nonprofit Sozialhelden.
 
 ## Learning
 
@@ -568,23 +848,66 @@ Accessible buildings, housing, public spaces and mapping.
 - [Deque University](https://dequeuniversity.com/) - Deque's online courses on web accessibility, WCAG, ARIA and accessible documents. Free for people with disabilities.
 - [Digital Accessibility Foundations](https://www.w3.org/WAI/courses/foundations-course/) - Free, self-paced W3C WAI course on edX for technical and non-technical learners, with an optional paid certificate.
 - [eCampusOntario digital accessibility resources](https://accessibility.ecampusontario.ca/accessibility/resources/) - Repository of digital accessibility resources for educators.
+- [An Introduction to Accessibility and Inclusive Design](https://www.coursera.org/learn/accessibility) - University of Illinois course on Coursera covering disability, assistive technology, law and universal design. Free to audit.
+- [Microsoft Learn: Accessibility Fundamentals](https://learn.microsoft.com/training/paths/accessibility-fundamental/) - Free learning path of about three hours covering disability and assistive technology, WCAG principles, accessible Microsoft 365 content and testing.
 - [Section508.gov accessibility training](https://www.section508.gov/training/) - Free U.S. government courses, tools and events on Section 508, procurement, testing and accessible content.
+- [Teach Access](https://teachaccess.org/) - Collaboration between universities and tech companies that helps teach accessibility in higher education, with free curriculum resources.
 - [WebAIM Accessibility Training](https://webaim.org/services/training/) - Live online training from WebAIM on accessibility principles and techniques.
 - [web.dev: Learn Accessibility](https://web.dev/learn/accessibility) - Free course by Carie Fisher on Google's web.dev covering ARIA, structure, focus, color, forms, media and testing, with a short assessment per module.
 
 ### Certification
 
+- [DHS Trusted Tester](https://www.section508.gov/test/trusted-tester/) - U.S. Department of Homeland Security training and certification in a repeatable manual test process for Section 508 web conformance.
 - [IAAP CPACC](https://www.accessibilityassociation.org/cpacc) - Certified Professional in Accessibility Core Competencies, IAAP's foundational certification covering disabilities, universal design, standards and laws. IAAP also offers WAS (web) and ADS (documents).
+- [NVDA Expert Certification](https://certification.nvaccess.org/) - Free online exam from NV Access on working knowledge of the NVDA screen reader; a listed certificate costs extra.
 
 ### Books
 
 - [Accessibility for Everyone by Laura Kalbag](https://accessibilityforeveryone.site/) - Laura Kalbag (A Book Apart, 2017). Introduction to disability, laws and guidelines, and how to plan, evaluate and test accessible design.
+- [Accessible UX Research](https://www.smashingmagazine.com/printed-books/accessible-ux-research/) - Michele A. Williams (Smashing Media, 2026). Practical guide to planning, recruiting for and running UX research with disabled participants.
+- [Agile Accessibility Handbook](https://amplifypublishinggroup.com/product/nonfiction/industries/technology/agile-accessibility-handbook-a-practical-guide-to-accessible-software-development-at-scale/) - Dylan Barrell (Amplify, 2020). Short guide to building accessibility into agile teams at scale.
+- [Being Heumann](https://www.beacon.org/Being-Heumann-P1618.aspx) - Judith Heumann with Kristen Joiner (Beacon Press, 2020). Memoir of a disability rights leader, including the 1977 Section 504 sit-in.
+- [Design for Real Life](https://dfrlbook.com/) - Eric Meyer and Sara Wachter-Boettcher (A Book Apart, 2016). Designing for people in stress or crisis instead of idealized users. Free to read online.
+- [Design Justice](https://doi.org/10.7551/mitpress/12255.001.0001) - Sasha Costanza-Chock (MIT Press, 2020). The case for design practices led by marginalized communities. Free open access edition.
+- [Disability Visibility](https://www.penguinrandomhouse.com/books/617802/disability-visibility-by-alice-wong/) - Alice Wong, editor (Vintage, 2020). Anthology of first-person essays by disabled writers on disability culture and lived experience.
+- [Form Design Patterns](https://www.smashingmagazine.com/printed-books/form-design-patterns/) - Adam Silver (Smashing Media, 2018). Works through real forms and builds a set of accessible form components along the way.
+- [Inclusive Components: The Book](https://book.inclusive-components.design/) - Heydon Pickering (2019). Expanded edition of the Inclusive Components blog on building common interface patterns accessibly.
+- [Inclusive Design for a Digital World](https://link.springer.com/book/9798868818196) - Regine Gilbert (Apress, 2025). Second edition of an introduction to accessible product design, covering WCAG 2.2, the European Accessibility Act and AI.
 - [Inclusive Design Patterns](https://shop.smashingmagazine.com/printed-books/inclusive-front-end-design-patterns/) - Heydon Pickering (Smashing Media, 2016). Front-end techniques for building accessible, inclusive interfaces from the start.
+- [Mismatch](https://mitpress.mit.edu/9780262539487/mismatch/) - Kat Holmes (MIT Press, 2018). How design choices exclude people, and the case for designing with excluded communities.
+- [Practical Web Accessibility](https://link.springer.com/book/10.1007/979-8-8688-0152-5) - Ashley Firth (Apress, 2024). Second edition of a guide organized around access needs, updated for WCAG 2.2.
+- [Web Accessibility Cookbook](https://www.oreilly.com/library/view/web-accessibility-cookbook/9781098145590/) - Manuel Matuzović (O'Reilly, 2024). Recipes for building common components accessibly, including navigation, dialogs, filters and data tables.
+- [A Web for Everyone](https://rosenfeldmedia.com/books/a-web-for-everyone/) - Sarah Horton and Whitney Quesenbery (Rosenfeld Media, 2014). UX-centered guide to accessible design built on universal design principles.
 
 ### Podcasts and video
 
 - [Accessibility Craft Podcast](https://accessibilitycraft.com/) - Podcast on web accessibility, including recordings from the WordPress Accessibility Meetup.
+- [Blind Abilities](https://blindabilities.com/) - Podcast by blind hosts on assistive technology, employment and independent living.
 - [Carrie on Accessibility](https://www.youtube.com/@carrieonaccessibility) - YouTube channel with tutorials and discussion of accessibility from a blind user's perspective.
+- [Disability Visibility Project](https://disabilityvisibilityproject.com/) - Alice Wong's online community for disability media and culture, including the archive of the Disability Visibility podcast.
+- [Double Tap](https://doubletaponair.com/) - Daily show and podcast from AMI-audio on assistive technology news and reviews from the perspective of blind and partially sighted people.
+- [Reid My Mind Radio](https://reidmymind.com/) - Thomas Reid's podcast of conversations with people with disabilities, many of them blind or low vision.
+
+### Newsletters and blogs
+
+- [Adrian Roselli](https://adrianroselli.com/) - Detailed, test-backed posts on HTML, ARIA, WCAG and screen reader behavior.
+- [Axess Lab](https://axesslab.com/) - Plain-language articles on accessibility, many based on research with disabled users.
+- [Ben Myers](https://benmyers.dev/) - Approachable explainers on the accessibility tree, semantics and assistive technology.
+- [Eric Bailey](https://ericwbailey.website/) - Essays on inclusive design, accessibility culture and the ethics of building for the web.
+- [GOV.UK accessibility blog](https://accessibility.blog.gov.uk/) - UK Government Digital Service posts on accessibility regulations, monitoring and research with disabled users.
+- [Heydon Pickering](https://heydonworks.com/) - Writing and videos on inclusive interface design.
+- [Hidde de Vries](https://hidde.blog/) - Posts on accessibility standards, authoring tools and the web platform.
+- [Kitty Giraudel](https://kittygiraudel.com/) - Practical posts on accessible components and front-end engineering.
+- [Lainey Feingold](https://www.lflegal.com/) - Disability rights lawyer's blog and legal updates on digital accessibility laws, settlements and structured negotiation.
+- [Manuel Matuzović](https://www.matuzo.at/blog/) - Short, frequent posts on HTML, CSS and accessibility.
+- [Microsoft Accessibility Blog](https://blogs.microsoft.com/accessibility/) - Microsoft's announcements on accessibility features, research, training and inclusive hiring.
+- [Sara Soueidan](https://www.sarasoueidan.com/blog/) - In-depth articles on accessible front-end development, SVG and CSS.
+- [Sarah Higley](https://sarahmhigley.com/) - Articles on complex ARIA widgets such as comboboxes, grids and tooltips, with test results.
+- [Scott O'Hara](https://www.scottohara.me/) - Posts on ARIA, HTML semantics and accessible components from an HTML and ARIA specification editor.
+- [Tink](https://tink.uk/) - Léonie Watson's writing on screen readers, web standards and accessibility.
+- [TPGi blog](https://www.tpgi.com/blog/) - Technical posts from TPGi's accessibility engineers on ARIA, testing and browser and assistive technology support.
+- [Web Axe](https://www.webaxe.org/) - Dennis Lembree's long-running blog and resource lists on web accessibility practice.
+- [WebAIM blog](https://webaim.org/blog/) - WebAIM's posts, including the annual WebAIM Million report and screen reader user surveys.
 
 ## Community
 
@@ -595,26 +918,44 @@ Organizations run by, or representing, disabled people.
 - [AbilityNet](https://abilitynet.org.uk/) - UK charity that helps disabled people of all ages use technology.
 - [Accessible Community](https://accessiblecommunity.org/) - Nonprofit providing tools and resources for a more inclusive world for people with disabilities.
 - [American Association of People with Disabilities](https://www.aapd.com/) - National disability-led, cross-disability rights organization in the United States.
+- [American Council of the Blind](https://www.acb.org/) - Membership organization of blind and low-vision people in the United States, with an active audio description project.
 - [American Foundation for the Blind](https://www.afb.org/) - U.S. nonprofit with research, policy work and resources on blindness and low vision.
 - [The Arc](https://thearc.org/) - Promotes and protects the human rights of people with intellectual and developmental disabilities.
+- [Autistic Self Advocacy Network](https://autisticadvocacy.org/) - Nonprofit run by and for autistic people, publishing policy resources, toolkits and Easy Read materials.
+- [Autistic Women & Nonbinary Network](https://awnnetwork.org/) - Autistic-led nonprofit supporting autistic women, girls, nonbinary and gender-diverse people.
 - [Bazelon Center: disability rights organizations](https://www.bazelon.org/resource-library/disability-rights-organizations/) - Directory of disability rights organizations.
+- [British Deaf Association](https://bda.org.uk/) - Deaf-led UK charity campaigning for British Sign Language rights.
 - [Canadian Accessibility Network](https://www.can-rca.ca/communities-of-practice/) - Canadian network that brings members together to drive accessibility forward.
+- [CommunicationFIRST](https://communicationfirst.org/) - Organization led by people who use AAC, advocating for the rights of people who cannot rely on speech.
 - [Disability Rights Education & Defense Fund](https://dredf.org/) - National disability civil rights law and policy center directed by disabled people.
+- [Disability Rights UK](https://www.disabilityrightsuk.org/) - UK organization led by disabled people, working on policy, rights advice and campaigns.
+- [European Disability Forum](https://www.edf-feph.org/) - Umbrella organization of persons with disabilities in Europe, active on the European Accessibility Act and EU policy.
 - [G3ict](https://g3ict.org/) - Global Initiative for Inclusive ICTs, an advocacy initiative launched with the UN to promote digital accessibility.
+- [Hadley](https://hadleyhelps.org/) - Free workshops, podcasts and discussion groups for adults adjusting to vision loss.
+- [Hearing Loss Association of America](https://www.hearingloss.org/) - Consumer organization run by and for people with hearing loss, focused on captioning, hearing technology and policy.
+- [Inclusion International](https://inclusion-international.org/) - Global network of people with intellectual disabilities and their families.
+- [International Disability Alliance](https://www.internationaldisabilityalliance.org/) - Global alliance of organizations of persons with disabilities that engages with the UN on implementing the CRPD.
 - [Knowbility](https://knowbility.org/) - Nonprofit working to make technology accessible to people with disabilities, through training, testing and events.
 - [National Association of the Deaf](https://www.nad.org/) - Civil rights organization of, by and for deaf and hard-of-hearing people in the United States.
+- [National Council on Independent Living](https://ncil.org/) - Cross-disability membership organization representing Centers for Independent Living in the United States.
 - [National Disability Rights Network](https://www.ndrn.org/) - Membership organization for the Protection and Advocacy Systems and Client Assistance Programs in each U.S. state and territory.
 - [National Federation of the Blind](https://nfb.org/) - Largest organization of blind people in the United States.
 - [National Organization on Disability](https://nod.org/) - Works with companies to assess and improve disability inclusion practices.
+- [People with Disability Australia](https://pwd.org.au/) - Australian cross-disability rights organization led by people with disability.
 - [RNIB](https://www.rnib.org.uk/) - UK charity supporting blind and partially sighted people.
 - [Sightsavers](https://www.sightsavers.org/) - International organization working to eliminate avoidable blindness and advance disability rights.
+- [Sins Invalid](https://www.sinsinvalid.org/) - Disability justice performance project and collective led by disabled people of color.
+- [Vestibular Disorders Association](https://vestibular.org/) - Patient organization for people with vestibular disorders, with information on motion triggers that matters for animation and reduced-motion design.
 - [Vision Australia](https://www.visionaustralia.org/) - Australia's largest provider of blindness and low vision services.
 - [World Blind Union](https://wbu.ngo/) - International organization representing blind and partially sighted people.
+- [World Federation of the Deaf](https://wfdeaf.org/) - International federation of national Deaf associations, advocating for sign language rights.
 
 ### Professional communities
 
+- [A11y Book Club](https://www.a11ybookclub.com/) - Community book club that reads and discusses accessibility books.
 - [AppleVis](https://www.applevis.com/) - Community site for blind and low-vision users of Apple products, with app reviews, guides and forums.
 - [International Association of Accessibility Professionals](https://www.accessibilityassociation.org/) - Professional association for accessibility practitioners, with certifications, chapters and events.
+- [r/accessibility](https://www.reddit.com/r/accessibility/) - Reddit community for digital accessibility questions, career advice and news.
 - [WebAIM discussion list](https://webaim.org/discussion/) - Long-running email list for discussing web accessibility.
 
 ### Events and conferences
@@ -633,7 +974,10 @@ Organizations run by, or representing, disabled people.
 - [IAAP accessibility conferences](https://www.accessibilityassociation.org/event-category/a1AIV00000IFhyn2AD/accessibility-conferences) - IAAP's list of accessibility conferences.
 - [Inclusive Design 24](https://inclusivedesign24.org/) - Free 24-hour online event on inclusive design, with past talks available to watch.
 - [M-Enabling Summit](https://www.m-enabling.com/) - Conference on accessible and assistive technology for older adults and users of all abilities.
+- [Sight Tech Global](https://sighttechglobal.com/) - Free virtual conference on AI and assistive technology for blind and low-vision people.
 - [Web for All (W4A)](https://www.w4a.info/) - Annual research conference on web accessibility.
+- [WordPress Accessibility Day](https://wpaccessibility.day/) - Free 24-hour online conference on accessibility in WordPress and the wider web, with recordings published afterward.
+- [Zero Project Conference](https://zeroproject.org/) - Annual conference at the UN in Vienna on innovative practices and policies for disability inclusion worldwide.
 
 ## Research and data
 
@@ -664,6 +1008,7 @@ Organizations run by, or representing, disabled people.
 - [Disability and Health Data System (DHDS)](https://dhds.cdc.gov/) - State-level data on adults with disabilities from the CDC.
 - [EU Accessibility Mapping](https://github.com/sergordienko/eu-accessibility-mapping) - Open MIT dataset (JSON + CSV) crosswalking every WCAG 2.x A/AA success criterion to EN 301 549, the EU Accessibility Act, and Germany's BFSG, documenting the harmonized-standard chain that grants presumption of conformity.
 - [Web Almanac: accessibility](https://almanac.httparchive.org/en/2025/accessibility) - HTTP Archive's annual report on the state of the web, with a chapter measuring accessibility across millions of sites.
+- [The WebAIM Million](https://webaim.org/projects/million/) - WebAIM's annual automated accessibility analysis of the home pages of the top one million websites.
 - [WebAIM Screen Reader User Survey](https://webaim.org/projects/screenreadersurvey10/) - Results of WebAIM's survey of screen reader users' preferences and habits; the tenth survey ran from December 2023 to January 2024.
 ## Contributing
 
