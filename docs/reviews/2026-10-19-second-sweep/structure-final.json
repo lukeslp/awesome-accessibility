@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-19",
+  "resources": 685,
+  "mainSections": 16,
+  "subsections": 57,
+  "brokenLocalLinks": [],
+  "duplicatePrimaryURLs": [],
+  "currentWebURLs": 710,
+  "catalog_blob": "4457629c185b5f114b0467b88590c113669841a9",
+  "method": "Parsed Markdown with remark-parse; heading fragments generated with github-slugger; primary URLs compared ignoring trailing slash. Web census includes links and images, excludes code blocks."
+}

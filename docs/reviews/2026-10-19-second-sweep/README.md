@@ -21,7 +21,7 @@ the earlier full HTTP and GitHub repository inventories.
 - [x] Revisit the unresolved browser destinations and verify replacement routes.
 - [x] Apply focused corrections, two removals and two additions.
 - [x] Complete lint, structure, changed-link and rendered-navigation checks.
-- [ ] Inspect GitHub CI, merge the follow-up and verify final repository state.
+- [x] Inspect GitHub CI, merge the follow-up and verify final repository state.
 
 ## Corrections and primary evidence
 
@@ -54,18 +54,53 @@ intentional accessibility semantics, including decorative empty alt text.
 - **Handy**, under Voice control and dictation: free MIT desktop dictation for macOS, Windows and Linux. [Stable release v0.9.8](https://github.com/cjpais/Handy/releases/tag/v0.9.8) has platform installers; its [release license](https://github.com/cjpais/Handy/blob/v0.9.8/LICENSE) is MIT. The [README](https://github.com/cjpais/Handy/blob/v0.9.8/README.md) documents model downloads and Linux input dependencies. [Post-processing settings](https://github.com/cjpais/Handy/blob/v0.9.8/src-tauri/src/settings.rs) and the [LLM client](https://github.com/cjpais/Handy/blob/v0.9.8/src-tauri/src/llm_client.rs) also establish optional cloud processing, which the entry discloses. No app installation, inference or functional accuracy test was run.
 - **iCanConnect**, under General assistive technology: an actionable equipment-access route for deafblind users. Its [official program page](https://www.icanconnect.org/) describes free equipment, individual assessments and training, with federal disability and income eligibility. No application or eligibility determination was made.
 
-Two additions and two removals leave **684 resources, 16 main sections and
-57 subsections**. This pass adds no new section.
+These two additions and two removals left 684 resources in PR #112. During
+final verification, Chan Meng submitted **[a11y-loop in PR #113](https://github.com/lukeslp/awesome-accessibility/pull/113)**.
+That reviewed contribution brings the final catalog to **685 resources,
+16 main sections and 57 subsections**. This pass adds no new section.
+
+### Incoming contributor PR
+
+[a11y-loop v0.3.0](https://github.com/ChanMeng666/a11y-loop/releases/tag/v0.3.0)
+is a distinct MIT Node CLI and Agent Skill. The [published npm metadata](https://registry.npmjs.org/a11y-loop/0.3.0)
+requires Node 20 or later. The core CLI does not require a cloud/model account;
+Chromium is downloaded separately, and optional coding-agent clients can have
+their own requirements and costs. The description now names its actual outputs
+rather than implying an agent makes accessibility decisions reliably.
+
+The [runner source](https://github.com/ChanMeng666/a11y-loop/blob/v0.3.0/src/lib/axe-runner.js)
+uses local axe-core in Chromium across default, dark, forced-color,
+reduced-motion and 320 × 256 reflow contexts. Supplied interaction states run
+on fresh default-mode pages, rather than every state being tested in every
+mode. [Report diffs](https://github.com/ChanMeng666/a11y-loop/blob/v0.3.0/src/lib/diff.js)
+and a [manual-review checklist](https://github.com/ChanMeng666/a11y-loop/blob/v0.3.0/src/lib/format/checklist.js)
+make its limits useful. It does not replace manual or screen reader testing.
+[The rendered AI section](ai-render.png) was also inspected at 1280 × 720
+against this exact catalog text. The published tarball's registry SHA-1 and key
+source/license files were checked against the release in memory; no installation, tool execution or adoption of
+its agent instructions occurred.
+
+The contributor allowed maintainer edits. Their original commit
+`099d014637d46f15945f3c3f9c7f9e46ec848f65` was preserved; a signed-off maintainer
+merge `d79dd2799925cb9ff80af31d337cfe1a1a01b2ce` brought in current main and clarified
+the one entry. A command-scoped LFS lock-verification setting was needed for
+the fork push; the repo has no tracked LFS objects, and no persistent setting
+or credentials were changed. The contributor's missing DCO sign-off remains
+visible. Effective repository rules do not require that check, and no sign-off
+was fabricated. Fork CI was approved only after confirming a README-only PR
+diff; the obsolete original-head link job was cancelled once superseded.
 
 ## Evidence and limits
 
-[structure.json](structure.json) records the parsed heading and resource
-inventory, local-link checks and duplicate-primary-URL checks against the exact
-README blob. The web URL census includes both links and images and excludes
-example code blocks. For the unchanged starting commit this parser finds 709
+[structure.json](structure.json) preserves the PR #112 inventory;
+[structure-final.json](structure-final.json) records the final 685-resource
+heading inventory, local-link checks and duplicate-primary-URL checks against
+README blob `4457629c185b5f114b0467b88590c113669841a9`. The web URL census
+includes both links and images and excludes example code blocks. For the unchanged starting commit this parser finds 709
 URLs, while the prior availability reconciliation records 703 under its text
 extraction method. The parser census and that earlier reconciliation count
-should not be compared as resource growth or used interchangeably.
+should not be compared as resource growth or used interchangeably. The final
+parser census is 710 web URLs after adding the contributor's primary URL.
 
 [browser-checks.json](browser-checks.json) records the current browser results.
 CSUN's replacement route, Journal of Special Education Technology and the
@@ -95,11 +130,49 @@ accessibility, privacy behavior, recognition accuracy or conformance. Earlier
 CI timeouts and documented exclusions remain in the original audit; no checker
 exceptions or failure policies were changed in this sweep.
 
+## Merge and final verification
+
+PR #112 merged as `997554f9ac9918da2afdd94e699d6fd69b803040`.
+Its final [PR link sweep](https://github.com/lukeslp/awesome-accessibility/actions/runs/39224701181)
+and subsequent [strict main sweep](https://github.com/lukeslp/awesome-accessibility/actions/runs/39224879918)
+both reported 621 reachable, 76 bot-blocked/rate-limited and 12 excluded URLs,
+with zero errors or timeouts. The [main lint run](https://github.com/lukeslp/awesome-accessibility/actions/runs/39224879857)
+also passed, including the five existing failure-policy tests.
+[ci-final.json](ci-final.json) preserves the measured CI summaries.
+
+PR #113 merged as `662c0b514e5a9b6890ea55c29eafd8128747aa7a` after the
+[final contributor-head lint](https://github.com/lukeslp/awesome-accessibility/actions/runs/39225714208)
+and [link sweep](https://github.com/lukeslp/awesome-accessibility/actions/runs/39225714056)
+passed. The PR sweep recorded 623 reachable, 75 blocked/rate-limited and
+12 excluded URLs, with zero errors or timeouts. Full awesome-lint 2.3.0 also
+passed locally on the synchronized final main checkout. The original user
+browser tab was refreshed to main and its rendered catalog includes the new
+contribution.
+
+The [strict final main link run](https://github.com/lukeslp/awesome-accessibility/actions/runs/39226192219)
+**failed** with 621 reachable, 76 blocked/rate-limited, 12 excluded,
+**one HTTP error and zero remaining timeouts**. The error was HTTP 503 at
+`https://adrianroselli.com/`, which had been reachable in the immediately
+preceding PR sweep. The [final main lint](https://github.com/lukeslp/awesome-accessibility/actions/runs/39226192212)
+passed, including the existing failure-policy tests.
+
+[availability-followup.json](availability-followup.json) records the direct
+follow-up: local curl received no bytes within 30 seconds, normal browser
+navigation timed out, and a local lychee remote-input retrieval timed out
+before producing a JSON report. Those observations are availability failures,
+not proof of permanent closure. The established resource is retained unchanged;
+no alternative canonical route was established. Recheck it at the next
+maintenance pass. This server failure is separate from the six browser
+challenges, and the strict job has not been weakened or represented as green.
+
+The final GitHub query found no open PRs or issues. The working checkout was
+synchronized with main before this documentation-only completion commit.
+
 ## Rollback and follow-up
 
-Changes are isolated on `review/second-sweep-2026-10-19`. Revert the follow-up
-merge in a new branch and PR if needed; keep the original refresh and independent
-Markproof contribution. The two removed entries and exact reasons are recorded
-above so future reviews can assess a fix rather than silently re-add them.
+The source corrections are isolated in PR #112 and the contributor addition in
+PR #113. Revert either merge with parent 1 in a new branch and PR if needed;
+keep the original refresh and independent Markproof contribution. The two
+removed entries and exact reasons are recorded above so future reviews can assess a fix rather than silently re-add them.
 The six challenged URLs remain established resources with explicitly limited
 availability evidence. No unrelated source, service or deployed Shared changed.

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "url": "https://adrianroselli.com/",
+  "precedingPRRun": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39225714056",
+  "precedingPRObservation": "Reachable in the full PR sweep; source URL retained unchanged.",
+  "strictMainRun": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39226192219",
+  "strictMainObservation": {
+    "status": 503,
+    "completedAt": "2026-10-19T09:00:15Z"
+  },
+  "localCurl": {
+    "maxTimeSeconds": 30,
+    "elapsedSeconds": 30.008738,
+    "exitCode": 28,
+    "httpStatus": null,
+    "observation": "No response bytes received before timeout."
+  },
+  "normalBrowser": {
+    "observation": "Normal in-app browser navigation timed out after 20 seconds; no challenge bypass attempted."
+  },
+  "localLychee": {
+    "version": "0.24.2",
+    "observation": "Remote-input retrieval timed out before producing a JSON report; this is not a completed per-link availability report."
+  },
+  "decision": "Retain the established resource unchanged. These observations do not establish permanent closure. Recheck at the next maintenance pass; no checker exception added."
+}

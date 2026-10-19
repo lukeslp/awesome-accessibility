@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-19",
+  "provenance": "Counts extracted from completed GitHub job logs after targeted timeout retry; summaries, not raw lychee output.",
+  "pr112": [
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39224701181",
+      "reviewedHead": "e432722c488b52e31d0ffc29ce677a3140a1fe01",
+      "event": "pull_request",
+      "counts": {
+        "reachable": 621,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 76,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 0
+      },
+      "conclusion": "success"
+    },
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39224879918",
+      "reviewedHead": "997554f9ac9918da2afdd94e699d6fd69b803040",
+      "event": "push",
+      "counts": {
+        "reachable": 621,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 76,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 0
+      },
+      "conclusion": "success"
+    }
+  ],
+  "pr113": [
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39225714056",
+      "reviewedHead": "d79dd2799925cb9ff80af31d337cfe1a1a01b2ce",
+      "event": "pull_request",
+      "counts": {
+        "reachable": 623,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 75,
+        "excluded": 12,
+        "failed": 0,
+        "timed out": 0
+      },
+      "conclusion": "success"
+    },
+    {
+      "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39226192219",
+      "reviewedHead": "662c0b514e5a9b6890ea55c29eafd8128747aa7a",
+      "event": "push",
+      "conclusion": "failure",
+      "counts": {
+        "reachable": 621,
+        "reachable on retry": 0,
+        "bot-blocked or rate-limited": 76,
+        "excluded": 12,
+        "failed": 1,
+        "timed out": 0
+      },
+      "failedURLs": [
+        {
+          "url": "https://adrianroselli.com/",
+          "status": 503
+        }
+      ]
+    }
+  ]
+}
