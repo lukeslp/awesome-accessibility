@@ -271,10 +271,38 @@ verified resource with an automation exception, separate from the nine browser
 challenges that remain unresolved. The job summary still counts this URL as
 excluded, not reachable. No general timeout acceptance was enabled.
 
+The exception and evidence merged through
+[PR #111](https://github.com/lukeslp/awesome-accessibility/pull/111), commit
+`bb9e1405aecafae9f0b0f4a91ab3885420532f88`. Its
+[full link sweep](https://github.com/lukeslp/awesome-accessibility/actions/runs/39213801730)
+reported zero HTTP errors and zero timeouts: 621 reachable, 76 bot-blocked or
+rate-limited, and 12 excluded web URLs. No timeout retry was needed in that run.
+The exact exclusion also passed a local lychee config check; all five failure
+policy tests pass.
+
+The first strict run on that merged head
+[failed at a different destination, NCIL](https://github.com/lukeslp/awesome-accessibility/actions/runs/39214219656/attempts/1),
+with zero HTTP errors and one timeout after the targeted retry. NCIL had been
+reachable in the preceding PR sweep; a fresh local HTTP request returned 200
+and the browser loaded the actual National Council on Independent Living page,
+including its independent-living, advocacy and training navigation. NCIL was
+retained without an exclusion. A single complete rerun was requested to test
+whether this runner failure persisted.
+
+The [strict main rerun, attempt 2](https://github.com/lukeslp/awesome-accessibility/actions/runs/39214219656/attempts/2)
+passed on `bb9e1405aecafae9f0b0f4a91ab3885420532f88` with zero HTTP errors
+and zero timeouts. The [final maintenance summary](maintenance-final-summary.md)
+records 621 reachable, 76 bot-blocked or rate-limited and 12 excluded web URLs.
+NCIL recovered in the initial sweep; no timeout retry was needed. The previous
+failed attempt remains linked above. The final open-PR query was empty, and
+the catalog README still has reviewed blob
+`a989277467726d3d838bcc564781595c91108007`.
+
 ## Remaining work and rollback
 
 PR #109 merged as `ef10496ed629a1c2cb408dc5db7e7274249a8316` on October 18,
-2026 (Pacific). PR #107 was merged independently as recorded above. The final
+2026 (Pacific). PR #107 and the CI follow-ups #110 and #111 were merged
+independently as recorded above. The final
 open-PR query returned an empty list. A docs-only follow-up preserves this
 completion record and the final runner evidence.
 
@@ -294,3 +322,6 @@ draft branch; no history was rewritten. Preserve unrelated work and do not
 force-push. The two added discovery topics can be removed independently.
 The CI retry can be rolled back independently by reverting PR #110 merge
 `02b336ed4a4a950e63fb255ec7d67e079ac1562b` in a new branch and PR.
+The WAIC exception can be removed alone from `.github/lychee.toml`, or revert
+PR #111 merge `bb9e1405aecafae9f0b0f4a91ab3885420532f88` to remove that
+exception and its follow-up documentation together.
