@@ -36,4 +36,8 @@ exclude = [
   # Exact page verified in a browser on 2026-10-18; HTTP clients receive a
   # misleading 404. Evidence: docs/reviews/2026-10-18/ftc-browser.png.
   '^https://www\.ftc\.gov/news-events/news/press-releases/2025/04/ftc-approves-final-order-requiring-accessibe-pay-1-million$',
+  # This exact homepage repeatedly times out from GitHub runners, including
+  # low-concurrency retries, but returns 200 locally and loads in the browser.
+  # Verified 2026-10-19; docs/reviews/2026-10-18/waic-browser.png.
+  '^https://waic\.jp/$',
 ]
