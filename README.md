@@ -148,6 +148,7 @@ Principles and patterns for accessibility:
 Tools and resources for testing and validating accessibility:
 
 - [Accessibility Insights](https://accessibilityinsights.io/) - Find issues before users encounter them.
+- [Markproof CLI](https://github.com/stochastic-technologies/markproof-cli) - Command-line accessibility checks that quote the exact markup responsible, with a baseline so only new findings fail a build. PHP, no dependencies, GPL.
 - [Accessibility Conformance Testing](https://www.w3.org/WAI/test-evaluate/) - Techniques from W3C Web Accessibility Initiative.
 - [Asqatasun](https://github.com/Asqatasun/Asqatasun) - Continuous accessibility monitoring and reporting.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Audit for accessibility, performance, SEO and best practices by Google.
