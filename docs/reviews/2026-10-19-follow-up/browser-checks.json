@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-19",
+  "method": "Normal in-app browser navigation and accessibility-tree observation. Several destinations initially showed automatic verification, then loaded on a later normal navigation. No CAPTCHA was solved, challenge code manipulated, or browser security setting changed.",
+  "confirmed": [
+    {
+      "url": "https://dl.acm.org/conference/assets",
+      "evidence": "Actual ASSETS conference page, proceedings links and the 2026 event.",
+      "screenshot": "assets-browser.png"
+    },
+    {
+      "url": "https://dl.acm.org/journal/taccess",
+      "evidence": "Actual TACCESS journal page, September 2026 volume 19 issue 3 and journal-specific navigation.",
+      "screenshot": "taccess-browser.png"
+    },
+    {
+      "url": "https://journals.sagepub.com/home/tad",
+      "evidence": "Actual Technology and Disability journal page, AAATE link and current articles explicitly marked open or restricted access.",
+      "screenshot": "sage-tad-browser.png"
+    },
+    {
+      "url": "https://www.tandfonline.com/journals/cdso20",
+      "evidence": "Actual Disability & Society journal page, aims and scope, author instructions and subscription link.",
+      "screenshot": "disability-society-browser.png"
+    },
+    {
+      "url": "https://www.tandfonline.com/journals/iidt20",
+      "evidence": "Actual Disability and Rehabilitation: Assistive Technology page, aims and scope, Open Select and subscription links.",
+      "screenshot": "assistive-technology-browser.png"
+    }
+  ],
+  "resolvedByReplacement": [
+    {
+      "previous": "https://www.changepeople.org/resources",
+      "observedFinalURL": "https://changepeople.org/",
+      "evidence": "The old guidance destination now presents the CHANGE Picture Bank transfer to Photosymbols and a subscription-based image collection, not the listed guidance library.",
+      "primaryTransferSource": "https://www.photosymbols.com/blogs/news/the-change-picture-bank-has-a-new-home",
+      "screenshot": "change-redirect-browser.png",
+      "replacement": "https://inclusion.eu/easy-to-read/guidelines/",
+      "replacementEvidence": "Current official multilingual guidelines page, a simplified checklist and directly downloadable English PDF; normal browser content and local HTTP 200 verified.",
+      "replacementScreenshot": "inclusion-guidelines-browser.png"
+    }
+  ],
+  "remainingFromOriginalQueue": [],
+  "caveat": "These observations verify the destinations and described content, not full article access or accessibility conformance. Automated bot-blocked/rate-limited URLs remain separately unverified by CI."
+}

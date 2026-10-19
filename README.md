@@ -418,9 +418,9 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 
 - [British Dyslexia Association style guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace) - Guidance on making written content and workplaces dyslexia-friendly.
 - [CDC plain language materials](https://www.cdc.gov/health-literacy/php/develop-materials/plain-language.html) - CDC guidance on plain language for health communication, with practical writing tips.
-- [Easy Read resources](https://www.changepeople.org/resources) - Change's resources and guidance for creating Easy Read documents for people with learning disabilities.
 - [Federal plain language guidelines](https://digital.gov/guides/plain-language/) - Digital.gov's plain language guidelines for U.S. federal agencies, required under the Plain Writing Act of 2010, covering structure, wording and design.
 - [Hemingway Editor](https://hemingwayapp.com/) - Writing tool that highlights long sentences, passive voice and hard-to-read passages, with a grade-level score. Free web version.
+- [Inclusion Europe: Easy-to-Read guidelines](https://inclusion.eu/easy-to-read/guidelines/) - Free guidelines for making information easier to understand for people with intellectual disabilities, with downloadable language editions and a simplified checklist.
 - [Rewordify](https://rewordify.com/) - Free web tool that replaces difficult words in pasted text with simpler ones and highlights each change, to support struggling readers.
 
 ### Captions, subtitles and audio description

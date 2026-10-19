@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-19",
+  "page": "https://yapapp.cc/online-dictation",
+  "method": "Read vendor page and shipped JavaScript without running the recognizer, recording audio, granting microphone access or downloading speech models. No proprietary source copied into this repo.",
+  "findings": [
+    "The page and UI describe an unlimited-use free web tool with no account, separate from the paid desktop app.",
+    "The page hook passes a 120-second limit to microphone capture; the shared recognizer supports other tools with longer limits.",
+    "Microphone samples pass to a browser worker, whose Transformers.js pipeline runs Whisper models with WebGPU or WASM; model/library downloads are required.",
+    "Usage-event tracking is present. Reviewed dictation events send event name, outcome and phase rather than audio or transcript. This is bounded source inspection, not a complete privacy or network audit.",
+    "Text lives in React state with copy/download controls; users must save it before closing the tab.",
+    "The entry identifies the closed-source web tool and avoids presenting the underlying Whisper license as the page license or guaranteeing every data flow."
+  ],
+  "assets": [
+    {
+      "url": "https://yapapp.cc/_next/static/chunks/286-73256012a22b37b4.js?dpl=dpl_F6S9RghCvvpzU63a3C96PjnWU6jQ",
+      "sha256": "beeab68c9b3bf1954b89112f47b4af319f500ee7f6e53596e39f81bcc0115c6f",
+      "bytes": 12100
+    },
+    {
+      "url": "https://yapapp.cc/_next/static/chunks/1579-89b24f3f23aeb04f.js?dpl=dpl_F6S9RghCvvpzU63a3C96PjnWU6jQ",
+      "sha256": "d2d8252996cdc77773f410b843e5bfe1eec0f042583cbd46d49b523cf9a584b8",
+      "bytes": 10211
+    },
+    {
+      "url": "https://yapapp.cc/_next/static/chunks/8157-235001f5bee0ec13.js?dpl=dpl_F6S9RghCvvpzU63a3C96PjnWU6jQ",
+      "sha256": "213c355670a87b8a706976061a90ba61f1c7b50b3c82d5c891cd217ac9ff7395",
+      "bytes": 18687
+    },
+    {
+      "url": "https://yapapp.cc/dictation/speech-client.mjs",
+      "sha256": "cef0ec4db4701c127b26eb04bc03f4d37b3e75ef0279f5a259d94bcc94c473ba",
+      "bytes": 6700
+    },
+    {
+      "url": "https://yapapp.cc/dictation/speech-worker.mjs",
+      "sha256": "2d9d4bee25888e6c7c74961c053796ea52100ed7719074d64560e4fc6c534677",
+      "bytes": 5447
+    },
+    {
+      "url": "https://yapapp.cc/dictation/speech-config.mjs",
+      "sha256": "fd2d8a02b6cdc3d0b23deb7999627d098f02242baeae0d3e61cf0f7dde067cfe",
+      "bytes": 846
+    },
+    {
+      "url": "https://yapapp.cc/dictation/speech-language.mjs",
+      "sha256": "3f4cd1821fbf068df1320a6852a215103cfd5a31613fcc77ac37c5b9eb176fcc",
+      "bytes": 2615
+    }
+  ],
+  "originalContributorCommit": "4c90b3b5a6445a8437b24c7e8fae9e36221e8f96",
+  "reviewedHead": "5929561c60cde2e133585d2b832a71877ed4c55a",
+  "mergeCommit": "98845cec6477d9e4471d54815ea2d8fa43e5c794"
+}
