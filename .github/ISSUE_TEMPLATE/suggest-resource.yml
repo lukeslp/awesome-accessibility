@@ -20,7 +20,7 @@ body:
     id: description
     attributes:
       label: One or two sentence description
-      description: What it is, then why it's useful. Mention if it's free, paid or open source.
+      description: What it is, then why it's useful. Identify the free resource or open-source license, eligibility, accounts and optional costs.
     validations:
       required: true
   - type: input
@@ -36,6 +36,8 @@ body:
         - label: It isn't already in the list.
           required: true
         - label: It's actively maintained or a lasting reference.
+          required: true
+        - label: It is free to use or open source, beyond a temporary trial or preview.
           required: true
         - label: It's not an accessibility overlay.
           required: true

@@ -37,6 +37,7 @@ Contributions to improve descriptions, organization, or formatting are also welc
 
 Resources on this list should:
 
+- **Be free to use or open source** for new additions. State any account requirement, eligibility restriction, optional paid service or model API cost. A temporary trial or preview does not count as a free resource. Existing commercial references remain labeled for context, alongside freely readable technical documentation.
 - **Be relevant** to accessibility, assistive technology, or inclusive design
 - **Be high-quality** and well-maintained
 - **Be accessible** themselves (practice what they preach)
@@ -51,7 +52,7 @@ Resources on this list should:
 - Keep descriptions concise (1-2 sentences)
 - Use sentence case for titles
 - Link straight to the resource, not to a listicle or landing page about it
-- Keep entries in alphabetical order within each section
+- Keep entries in alphabetical order within each section, except the guided learning path in Start here
 - Add each resource once, in the section where people would look for it first
 
 #### Descriptions
@@ -60,7 +61,7 @@ Resources on this list should:
 - Explain why it's useful
 - Keep it objective
 - Avoid marketing language ("powerful", "industry-leading", "the best")
-- Say if it's free, paid or open source, and give the license for open source projects
+- Say what is free, identify paid dependencies or limits, and give the license for open source projects
 - Mention important limits honestly, for example "AI descriptions can be wrong" or "not cleared for clinical use"
 - Don't add date tags such as "(Added 2025)"; git history records that
 
@@ -69,7 +70,7 @@ Example:
 - [Resource Name](https://example.com) - What it is, then why it's useful for accessibility work. Open source (MIT).
 ```
 
-For books: `- [Title](https://publisher-or-author-page) - Author (Publisher, Year). One-sentence summary.`
+For books: `- [Title](https://example.com) - Author (Publisher, Year). One-sentence summary and a link to the free full edition.`
 
 ### Sections
 
@@ -81,7 +82,7 @@ The list is organized by what people are doing:
 - **Accessibility programs** - Maturity models, procurement, accessibility statements
 - **Inclusive design** - Principles, design tools, color and contrast
 - **Web development** - Guides, component libraries, developer libraries, widgets and overlays
-- **Mobile and native apps** - iOS, Android and cross-platform
+- **Mobile and native apps** - iOS, Android, Windows, Linux and cross-platform
 - **Testing and auditing** - Methods, browser tools, testing engines, linters, screen reader testing, online scanners
 - **Content and media** - Documents and PDF, plain language, captions and audio description, data visualization, math, email
 - **AI and accessibility** - AI in assistive technology, AI tools for builders, research and critique
@@ -97,8 +98,10 @@ If a resource doesn't fit an existing section, suggest a new one in your pull re
 
 Pull requests run two checks:
 
-- **Links** - [lychee](https://lychee.cli.rs/) checks every link in the README and lists failures and redirects in the job summary. On pull requests it only reports; the weekly run on the main branch fails when a link breaks.
-- **Lint** - [awesome-lint](https://github.com/sindresorhus/awesome-lint) checks formatting against the Awesome list guidelines. Run it locally with `npx awesome-lint README.md`.
+- **Links** - [lychee](https://lychee.cli.rs/) checks web links in the README and this guide. The job summary separates reachable, bot-blocked, excluded and failed links. HTTP 403/429 and configured exclusions need a separate check; a green job does not verify them. Pull requests report results; weekly and main-branch runs fail on other link errors.
+- **Lint** - [awesome-lint](https://github.com/sindresorhus/awesome-lint) checks formatting against the Awesome list guidelines. Reproduce CI with `npm install --no-save --no-package-lock awesome-lint@2.3.0`, then `node --no-deprecation .github/scripts/lint-readme.mjs`.
+
+For a full check including repository metadata, run `npx awesome-lint README.md`. Availability checks do not certify a tool's accessibility or the accuracy of every claim. Dated review evidence and unresolved checks are in [the review log](docs/reviews/2026-10-18/README.md).
 
 ### Pull Request Process
 
@@ -137,11 +140,11 @@ I especially welcome contributions that:
 
 Please don't submit:
 
-- Commercial products without clear accessibility value
+- New paid-only products, temporary trials or subscription-only services
 - Vendor marketing posts and "top 10 tools" listicles
 - New accessibility overlays (see the note in the README)
 - Generic productivity apps with no accessibility focus
-- Resources behind paywalls (unless exceptional)
+- Resources whose useful content is behind a paywall
 - Self-promotion without substantial value (submitting your own project is fine; please say so in the pull request)
 - Duplicate or very similar resources
 - Outdated or unmaintained projects
