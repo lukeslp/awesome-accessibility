@@ -28,8 +28,8 @@ or inference was run.
 - [x] Read the catalog and research new resources using primary sources.
 - [x] Review every baseline web URL and all direct GitHub repositories.
 - [x] Correct editorial policy conflicts and unsupported descriptions.
-- [x] Complete local lint, links, structural and rendered-navigation checks; final link CI pending.
-- [ ] Merge the reviewed overhaul and verify the final repository state.
+- [x] Complete local lint, links, structural and rendered-navigation checks; inspect final GitHub CI results.
+- [x] Merge the reviewed overhaul and verify the final repository state: both PRs merged; no open PRs remain.
 
 Acceptance: one entry per resource, working section anchors, concise factual
 descriptions, useful new free/open-source coverage, preserved contributor
@@ -140,7 +140,17 @@ outside that repository census.
 records the last local full sweep. It caught a repeated HTTP 503 at PDFChecks;
 a targeted [recheck](lychee-recheck.json), the GitHub runner (HTTP 500) and a
 normal browser all confirmed the outage. PDFChecks was removed pending recovery.
-The final GitHub-runner report is recorded separately after that pruning.
+The final GitHub-runner report is [lychee-final-ci.json](lychee-final-ci.json);
+[link-summary.md](link-summary.md) is its web-only summary. On reviewed head
+`86b870756ec401751b33814e18eccd6c35355da4`,
+[lint](https://github.com/lukeslp/awesome-accessibility/actions/runs/39211415449)
+and [link CI, attempt 2](https://github.com/lukeslp/awesome-accessibility/actions/runs/39211415465/attempts/2)
+passed. The link sweep reports zero HTTP errors and one timeout at Cards for
+Humanity, which loaded its actual title and design-tool content in the browser;
+see [final-timeout-check.json](final-timeout-check.json). The previous run's
+three timed-out pages also loaded normally, recorded in
+[runner-timeout-checks.json](runner-timeout-checks.json). Their runner response
+is preserved in [lychee-ci-attempt1.json](lychee-ci-attempt1.json).
 Bot-blocked responses and exclusions are not reachable results.
 
 [availability-union.json](availability-union.json) reconciles retained Markdown
@@ -149,8 +159,8 @@ Markdown web URLs were reachable by at least one method. All 17 initially
 unresolved destinations were then visited in the browser: seven loaded their
 real pages and ten still displayed browser challenges.
 [browser-checks.json](browser-checks.json) records every disposition. No CAPTCHA
-was solved or bypassed. PDFChecks was later removed after its confirmed outage. The ten initially unresolved links remain clearly identified
-for a future human check; they are mainly journal/article destinations.
+was solved or bypassed. The original browser dispositions remain in that
+ledger; the final retained set is in the reconciled availability ledger.
 
 The AI ethics article was subsequently relinked from its blocked ACM DOI to
 the author's [open preprint](https://arxiv.org/abs/1908.08939), reducing the
@@ -167,9 +177,9 @@ covers all 77 current direct GitHub repositories: none missing or disabled;
 Project Gameface remains the only archived repository, explicitly labeled.
 
 **Measured lint:** both the repository script and the complete awesome-lint
-2.3.0 rules passed locally after corrections. Added the `suggestion` and `broken link` labels required by the issue forms,
-and the `awesome` and `awesome-list` topics, resolving the metadata follow-up instead of treating the
-skipped metadata rule as validation.
+2.3.0 rules passed locally after corrections. Added the `suggestion` and
+`broken link` labels required by the issue forms, and the `awesome` and
+`awesome-list` topics, resolving the metadata follow-up.
 
 **Observed presentation:** a narrow GitHub rendering of the original draft
 showed the nested index filling several screens before the first resource;
@@ -215,17 +225,22 @@ dependencies are pinned to the commits resolved from their official major tags.
 
 ## Remaining work and rollback
 
-Pending: final GitHub CI results and PR #109's merge disposition. Nine retained
-URLs still presented browser challenges after both HTTP-client and browser
+PR #109 merged as `ef10496ed629a1c2cb408dc5db7e7274249a8316` on October 18,
+2026 (Pacific). PR #107 was merged independently as recorded above. The final
+open-PR query returned an empty list. A docs-only follow-up preserves this
+completion record and the final runner evidence.
+
+Nine retained URLs still presented browser challenges after both HTTP-client and browser
 checks; their exact URLs and methods are in the availability and browser ledgers.
 Recheck them in a normal human session later. They are retained as established
 resources, not reported as verified or removed merely for blocking automation.
-DCO reports missing sign-offs in inherited commits; main has no required status
-checks or branch protection. Contributor history is preserved without fabricated
-sign-offs or a history rewrite.
+DCO reports missing sign-offs in inherited commits; effective branch rules prohibit deletion and non-fast-forward updates but do
+not require status checks or DCO. Contributor history is preserved without
+fabricated sign-offs or a history rewrite.
 
-Rollback after merge: revert the PR #109 merge commit in a new branch and PR.
-The independent Markproof merge remains on main. Before merge, review changes
-are normal commits on `review/accessibility-2026-10-18`, pushed to the existing
+Rollback: revert PR #109 merge commit
+`ef10496ed629a1c2cb408dc5db7e7274249a8316` in a new branch and PR.
+The independent Markproof merge remains on main. The docs-only completion
+commit can be reverted separately if needed. Review changes are normal commits on `review/accessibility-2026-10-18`, pushed to the existing
 draft branch; no history was rewritten. Preserve unrelated work and do not
 force-push. The two added discovery topics can be removed independently.

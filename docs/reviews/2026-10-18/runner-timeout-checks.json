@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://neurodiversity.design/",
+    "date": "2026-10-18",
+    "method": "Normal browser navigation after GitHub runner timeout; page title and headings inspected",
+    "evidence": [
+      "1 AXWebArea Neurodiversity Design System, URL: neurodiversity.design/",
+      "\t\t\t36 heading Neurodiversity Design System, Value: 1",
+      "\t\t\t40 heading Design Principles, Value: 2"
+    ]
+  },
+  {
+    "url": "https://intopia.digital/articles/intopia-launches-wcag-2-2-map/",
+    "date": "2026-10-18",
+    "method": "Normal browser navigation after GitHub runner timeout; page title and headings inspected",
+    "evidence": [
+      "1 AXWebArea Intopia launches WCAG 2.2 Map - Intopia, URL: intopia.digital/articles/intopia-launches-wcag-2-2-map/",
+      "\t\t\t\t23 heading Intopia launches WCAG 2.2 Map, Value: 1",
+      "\t\t\t\t36 heading About the map, Value: 2"
+    ]
+  },
+  {
+    "url": "https://www.ldrfa.org/assistive-technology-tools/",
+    "date": "2026-10-18",
+    "method": "Normal browser navigation after GitHub runner timeout; page title and headings inspected",
+    "evidence": [
+      "1 AXWebArea Assistive Technology Tools and Resources, URL: ldrfa.org/assistive-technology-tools/",
+      "\t\t35 heading Assistive Technology Tools, Value: 1",
+      "\t\t\t\t\t40 heading Assistive Technology and Apps for People with Learning Disabilities, Value: 2"
+    ]
+  }
+]

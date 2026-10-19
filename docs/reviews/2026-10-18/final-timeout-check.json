@@ -1,0 +1,6 @@
+{
+  "url": "https://cardsforhumanity.frog.co/",
+  "date": "2026-10-18",
+  "method": "Normal browser navigation after final runner timeout",
+  "evidence": "1 AXWebArea Cards for Humanity - frog, Part of Capgemini Invent, URL: cardsforhumanity.frog.co/\n\t\t\t\t8 heading Cards for Humanity, Value: 1\n\t\t\t\t10 heading A practical tool for inclusive design, Value: 2\nThe focused UI element is 1 AXWebArea Cards for Humanity - frog, Part of Capgemini Invent, URL: cardsforhumanity.frog.co/"
+}
