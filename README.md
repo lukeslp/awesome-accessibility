@@ -501,6 +501,7 @@ AI features in specific products are listed with them: Be My Eyes, Seeing AI, Lo
 
 ### AI tools for builders
 
+- [a11y-loop](https://github.com/ChanMeng666/a11y-loop) - Node CLI and Agent Skill pairing accessibility planning guidance with local axe-core audits in Chromium across five rendering modes and supplied interaction states. Produces report diffs and a manual-review checklist; it does not replace manual or screen reader testing. Open source (MIT).
 - [A11y MCP](https://github.com/ronantakizawa/a11ymcp) - MCP server that gives AI clients axe-core and Puppeteer tools for testing URLs or HTML against WCAG, checking contrast and validating ARIA. Open source (MIT).
 - [A11Y.md](https://github.com/fecarrico/A11Y.md) - Persistent accessibility context standard for AI coding agents (Claude Code, Cursor, Copilot, Gemini). Portable markdown with an AI behavior contract, WCAG 2.2 AA compliance profiles, 24 lazy-loaded component guides, and versioned evidence artifacts. English and Portuguese. Open source (MIT).
 - [Alt Text Intelligence](https://lukesteuber.com/downloads/apps/alt-text-intelligence/) - App for writing and editing image descriptions, for up to ten photos at a time, on iPhone, iPad, Mac and Android.
