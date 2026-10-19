@@ -1,0 +1,87 @@
+{
+  "total": 4,
+  "unique": 4,
+  "successful": 4,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 0,
+  "remaps": 0,
+  "excludes": 0,
+  "errors": 0,
+  "cached": 0,
+  "success_map": {
+    "/tmp/awesome-accessibility-second-sweep-links.md": [
+      {
+        "url": "https://www.csun.edu/cod/journal",
+        "status": {
+          "text": "200 OK",
+          "code": 200
+        },
+        "span": {
+          "line": 3,
+          "column": 1
+        },
+        "duration": {
+          "secs": 1,
+          "nanos": 8707125
+        }
+      },
+      {
+        "url": "https://github.com/cjpais/Handy",
+        "status": {
+          "text": "200 OK",
+          "code": 200
+        },
+        "span": {
+          "line": 2,
+          "column": 1
+        },
+        "duration": {
+          "secs": 1,
+          "nanos": 129591917
+        }
+      },
+      {
+        "url": "https://www.icanconnect.org/",
+        "status": {
+          "text": "200 OK",
+          "code": 200
+        },
+        "span": {
+          "line": 1,
+          "column": 1
+        },
+        "duration": {
+          "secs": 1,
+          "nanos": 260855708
+        }
+      },
+      {
+        "url": "https://journals.sagepub.com/home/tad",
+        "status": {
+          "text": "403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 4,
+          "column": 1
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 965615000
+        }
+      }
+    ]
+  },
+  "error_map": {},
+  "timeout_map": {},
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration": {
+    "secs": 2,
+    "nanos": 300597584
+  },
+  "detailed_stats": true
+}

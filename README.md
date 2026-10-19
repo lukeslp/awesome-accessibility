@@ -302,7 +302,7 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 - [Accesserty DevCheck](https://accesserty.com/en/devcheck) - Browser extension that runs axe-core scans, focus path review, visual simulations, and PDF structure checks on the current page, including local, staging, and authenticated states.
 - [Accessibility bookmarklets](https://pauljadam.com/bookmarklets/) - Paul J. Adam's bookmarklets that reveal headings, landmarks, ARIA, alt text and focus order on any page, including in mobile browsers.
 - [Accessibility Insights](https://accessibilityinsights.io/) - Microsoft's free tools for web and Windows apps, with automated checks, a tab-stop visualizer and guided manual assessments for WCAG. Open source (MIT).
-- [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) - Accessible Name and Description Inspector, a free bookmarklet from the U.S. Social Security Administration that shows what assistive technology will announce for each element; used in Trusted Tester.
+- [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) - Free U.S. Social Security Administration bookmarklet for inspecting programmatic accessible names, descriptions and accessibility issues; used in Trusted Tester. Its output can differ from screen readers, and it cannot inspect Shadow DOM.
 - [ARC Toolkit](https://chromewebstore.google.com/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce) - Vispero's Chrome extension for accessibility testing, with WCAG issue reporting and remediation guidance.
 - [Astro dev toolbar audits](https://docs.astro.build/en/guides/dev-toolbar/) - Astro's development toolbar runs built-in accessibility audits on the page you're working on and highlights failing elements in place.
 - [axe DevTools browser extension](https://www.deque.com/axe/devtools/extension/) - Deque's browser extension for Chrome, Firefox and Edge that scans pages with axe-core; the free tier covers automated checks.
@@ -495,7 +495,7 @@ AI features in specific products are listed with them: Be My Eyes, Seeing AI, Lo
 - [ElevenLabs Impact Program](https://elevenlabs.io/impact) - Free licenses for AI voice cloning and text-to-speech for people with permanent voice loss from ALS, stroke, cancer and other conditions, through partner nonprofits. Recordings are processed in the cloud.
 - [Gemini in TalkBack](https://support.google.com/accessibility/android/answer/16294093) - Android's screen reader can describe an image or the whole screen with Gemini and answer follow-up questions, on-device on some phones. Descriptions can be wrong.
 - [Project Euphonia](https://sites.research.google/euphonia/about/) - Google Research program on speech recognition for people with non-standard speech, with published research and open-source tools for personalizing models.
-- [Project Relate](https://sites.research.google/relate/) - Google beta app for Android that learns how a person with non-standard speech talks, then transcribes their speech or repeats it in a clear synthesized voice. Availability is limited.
+- [Project Relate](https://sites.research.google/relate/) - Google Android beta app that learns a person's non-standard speech and transcribes or repeats it in a synthesized voice. Not currently accepting new users; existing users can continue using their speech models.
 - [Whisper](https://github.com/openai/whisper) - Open-source speech recognition model from OpenAI that runs locally and powers many free captioning and dictation tools. It sometimes inserts words that were never spoken, so review transcripts people rely on. Open source (MIT).
 - [whisper.cpp](https://github.com/ggml-org/whisper.cpp) - Lightweight C/C++ port of Whisper that runs speech recognition offline on ordinary laptops and phones without a GPU. Open source (MIT).
 
@@ -504,8 +504,7 @@ AI features in specific products are listed with them: Be My Eyes, Seeing AI, Lo
 - [A11y MCP](https://github.com/ronantakizawa/a11ymcp) - MCP server that gives AI clients axe-core and Puppeteer tools for testing URLs or HTML against WCAG, checking contrast and validating ARIA. Open source (MIT).
 - [A11Y.md](https://github.com/fecarrico/A11Y.md) - Persistent accessibility context standard for AI coding agents (Claude Code, Cursor, Copilot, Gemini). Portable markdown with an AI behavior contract, WCAG 2.2 AA compliance profiles, 24 lazy-loaded component guides, and versioned evidence artifacts. English and Portuguese. Open source (MIT).
 - [Alt Text Intelligence](https://lukesteuber.com/downloads/apps/alt-text-intelligence/) - App for writing and editing image descriptions, for up to ten photos at a time, on iPhone, iPad, Mac and Android.
-- [alt-images-ai](https://github.com/kreent/alt-images-ai) - An npm package that auto-generates alt text for images using a language model. Open source (MIT).
-- [alt-text](https://pypi.org/project/alt-text/) - Python package for finding, generating and setting alt text for images in HTML and EPUB files. Open source (GPL-3.0).
+- [alt-text](https://pypi.org/project/alt-text/) - Alpha Python package for finding and setting image descriptions in HTML and EPUB. Its description engines require external API credentials and may incur service charges; local OCR uses a separate Tesseract installation. Open source (GPL-3.0).
 - [alt-text-local-llm](https://github.com/lukeslp/alt-text-local-llm) - Generates descriptive alt text with vision models that run on your own machine.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official MCP server from the Chrome DevTools team that lets coding agents inspect Chrome, with an accessibility debugging skill for Lighthouse audits, the accessibility tree, focus and contrast. Open source (Apache-2.0).
 - [Fido](https://daisy.org/activities/software/fido/) - Experimental DAISY app for converting PDFs, describing images and improving document structure and metadata on Windows and macOS. Free app; most AI features require a cloud API key or DAISY unlock code. Outputs need human review.
@@ -536,6 +535,7 @@ Grouped by access need. Each tool appears once, in its main group; many serve mo
 - [Christopher Reeve Foundation assistive technology guide](https://www.christopherreeve.org/wp-content/uploads/2024/05/Assistive-Technology-4-30-24-FINAL.pdf) - Guide (PDF) to assistive technology for people with paralysis, including computer access and rehabilitation resources.
 - [Free and low-cost hardware for access](https://accessibledigitallearning.org/resource/free-and-low-cost-hardware-for-access/) - Guide to inexpensive hardware that improves access to digital learning.
 - [Hardware and hardware-software assistive devices](https://pressbooks.ulib.csuohio.edu/accessibility/chapter/chapter-1-11-hardware-and-hardware-software-assistive-devices/) - Cleveland State University chapter on specialized keyboards, mice, switches and other hardware.
+- [iCanConnect](https://www.icanconnect.org/) - U.S. program providing free distance-communication equipment, individual assessments and training to people with significant combined hearing and vision loss who meet federal disability and income eligibility requirements.
 - [Michigan assistive technology guidelines for teachers of students who are blind or low vision](https://rblv.org/assistive-technology-guidelines) - Guidelines on assistive technology, data collection, IEP development and instruction for pre-K to 12 students.
 - [Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility) - Microsoft's hub for the accessibility features in Windows, Office, Xbox and other products.
 - [My Computer My Way](https://mcmw.abilitynet.org.uk/) - Free AbilityNet guides to the accessibility settings in Windows, macOS, iOS, Android and ChromeOS, organized by vision, hearing, motor and cognitive needs.
@@ -647,12 +647,11 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 - [Phonak Roger](https://www.phonak.com/en-int/hearing-devices/microphones) - Wireless microphone technology that improves speech understanding in noise and over distance for people with hearing loss.
 - [Sorenson](https://sorenson.com/) - Video relay service and communication products for deaf people.
 - [Telecommunications Relay Service (TRS)](https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs) - FCC guide to relay services, including TTY, that let deaf, hard-of-hearing and speech-disabled people make phone calls.
-- [Trippi (OSS)](https://github.com/skrylkovs/trippi-oss) - Open-source, MIT-licensed Chrome extension that captures a browser tab's audio and shows live translated captions over Google Meet, Zoom, and Microsoft Teams calls, using Deepgram for speech recognition and DeepL for translation.
+- [Trippi (OSS)](https://github.com/skrylkovs/trippi-oss) - Chrome extension that displays translated captions from browser-tab audio, including meeting calls. Requires your own Deepgram and DeepL API keys; audio and text go to those services, whose limits and charges apply. Open source (MIT).
 - [Video Relay Service (VRS)](https://www.fcc.gov/consumers/guides/video-relay-services) - FCC guide to video relay services, which connect deaf sign language users with hearing people through interpreters.
 
 ### Sign languages
 
-- [ASL Browser](https://commtechlab.msu.edu/sites/aslweb/index.html) - Michigan State University's free online American Sign Language dictionary with short video clips of signs.
 - [Handspeak](https://www.handspeak.com/) - ASL dictionary, lessons and articles on Deaf culture by a Deaf author and artist.
 - [Lifeprint ASL University](https://www.lifeprint.com/) - Free American Sign Language curriculum, dictionary and video lessons by Deaf instructor Bill Vicars.
 - [SignBSL](https://www.signbsl.com/) - British Sign Language dictionary that gathers video signs from several sources, including regional variations.
@@ -681,8 +680,9 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 
 ### Voice control and dictation
 
-- [AI Dictation](https://github.com/writingmate/aidictation) - Cross-platform voice typing with offline recognition on supported devices and optional cloud transcription. It may reduce keyboard use in standard text fields; operating-system and application restrictions apply.
-- [DailyVox](https://getdailyvox.com) - Voice-first diary for iPhone. On-device speech recognition works fully offline — speak instead of type. Automatic mood tracking uses sentiment analysis. No data collection. ([App Store](https://apps.apple.com/app/id6760454642))
+- [AI Dictation](https://github.com/writingmate/aidictation) - Voice typing for Apple, Windows and Android devices, with on-device recognition on supported systems. Optional cloud transcription and cleanup send audio or text to external services. Client source is MIT; distributed service plans have a limited trial and paid subscription.
+- [DailyVox](https://getdailyvox.com) - Free voice journal for iPhone and Android with on-device speech recognition, letting people make entries by speaking instead of typing. Open source (MIT).
+- [Handy](https://github.com/cjpais/Handy) - Free dictation app for macOS, Windows and Linux with on-device transcription and shortcut-based text entry; requires a model download and Linux input tools. Optional cloud post-processing sends transcripts to the chosen service, whose charges may apply. Open source (MIT).
 - [nerd-dictation](https://github.com/ideasman42/nerd-dictation) - Lightweight offline dictation for Linux that types speech into any application using the VOSK recognizer. Open source (GPL-3.0).
 - [Numen](https://git.sr.ht/~geb/numen) - Offline voice control for Linux that types, clicks, scrolls and runs commands by voice on any desktop, including Wayland. Open source.
 - [Talon Voice](https://talonvoice.com/) - Hands-free computer control with voice, noise and eye tracking, popular with programmers who have RSI.
@@ -690,7 +690,7 @@ Several of these use AI to describe scenes and read text; descriptions can be wr
 - [Voice Access (Android)](https://support.google.com/accessibility/android/answer/6151843) - Built-in Android app for controlling a device by voice.
 - [Voice Access (Windows)](https://support.microsoft.com/en-us/topic/get-started-with-voice-access-bd2aa2dc-46c2-486c-93ae-3d75f7d053a4) - Built-in Windows 11 feature for controlling the computer and dictating text by voice, offline; it replaces Windows Speech Recognition.
 - [Voice Control (Apple)](https://support.apple.com/guide/iphone/use-voice-control-iph2c21a3c88/ios) - Built-in voice control for macOS, iOS and iPadOS.
-- [Voicefield](https://github.com/tatargabor/voicefield) - React library that turns a phone into a wireless microphone for web forms: scan a QR code and speech recognition runs on the phone, sending only text to the desktop. Useful for hands-free form input. Open source (MIT).
+- [Voicefield](https://github.com/tatargabor/voicefield) - React library that pairs a phone with desktop web fields by QR code and relays recognized text to the desktop. Uses browser or optional cloud speech recognition, so audio may leave the device. Open source (MIT).
 - [YazSes](https://github.com/MSKazemi/yazses) - Free, open-source offline dictation for Linux, macOS, and Windows. Hold-to-talk rather than always-listening, so the speaker decides when recognition starts and stops; includes a dysfluency-friendly mode intended for stuttered and dysarthric speech. Runs entirely on-device, useful for RSI and privacy-sensitive work.
 
 ### Speech and AAC
@@ -702,7 +702,7 @@ Augmentative and alternative communication (AAC) apps, devices and resources, vo
 - [AAC Language Lab](https://aaclanguagelab.com) - PRC-Saltillo's language development resources for AAC users and support teams.
 - [AAC — Low-Cost Voice & Gesture Recognition](https://github.com/wilmerjoseperezorozco-dev/aac-voz-gestos-bajo-costo) - Research prototype that trains a personal voice and gesture classifier from as few as 10 samples per word, for people with motor speech disorders such as dysarthria and apraxia. Works offline with no special hardware. Open source (MIT).
 - [Accent AAC Devices](https://prc-saltillo.com/device/accent) - PRC-Saltillo speech generating devices with touch, switch, head and eye tracking access, including Unity and LAMP Words for Life vocabularies.
-- [ARASAAC](https://arasaac.org/) - Aragonese portal of AAC with a large library of free pictograms, software and resources for making AAC materials.
+- [ARASAAC](https://arasaac.org/) - Aragonese portal of AAC with free pictograms, software and resources for making AAC materials. Pictograms use CC BY-NC-SA 4.0, with attribution and noncommercial reuse requirements.
 - [ASHA: augmentative and alternative communication](https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/) - American Speech-Language-Hearing Association practice portal on AAC assessment and intervention.
 - [AssistiveWare Learn AAC](https://www.assistiveware.com/learn-aac) - AssistiveWare's free articles and guides for families and professionals supporting AAC users.
 - [AssistiveWare Proloquo](https://www.assistiveware.com/products/proloquo) - Symbol-based AAC app for iOS from AssistiveWare.
@@ -723,7 +723,7 @@ Augmentative and alternative communication (AAC) apps, devices and resources, vo
 - [NovaChat](https://prc-saltillo.com/device/novachat) - PRC-Saltillo speech generating device with vocabulary options, word prediction and customizable layouts.
 - [Open Board Format](https://www.openboardformat.org/) - Open specification for moving AAC communication boards and linked board sets between applications using OBF and OBZ files, with documentation, validation and conversion tools. Supporting website and tools are open source (MIT).
 - [OpenAAC](https://www.openaac.org) - Community-driven initiative for free, open standards and tools in AAC.
-- [OpenSymbols](https://www.opensymbols.org/) - Searchable collection of openly licensed AAC symbol sets for building communication boards.
+- [OpenSymbols](https://www.opensymbols.org/) - Searchable collection of AAC symbol sets for building communication boards. Licenses vary by set, including noncommercial restrictions; check the license for the symbols you use.
 - [Personal Voice](https://support.apple.com/en-us/104993) - Built-in iPhone, iPad and Mac feature that creates a synthesized voice that sounds like you from recorded phrases, for use with Live Speech and AAC apps. Generated on the device.
 - [PRC-Saltillo resources](https://www.prc-saltillo.com/caregivers) - Resource library for families and caregivers of AAC users.
 - [Proloquo2Go](https://www.assistiveware.com/products/proloquo2go) - Symbol-supported AAC app for iOS from AssistiveWare, with customizable vocabulary and natural voices.
@@ -751,7 +751,7 @@ Augmentative and alternative communication (AAC) apps, devices and resources, vo
 - [Autism accessibility guidelines](https://hassellinclusion.com/blog/autism-accessibility-guidelines-resource/) - Hassell Inclusion's design guidance for sensory and other access needs of autistic people.
 - [Autism crisis communication cards](https://www.maskedbutaware.nl/en/tools/crisis-mode) - Free, phone-friendly communication support for moments when sensory overload makes speaking difficult. Available in English and Dutch without tracking; printable templates are [open source](https://github.com/maskedbutaware/autism-crisis-communication-cards).
 - [Carol Gray Social Stories](https://carolgraysocialstories.com/) - Short structured stories that describe social situations, developed for autistic people.
-- [Dopastep](https://dopastep.com/) - Body doubling in live focus rooms: break a task into small steps, then work alongside other people in synced focus and break cycles. No camera, chat or booking.
+- [Dopastep](https://dopastep.com/) - Body doubling in live focus rooms: break a task into small steps, then work alongside other people in synced focus and break cycles. Free room access and limited monthly task breakdowns; no camera or booking.
 - [Focusmate](https://www.focusmate.com/) - Virtual coworking platform that pairs users for live, focused work sessions using body doubling.
 - [Goblin.tools](https://goblin.tools/) - Collection of small, single-task tools built on a large language model for people who find certain tasks overwhelming, including task breakdown and tone checking. Free on the web; outputs can be wrong.
 - [How to ADHD](https://www.youtube.com/@HowtoADHD) - YouTube channel by Jessica McCabe, who has ADHD, explaining ADHD research and practical strategies in short videos.
@@ -923,6 +923,8 @@ Organizations run by, or representing, disabled people.
 
 ### Journals and proceedings
 
+Article access varies: some venues mix open-access articles with subscription content.
+
 - [ACM Transactions on Accessible Computing](https://dl.acm.org/journal/taccess) - ACM journal on computing and accessibility research.
 - [arXiv accessibility research report](https://info.arxiv.org/about/accessibility_research_report.html) - arXiv's report on accessibility barriers in research papers and approaches to making scientific content accessible.
 - [ASSETS proceedings](https://dl.acm.org/conference/assets) - Proceedings of the ACM SIGACCESS Conference on Computers and Accessibility.
@@ -931,14 +933,14 @@ Organizations run by, or representing, disabled people.
 - [Disability Studies Quarterly](https://dsq-sds.org/) - An academic journal on disability studies.
 - [International Journal of Human–Computer Interaction](https://www.tandfonline.com/toc/hihc20/current) - Research journal on human-computer interaction, including accessibility.
 - [Journal of Accessibility and Design for All](https://www.jacces.org/index.php/jacces) - Multidisciplinary journal that publishes theoretical and empirical research on accessibility.
+- [Journal of Disability Research](https://www.scienceopen.com/collection/e1e3fd98-e818-47dc-a396-69009efa34e7) - Open-access disability research journal with CC BY 4.0 articles. Free to read; author publication charges apply, with eligibility-based waivers and discounts.
 - [Journal of Enabling Technologies](https://www.emerald.com/insight/publication/issn/2398-6263) - Peer-reviewed journal formerly titled *Journal of Assistive Technologies*, covering technologies that support independence and participation.
 - [Journal of Postsecondary Education and Disability](https://www.ahead.org/ahead-resources/written-resources/jped) - Peer-reviewed journal on disabled college students and disability services in higher education.
 - [Journal of Special Education Technology](https://journals.sagepub.com/home/jst) - Journal focusing on technology used in special education.
-- [Journal on Technology & Persons with Disabilities](https://scholarworks.calstate.edu/collections/vh53x372b) - Journal focusing on both the theoretical and practical aspects of using technology to support persons with disabilities.
+- [Journal on Technology & Persons with Disabilities](https://www.csun.edu/cod/journal) - Open-access proceedings from the journal track of the CSUN Assistive Technology Conference, with links to current and previous volumes.
 - [Review of Disability Studies](https://rdsjournal.org/index.php/journal) - A peer-reviewed, open-access academic journal providing an international forum for disability studies.
-- [ScienceOpen Journal of Disability Research](https://www.scienceopen.com/collection/e1e3fd98-e818-47dc-a396-69009efa34e7) - A diamond open access journal on disability research.
 - [Taylor & Francis Online Disability & Society](https://www.tandfonline.com/journals/cdso20) - A disability studies journal focusing on human rights, discrimination, and policy.
-- [Technology and Disability](https://content.iospress.com/journals/technology-and-disability) - Journal reporting on the use of technology in the field of disability and rehabilitation.
+- [Technology and Disability](https://journals.sagepub.com/home/tad) - AAATE's journal on assistive technology devices and services, now hosted by Sage. Articles mix open access and subscription access.
 - [Universal Access in the Information Society](https://link.springer.com/journal/10209) - International journal on accessible technology and universal access.
 
 ### Data and statistics
