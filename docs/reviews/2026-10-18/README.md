@@ -48,9 +48,9 @@ workflow. A functioning link does not establish that a tool is accessible.
 - Replace the long nested contents list with 16 main links and five direct task
   paths. GitHub's outline exposes the complete heading hierarchy. Keep the
   introductory learning path intentionally ordered; alphabetize other groups.
-- Remove 24 entries from the draft: 19 new paid-only or unverified-free
+- Remove 25 entries from the draft: 19 new paid-only or unverified-free
   additions, the unrelated content-moderation demo ux-oss-safeguard, unreachable
-  WCAG Watch, and three commercial overlay/service promotions. The exact removed
+  WCAG Watch, unavailable PDFChecks, and three commercial overlay/service promotions. The exact removed
   entries are retained in [removed-from-draft.json](removed-from-draft.json).
 - Relink Agile Accessibility Handbook to its free PDF/EPUB edition, disclosing
   registration. Keep free disability culture media and the Inclusive Components
@@ -136,19 +136,20 @@ was checked against project files rather than treated as proof of no license
 full software or license audit. Tools linked through websites/registries are
 outside that repository census.
 
-**Measured final links:** [lychee-final.json](lychee-final.json) and
-[link-summary.md](link-summary.md) record zero failed URLs and zero timeouts.
-The local run found 638 reachable web links, 61 bot-blocked/rate-limited links
-and 11 excluded web links. These are this client's classifications, not an
-assertion that blocked links are dead.
+**Measured link sweeps:** [lychee-before-final-prune.json](lychee-before-final-prune.json)
+records the last local full sweep. It caught a repeated HTTP 503 at PDFChecks;
+a targeted [recheck](lychee-recheck.json), the GitHub runner (HTTP 500) and a
+normal browser all confirmed the outage. PDFChecks was removed pending recovery.
+The final GitHub-runner report is recorded separately after that pruning.
+Bot-blocked responses and exclusions are not reachable results.
 
 [availability-union.json](availability-union.json) reconciles retained Markdown
-links with both HTTP clients and explicit browser checks: 694 of 704 current
+links with both HTTP clients and explicit browser checks: 694 of 703 current
 Markdown web URLs were reachable by at least one method. All 17 initially
 unresolved destinations were then visited in the browser: seven loaded their
 real pages and ten still displayed browser challenges.
 [browser-checks.json](browser-checks.json) records every disposition. No CAPTCHA
-was solved or bypassed. The ten initially unresolved links remain clearly identified
+was solved or bypassed. PDFChecks was later removed after its confirmed outage. The ten initially unresolved links remain clearly identified
 for a future human check; they are mainly journal/article destinations.
 
 The AI ethics article was subsequently relinked from its blocked ACM DOI to
@@ -156,7 +157,7 @@ the author's [open preprint](https://arxiv.org/abs/1908.08939), reducing the
 remaining queue to nine destinations. The final availability ledger reflects
 that replacement.
 
-**Measured final structure:** [structure.json](structure.json) records 685
+**Measured final structure:** [structure.json](structure.json) records 684
 resources, 16 main sections and 57 subsections, with no broken local links or
 duplicate primary resource URLs. Heading fragments were checked with GitHub
 Slugger against the parsed Markdown heading tree.
@@ -166,8 +167,8 @@ covers all 77 current direct GitHub repositories: none missing or disabled;
 Project Gameface remains the only archived repository, explicitly labeled.
 
 **Measured lint:** both the repository script and the complete awesome-lint
-2.3.0 rules passed locally after corrections. Added the `awesome` and
-`awesome-list` topics, resolving the metadata follow-up instead of treating the
+2.3.0 rules passed locally after corrections. Added the `suggestion` and `broken link` labels required by the issue forms,
+and the `awesome` and `awesome-list` topics, resolving the metadata follow-up instead of treating the
 skipped metadata rule as validation.
 
 **Observed presentation:** a narrow GitHub rendering of the original draft

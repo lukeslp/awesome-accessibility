@@ -94,5 +94,10 @@
   {
     "name": "A Web for Everyone",
     "entry": "- [A Web for Everyone](https://rosenfeldmedia.com/books/a-web-for-everyone/) - Sarah Horton and Whitney Quesenbery (Rosenfeld Media, 2014). UX-centered guide to accessible design built on universal design principles."
+  },
+  {
+    "name": "PDFChecks",
+    "entry": "- [PDFChecks](https://pdfchecks.com/) - Free local PDF accessibility quick check, with an optional uploaded-file audit of machine-testable PDF/UA requirements using veraPDF. Automated results complement manual review.",
+    "reason": "Repeated HTTP 500/503 from local lychee, GitHub runner and normal browser on 2026-10-18; defer until recovered."
   }
 ]

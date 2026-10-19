@@ -41,6 +41,6 @@ for (const kind of categories.slice(1)) {
   }
   lines.push('');
 }
-const summary = lines.join('\n');
+const summary = lines.join('\n').trimEnd();
 console.log(summary);
 if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + '\n');

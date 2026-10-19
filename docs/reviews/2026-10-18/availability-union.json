@@ -1,12 +1,12 @@
 {
   "date": "2026-10-18",
-  "current_web_urls": 704,
+  "catalog_blob": "a989277467726d3d838bcc564781595c91108007",
+  "current_web_urls": 703,
   "reachable_by_one_or_more_clients": 694,
   "unresolved": [
     "https://content.iospress.com/journals/technology-and-disability",
     "https://dl.acm.org/conference/assets",
     "https://dl.acm.org/journal/taccess",
-    "https://doi.org/10.1145/3356727",
     "https://journals.sagepub.com/home/jst",
     "https://scholarworks.calstate.edu/collections/vh53x372b",
     "https://www.changepeople.org/resources",
@@ -14,14 +14,5 @@
     "https://www.tandfonline.com/journals/cdso20",
     "https://www.tandfonline.com/journals/iidt20"
   ],
-  "method": "Union of saved baseline Python GET results, final lychee 2xx results and explicit FTC browser observation, restricted to retained current URLs. Bot statuses/exclusions do not count as reachability. Follow-up browser navigation checked all 17 remaining destinations: 7 readable; 10 still presented browser challenges.",
-  "browser_readable_followups": [
-    "https://doi.org/10.7551/mitpress/12255.001.0001",
-    "https://www.audioeye.com/color-contrast-checker",
-    "https://www.emerald.com/insight/publication/issn/2398-6263",
-    "https://www.iso.org/standard/70913.html",
-    "https://www.iso.org/standard/82278.html",
-    "https://www.tandfonline.com/toc/hihc20/current",
-    "https://www.w3.org/publishing/epubcheck/"
-  ]
+  "method": "Retained Markdown web links reconciled with saved Python GET baseline, lychee HTTP 2xx full/recheck responses, and explicit normal-browser observations. Accepted bot statuses and exclusions do not count as reachable. Removed PDFChecks after repeated HTTP 500/503 and browser error. Relinked AI ethics paper to its open preprint."
 }

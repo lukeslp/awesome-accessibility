@@ -1,8 +1,9 @@
 {
   "date": "2026-10-18",
-  "resources": 685,
+  "resources": 684,
   "mainSections": 16,
   "subsections": 57,
   "brokenLocalLinks": [],
-  "duplicatePrimaryURLs": []
+  "duplicatePrimaryURLs": [],
+  "catalog_blob": "a989277467726d3d838bcc564781595c91108007"
 }
