@@ -29,7 +29,7 @@ or inference was run.
 - [x] Review every baseline web URL and all direct GitHub repositories.
 - [x] Correct editorial policy conflicts and unsupported descriptions.
 - [x] Complete local lint, links, structural and rendered-navigation checks; inspect final GitHub CI results.
-- [x] Merge the reviewed overhaul and verify the final repository state: both PRs merged; no open PRs remain.
+- [x] Merge the reviewed overhaul and contribution, then the bounded CI retry follow-up; verify no open PRs remain.
 
 Acceptance: one entry per resource, working section anchors, concise factual
 descriptions, useful new free/open-source coverage, preserved contributor
@@ -219,7 +219,7 @@ Use lychee 0.24.2. The local binary was downloaded from its official GitHub
 release to `/tmp/awesome-accessibility-lychee` and checked against the published
 SHA-256. No global package installation was required.
 
-Link CI accepts 403/429 for continuity and skips five host patterns plus the browser-verified FTC URL documented
+Link CI accepts 403/429 for continuity and skips five host patterns plus the browser-verified FTC and WAIC URLs documented
 in `.github/lychee.toml`. The new summary explicitly separates these unverified
 results from reachable links. PR runs remain report-only so unrelated outages
 do not block contributors; main and weekly runs fail on other errors. Action
@@ -245,7 +245,31 @@ Five Node tests cover recovery, persistent errors, unresolved timeouts, blocked
 responses and PR failure policy. A real replay of the three timeouts in
 `lychee-ci-attempt1.json` recovered all three using the pinned lychee binary;
 the strict combined summary returned zero failures or timeouts. The repository
-lint also passed. GitHub execution of this repair is recorded below once complete.
+lint also passed. The full awesome-lint metadata check also passed after the
+working branch was pushed to GitHub.
+
+Follow-up [PR #110](https://github.com/lukeslp/awesome-accessibility/pull/110)
+merged as `02b336ed4a4a950e63fb255ec7d67e079ac1562b` on October 19, 2026
+(Pacific). Its [lint and tests](https://github.com/lukeslp/awesome-accessibility/actions/runs/39213131443)
+passed. Its [link run](https://github.com/lukeslp/awesome-accessibility/actions/runs/39213131300)
+executed the retry but retained one WAIC timeout, with zero HTTP errors; the
+[combined summary](timeout-repair-summary.md) preserves this result. The PR
+check is report-only; it is not evidence of a successful strict sweep.
+
+WAIC returned HTTP 200 from a separate local curl request and loaded the actual
+committee site in the normal browser, including its Japanese JIS guidance and
+September 2026 news. This establishes a client/location difference without
+establishing its cause. The subsequent strict main run
+[failed on that same single timeout](https://github.com/lukeslp/awesome-accessibility/actions/runs/39213478966),
+with zero HTTP errors, demonstrating the failure policy works.
+
+After three GitHub runs and two low-concurrency retries timed out at WAIC,
+the exact homepage was excluded from automated checking. Its
+[browser evidence](waic-browser.png) shows the actual committee site. Other
+WAIC URLs remain eligible for automatic checking. This is an independently
+verified resource with an automation exception, separate from the nine browser
+challenges that remain unresolved. The job summary still counts this URL as
+excluded, not reachable. No general timeout acceptance was enabled.
 
 ## Remaining work and rollback
 
@@ -268,3 +292,5 @@ The independent Markproof merge remains on main. The docs-only completion
 commit can be reverted separately if needed. Review changes are normal commits on `review/accessibility-2026-10-18`, pushed to the existing
 draft branch; no history was rewritten. Preserve unrelated work and do not
 force-push. The two added discovery topics can be removed independently.
+The CI retry can be rolled back independently by reverting PR #110 merge
+`02b336ed4a4a950e63fb255ec7d67e079ac1562b` in a new branch and PR.
