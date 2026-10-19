@@ -9,7 +9,7 @@ const add = (map, category) => {
       // The config intentionally excludes local files and heading fragments.
       if (!/^https?:\/\//.test(entry.url)) continue;
       const code = entry.status?.code;
-      const kind = category === 'reachable' && [403, 429].includes(code)
+      const kind = [403, 429].includes(code)
         ? 'bot-blocked or rate-limited' : category;
       results.set(entry.url, {url: entry.url, kind, code});
     }
@@ -20,10 +20,18 @@ add(report.excluded_map, 'excluded');
 add(report.error_map, 'failed');
 add(report.timeout_map, 'timed out');
 
+if (process.argv[3]) {
+  const retry = JSON.parse(readFileSync(process.argv[3], 'utf8'));
+  add(retry.success_map, 'reachable on retry');
+  add(retry.excluded_map, 'excluded');
+  add(retry.error_map, 'failed');
+  add(retry.timeout_map, 'timed out');
+}
+
 if (!report.detailed_stats || results.size === 0) {
   throw new Error('Expected a nonempty verbose lychee JSON report.');
 }
-const categories = ['reachable', 'bot-blocked or rate-limited', 'excluded', 'failed', 'timed out'];
+const categories = ['reachable', 'reachable on retry', 'bot-blocked or rate-limited', 'excluded', 'failed', 'timed out'];
 const lines = [
   '## Link availability', '',
   'HTTP 403/429 responses and exclusions are **not verified by this job**, even when it is green. A reachable page is not proof of accessibility or editorial accuracy.', '',
@@ -31,7 +39,7 @@ const lines = [
   ...categories.map(kind => `| ${kind} | ${[...results.values()].filter(r => r.kind === kind).length} |`),
   '',
 ];
-for (const kind of categories.slice(1)) {
+for (const kind of categories.slice(2)) {
   const entries = [...results.values()].filter(r => r.kind === kind);
   if (entries.length === 0) continue;
   lines.push(`### ${kind}`, '');
@@ -44,3 +52,6 @@ for (const kind of categories.slice(1)) {
 const summary = lines.join('\n').trimEnd();
 console.log(summary);
 if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + '\n');
+if (process.env.FAIL_ON_ERRORS === 'true' && [...results.values()].some(r => ['failed', 'timed out'].includes(r.kind))) {
+  process.exitCode = 1;
+}

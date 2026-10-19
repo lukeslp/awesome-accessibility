@@ -8,6 +8,7 @@ on:
       - ".github/lychee.toml"
       - ".github/workflows/links.yml"
       - ".github/scripts/summarize-links.mjs"
+      - ".github/scripts/recheck-timeouts.mjs"
   push:
     branches: [main]
     paths:
@@ -16,6 +17,7 @@ on:
       - ".github/lychee.toml"
       - ".github/workflows/links.yml"
       - ".github/scripts/summarize-links.mjs"
+      - ".github/scripts/recheck-timeouts.mjs"
   schedule:
     # Mondays 06:17 UTC: catch links that rot between pull requests.
     - cron: "17 6 * * 1"
@@ -47,14 +49,19 @@ jobs:
             --config .github/lychee.toml
             --verbose
             README.md CONTRIBUTING.md
-          # Report-only on pull requests, so contributors aren't blocked by
-          # unrelated sites going down; scheduled and main-branch runs fail.
-          fail: ${{ github.event_name != 'pull_request' }}
+          # Preserve the first report, then let the final summary apply the
+          # event's failure policy after a limited timeout retry.
+          fail: false
           lycheeVersion: v0.24.2
           format: json
           output: lychee/out.json
           jobSummary: false
 
+      - name: Retry timed-out URLs with lower concurrency
+        run: node .github/scripts/recheck-timeouts.mjs lychee/out.json lychee/recheck.json
+
       - name: Report reachable and unverified links separately
         if: always()
-        run: node .github/scripts/summarize-links.mjs lychee/out.json
+        run: node .github/scripts/summarize-links.mjs lychee/out.json lychee/recheck.json
+        env:
+          FAIL_ON_ERRORS: ${{ github.event_name != 'pull_request' }}
