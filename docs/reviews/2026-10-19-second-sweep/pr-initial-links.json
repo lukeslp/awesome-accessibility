@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-19",
+  "run": "https://github.com/lukeslp/awesome-accessibility/actions/runs/39223380913",
+  "reviewedHead": "da814802e67a4e597cdf60c8ea08b7ccf95bc7b9",
+  "provenance": "Counts and timeout URL extracted from the completed GitHub job log, after the targeted timeout retry. This is a summary, not raw lychee output.",
+  "reachable": 620,
+  "reachableOnRetry": 0,
+  "botBlockedOrRateLimited": 75,
+  "excluded": 12,
+  "failed": 0,
+  "timedOut": 1,
+  "timeoutURLs": ["https://lazarillo.app/"],
+  "failurePolicy": "Pull-request availability jobs are report-only. The green check did not establish zero unresolved timeouts."
+}

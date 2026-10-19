@@ -41,6 +41,7 @@ Resources on this list should:
 - **Be relevant** to accessibility, assistive technology, or inclusive design
 - **Be high-quality** and well-maintained
 - **Be accessible** themselves (practice what they preach)
+- **Preserve accessibility semantics** when automatically modifying content, including intentional empty alt text on decorative images
 - **Provide value** to developers, designers, or accessibility practitioners
 - **Be current** and actively updated
 
@@ -101,7 +102,7 @@ Pull requests run two checks:
 - **Links** - [lychee](https://lychee.cli.rs/) checks web links in the README and this guide. Timed-out URLs receive one follow-up pass with lower concurrency; the original report is preserved. The job summary separates reachable, recovered, bot-blocked, excluded and failed links. HTTP 403/429 and configured exclusions need a separate check; a green job does not verify them. Pull requests report results; weekly and main-branch runs fail on other link errors or unresolved timeouts.
 - **Lint** - [awesome-lint](https://github.com/sindresorhus/awesome-lint) checks formatting against the Awesome list guidelines. Reproduce CI with `npm install --no-save --no-package-lock awesome-lint@2.3.0`, then `node --no-deprecation .github/scripts/lint-readme.mjs`.
 
-For a full check including repository metadata, run `npx awesome-lint README.md`. Availability checks do not certify a tool's accessibility or the accuracy of every claim. Dated review evidence and unresolved checks are in [the review log](docs/reviews/2026-10-18/README.md).
+For a full check including repository metadata, run `npx awesome-lint README.md`. Availability checks do not certify a tool's accessibility or the accuracy of every claim. Dated review evidence and unresolved checks are in [the review log](docs/reviews/README.md).
 
 ### Pull Request Process
 

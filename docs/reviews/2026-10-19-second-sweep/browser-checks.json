@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-19",
+  "method": "Normal Codex in-app browser navigation and accessibility-tree observation of actual page content. No CAPTCHA solved or bypassed.",
+  "confirmed": [
+    {
+      "url": "https://www.csun.edu/cod/journal",
+      "title": "Journal | CSU Northridge",
+      "evidence": "Official journal page identifies volume 14, links previous volumes and describes open-access conference proceedings.",
+      "replaces": "https://scholarworks.calstate.edu/collections/vh53x372b"
+    },
+    {
+      "url": "https://journals.sagepub.com/home/jst",
+      "title": "Journal of Special Education Technology: Sage Journals",
+      "evidence": "Actual Sage journal interface loaded, with journal-specific search and navigation."
+    },
+    {
+      "url": "https://www.scienceopen.com/collection/e1e3fd98-e818-47dc-a396-69009efa34e7",
+      "title": "Journal of Disability Research – ScienceOpen",
+      "evidence": "Journal collection and its Open Access / APCs panel loaded. The panel specifies gold open access, CC BY 4.0 and author publication charges with eligibility-based waivers and discounts."
+    }
+  ],
+  "browserChallenges": [
+    "https://dl.acm.org/conference/assets",
+    "https://dl.acm.org/journal/taccess",
+    "https://journals.sagepub.com/home/tad",
+    "https://www.changepeople.org/resources",
+    "https://www.tandfonline.com/journals/cdso20",
+    "https://www.tandfonline.com/journals/iidt20"
+  ],
+  "lazarilloReplacement": {
+    "previous": "https://lazarillo.app/",
+    "observations": "GitHub full sweep and targeted retry timed out; local curl received no response within 30 seconds; normal browser navigation and subsequent observation both timed out.",
+    "android": "https://play.google.com/store/apps/details?hl=en&id=com.lazarillo",
+    "ios": "https://apps.apple.com/us/app/lazarillo-accessible-gps/id1139331874",
+    "sourceRetrieval": "Both official store pages loaded in the web tool with current Lazarillo app descriptions and free availability."
+  },
+  "publisherRouteCorrection": {
+    "previous": "https://content.iospress.com/journals/technology-and-disability",
+    "current": "https://journals.sagepub.com/home/tad",
+    "primaryEvidence": "https://portal.issn.org/resource/ISSN/1055-4181",
+    "sourceRetrieval": "Current Sage journal content was retrieved by the web tool; the normal browser still presented a security challenge. These are separate observations."
+  }
+}
