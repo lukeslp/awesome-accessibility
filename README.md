@@ -160,6 +160,7 @@ Planning, maturity models, procurement and accessibility statements for organiza
 - [Accessible Colors](https://accessible-colors.com) - Finds the closest accessible color combination when a pair fails WCAG contrast.
 - [Accessible Palette](https://accessiblepalette.com/) - Tool for creating color systems with consistent lightness and predictable contrast between shades.
 - [AudioEye color contrast checker](https://www.audioeye.com/color-contrast-checker) - Color contrast checker against WCAG thresholds (formerly color.a11y.com).
+- [Color Blindness Simulator](https://colorvisionsimulator.com/) - Free browser-based image review with original/simulated comparison and grayscale difference views for locating color-dependent interface cues. Images stay local; simulation does not diagnose vision or determine WCAG conformance.
 - [Color Vision Labs Simulator & Filter](https://colorvisionlabs.com/color-blind-filter) - Free browser-based color blindness simulator (protan, deutan, tritan, with adjustable severity including partial forms) for live camera or photos, plus a daltonization assist mode. Runs entirely client-side, no signup.
 - [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/) - David Nichols' interactive tool for checking how a palette looks to people with color vision deficiencies.
 - [Colour Contrast Analyser](https://vispero.com/color-contrast-checker/) - Free desktop app from Vispero for checking color contrast against WCAG, with an eyedropper for any pixel on screen.
