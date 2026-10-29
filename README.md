@@ -561,6 +561,7 @@ Grouped by access need. Each tool appears once, in its main group; many serve mo
 - [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast neural text-to-speech that runs offline on modest hardware such as a Raspberry Pi, with voices in many languages. Open source (GPL-3.0).
 - [RHVoice](https://github.com/RHVoice/RHVoice) - Multilingual speech synthesizer with voices for languages often poorly served by commercial engines; works with NVDA, Linux and Android. Open source (LGPL-2.1).
 - [Speech Dispatcher](https://github.com/brailcom/speechd) - Common speech server for Linux that lets screen readers such as Orca and Fenrir use any installed synthesizer. Open source (GPL-2.0).
+- [SuperClonica engine](https://pypi.org/project/superclonica-cpu/) - Offline neural text-to-speech for the open-weight Supertonic 3 model in 31 languages that runs on an ordinary CPU and turns long texts into audio files from the command line or Python; it is not a screen reader voice (no SAPI or Speech Dispatcher module), and Chinese is not supported. Open source (Apache-2.0); optional paid character voices and a hosted API exist.
 
 ### Braille
 
