@@ -282,7 +282,7 @@ Screen readers built into phones, such as VoiceOver and TalkBack, are listed und
 
 ## Testing and auditing
 
-Automated checks cover only part of accessibility. Combine them with keyboard testing, screen reader testing and testing with disabled people; passing a scanner does not establish WCAG conformance.
+- [KoloQR QR Contrast Checker](https://koloqr.com/tools/qr-contrast-checker) - Free, open-source check of whether QR code colours have enough contrast to scan.
 
 ### Methods and guides
 
