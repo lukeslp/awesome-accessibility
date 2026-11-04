@@ -430,6 +430,7 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 - [Audio Description Project](https://adp.acb.org/) - American Council of the Blind's hub on audio description, with guidelines and listings of described media.
 - [BBC subtitle guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/) - BBC's detailed subtitle style and timing guidelines.
 - [Buzz](https://chidiwilliams.github.io/buzz/) - Desktop app for Windows, macOS and Linux that transcribes audio and video offline with Whisper and exports SRT, VTT or text, including live captions for talks. Open source (MIT).
+- [Caption checker](https://www.markstudios.com/tools/caption-checker) - Free browser tool that checks SRT and WebVTT files against Netflix, BBC and DCMP Captioning Key limits for reading speed, line length, line count, time on screen, gaps and overlaps. Files stay in the browser, no sign-up; the engine is an open-source (MIT) CLI and library.
 - [Caption readability check](https://timedsubs.com/en/guides/caption-readability-check) - Practical pre-publication guide for checking caption timing, overlaps, line length, reading speed, and SRT/VTT structure without presenting style thresholds as WCAG guarantees.
 - [Closed Caption Creator](https://www.closedcaptioncreator.com/) - Commercial tool for creating closed captions and subtitles for video.
 - [DCMP Captioning Key](https://dcmp.org/learn/captioningkey) - Described and Captioned Media Program guidelines for caption quality, placement and style.
