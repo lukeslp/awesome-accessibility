@@ -746,6 +746,7 @@ Augmentative and alternative communication (AAC) apps, devices and resources, vo
 ### Cognitive and learning
 
 - [Alzheimer's Society: memory loss](https://www.alzheimers.org.uk/about-dementia/stages-and-symptoms/dementia-symptoms/memory-loss) - Practical strategies and aids for living with memory loss.
+- [Bold-Start Reader](https://dimastoolbox.com/bionic-reading) - Free web tool that bolds the first part of every word in pasted text or a PDF, EPUB, FB2 or DOCX file and exports it as PDF, EPUB, FB2, DOCX or HTML for e-readers; EPUB-to-EPUB keeps the cover and images with their alt text. A reading preference some people find easier to focus on, not a proven speed or comprehension aid. Runs in the browser with no account, and files are not uploaded.
 - [Kurzweil 3000](https://www.kurzweiledu.com/) - Reading and writing support software for students with learning disabilities, on the web, Windows, Mac and iPad.
 - [LDRFA assistive technology tools](https://www.ldrfa.org/assistive-technology-tools/) - Learning Disabilities Resources Foundation Action's list of assistive tools and apps for people with learning disabilities.
 - [OpenDyslexic](https://opendyslexic.org/) - Free typeface with distinctive letter shapes, intended as a reading preference for some people with dyslexia; it is not a treatment or a guaranteed reading improvement.
