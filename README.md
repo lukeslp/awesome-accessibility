@@ -221,6 +221,8 @@ Planning, maturity models, procurement and accessibility statements for organiza
 
 - [accessibility-devkit](https://github.com/actually-useful-ai/accessibility-devkit) - Framework-agnostic TypeScript toolkit of eight packages mapped to WCAG success criteria, covering auditing, accessible components, accommodations such as dyslexia typography and text spacing, motor, cognitive, language, media and motion. Open source (MIT).
 - [aria-query](https://github.com/A11yance/aria-query) - Programmatic access to the WAI-ARIA roles model, used by eslint-plugin-jsx-a11y and Testing Library. Open source (Apache-2.0).
+- [eslint-plugin-accessguard-eaa](https://github.com/ronanchnlps-bit/eslint-plugin-accessguard-eaa) - ESLint v9 flat-config plugin with AST rules and auto-fixes for WCAG 2.2 Level AA and EU European Accessibility Act (EN 301 549) criteria in JSX/TSX. Open source (MIT).
+- [playwright-wcag-eaa-reporter](https://github.com/ronanchnlps-bit/playwright-wcag-eaa-reporter) - Custom Playwright reporter that maps end-to-end accessibility checks to WCAG 2.2 Level AA and EU European Accessibility Act (Directive 2019/882) requirements. Open source (MIT).
 - [Color.js](https://colorjs.io) - Color library from CSS Working Group members that computes WCAG 2 contrast and other color metrics; its APCA support is experimental and not a WCAG 2 requirement. Open source (MIT).
 - [dom-accessibility-api](https://github.com/eps1lon/dom-accessibility-api) - JavaScript implementation of the W3C accessible name and description computation, used by Testing Library to resolve accessible names. Open source (MIT).
 - [focus-trap](https://github.com/focus-trap/focus-trap) - A library for trapping focus within a DOM node. Open source (MIT).
