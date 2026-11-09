@@ -314,6 +314,7 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 - [Polypane](https://polypane.app/) - Developer browser with built-in WCAG tests, contrast checks, color blindness simulation and an accessibility tree view. Paid, with a free trial.
 - [Sa11y](https://sa11y.netlify.app/) - Accessibility quality assurance tool that visually highlights issues directly on the page, designed for content authors and editors.
 - [WAVE](https://wave.webaim.org/) - WebAIM's evaluation tool, available as a browser extension and online, that shows issues in place on the page.
+- [Waysill](https://saffo.dev/) - Browser extension for Chrome, Edge and Firefox that checks the current page against WCAG 2.2 (contrast, alt text, labels, headings, landmarks) with a fix for every issue; also for VS Code and WordPress. The free tier covers single-page checks; Waysill Pro is paid.
 
 ### Testing engines and CI
 
