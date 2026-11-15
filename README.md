@@ -958,6 +958,7 @@ Article access varies: some venues mix open-access articles with subscription co
 - [Annual Disability Statistics Collection](https://www.researchondisability.org/annual-disability-statistics-collection) - A collection of tools and reports offering over 16 years of disability statistics.
 - [Disability and Health Data System (DHDS)](https://dhds.cdc.gov/) - State-level data on adults with disabilities from the CDC.
 - [EU Accessibility Mapping](https://github.com/sergordienko/eu-accessibility-mapping) - Open MIT dataset (JSON + CSV) crosswalking every WCAG 2.x A/AA success criterion to EN 301 549, the EU Accessibility Act, and Germany's BFSG, documenting the harmonized-standard chain that grants presumption of conformity.
+- [No Stairs Please](https://nostairsplease.com/) - Searchable directory and remote MCP server of 7,000+ live-music venues across North America with step-free/no-stairs load-in and accessibility details.
 - [The WebAIM Million](https://webaim.org/projects/million/) - WebAIM's annual automated accessibility analysis of the home pages of the top one million websites.
 - [Web Almanac: accessibility](https://almanac.httparchive.org/en/2025/accessibility) - HTTP Archive's annual report on the state of the web, with a chapter measuring accessibility across millions of sites.
 - [WebAIM Screen Reader User Survey](https://webaim.org/projects/screenreadersurvey10/) - Results of WebAIM's survey of screen reader users' preferences and habits; the tenth survey ran from December 2023 to January 2024.
