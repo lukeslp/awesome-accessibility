@@ -289,6 +289,7 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 ### Methods and guides
 
 - [A11Y Project checklist](https://www.a11yproject.com/checklist/) - Checklist based on WCAG for developers and designers reviewing their work.
+- [Accessibility audit report template](https://webaccessibilityfix.org/guides/accessibility-audit-report-template) - Free downloadable CSV findings register and fictional filled example for documenting WCAG references, evidence, fixes and re-tests. No sign-in required; optional paid audit services are offered elsewhere on the site.
 - [DigitalA11Y: open-source accessibility tools](https://www.digitala11y.com/open-source-accessibility-tools/) - Roundup of open-source web accessibility evaluation tools.
 - [GOV.UK: testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility) - UK government service manual guidance on planning accessibility testing, with automated tools, manual checks and user research.
 - [QAPractices Accessibility Testing](https://qapractices.com/topics/accessibility-testing/) - Curated hub with accessibility testing guides, WCAG checklists and tools for manual and automated testing.
