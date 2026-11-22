@@ -437,6 +437,7 @@ Automated checks cover only part of accessibility. Combine them with keyboard te
 - [Caption checker](https://www.markstudios.com/tools/caption-checker) - Free browser tool that checks SRT and WebVTT files against Netflix, BBC and DCMP Captioning Key limits for reading speed, line length, line count, time on screen, gaps and overlaps. Files stay in the browser, no sign-up; the engine is an open-source (MIT) CLI and library.
 - [Caption readability check](https://timedsubs.com/en/guides/caption-readability-check) - Practical pre-publication guide for checking caption timing, overlaps, line length, reading speed, and SRT/VTT structure without presenting style thresholds as WCAG guarantees.
 - [Closed Caption Creator](https://www.closedcaptioncreator.com/) - Commercial tool for creating closed captions and subtitles for video.
+- [CueCheck](https://cuecheck.app) - Browser-only SRT & WebVTT subtitle validator and QC checker (CPS/WPM, line length, 2-frame gaps, zero upload).
 - [DCMP Captioning Key](https://dcmp.org/learn/captioningkey) - Described and Captioned Media Program guidelines for caption quality, placement and style.
 - [DCMP Description Key](https://dcmp.org/learn/descriptionkey) - Described and Captioned Media Program guidelines for writing audio description, especially for educational media.
 - [ffsubsync](https://github.com/smacke/ffsubsync) - Command-line tool that automatically shifts an out-of-sync subtitle file to match a video's audio. Open source (MIT).
