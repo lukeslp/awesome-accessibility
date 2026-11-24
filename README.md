@@ -171,6 +171,7 @@ Planning, maturity models, procurement and accessibility statements for organiza
 - [NoCoffee Vision Simulator](https://addons.mozilla.org/addon/nocoffee/) - Firefox extension that approximates low vision, color vision deficiency, cataracts and other impairments on web pages, for design review rather than clinical accuracy. Open source (MIT).
 - [Ohio State University color guidelines](https://ets.osu.edu/digital-accessibility/color-guidelines-digital-accessibility) - Guidelines for using color accessibly in digital materials.
 - [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/) - Color blindness simulator for macOS and iOS that filters the screen or camera view in real time.
+- [Sunasty Color Picker](https://sunasty.com/color-picker/) - Free client-side color picker, OKLCH converter, and WCAG 2.1 contrast checker with AA lightness auto-fix, powered by the open-source [sunasty-color-math](https://github.com/bsulyan/sunasty-color-math) library (MIT).
 - [WCAG Color Contrast Checker](https://www.davidmello.com/tools/color-contrast-checker) - Interactive foreground and background color contrast checker against WCAG 2.1 AA and AAA standards, with colorblindness simulation for four deficiency types, accessible color variant suggestions, and a markdown bug report for logging accessibility defects.
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) - Checks foreground and background color contrast against WCAG AA and AAA.
 
