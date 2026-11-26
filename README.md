@@ -496,6 +496,7 @@ AI features in specific products are listed with them: Be My Eyes, Seeing AI, Lo
 
 ### AI in assistive technology
 
+- [Accessible Voice Changer](https://github.com/ali-ucel/erisilebilir-ses-degistirici) - Free Windows application for real-time RVC v2 voice conversion, local model training, and vocal separation built with full NVDA and keyboard accessibility across 25 UI languages (requires a free account for online model pool features; freeware).
 - [AI Content Describer](https://github.com/cartertemm/AI-content-describer) - NVDA add-on that describes images, focused controls and the screen, with follow-up questions. Supports cloud services and experimental local models; descriptions can be wrong. Open source (GPL-2.0), with free and paid model options.
 - [ElevenLabs Impact Program](https://elevenlabs.io/impact) - Free licenses for AI voice cloning and text-to-speech for people with permanent voice loss from ALS, stroke, cancer and other conditions, through partner nonprofits. Recordings are processed in the cloud.
 - [Gemini in TalkBack](https://support.google.com/accessibility/android/answer/16294093) - Android's screen reader can describe an image or the whole screen with Gemini and answer follow-up questions, on-device on some phones. Descriptions can be wrong.
